@@ -1,0 +1,1127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 1.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-23 09:44+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Søren Eskildsen <s.benzon@gmail.com>\n"
+"Language-Team: WP-Support Sverige <info@wp-support.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Benzon\\Documents\\mystique\n"
+
+#: C:\Users\Benzon\Documents\mystique/404.php:12
+msgid "The requested page was not found"
+msgstr "Den ønskede side blev ikke fundet"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:19
+#, php-format
+msgid "Posts tagged %s"
+msgstr "Arkiv for %s"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:21
+#: C:\Users\Benzon\Documents\mystique/archive.php:23
+#, php-format
+msgid "Archive for %s"
+msgstr "Arkiv for %s"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:23
+msgid "F, Y"
+msgstr "F Y"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:25
+#, php-format
+msgid "Archive for year %s"
+msgstr "Arkiv for år %s"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:25
+msgid "Y"
+msgstr "Y"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:27
+msgid "Author archive"
+msgstr "Forfatter arkiv"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:29
+msgid "Blog Archives"
+msgstr "Blog Arkiv"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:49
+#: C:\Users\Benzon\Documents\mystique/index.php:29
+msgid "Permanent Link:"
+msgstr "Permanent Link:Permanent Link:"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:52
+#: C:\Users\Benzon\Documents\mystique/index.php:32
+msgid "M jS"
+msgstr "j M y"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:56
+#: C:\Users\Benzon\Documents\mystique/index.php:36
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Indsendt af %s i %s"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:56
+#: C:\Users\Benzon\Documents\mystique/author.php:42
+#: C:\Users\Benzon\Documents\mystique/image.php:30
+#: C:\Users\Benzon\Documents\mystique/index.php:36
+#, php-format
+msgid "Posts by %s"
+msgstr "Indlæg af %s"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:59
+#: C:\Users\Benzon\Documents\mystique/author.php:49
+#: C:\Users\Benzon\Documents\mystique/comments.php:201
+#: C:\Users\Benzon\Documents\mystique/index.php:39
+msgid "Edit"
+msgstr "Rediger"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:66
+#: C:\Users\Benzon\Documents\mystique/author.php:49
+#: C:\Users\Benzon\Documents\mystique/comments.php:201
+#: C:\Users\Benzon\Documents\mystique/index.php:45
+msgid "No comments"
+msgstr "Ingen kommentarer"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:66
+#: C:\Users\Benzon\Documents\mystique/author.php:49
+#: C:\Users\Benzon\Documents\mystique/comments.php:201
+#: C:\Users\Benzon\Documents\mystique/index.php:45
+msgid "1 comment"
+msgstr "1 kommentar"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:66
+#: C:\Users\Benzon\Documents\mystique/author.php:49
+#: C:\Users\Benzon\Documents\mystique/comments.php:201
+#: C:\Users\Benzon\Documents\mystique/index.php:45
+#, php-format
+msgid "% comments"
+msgstr "% kommentarer"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:73
+#: C:\Users\Benzon\Documents\mystique/image.php:19
+#: C:\Users\Benzon\Documents\mystique/index.php:51
+msgid "More &gt;"
+msgstr "Mere &gt;"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:84
+#: C:\Users\Benzon\Documents\mystique/index.php:63
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%2$s emner)"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:98
+#: C:\Users\Benzon\Documents\mystique/author.php:58
+#: C:\Users\Benzon\Documents\mystique/index.php:77
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Gamle indlæg"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:99
+#: C:\Users\Benzon\Documents\mystique/author.php:59
+#: C:\Users\Benzon\Documents\mystique/index.php:78
+msgid "Newer Entries &raquo;"
+msgstr "Nyere Indlæg &raquo;"
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:106
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Beklager, men der er ikke nogen indlæg i %s kategorien endnu."
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:108
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Beklager, men der er ikke nogen indlæg inden denne dato."
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:111
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Beklager, men der er ikke nogen indlæg af %s endnu."
+
+#: C:\Users\Benzon\Documents\mystique/archive.php:113
+msgid "No posts found."
+msgstr "Ingen indlæg fundet."
+
+#: C:\Users\Benzon\Documents\mystique/author.php:27
+msgid "This user hasn't shared any biographical information"
+msgstr "Denne bruger har endnu ikke delt nogen biografiske oplysninger"
+
+#: C:\Users\Benzon\Documents\mystique/author.php:32
+msgid "Homepage:"
+msgstr "Hjemmeside:"
+
+#: C:\Users\Benzon\Documents\mystique/author.php:33
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: C:\Users\Benzon\Documents\mystique/author.php:34
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: C:\Users\Benzon\Documents\mystique/author.php:35
+msgid "AIM:"
+msgstr "AIM:"
+
+#: C:\Users\Benzon\Documents\mystique/author.php:49
+#: C:\Users\Benzon\Documents\mystique/comments.php:201
+msgid "Tags:"
+msgstr "Tags:"
+
+#: C:\Users\Benzon\Documents\mystique/author.php:49
+#: C:\Users\Benzon\Documents\mystique/comments.php:201
+#, php-format
+msgid "Posted in %s"
+msgstr "Tilføjed i %s"
+
+#: C:\Users\Benzon\Documents\mystique/author.php:64
+msgid "No posts found by this author."
+msgstr "Ingen indlæg fundet af denne forfatter."
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Indtast din adgangskode for at se kommentarer"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:40
+msgid "Related Posts"
+msgstr "Relaterede Indlæg"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:41
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Trackbacks (%s)"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:42
+#: C:\Users\Benzon\Documents\mystique/comments.php:47
+#, php-format
+msgid "Comments (%s)"
+msgstr "Kommentarer (%s)"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:65
+msgid "No comments yet."
+msgstr "Ingen kommentarer endnu"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:85
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Du skal være <a href=\"%s\">logget ind</a> for at skrive en kommentar."
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:96
+#: C:\Users\Benzon\Documents\mystique/comments.php:122
+#: C:\Users\Benzon\Documents\mystique/comments.php:123
+msgid "Name (required)"
+msgstr "Navn (paakreavet)"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:97
+#: C:\Users\Benzon\Documents\mystique/comments.php:126
+#: C:\Users\Benzon\Documents\mystique/comments.php:127
+msgid "E-mail (required, will not be published)"
+msgstr "E-mail (påkrævet, vil ikke blive offentliggjort)"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:98
+#: C:\Users\Benzon\Documents\mystique/comments.php:130
+#: C:\Users\Benzon\Documents\mystique/comments.php:131
+msgid "Website"
+msgstr "Hjemmeside"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:105
+msgid "Cancel Reply"
+msgstr "Annuller Besvarelse"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:112
+#, php-format
+msgid "Logged in as %s."
+msgstr "Logged ind som %s"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:114
+msgid "Log out of this account"
+msgstr "Log af denne konto"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:114
+msgid "Logout &raquo;"
+msgstr "Logud &raquo;"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:118
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Velkommen tilbage <strong>%s</strong>."
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:118
+msgid "Change &raquo;"
+msgstr "Skift &raquo;"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:147
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "Spam beskyttelse: Sum af %1$s + %2$s = ?"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:159
+msgid "Submit Comment"
+msgstr "Tilføj Kommentar"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:182
+msgid "No trackbacks yet."
+msgstr "Ingen tracbacks endnu"
+
+#: C:\Users\Benzon\Documents\mystique/comments.php:220
+msgid "Comments are closed."
+msgstr "Kommentarer er lukket."
+
+#: C:\Users\Benzon\Documents\mystique/functions.php:268
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "Dette er standart sidebar, synlig i 2 og 3 kolonne layouts. Hvis der ikke er nogle widgets aktive, vil standart tema widgets blive vist i stedet."
+
+#: C:\Users\Benzon\Documents\mystique/functions.php:278
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "Dette sidebar er kun aktiv på et 3 kolonne setup."
+
+#: C:\Users\Benzon\Documents\mystique/functions.php:288
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "Du kan tilføje mellem 1 og 6 widgets her (3 eller 4 er optimal) De vil justere deres størrelse baseret på antal af widgets."
+
+#: C:\Users\Benzon\Documents\mystique/functions.php:298
+#: C:\Users\Benzon\Documents\mystique/functions.php:309
+#: C:\Users\Benzon\Documents\mystique/functions.php:320
+msgid "Only visible if jQuery is enabled. "
+msgstr "Kun synlig, hvis jQuery er aktiveret."
+
+#: C:\Users\Benzon\Documents\mystique/functions.php:336
+msgid "Share this post!"
+msgstr "Del dette indlæg!"
+
+#: C:\Users\Benzon\Documents\mystique/functions.php:388
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%s skrevet af %s"
+
+#: C:\Users\Benzon\Documents\mystique/functions.php:396
+msgid "Reply"
+msgstr "Besvar"
+
+#: C:\Users\Benzon\Documents\mystique/functions.php:397
+msgid "Quote"
+msgstr "Citat"
+
+#: C:\Users\Benzon\Documents\mystique/functions.php:403
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer moderation."
+
+#: C:\Users\Benzon\Documents\mystique/header.php:51
+msgid "RSS Feeds"
+msgstr "RSS Feeds"
+
+#: C:\Users\Benzon\Documents\mystique/header.php:59
+msgid "Follow me on Twitter!"
+msgstr "Følg mig på Twitter!"
+
+#: C:\Users\Benzon\Documents\mystique/header.php:68
+msgid "You are Home"
+msgstr "Hjem"
+
+#: C:\Users\Benzon\Documents\mystique/header.php:68
+#: C:\Users\Benzon\Documents\mystique/header.php:70
+msgid "Home"
+msgstr "Hjem"
+
+#: C:\Users\Benzon\Documents\mystique/header.php:70
+msgid "Click for Home"
+msgstr "Klik for Hjem"
+
+#: C:\Users\Benzon\Documents\mystique/header.php:146
+msgid "Read more"
+msgstr "Læs mere"
+
+#: C:\Users\Benzon\Documents\mystique/image.php:30
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filled under %4$s. Follow any responses to this post through %5$s."
+msgstr "Dette indlæg blev skrevet af %1$s den %2$s klokken %3$s, og ligger i kategorien %4$s. Du kan følge alle svar på dette indlæg via %5$s."
+
+#: C:\Users\Benzon\Documents\mystique/image.php:34
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Du kan <a%1$s>efterlade en kommentar</a> eller <a%2$s> lave en trackback</a> fra din egen side."
+
+#: C:\Users\Benzon\Documents\mystique/image.php:38
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "Kommentarer er på nuværende tidspunkt lukket, men du kan <a%1$s>trackback</a> fra din egen side."
+
+#: C:\Users\Benzon\Documents\mystique/image.php:42
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Du kan hoppe til enden og efterlade en kommentar. Pinging er på nuværende tidspunkt ikke tilladt."
+
+#: C:\Users\Benzon\Documents\mystique/image.php:46
+msgid "Both comments and pings are currently closed."
+msgstr "Både kommentare og pings er på nuværende tidspunkt lukket."
+
+#: C:\Users\Benzon\Documents\mystique/image.php:48
+msgid "Edit this entry"
+msgstr "Rediger dette indlæg"
+
+#: C:\Users\Benzon\Documents\mystique/image.php:60
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Beklager, ingen vedhæftede filer matchede dine kriterier."
+
+#: C:\Users\Benzon\Documents\mystique/index.php:83
+msgid "No posts found"
+msgstr "Ingen indlæg fundet"
+
+#: C:\Users\Benzon\Documents\mystique/index.php:84
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Beklager, men du er på udkig efter noget, der ikke er her."
+
+#: C:\Users\Benzon\Documents\mystique/search.php:15
+#, php-format
+msgid "Search Results for %s"
+msgstr "Søge resultater for %s"
+
+#: C:\Users\Benzon\Documents\mystique/search.php:45
+msgid "Nothing found."
+msgstr "Intet fundet."
+
+#: C:\Users\Benzon\Documents\mystique/search.php:45
+msgid "Try a different search?"
+msgstr "Prøv en ny søgning?"
+
+#: C:\Users\Benzon\Documents\mystique/searchform.php:7
+msgid "Search"
+msgstr "Søg"
+
+#: C:\Users\Benzon\Documents\mystique/sidebar.php:22
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:414
+msgid "My latest tweets"
+msgstr "Mine seneste tweets"
+
+#: C:\Users\Benzon\Documents\mystique/sidebar.php:30
+msgid "Blogroll"
+msgstr "Blogroll"
+
+#: C:\Users\Benzon\Documents\mystique/sidebar2.php:8
+msgid "2nd sidebar is active. Add widgets here from the Dashboard"
+msgstr "sidepanel 2 er aktiv, Tilføj widgets fra Dashboard"
+
+#: C:\Users\Benzon\Documents\mystique/single.php:34
+msgid "Pages:"
+msgstr "Sider"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:5
+msgid "Insert Ad slot #1 in every post and page"
+msgstr "Indsæt annonceplacering #1 på hver post og side"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:16
+msgid "Insert Ad slot #2 at every 5 comments"
+msgstr "Indsæt annonceplacering #2 efter hver 5 kommentarer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:25
+msgid "Replace blog description text with Ad #4"
+msgstr "Erstat blog beskrivelse tekst med Ad #4"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:37
+msgid "Black navigation style"
+msgstr "Top navigation viser"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:65
+msgid "Alternate header image"
+msgstr "Vekslende header billede"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:69
+msgid "Hide RSS button"
+msgstr "Skjul knappen Hjem"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:73
+msgid "Hide Twitter button"
+msgstr "Skjul knappen Hjem"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:77
+msgid "Set a fluid page width"
+msgstr "Sæt en flydende side brede"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:81
+msgid "Decrease site title text size"
+msgstr "Formindsk side titlers tekst størrelse"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:85
+msgid "Hide post information bar"
+msgstr "Skjul indlæg oplysnings bar"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:89
+msgid "Change footer background color to light gray"
+msgstr "Ændre footer baggrundsfarve til lys grå"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:94
+msgid "Dark background footer"
+msgstr "Mørk baggrund footer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:100
+msgid "Join navigation with main content"
+msgstr "Join navigation med hovedindhold"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:104
+msgid "Hide navigation"
+msgstr "Navigation"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:110
+msgid "Remove styling from tables"
+msgstr "Fjern styling fra tabeller"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:114
+msgid "Text-Justify post and page content"
+msgstr "Tekst-justify post og sidens indhold"
+
+#: C:\Users\Benzon\Documents\mystique/lib/codehelpers.php:118
+msgid "Fixed custom background image"
+msgstr "Valgfrit baggrunds billede"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:43
+#, php-format
+msgid "You can configure Mystique from the <a%s>theme settings</a> page."
+msgstr "Du kan konfigurere Mystique fra <a%s>theme indstillings</a> siden."
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:310
+msgid "You are not authorised to perform this operation."
+msgstr "Du er ikke autoriseret til at udføre denne handling."
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:419
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:937
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:938
+msgid "Mystique settings"
+msgstr "Mystique indstillinger"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:425
+#, php-format
+msgid "Settings saved. %s"
+msgstr "Indstillinger gemt. %s"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:425
+msgid "View site"
+msgstr "Vis sideVisa sida"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:429
+msgid "Please upload a valid image file!"
+msgstr "Upload en gyldig billedfil!"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:430
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr "Den fil du har uploadet er ikke gyldig JPEG, PNG eller GIF billede"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:431
+msgid "The image could not be saved on your server"
+msgstr "Dette billede kunne ikke gemmes på din server"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:437
+#, php-format
+msgid "Error: %s"
+msgstr "Fejl: %s"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:444
+msgid "General"
+msgstr "General"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:445
+msgid "Design/colors"
+msgstr "Design/farver"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:446
+msgid "Navigation"
+msgstr "Navigation"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:447
+msgid "Posts"
+msgstr "Indlæg"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:448
+msgid "SEO"
+msgstr "SEO"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:450
+msgid "Ads"
+msgstr "Annoncer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:452
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:453
+msgid "User CSS"
+msgstr "Bruger"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:463
+msgid "Layout style"
+msgstr "Layout stil"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:463
+msgid "Use page templates to apply these only to specific pages"
+msgstr "Brug sideskabeloner til at anvende disse kun til bestemte sider"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:499
+msgid "Imageless layout"
+msgstr "Billedløs layout"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:499
+msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
+msgstr "Ingen baggrundsbilleder; reducerer sideindlæsningstid ned til blot et par KB, med omkostningerne af mindre grafiske detaljer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:504
+msgid "Footer content"
+msgstr "Footer indhold"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:504
+msgid "You can post HTML code"
+msgstr "Du kan sende HTML-kode"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:504
+msgid "HTML code is disallowed"
+msgstr "HTML-kode er ikke tilladt"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:508
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Brug følgende korte koder for bekvem justeringer: <br />%s"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:516
+msgid "Loading site preview..."
+msgstr "Henter tweets..."
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:524
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:536
+msgid "Sidebar(s) vs Main Content ratio"
+msgstr "Sidebar(s) vs Hoved indholds ration"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:546
+msgid "Preferred font style"
+msgstr "Foretrukne typografi"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:546
+msgid "Font priority and their availability"
+msgstr "Font prioritet og deres tilgængelighed"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:557
+msgid "Color scheme"
+msgstr "Farveskema"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:561
+msgid "Not available with <em>imageless</em> setting"
+msgstr "Ikke muligt med <em>billedløs</em> indstilling"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:589
+msgid "Custom logo image"
+msgstr "Tilpasset logo billede"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:589
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Vis et logo billede istedet for tekst; Upload den grafiske fil fra din computer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:595
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:610
+msgid "Remove current image"
+msgstr "Fjern nuværende billede"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:598
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:613
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "Mappen %s har ikke skriverettigheder - kan ikke uploade!"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:598
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:613
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Check din upload sti i Indstillinger / Misc eller CHMOD denne mappe til 755/777. <br /> Kontakt din host, hvis du ikke ved, hvordan"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:604
+msgid "Custom background image"
+msgstr "Valgfrit baggrunds billede"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:604
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Upload et nyt baggrundsbillede / header billede at erstatte den standard med"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:619
+msgid "Background color"
+msgstr "Baggrundsfarve"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:619
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "For at beholde standart baggrund lad Sort (#000000) stå"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:632
+msgid "Top navigation shows"
+msgstr "Top navigation viser"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:635
+msgid "Pages"
+msgstr "Sider"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:636
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:116
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:292
+msgid "Categories"
+msgstr "Kategorier"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:637
+msgid "Links"
+msgstr "Links"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:645
+msgid "from category"
+msgstr "fra kategori"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:658
+msgid "No links found"
+msgstr "Ingen links fundet"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:667
+msgid "Exclude from navigation"
+msgstr "Ekskluder fra navigation"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:667
+msgid "Check the items you wish to hide from the main menu"
+msgstr "Vælge de ting du ønsker og gemme for hoved menuen."
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:677
+msgid "(Use the private property to hide other links)"
+msgstr "(Brug denne private indstilling til at gemme andre links)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:743
+msgid "View page"
+msgstr "Vis sideVisa sida"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:766
+msgid "Post previews"
+msgstr "Indlægs prøve visning"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:766
+msgid "The way posts are displayed on blog homepage and archive pages"
+msgstr "Den måde indlæg vises på bloggens hjemmeside og arkivsider"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:769
+msgid "Full"
+msgstr "Hele indlæget"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:770
+msgid "Excerpts"
+msgstr "Tekstuddrag"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:771
+msgid "Titles only"
+msgstr "Kun titler"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:777
+msgid "Enable \"Share This Post\" feature"
+msgstr "Aktiver \"Del dette indlæg \" funktion"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:777
+msgid "Uncheck this if you're using a social bookmaring plugin"
+msgstr "Fjern markeringen dette hvis du bruger en social bookmaring plugin"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:782
+msgid "Featured content source"
+msgstr "Fremhævet indholds kilde"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:782
+msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
+msgstr "De sidste 5 indlæg fra denne kategori vil blive vist i featured indhold område (i tilfældig rækkefølge)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:787
+msgid "- All categories"
+msgstr "- Alle kategorier"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:797
+msgid "Display featured posts on blog/home page"
+msgstr "Vis fremhævede indlæg på blog/hjemmeside"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:797
+msgid "Use the \"Page with Featured Content\" template if you want it on specific pages"
+msgstr "Brus \"Side med fremhævet indhold\" skabelon, hvis du ønsker det på bestemte sider"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:807
+msgid "Additional site optimization for search engines"
+msgstr "Supplerende hjemmeside optimering til søgemaskiner"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:807
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "Fjern markeringen, hvis du bruger en SEO plugin!"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:814
+msgid "What does this do?"
+msgstr "Hvad gør dette?"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:816
+msgid "enables canonical URLs for comments (duplicate content fix)"
+msgstr "giver kanoniske URLer til kommentarer (ens indholds fix)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:817
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "skaber unikke titler for indlæg med flere kommentarer sider (forhindre ens titler)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:818
+#, php-format
+msgid "no keywords are generated because they are <a %s>useless</a>"
+msgstr "ingen nøgleord er genereret fordi de er <a %s>ubrugbare</a>"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:832
+msgid "Advertisment blocks"
+msgstr "Reklame blokke"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:832
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "Brug denne %s kort kode til at indsætte disse ads i indlæg, tekst widgets og footer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:833
+msgid "Example:"
+msgstr "Eksempel:"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:839
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Annoncekode #%s"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:855
+msgid "Use jQuery"
+msgstr "Brug jQuery"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:855
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "Kun beregnet til test. Kun uncheck hvis du ved hvad du laver!"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:860
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "Aktiver indbygget lightbox på alle billeder"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:860
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "Fjern markeringen, hvis du foretrækker et lightbox plugin"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:865
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "Fjern Mystique indstillinger fra databasen efter tema skifte"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:865
+msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+msgstr "Fjern markeringen dette hvis du planlægger at holde Mystique som din standard-tema!"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:877
+msgid "Document head code"
+msgstr "Dokument hoved-kode"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:877
+#, php-format
+msgid "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
+msgstr "PHP kode til at indsætte i %s del af XHTML-dokument. Nyttigt, hvis du har plugins, som kræver, at du tilføje ting her, tilføjer Analytics-kode osv"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:878
+msgid "To output HTML only, close the PHP tag first."
+msgstr "For at sende HTML luk PHP tag først."
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:880
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:901
+msgid "Examples and helpers:"
+msgstr "Eksempler og hjælpere:"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:899
+msgid "Modify anything related to design using CSS code"
+msgstr "Ændre alt relateret til designet via CSS koder"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:899
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "Check %s for at se eksisterende tema klasser og egenskaber"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:899
+msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
+msgstr "Undgå at ændre tema filer direkte; bruge denne mulighed i stedet for at bevare dine ændringer efter opdatering"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:922
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/settings.php:922
+msgid "Reset to Defaults"
+msgstr "Genskab standart indstillinger"
+
+#: C:\Users\Benzon\Documents\mystique/lib/shortcodes.php:117
+#, php-format
+msgid "%s comments"
+msgstr "%s kommentarer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/shortcodes.php:137
+#, php-format
+msgid "%s (%s topics)"
+msgstr "%s (%s emner)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/shortcodes.php:204
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "Tomme annoncepladser (#%s)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/shortcodes.php:211
+msgid "Top"
+msgstr "Til Toppen"
+
+#: C:\Users\Benzon\Documents\mystique/lib/shortcodes.php:223
+#, php-format
+msgid "Mystique theme by %1$s | Powered by %2$s"
+msgstr "Mystique theme af %s | Drives af %s"
+
+#: C:\Users\Benzon\Documents\mystique/lib/shortcodes.php:230
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: C:\Users\Benzon\Documents\mystique/lib/shortcodes.php:246
+msgid "Site Admin"
+msgstr "Side Administrator"
+
+#: C:\Users\Benzon\Documents\mystique/lib/shortcodes.php:247
+msgid "Log in"
+msgstr "Log ind"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:52
+#, php-format
+msgid "%s followers"
+msgstr "Tilhængere"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:73
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr "Fejl ved modtagelse af tweets (Twitter nede?)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:86
+msgid "Displays links to different sections grouped in tabs"
+msgstr "Viser links til forskellige sektioner inddelt i faner"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:88
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Sidebar tabs"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:112
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:308
+msgid "Recent comments"
+msgstr "Seneste kommentarer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:113
+msgid "Popular posts"
+msgstr "Populære indlæg"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:114
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:300
+msgid "Archives"
+msgstr "Arkiver"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:115
+msgid "Tags"
+msgstr "Tags"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:209
+msgid "Didn't find any posts popular enough :("
+msgstr "Fandt ikke nogen indlæg populær nok: ("
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:252
+msgid "Sidebar tabs"
+msgstr "Sidebar tabs"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:253
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:394
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:493
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery er deaktiveret, og denne widget behov for det"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:288
+msgid "Tabs to show"
+msgstr "Fanerne til at vise"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:296
+msgid "Tags "
+msgstr "Tags"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:304
+msgid "Popular posts (most commented)"
+msgstr "Populære indlæg (mest kommenterede)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:314
+msgid "Sort categories"
+msgstr "Sorter kategorier"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:316
+msgid "by name (alphabetically)"
+msgstr "ved navn (alfabetisk orden)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:317
+msgid "by category ID"
+msgstr "efter kategori ID"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:318
+msgid "by category slug"
+msgstr "efter kategori slug"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:319
+msgid "by post count"
+msgstr "efter indlægs antal"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:324
+msgid "Show post count (categories and archives)"
+msgstr "Vis indlægs antal (kategorier og arkiver)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:330
+msgid "How many popular posts to show?"
+msgstr "Hvor mange seneste indlæg skal vises?"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:337
+msgid "How many recent comments to show?"
+msgstr "Hvor mange seneste kommentarer skal vises?"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:353
+msgid "Shows your latest Twitter updates"
+msgstr "Viser din seneste Twitter opdateringer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:354
+msgid "Mystique | Twitter"
+msgstr "Mystique | Twitter"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:391
+msgid "Loading tweets..."
+msgstr "Henter tweets..."
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:421
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:527
+msgid "Title:"
+msgstr "Titel:"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:426
+msgid "Twitter user name:"
+msgstr "Twitter brugernavn:"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:431
+msgid "Number of tweets to show:"
+msgstr "Antal twitts skal vises?:"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:445
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "Viser Flickr gallerier (behov API-nøgle)"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:447
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Flickr Galleri"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:518
+msgid "Flickr Gallery"
+msgstr "Flickr galleri"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:532
+msgid "API key:"
+msgstr "API-nøgle:"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:537
+msgid "Number of photos to show:"
+msgstr "Antal fotos skal vises?:"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:542
+msgid "Gallery source:"
+msgstr "Galleri kilde:"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:544
+msgid "Photoset"
+msgstr "Billed sæt"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:545
+msgid "User photostream"
+msgstr "Brug fotostream"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:550
+msgid "Photoset ID:"
+msgstr "Billed sæt ID:"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:555
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "Bruger-id (brug %s for at finde det):"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:570
+msgid "Login form"
+msgstr "Logind form"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:571
+msgid "Mystique | Login"
+msgstr "Mystique | Login"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:581
+#, php-format
+msgid "Logged in: %s"
+msgstr "Loggedind som: %s"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:586
+msgid "Dashboard"
+msgstr "Skrivebord"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:588
+msgid "Write"
+msgstr "Skriv"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:589
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:591
+msgid "Log out"
+msgstr "Log ud"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:595
+msgid "User Login"
+msgstr "Bruger Logind"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:599
+msgid "User"
+msgstr "Bruger"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:600
+msgid "Password"
+msgstr "Kodeord"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:601
+msgid "Login"
+msgstr "Logind"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:602
+msgid "Remember me"
+msgstr "Husk Mig"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:607
+msgid "Register"
+msgstr "Registrer"
+
+#: C:\Users\Benzon\Documents\mystique/lib/widgets.php:608
+msgid "Lost your password?"
+msgstr "Glemt dit kodeord?"
+
+#~ msgid "Read the rest of this entry &raquo;"
+#~ msgstr "Læs resten af dette indlæg &raquo;"
+#~ msgid "Read the rest of this page &raquo;"
+#~ msgstr "Læs resten af denne side &raquo;"
+#~ msgid ""
+#~ "Type page, category or link IDs (depending on your selection above), "
+#~ "separated by commas"
+#~ msgstr ""
+#~ "Skriv side, kategori eller link id'er (afhængigt af dit valg ovenfor), "
+#~ "adskilt af kommaer"
+#~ msgid "50/50 columns (on 2 column layout)"
+#~ msgstr "50/50 kolonner (på 2 kolonne layout)"
+#~ msgid "Posted by %s in %s"
+#~ msgstr "Skrevet af %s i %s"
+#~ msgid ""
+#~ "Note that tweets older than 14 days are not displayed. This is a search "
+#~ "limitation from Twitter"
+#~ msgstr ""
+#~ "Noter tweets ældre end 14 dage vises ikke. dette er en regel fra Twitter"
+#~ msgid "Meta"
+#~ msgstr "Meta"
+#~ msgid "Share on Twitter!"
+#~ msgstr "Dela på Twitter!"
+#~ msgid ""
+#~ "activates meta description field (tag line is used for homepage and post/"
+#~ "page summary for others)"
+#~ msgstr ""
+#~ "aktiverar meta beskrivningsfält (slogan används för hemsida och inlägg/"
+#~ "sidsammandrag för andra)"
+

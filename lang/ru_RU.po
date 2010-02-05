@@ -1,0 +1,1320 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-29 16:41+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: CyberAP <stasvarenkin@gmail.com>\n"
+"Language-Team: CyberAP <stasvarenkin@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Cyber\\Desktop\\mystique 1.4\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/404.php:12
+msgid "The requested page was not found"
+msgstr "Запрашиваемая страница не найдена"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:19
+#, php-format
+msgid "Posts tagged %s"
+msgstr "Записи с метками %s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:21
+#: 1.4\mystique/archive.php:23
+#, php-format
+msgid "Archive for %s"
+msgstr "Архивы для %s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:23
+msgid "F, Y"
+msgstr "F, Y"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:25
+#, php-format
+msgid "Archive for year %s"
+msgstr "Архивы %s года"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:25
+msgid "Y"
+msgstr "Y"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:27
+msgid "Author archive"
+msgstr "Архивы автора"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:29
+msgid "Blog Archives"
+msgstr "Архивы блога"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:42
+#: 1.4\mystique/index.php:22
+msgid "Permanent Link:"
+msgstr "Прямая ссылка:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:46
+#: 1.4\mystique/index.php:26
+msgid "M jS"
+msgstr "j F"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:50
+#: 1.4\mystique/index.php:30
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Опубликовал %1$s в %2$s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:50
+#: 1.4\mystique/author.php:42
+#: 1.4\mystique/image.php:30
+#: 1.4\mystique/index.php:30
+#, php-format
+msgid "Posts by %s"
+msgstr "Записи от %s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:53
+#: 1.4\mystique/author.php:49
+#: 1.4\mystique/comments.php:201
+#: 1.4\mystique/index.php:33
+msgid "Edit"
+msgstr "Редактировать"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:60
+#: 1.4\mystique/author.php:49
+#: 1.4\mystique/comments.php:201
+#: 1.4\mystique/index.php:39
+msgid "No comments"
+msgstr "Нет комментариев"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:60
+#: 1.4\mystique/author.php:49
+#: 1.4\mystique/comments.php:201
+#: 1.4\mystique/index.php:39
+msgid "1 comment"
+msgstr "1 комментарий"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:60
+#: 1.4\mystique/author.php:49
+#: 1.4\mystique/comments.php:201
+#: 1.4\mystique/index.php:39
+#, php-format
+msgid "% comments"
+msgstr "Комментариев: %"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:65
+#: 1.4\mystique/image.php:19
+#: 1.4\mystique/index.php:44
+msgid "Read the rest of this entry &raquo;"
+msgstr "Читать дальше  &raquo;"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:76
+#: 1.4\mystique/index.php:56
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (всего записей в категории: %2$s)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:90
+#: 1.4\mystique/author.php:58
+#: 1.4\mystique/index.php:70
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Поздние записи"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:91
+#: 1.4\mystique/author.php:59
+#: 1.4\mystique/index.php:71
+msgid "Newer Entries &raquo;"
+msgstr "Новые записи &raquo;"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:98
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Ни одной записи в категории %s ещё нет."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:100
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Нет ни одной записи, опубликованой в эту дату."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:103
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Ни одной записи от %s пока нет."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/archive.php:105
+msgid "No posts found."
+msgstr "Записей не найдено."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/author.php:27
+msgid "This user hasn't shared any biographical information"
+msgstr "Этот пользователь ничего не написал в своей биографии."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/author.php:32
+msgid "Homepage:"
+msgstr "Домашняя страница:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/author.php:33
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/author.php:34
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/author.php:35
+msgid "AIM:"
+msgstr "AIM:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/author.php:49
+#: 1.4\mystique/comments.php:201
+msgid "Tags:"
+msgstr "Метки:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/author.php:49
+#: 1.4\mystique/comments.php:201
+#, php-format
+msgid "Posted in %s"
+msgstr "Опубликовано в %s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/author.php:64
+msgid "No posts found by this author."
+msgstr "Не найдено ни одной записи от этого автора."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Введите пароль чтобы просмотреть комментарии"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:40
+msgid "Related Posts"
+msgstr "Связанные записи"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:41
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Трэкбэки (%s)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:42
+#: 1.4\mystique/comments.php:47
+#, php-format
+msgid "Comments (%s)"
+msgstr "Комментарии (%s)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:65
+msgid "No comments yet."
+msgstr "Пока нет комментариев."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:85
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">зайти</a> чтобы оставить комментарийt."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:96
+#: 1.4\mystique/comments.php:122
+#: 1.4\mystique/comments.php:123
+msgid "Name (required)"
+msgstr "Имя (обязательно)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:97
+#: 1.4\mystique/comments.php:126
+#: 1.4\mystique/comments.php:127
+msgid "E-mail (required, will not be published)"
+msgstr "E-mail (обязательно, не будет опубликован)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:98
+#: 1.4\mystique/comments.php:130
+#: 1.4\mystique/comments.php:131
+msgid "Website"
+msgstr "Сайт"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:105
+msgid "Cancel Reply"
+msgstr "Отменить ответ"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:112
+#, php-format
+msgid "Logged in as %s."
+msgstr "Вы вошли как %s."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:114
+msgid "Log out of this account"
+msgstr "Выйти из этого аккаунта"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:114
+msgid "Logout &raquo;"
+msgstr "Выйти &raquo;"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:118
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Добро пожаловать, <strong>%s</strong>."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:118
+msgid "Change &raquo;"
+msgstr "Изменить &raquo;"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:147
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "Защита от спама: Сумма %1$s + %2$s = ?"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:159
+msgid "Submit Comment"
+msgstr "Отправить комментарий"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:182
+msgid "No trackbacks yet."
+msgstr "Нет трэкбэков."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/comments.php:220
+msgid "Comments are closed."
+msgstr "Комментарии запрещены."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/functions.php:295
+msgid "Share this post!"
+msgstr "Поделиться этой записью!"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/functions.php:347
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s опубликовал %2$s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/functions.php:356
+msgid "Reply"
+msgstr "Ответить"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/functions.php:357
+msgid "Quote"
+msgstr "Цитировать"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/functions.php:363
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает одобрения."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/header.php:48
+msgid "RSS Feeds"
+msgstr "Лента RSS"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/header.php:56
+msgid "Follow me on Twitter!"
+msgstr "Подпишитесь на этот Твиттер!"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/header.php:65
+msgid "You are Home"
+msgstr "Вы на главной"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/header.php:65
+#: 1.4\mystique/header.php:67
+msgid "Home"
+msgstr "Главная"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/header.php:67
+msgid "Click for Home"
+msgstr "Перейти на главную"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/header.php:135
+msgid "Read more"
+msgstr "Читать дальше"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/image.php:30
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filled under %4$s. Follow any responses to this post through %5$s."
+msgstr "Эта запись была опубликована %1$s %2$s в %3$s,  в категории %4$s. Вы можете следить за комментариями через %5$s."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/image.php:34
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Вы можете <a%1$s>оставить комментарий</a> или <a%2$s>трэкбэк</a> с вашего сайта."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/image.php:38
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "Комментарии запрещены, но вы можете оставить <a%1$s>трэкбэк</a> с вашего сайта."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/image.php:42
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Вы можете перейти в конец записи и оставить комментарий. Пинги запрещены."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/image.php:46
+msgid "Both comments and pings are currently closed."
+msgstr "Комментарии и пинги запрещены."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/image.php:48
+msgid "Edit this entry"
+msgstr "Редактировать эту запись"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/image.php:60
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Извините, ни одно вложение не подходит под критерии вашего поиска."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/index.php:76
+msgid "No posts found"
+msgstr "Ни одной записи не найдено"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/index.php:77
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Извините, но вы ищете что-то, чего тут нет."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/page.php:16
+msgid "Read the rest of this page &raquo;"
+msgstr "Читать дальше &raquo;"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/search.php:15
+#, php-format
+msgid "Search Results for %s"
+msgstr "Результаты поиска фразы: %s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/search.php:45
+msgid "Nothing found."
+msgstr "Ничего не найдено."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/search.php:45
+msgid "Try a different search?"
+msgstr "Может попробовать другой запрос?"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/searchform.php:7
+msgid "Search"
+msgstr "Поиск"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/sidebar.php:20
+#: 1.4\mystique/lib/widgets.php:395
+msgid "My latest tweets"
+msgstr "Мои последние твитты"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/sidebar.php:26
+msgid "Blogroll"
+msgstr "Главная"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/sidebar2.php:8
+msgid "2nd sidebar is active. Add widgets here from the Dashboard"
+msgstr "2-ая колонка активна. Вы можете добавлять сюда виджеты."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/single.php:26
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:178
+msgid "You are not authorised to perform this operation."
+msgstr "Вы не авторизованы для этой операции."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:245
+#: 1.4\mystique/lib/settings.php:660
+#: 1.4\mystique/lib/settings.php:661
+msgid "Mystique settings"
+msgstr "Натройки Mystique"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:251
+#, php-format
+msgid "Settings saved. %s"
+msgstr "Настройки сохранены. %s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:251
+msgid "View site"
+msgstr "Просмотреть сайт"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:258
+msgid "General"
+msgstr "Главное"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:259
+msgid "Design/colors"
+msgstr "Дизайн/Цветовые схемы"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:260
+msgid "Navigation"
+msgstr "Навигация"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:261
+msgid "Posts"
+msgstr "Записи"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:262
+msgid "SEO"
+msgstr "SEO"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:263
+msgid "Ads"
+msgstr "Реклама"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:264
+msgid "Advanced"
+msgstr "Для продвинутых"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:265
+msgid "User CSS"
+msgstr "Пользовательский CSS"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:275
+msgid "Layout style"
+msgstr "Стиль раскладки"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:275
+msgid "Use page templates to apply these only to specific pages"
+msgstr "Используйте шаблоны страниц чтобы применить их к отдельным записям"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:311
+msgid "Imageless layout"
+msgstr "Раскладка без изображений"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:311
+msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
+msgstr "Выключить изображения на заднем фоне; уменьшает вес страницы в несколько килобайт, но ценой простого графического оформления"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:316
+msgid "Footer content"
+msgstr "Содержимое Подвала (footer)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:316
+msgid "You can post HTML code"
+msgstr "Можно использовать HTML"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:319
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Вы можете использовать следующие короткие коды: <br />%s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:335
+#: 1.4\mystique/lib/settings.php:347
+msgid "Sidebar(s) vs Main Content ratio"
+msgstr "Соотношение боковой колонки и контента"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:357
+msgid "Preferred font style"
+msgstr "Предпочитаемый шрифт"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:357
+msgid "Font priority and their availability"
+msgstr "Приоритет шрифтов и их доступность"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:368
+msgid "Color scheme"
+msgstr "Цветовая схема"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:372
+msgid "Not available with <em>imageless</em> setting"
+msgstr "Недоступно с раскладкой <em>без изображений</em>"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:401
+msgid "Custom logo image"
+msgstr "Своё изображение логотипа"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:401
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Показывать логотип вместо текста; Загрузитей графический файл с вашего компьютера"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:406
+#: 1.4\mystique/lib/settings.php:417
+msgid "Remove current image"
+msgstr "Удалить текущее изображение"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:412
+msgid "Custom background image"
+msgstr "Своё изображение заднего фона"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:412
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Загрузите новое фоновое изображение, чтобы заменить стандартное"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:423
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "Директория %s не имеет прав на записть - загрузка невозможна!"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:423
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Проверьте верна ли ваша папка загрузки в настройках и стоят ли правильные атрибуты у файлов (755/777). <br />Спросите у вашего хостера, если не знаете о чём речь."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:430
+msgid "Background color"
+msgstr "Цвет заднего фона"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:430
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "По стандартну #000000 (чёрный)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:445
+msgid "Top navigation shows"
+msgstr "Что показывать в навигации вверху"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:448
+msgid "Pages"
+msgstr "Страницы"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:449
+#: 1.4\mystique/lib/widgets.php:37
+#: 1.4\mystique/lib/widgets.php:213
+msgid "Categories"
+msgstr "Категории"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:450
+msgid "Links"
+msgstr "Ссылки"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:458
+msgid "from category"
+msgstr "из категории"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:471
+msgid "No links found"
+msgstr "Ссылок не найдено"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:480
+msgid "Exclude from navigation"
+msgstr "Убрать из навигации"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:480
+msgid "Type page, category or link IDs (depending on your selection above), separated by commas"
+msgstr "Введите Идентификаторы (ID) страниц, категорий или ссылок (зависит от выбора выше), разделённые запятыми"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:493
+msgid "Post previews"
+msgstr "Предпоказ записи"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:493
+msgid "The way posts are displayed on blog homepage and archive pages"
+msgstr "Как отображать записи на главной и в архивах"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:496
+msgid "Full"
+msgstr "Полностью"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:497
+msgid "Excerpts"
+msgstr "Цитаты"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:498
+msgid "Titles only"
+msgstr "Только заголовки"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:504
+msgid "Enable \"Share This Post\" feature"
+msgstr "Включить опцию \"Поделиться записью\""
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:504
+msgid "Uncheck this if you're using a social bookmaring plugin"
+msgstr "Выключите это если уже используете плагин для закладок"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:509
+msgid "Featured content source"
+msgstr "Источник для блока рекомендуемого контента"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:509
+msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
+msgstr "Последние 5 записей из этой категории будут показаны в блоке рекомендуемого контента (случайный порядок)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:514
+msgid "- All categories"
+msgstr "- Все категории"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:524
+msgid "Display featured posts on blog/home page"
+msgstr "Отображать блок рекомендуемого контента на главной странице"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:524
+msgid "Use the \"Page with Featured Content\" template if you want it on specific pages"
+msgstr "Используйте шаблон \"Page with Featured Content\" (Страница с блоком рекомендуемого контента), если хотите отображать этот блок в определённых записях"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:534
+msgid "Additional site optimization for search engines"
+msgstr "Дополнительная оптимизация сайта для поисковиков"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:534
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "Не включайте если вы уже используете SEO плагин!"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:541
+msgid "What does this do?"
+msgstr "Что сделает эта опция?"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:543
+msgid "enables canonical URLs for comments (duplicate content fix)"
+msgstr "включает канонические ссылки в комментариях"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:544
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "генерирует уникальный заголовки для записей с несколькими страницами комментариев (предотвращает дублирование заголовков)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:545
+#, php-format
+msgid "no keywords are generated because they are <a %s>useless</a>"
+msgstr "ни одно ключевое слово не сгенерировано, потому что они <a %s>бесполезны</a>"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:558
+msgid "Advertisment blocks"
+msgstr "Рекламные блоки"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:558
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "Используйте %s упрощённый код, чтобы вставлять эти рекламные блоки в записи, тектовые виджеты или подвал."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:559
+msgid "Example:"
+msgstr "Пример:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:565
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Рекламый код #%s:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:580
+msgid "Use jQuery"
+msgstr "Использовать jQuery"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:580
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "Только для тестирования. Не выключайте если не знаете что делаете!"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:585
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "Включить встроенный в тему lightbox для всех изображений"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:585
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "Выключите, если хотите использовать другой плагин для изображений"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:590
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "Удалять настройки Mystique при смене темы"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:590
+msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+msgstr "Не включайте если Mystique ваша постоянная тема!"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:600
+msgid "Document head code"
+msgstr "Код заголовка документа"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:600
+#, php-format
+msgid "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
+msgstr "PHP код для вставки в %s секцию XHTML. Это будет полезно в том случае, если у вас есть плагины, которые требуют чтобы вы добавляли код здесь, включая Google Analytics и так далее."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:601
+msgid "Don't add the PHP opening tags! To output HTML only, close the PHP tag first."
+msgstr "Не добавляйте открывающие PHP тэги! Чтобы выводить только HTML, закройте для начала PHP тэг."
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:603
+#: 1.4\mystique/lib/settings.php:624
+msgid "Examples and helpers:"
+msgstr "Примеры и помощь:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:622
+msgid "Modify anything related to design using CSS code"
+msgstr "Изменяйте или добавляйте параметры CSS в данном поле"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:622
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "Проверьте %s чтобы увидеть все существующие css классы и настройки у темы"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:622
+msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
+msgstr "Не изменяйте непосредственно файлы темы, используйте данную опцию для внесения изменений, иначе вы потеяете все изменения после обновления"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:645
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/settings.php:645
+msgid "Reset to Defaults"
+msgstr "Вернуть к настройкам по умолчанию"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/shortcodes.php:112
+#, php-format
+msgid "%s comments"
+msgstr "Комментариев: %s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/shortcodes.php:131
+#, php-format
+msgid "%s (%s topics)"
+msgstr "%s (всего записей: %s)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/shortcodes.php:230
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "Пустой рекламный блок (#%s)!"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/shortcodes.php:237
+msgid "Top"
+msgstr "Наверх"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/shortcodes.php:249
+#, php-format
+msgid "Mystique theme by %1$s | Powered by %2$s"
+msgstr "Тема Mystique от %1$s | Мы работаем на %2$s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/shortcodes.php:256
+msgid "Copyright &copy;"
+msgstr "Копирайт &copy;"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/shortcodes.php:272
+msgid "Site Admin"
+msgstr "Администратор сайта"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/shortcodes.php:273
+msgid "Log in"
+msgstr "Зайти"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:58
+msgid "Google Analytics sample code"
+msgstr "Пример когда Google Analytics"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:79
+msgid "Insert Ad slot #1 in every post and page"
+msgstr "Вставить рекламный слот #1 в каждую запись или страницу"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:91
+msgid "Insert Ad slot #2 at every 5 comments"
+msgstr "Вставить рекламный слот #2 в каждые 5 комментариев"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:103
+msgid "Black navigation style"
+msgstr "Тёмный стиль у навигации"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:114
+msgid "Hide home button"
+msgstr "Спрятать кнопку \"Главная\""
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:118
+msgid "Hide RSS button"
+msgstr "Спрятать кнопку RSS"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:122
+msgid "Hide Twitter button"
+msgstr "Спрятать кнопку Твиттер"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:126
+msgid "Set a fluid page width"
+msgstr "Установить меняющуюся ширину страницы"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:130
+msgid "Decrease site title text size"
+msgstr "Уменьшить размер текста у названия сайта"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:134
+msgid "Hide post information bar"
+msgstr "Спрятать информационный блок в записях"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:138
+msgid "Change footer background color to light gray"
+msgstr "Изменить цвет заднего фона подвала (footer) на светло-серый"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:142
+msgid "Dark background footer"
+msgstr "Тёмный задний фон у подвала"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:147
+msgid "Join navigation with main content"
+msgstr "Соединить навигацию с главным контентом"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:151
+msgid "Hide navigation"
+msgstr "Спрятать навигацию"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:157
+msgid "Remove styling from tables"
+msgstr "Убрать параметры стиля из таблиц"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/variables.php:161
+msgid "Text-Justify post and page content"
+msgstr "Выравнивать запись и контент по тексту"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:7
+msgid "Displays links to different sections grouped in tabs"
+msgstr "Отображает ссылки на различные секции, сгруппированные в колонки"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:9
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Вкладки"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:33
+#: 1.4\mystique/lib/widgets.php:229
+msgid "Recent comments"
+msgstr "Недавние комментарии"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:34
+msgid "Popular posts"
+msgstr "Популярные записи"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:35
+#: 1.4\mystique/lib/widgets.php:221
+msgid "Archives"
+msgstr "Архивы"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:36
+msgid "Tags"
+msgstr "Метки"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:130
+msgid "Didn't find any posts popular enough :("
+msgstr "Не найдено достаточно популярных записей :("
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:173
+msgid "Sidebar tabs"
+msgstr "Вкладки"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:174
+#: 1.4\mystique/lib/widgets.php:474
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery выключен и этот виджет требует его включения"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:209
+msgid "Tabs to show"
+msgstr "Показывать следующие вкладки"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:217
+msgid "Tags "
+msgstr "Метки"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:225
+msgid "Popular posts (most commented)"
+msgstr "Популярные записи (самые комментируемые)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:235
+msgid "Sort categories"
+msgstr "Сортировать категории"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:237
+msgid "by name (alphabetically)"
+msgstr "по имени (по алфавиту)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:238
+msgid "by category ID"
+msgstr "по ID категории"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:239
+msgid "by category slug"
+msgstr "по ссылке для категории"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:240
+msgid "by post count"
+msgstr "по количеству записей"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:245
+msgid "Show post count (categories and archives)"
+msgstr "Показывать количество записей (категории и архивы)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:251
+msgid "How many popular posts to show?"
+msgstr "Сколько популярных записей показывать?"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:258
+msgid "How many recent comments to show?"
+msgstr "Сколько недавних комментариев показывать?"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:274
+msgid "Shows your latest Twitter updates"
+msgstr "Показывает ваши последние обновления в Твиттере"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:275
+msgid "Mystique | Twitter"
+msgstr "Mystique | Твиттер"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:295
+#, php-format
+msgid "about %s year ago"
+msgid_plural "about %s years ago"
+msgstr[0] "%s год назад"
+msgstr[1] "%s лет назад"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:296
+#, php-format
+msgid "about %s month ago"
+msgid_plural "about %s months ago"
+msgstr[0] "%s месяц назад"
+msgstr[1] "%s месяцев назад"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:297
+#, php-format
+msgid "about %s week ago"
+msgid_plural "about %s weeks ago"
+msgstr[0] "%s неделю назад"
+msgstr[1] "%s недель назад"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:298
+#, php-format
+msgid "about %s day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "%s день назад"
+msgstr[1] "%s дней назад"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:299
+#, php-format
+msgid "about %s hour ago"
+msgid_plural "about %s hours ago"
+msgstr[0] "%s час назад"
+msgstr[1] "%s часов назад"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:300
+#, php-format
+msgid "about %s minute ago"
+msgid_plural "about %s minutes ago"
+msgstr[0] "%s минуту назад"
+msgstr[1] "%s минут назад"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:301
+#, php-format
+msgid "about %s second ago"
+msgid_plural "about %s seconds ago"
+msgstr[0] "%s секунду назад"
+msgstr[1] "%s секунд назад"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:355
+#, php-format
+msgid "%s followers"
+msgstr "%s подписчиков"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:402
+#: 1.4\mystique/lib/widgets.php:508
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:407
+msgid "Twitter user name:"
+msgstr "Имя пользователя твиттера:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:412
+msgid "Number of tweets to show:"
+msgstr "Количество отображаемых твиттов:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:426
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "Отображает галереи Flickr (нужен API ключ)"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:428
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Галерея Flickr"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:499
+msgid "Flickr Gallery"
+msgstr "Галерея Flickr"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:513
+msgid "API key:"
+msgstr "API ключ:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:518
+msgid "Number of photos to show:"
+msgstr "Количество отображаемых фотографий:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:523
+msgid "Gallery source:"
+msgstr "Источник галереи:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:525
+msgid "Photoset"
+msgstr "Фотосет"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:526
+msgid "User photostream"
+msgstr "Пользователь фотострима"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:531
+msgid "Photoset ID:"
+msgstr "ID фотосета:"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:536
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "ID пользователя (используйте %s чтобы найти):"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:551
+msgid "Login form"
+msgstr "Форма входа"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:552
+msgid "Mystique | Login"
+msgstr "Mystique | Логин"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:562
+#, php-format
+msgid "Logged in: %s"
+msgstr "%s"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:567
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:569
+msgid "Write"
+msgstr "Написать"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:570
+msgid "Comments"
+msgstr "Комментарии"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:572
+msgid "Log out"
+msgstr "Выйти"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:576
+msgid "User Login"
+msgstr "Зайти"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:580
+msgid "User"
+msgstr "Имя"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:581
+msgid "Password"
+msgstr "Пароль"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:582
+msgid "Login"
+msgstr "Зайти"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:583
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:588
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: C:\Users\Cyber\Desktop\mystique
+#: 1.4\mystique/lib/widgets.php:589
+msgid "Lost your password?"
+msgstr "Забыли пароль?"
+

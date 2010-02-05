@@ -1,0 +1,1076 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 1.08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-03 23:59-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Facundo Jordan <admin@nogardtech.com.ar>\n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: ../404.php:12
+msgid "The requested page was not found"
+msgstr "La pagina solicitada no se ha encontrado"
+
+#: ../archive.php:19
+#, php-format
+msgid "Posts tagged %s"
+msgstr "Posteos etiquetados %s"
+
+#: ../archive.php:21
+#: ../archive.php:23
+#, php-format
+msgid "Archive for %s"
+msgstr "Archivos de %s"
+
+#: ../archive.php:23
+msgid "F, Y"
+msgstr "F, Y"
+
+#: ../archive.php:25
+#, php-format
+msgid "Archive for year %s"
+msgstr "Archivo del año %s"
+
+#: ../archive.php:25
+msgid "Y"
+msgstr "Y"
+
+#: ../archive.php:27
+msgid "Author archive"
+msgstr "Archivos del Autor"
+
+#: ../archive.php:29
+msgid "Blog Archives"
+msgstr "Archivos del Blog"
+
+#: ../archive.php:49
+#: ../index.php:29
+msgid "Permanent Link:"
+msgstr "Enlace Permanente:"
+
+#: ../archive.php:52
+#: ../index.php:32
+msgid "M jS"
+msgstr "M j"
+
+#: ../archive.php:56
+#: ../index.php:36
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Posteado por %1$s en %2$s"
+
+#: ../archive.php:56
+#: ../author.php:42
+#: ../image.php:30
+#: ../index.php:36
+#, php-format
+msgid "Posts by %s"
+msgstr "Posteos por %s"
+
+#: ../archive.php:59
+#: ../author.php:49
+#: ../comments.php:201
+#: ../index.php:39
+msgid "Edit"
+msgstr "Editar"
+
+#: ../archive.php:66
+#: ../author.php:49
+#: ../comments.php:201
+#: ../index.php:45
+msgid "No comments"
+msgstr "No hay comentarios"
+
+#: ../archive.php:66
+#: ../author.php:49
+#: ../comments.php:201
+#: ../index.php:45
+msgid "1 comment"
+msgstr "1  comentario"
+
+#: ../archive.php:66
+#: ../author.php:49
+#: ../comments.php:201
+#: ../index.php:45
+#, php-format
+msgid "% comments"
+msgstr "% comentarios"
+
+#: ../archive.php:73
+#: ../image.php:19
+#: ../index.php:51
+msgid "Read the rest of this entry &raquo;"
+msgstr "Lee el resto del articulo &raquo;"
+
+#: ../archive.php:84
+#: ../index.php:63
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%2$s temas)"
+
+#: ../archive.php:98
+#: ../author.php:58
+#: ../index.php:77
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Entradas Antigüas"
+
+#: ../archive.php:99
+#: ../author.php:59
+#: ../index.php:78
+msgid "Newer Entries &raquo;"
+msgstr "Entradas Nuevas &raquo;"
+
+#: ../archive.php:106
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Lo siento, pero todavia no hay articulos en la categoria %s."
+
+#: ../archive.php:108
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Lo siento, pero no hay articulos en esta fecha."
+
+#: ../archive.php:111
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Lo siento, pero no hay articulos creados por %s todavia."
+
+#: ../archive.php:113
+msgid "No posts found."
+msgstr "No se han encontrado articulos."
+
+#: ../author.php:27
+msgid "This user hasn't shared any biographical information"
+msgstr "El usuario no ha compartido ninguna informacion biografica."
+
+#: ../author.php:32
+msgid "Homepage:"
+msgstr "Pagina Personal:"
+
+#: ../author.php:33
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: ../author.php:34
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: ../author.php:35
+msgid "AIM:"
+msgstr "AIM:"
+
+#: ../author.php:49
+#: ../comments.php:201
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: ../author.php:49
+#: ../comments.php:201
+#, php-format
+msgid "Posted in %s"
+msgstr "Posteado en %s"
+
+#: ../author.php:64
+msgid "No posts found by this author."
+msgstr "No se encontraron articulos de este autor."
+
+#: ../comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Ingresa tu clave (password) para ver los comentarios."
+
+#: ../comments.php:40
+msgid "Related Posts"
+msgstr "Articulos Relacionados"
+
+#: ../comments.php:41
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Trackbacks (%s)"
+
+#: ../comments.php:42
+#: ../comments.php:47
+#, php-format
+msgid "Comments (%s)"
+msgstr "Comentarios (%s)"
+
+#: ../comments.php:65
+msgid "No comments yet."
+msgstr "Aun no hay comentarios."
+
+#: ../comments.php:85
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Debes estar <a href=\"%s\"> logueado </a> para comentar."
+
+#: ../comments.php:96
+#: ../comments.php:122
+#: ../comments.php:123
+msgid "Name (required)"
+msgstr "Nombre (Requerido)"
+
+#: ../comments.php:97
+#: ../comments.php:126
+#: ../comments.php:127
+msgid "E-mail (required, will not be published)"
+msgstr "E-Mail (requerido, pero no sera publicado)"
+
+#: ../comments.php:98
+#: ../comments.php:130
+#: ../comments.php:131
+msgid "Website"
+msgstr "Sitio Personal"
+
+#: ../comments.php:105
+msgid "Cancel Reply"
+msgstr "Cancelar Respuesta"
+
+#: ../comments.php:112
+#, php-format
+msgid "Logged in as %s."
+msgstr "Has ingresado como %s"
+
+#: ../comments.php:114
+msgid "Log out of this account"
+msgstr "Salir de esta cuenta"
+
+#: ../comments.php:114
+msgid "Logout &raquo;"
+msgstr "Salir"
+
+#: ../comments.php:118
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Bienvenido <strong> %s </strong>."
+
+#: ../comments.php:118
+msgid "Change &raquo;"
+msgstr "Cambiar %raquo;"
+
+#: ../comments.php:147
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "Proteccion de Spam: Suma de %1$s + %2$s = ?"
+
+#: ../comments.php:159
+msgid "Submit Comment"
+msgstr "Enviar Comentario"
+
+#: ../comments.php:182
+msgid "No trackbacks yet."
+msgstr "No hay trackbacks aun."
+
+#: ../comments.php:220
+msgid "Comments are closed."
+msgstr "Los comentarios estan cerrados."
+
+#: ../functions.php:223
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "Esta es la barra lateral por defecto, visible en el diseño de 2 o 3 columnas. Si no hay widgets activos, se mostraran los widgets por defecto del tema."
+
+#: ../functions.php:233
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "Esta barra lateral solo esta activa en el diseño de 3 columnas."
+
+#: ../functions.php:243
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "Puedes agregar de 1 a 6 widgets aqui. (3 o 4 recomendados). El tamaño se ajustara automaticamente dependiendo de la cantidad de widgets."
+
+#: ../functions.php:253
+#: ../functions.php:264
+#: ../functions.php:275
+msgid "Only visible if jQuery is enabled. "
+msgstr "Solo visible si jQuery esta activado."
+
+#: ../functions.php:291
+msgid "Share this post!"
+msgstr "¡Comparte este articulo!"
+
+#: ../functions.php:343
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s escrito por %2$s"
+
+#: ../functions.php:352
+msgid "Reply"
+msgstr "Responder"
+
+#: ../functions.php:353
+msgid "Quote"
+msgstr "Citar"
+
+#: ../functions.php:359
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario esta esperando ser aprobado."
+
+#: ../header.php:51
+msgid "RSS Feeds"
+msgstr "Feeds RSS"
+
+#: ../header.php:59
+msgid "Follow me on Twitter!"
+msgstr "Sigueme en Twitter!"
+
+#: ../header.php:68
+msgid "You are Home"
+msgstr "Estas en el Inicio"
+
+#: ../header.php:68
+#: ../header.php:70
+msgid "Home"
+msgstr "Inicio"
+
+#: ../header.php:70
+msgid "Click for Home"
+msgstr "Click para ir al Inicio"
+
+#: ../header.php:146
+msgid "Read more"
+msgstr "Leer Mas"
+
+#: ../image.php:30
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filled under %4$s. Follow any responses to this post through %5$s."
+msgstr "Esta entrada fue posteada por %1$s en %2$s a las %3$s y esta archivada en %4$s.Puedes seguir las respuestas a esta entrada a traves de %5$s."
+
+#: ../image.php:34
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Puedes <a%1$s>dejar una respuesta</a>, o <a%2$s>un trackback</a> desde tu propio sitio.\v"
+
+#: ../image.php:38
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "Las respuestas estan actualmente cerradas, pero puedes hacer <a href=\"%1$s\" rel=\"trackback\">un trackback</a> desde tu sitio.\v"
+
+#: ../image.php:42
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Puedes saltar hasta el final y dejar una respuesta. Hacer pinging no esta permitido."
+
+#: ../image.php:46
+msgid "Both comments and pings are currently closed."
+msgstr "Tanto los comentarios como los pings estan actualmente cerrados."
+
+#: ../image.php:48
+msgid "Edit this entry"
+msgstr "Editar esta entrada"
+
+#: ../image.php:60
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Lo siento, ningun adjunto cumple sus criterios de busqueda."
+
+#: ../index.php:83
+msgid "No posts found"
+msgstr "No se encontraron entradas."
+
+#: ../index.php:84
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Lo siento, pero esta buscando algo que no esta aqui."
+
+#: ../page.php:26
+msgid "Read the rest of this page &raquo;"
+msgstr "Lee el resto de esta pagina &raquo;"
+
+#: ../search.php:15
+#, php-format
+msgid "Search Results for %s"
+msgstr "Resultados de la busqueda para %s"
+
+#: ../search.php:45
+msgid "Nothing found."
+msgstr "No se han encontrado resultados."
+
+#: ../search.php:45
+msgid "Try a different search?"
+msgstr "¿Quiere probar una busqueda diferente?"
+
+#: ../searchform.php:7
+msgid "Search"
+msgstr "Buscar"
+
+#: ../sidebar.php:22
+#: ../lib/widgets.php:409
+msgid "My latest tweets"
+msgstr "Mis ultimos tweets"
+
+#: ../sidebar.php:30
+msgid "Blogroll"
+msgstr "Blogroll"
+
+#: ../sidebar2.php:8
+msgid "2nd sidebar is active. Add widgets here from the Dashboard"
+msgstr "La 2da barra lateral esta activa. Agrega widgets desde el Escritorio."
+
+#: ../single.php:36
+#, fuzzy
+msgid "Pages:"
+msgstr "Paginas"
+
+#: ../lib/codehelpers.php:5
+msgid "Insert Ad slot #1 in every post and page"
+msgstr "Insertar Bloque de Anuncio #1 en todas las entradas y paginas."
+
+#: ../lib/codehelpers.php:16
+msgid "Insert Ad slot #2 at every 5 comments"
+msgstr "Insertar Bloque de Anuncio #2 cada 5 comentarios."
+
+#: ../lib/codehelpers.php:25
+msgid "Replace blog description text with Ad #4"
+msgstr "Reemplazar el texto de descripcion del blog con el Bloque de Anuncio #4."
+
+#: ../lib/codehelpers.php:37
+#, fuzzy
+msgid "Black navigation style"
+msgstr "Mostrar navegacion superior."
+
+#: ../lib/codehelpers.php:48
+msgid "Alternate header image"
+msgstr "Imagen de cabecera personalizada."
+
+#: ../lib/codehelpers.php:52
+#, fuzzy
+msgid "Hide RSS button"
+msgstr "Ocultar boton de Inicio (Home)"
+
+#: ../lib/codehelpers.php:56
+#, fuzzy
+msgid "Hide Twitter button"
+msgstr "Ocultar boton de Inicio (Home)"
+
+#: ../lib/codehelpers.php:60
+msgid "Set a fluid page width"
+msgstr "Setear un ancho de pagina fluido."
+
+#: ../lib/codehelpers.php:64
+msgid "Decrease site title text size"
+msgstr "Disminuir el tamaño del texto del titulo del sitio."
+
+#: ../lib/codehelpers.php:68
+msgid "Hide post information bar"
+msgstr "Ocultar barra de informacion de las entradas."
+
+#: ../lib/codehelpers.php:72
+msgid "Change footer background color to light gray"
+msgstr "Cambiar color de fondo del pie de pagina a gris claro."
+
+#: ../lib/codehelpers.php:77
+msgid "Dark background footer"
+msgstr "Pie de pagina de fondo oscuro."
+
+#: ../lib/codehelpers.php:83
+msgid "Join navigation with main content"
+msgstr "Unir la navegacion con el contenido principal."
+
+#: ../lib/codehelpers.php:87
+#, fuzzy
+msgid "Hide navigation"
+msgstr "Navegacion"
+
+#: ../lib/codehelpers.php:93
+msgid "Remove styling from tables"
+msgstr "Remover estilo de tablas"
+
+#: ../lib/codehelpers.php:97
+msgid "Text-Justify post and page content"
+msgstr "Justificar el contenido de texto de entradas y paginas."
+
+#: ../lib/codehelpers.php:101
+#, fuzzy
+msgid "Fixed custom background image"
+msgstr "Imagen de fondo personalizada."
+
+#: ../lib/settings.php:264
+msgid "You are not authorised to perform this operation."
+msgstr "No esta autorizado a realizar esta operacion."
+
+#: ../lib/settings.php:335
+#: ../lib/settings.php:837
+#: ../lib/settings.php:838
+msgid "Mystique settings"
+msgstr "Opciones de Mystique"
+
+#: ../lib/settings.php:341
+#, php-format
+msgid "Settings saved. %s"
+msgstr "Opciones Guardadas. %s"
+
+#: ../lib/settings.php:341
+msgid "View site"
+msgstr "Ver mi sitio"
+
+#: ../lib/settings.php:348
+msgid "General"
+msgstr "General"
+
+#: ../lib/settings.php:349
+msgid "Design/colors"
+msgstr "Diseño/Colores"
+
+#: ../lib/settings.php:350
+msgid "Navigation"
+msgstr "Navegacion"
+
+#: ../lib/settings.php:351
+msgid "Posts"
+msgstr "Entradas"
+
+#: ../lib/settings.php:352
+msgid "SEO"
+msgstr "SEO"
+
+#: ../lib/settings.php:353
+msgid "Ads"
+msgstr "Anuncios"
+
+#: ../lib/settings.php:354
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: ../lib/settings.php:355
+#, fuzzy
+msgid "User CSS"
+msgstr "Usuario"
+
+#: ../lib/settings.php:365
+msgid "Layout style"
+msgstr "Estilo del Diseño"
+
+#: ../lib/settings.php:365
+msgid "Use page templates to apply these only to specific pages"
+msgstr "Usa plantillas para aplicar esto solo a paginas especificas."
+
+#: ../lib/settings.php:401
+msgid "Imageless layout"
+msgstr "Diseño sin imagenes."
+
+#: ../lib/settings.php:401
+msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
+msgstr "Sin imagenes de fondo, reduce el tiempo de carga en unos cuantos KB, pero pierde calidad grafica el diseño."
+
+#: ../lib/settings.php:406
+msgid "Footer content"
+msgstr "Contenido de pie de pagina."
+
+#: ../lib/settings.php:406
+msgid "You can post HTML code"
+msgstr "Puedes postear codigo HTML"
+
+#: ../lib/settings.php:410
+#, fuzzy, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Usa los siguientes codigos cortos para hacer los ajustes que creas convenientes: <br />%s"
+
+#: ../lib/settings.php:426
+#: ../lib/settings.php:438
+msgid "Sidebar(s) vs Main Content ratio"
+msgstr "Ajuste de Barra Lateral / Contenido Principal (Ancho)"
+
+#: ../lib/settings.php:448
+msgid "Preferred font style"
+msgstr "Estilo de Fuente preferida."
+
+#: ../lib/settings.php:448
+msgid "Font priority and their availability"
+msgstr "Prioridad de fuente y su disponibilidad."
+
+#: ../lib/settings.php:459
+msgid "Color scheme"
+msgstr "Combinacion de Colores"
+
+#: ../lib/settings.php:463
+msgid "Not available with <em>imageless</em> setting"
+msgstr "No esta disponible con la opcion de tema <em> sin imagenes </em>"
+
+#: ../lib/settings.php:491
+msgid "Custom logo image"
+msgstr "Imagen de Logo personalizada"
+
+#: ../lib/settings.php:491
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Mostrar una imagen de logo en lugar de un texto. Sube la imagen desde tu PC."
+
+#: ../lib/settings.php:497
+#: ../lib/settings.php:512
+msgid "Remove current image"
+msgstr "Borrar la imagen actual."
+
+#: ../lib/settings.php:500
+#: ../lib/settings.php:515
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "El directorio %s no tiene permisos de escritura - no se puede subir!"
+
+#: ../lib/settings.php:500
+#: ../lib/settings.php:515
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Chequea tu directorio de subida en Opciones/Misc o haz CHMOD 775/777 al directorio. <br /> Contactate con tu hosting si no sabes como hacerlo."
+
+#: ../lib/settings.php:506
+msgid "Custom background image"
+msgstr "Imagen de fondo personalizada."
+
+#: ../lib/settings.php:506
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Subir un/a nuevo/a fondo/cabecera para reemplazar las imagenes por defecto."
+
+#: ../lib/settings.php:521
+msgid "Background color"
+msgstr "Color de Fondo"
+
+#: ../lib/settings.php:521
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "Dejar vacio (#000000) para mantener el fondo por defecto"
+
+#: ../lib/settings.php:534
+msgid "Top navigation shows"
+msgstr "Mostrar navegacion superior."
+
+#: ../lib/settings.php:537
+msgid "Pages"
+msgstr "Paginas"
+
+#: ../lib/settings.php:538
+#: ../lib/widgets.php:37
+#: ../lib/widgets.php:213
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../lib/settings.php:539
+msgid "Links"
+msgstr "Enlaces"
+
+#: ../lib/settings.php:547
+msgid "from category"
+msgstr "de la categoria"
+
+#: ../lib/settings.php:560
+msgid "No links found"
+msgstr "No se encontraron enlaces"
+
+#: ../lib/settings.php:569
+msgid "Exclude from navigation"
+msgstr "Excluir de la navegacion"
+
+#: ../lib/settings.php:569
+msgid "Check the items you wish to hide from the main menu"
+msgstr "Selecciona aquellos items que no desees mostrar en el menu de navegación."
+
+#: ../lib/settings.php:579
+msgid "(Use the private property to hide other links)"
+msgstr "(Usa la propiedad \"privada\" para no mostrar los demas enlaces.)"
+
+#: ../lib/settings.php:645
+#, fuzzy
+msgid "View page"
+msgstr "Ver mi sitio"
+
+#: ../lib/settings.php:668
+msgid "Post previews"
+msgstr "Previsualizacion de Entrada"
+
+#: ../lib/settings.php:668
+msgid "The way posts are displayed on blog homepage and archive pages"
+msgstr "La forma en que las entradas son mostradas en el blog y en la pagina de archivos."
+
+#: ../lib/settings.php:671
+msgid "Full"
+msgstr "Completo"
+
+#: ../lib/settings.php:672
+msgid "Excerpts"
+msgstr "Extracto"
+
+#: ../lib/settings.php:673
+msgid "Titles only"
+msgstr "Solo titulos"
+
+#: ../lib/settings.php:679
+msgid "Enable \"Share This Post\" feature"
+msgstr "Activar \"Compartir esta Entrada\""
+
+#: ../lib/settings.php:679
+msgid "Uncheck this if you're using a social bookmaring plugin"
+msgstr "Desmarque esta opcion si esta usando un plugin de marcadores sociales. (Ej.: AddThis)"
+
+#: ../lib/settings.php:684
+msgid "Featured content source"
+msgstr "Origen de contenido destacado"
+
+#: ../lib/settings.php:684
+msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
+msgstr "Las ultimas 5 entradas de esta categoria seran mostradas en el area de contenido destacado. (Sin ningun orden particular.)"
+
+#: ../lib/settings.php:689
+msgid "- All categories"
+msgstr "- Todas las categorias"
+
+#: ../lib/settings.php:699
+msgid "Display featured posts on blog/home page"
+msgstr "Mostrar contenido destacado en en la pagina principal del blog."
+
+#: ../lib/settings.php:699
+msgid "Use the \"Page with Featured Content\" template if you want it on specific pages"
+msgstr "Usar la plantilla \"Pagina con contenido destacado.\" si quiere mostrarlo en paginas especificas solamente."
+
+#: ../lib/settings.php:709
+msgid "Additional site optimization for search engines"
+msgstr "Optimizacion adicional del sitio para buscadores"
+
+#: ../lib/settings.php:709
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "Desmarque esta opcion si esta usando un plugin SEO!"
+
+#: ../lib/settings.php:716
+msgid "What does this do?"
+msgstr "Que hace esto?"
+
+#: ../lib/settings.php:718
+msgid "enables canonical URLs for comments (duplicate content fix)"
+msgstr "habilitar URLs canonicas para los comentarios. (arreglo de contenido duplicado)"
+
+#: ../lib/settings.php:719
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "generar titulos unicos para las entradas con multiples paginas de comentarios. (previene titulos duplicados)"
+
+#: ../lib/settings.php:720
+#, php-format
+msgid "no keywords are generated because they are <a %s>useless</a>"
+msgstr "no se generan keywords porque son <a %s>inutiles</a>"
+
+#: ../lib/settings.php:733
+msgid "Advertisment blocks"
+msgstr "Bloques de anuncios"
+
+#: ../lib/settings.php:733
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "Usa el codigo corto %s para insertar anuncios en tus entradas, widgets de texto o pie de pagina."
+
+#: ../lib/settings.php:734
+msgid "Example:"
+msgstr "Ejemplo:"
+
+#: ../lib/settings.php:740
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Codigo de Anuncio #%s:"
+
+#: ../lib/settings.php:755
+msgid "Use jQuery"
+msgstr "Usar jQuery"
+
+#: ../lib/settings.php:755
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "Para pruebas solamente. Solo desmarcalo si sabes lo que estas haciendo!"
+
+#: ../lib/settings.php:760
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "Activar Lightbox incorporado para todas las imagenes enlazadas."
+
+#: ../lib/settings.php:760
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "Desmarca esta opcion si prefieres usar un plugin de Lightbox"
+
+#: ../lib/settings.php:765
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "Remover la configuracion de Mystique de la base de datos al cambiar de tema. (Desmarcar si este es tu tema base.)"
+
+#: ../lib/settings.php:765
+msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+msgstr "Desmarque esto si planea usar Mystique como su tema por defecto."
+
+#: ../lib/settings.php:777
+msgid "Document head code"
+msgstr "Codigo de cabecera del documento"
+
+#: ../lib/settings.php:777
+#, php-format
+msgid "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
+msgstr "Codigo PHP para insertar en la seccion %s del documento XHTML. Util si tienes plugins que requieren agregar codigo aqui, agregar codigo de estadisticas (Ej: Analytics), etc."
+
+#: ../lib/settings.php:778
+msgid "To output HTML only, close the PHP tag first."
+msgstr "Para mostrar solo HTML, primero cierra la etiqueta PHP."
+
+#: ../lib/settings.php:780
+#: ../lib/settings.php:801
+msgid "Examples and helpers:"
+msgstr "Ejemplos y ayudas:"
+
+#: ../lib/settings.php:799
+msgid "Modify anything related to design using CSS code"
+msgstr "Modifica cualquier cosa relacionada al diseño usando codigo CSS."
+
+#: ../lib/settings.php:799
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "Chequea %s para ver clases y propiedades existente en el tema."
+
+#: ../lib/settings.php:799
+msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
+msgstr "Evita modificar archivos del tema directamente; en cambio usa esta opcion para preservar los cambios al actualizar."
+
+#: ../lib/settings.php:822
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: ../lib/settings.php:822
+msgid "Reset to Defaults"
+msgstr "Volver a la configuracion por Defecto (Reset)"
+
+#: ../lib/shortcodes.php:117
+#, php-format
+msgid "%s comments"
+msgstr "%s comentarios"
+
+#: ../lib/shortcodes.php:137
+#, php-format
+msgid "%s (%s topics)"
+msgstr "%s (%s temas)"
+
+#: ../lib/shortcodes.php:221
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "Bloque de anuncio vacio (#%s)!"
+
+#: ../lib/shortcodes.php:228
+msgid "Top"
+msgstr "Arriba"
+
+#: ../lib/shortcodes.php:240
+#, php-format
+msgid "Mystique theme by %1$s | Powered by %2$s"
+msgstr "Mystique - Creado por %1$s | Potenciado por %2$s"
+
+#: ../lib/shortcodes.php:247
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: ../lib/shortcodes.php:263
+msgid "Site Admin"
+msgstr "Admin Sitio"
+
+#: ../lib/shortcodes.php:264
+msgid "Log in"
+msgstr "Ingresar"
+
+#: ../lib/widgets.php:7
+msgid "Displays links to different sections grouped in tabs"
+msgstr "Muestra enlaces a diferentes secciones agrupados en pestañas."
+
+#: ../lib/widgets.php:9
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Pestañas de barra lateral"
+
+#: ../lib/widgets.php:33
+#: ../lib/widgets.php:229
+msgid "Recent comments"
+msgstr "Comentarios recientes"
+
+#: ../lib/widgets.php:34
+msgid "Popular posts"
+msgstr "Entradas populares"
+
+#: ../lib/widgets.php:35
+#: ../lib/widgets.php:221
+msgid "Archives"
+msgstr "Archivos"
+
+#: ../lib/widgets.php:36
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: ../lib/widgets.php:130
+msgid "Didn't find any posts popular enough :("
+msgstr "No se ha encontrado ninguna entrada suficientemente popular. :("
+
+#: ../lib/widgets.php:173
+msgid "Sidebar tabs"
+msgstr "Pestañas barra lateral"
+
+#: ../lib/widgets.php:174
+#: ../lib/widgets.php:488
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery esta desactivado y el widget lo requiere"
+
+#: ../lib/widgets.php:209
+msgid "Tabs to show"
+msgstr "Pestañas a mostrar"
+
+#: ../lib/widgets.php:217
+msgid "Tags "
+msgstr "Etiquetas"
+
+#: ../lib/widgets.php:225
+msgid "Popular posts (most commented)"
+msgstr "Articulos Populares (mas comentados)"
+
+#: ../lib/widgets.php:235
+msgid "Sort categories"
+msgstr "Ordenar categorias"
+
+#: ../lib/widgets.php:237
+msgid "by name (alphabetically)"
+msgstr "por nombre (alfabeticamente)"
+
+#: ../lib/widgets.php:238
+msgid "by category ID"
+msgstr "por ID de categoria"
+
+#: ../lib/widgets.php:239
+msgid "by category slug"
+msgstr "por nombre de categoria"
+
+#: ../lib/widgets.php:240
+msgid "by post count"
+msgstr "por numero de posteos."
+
+#: ../lib/widgets.php:245
+msgid "Show post count (categories and archives)"
+msgstr "Mostrar conteo de posteos. (Categorias y Archivos)"
+
+#: ../lib/widgets.php:251
+msgid "How many popular posts to show?"
+msgstr "Cuantas entradas populares mostrar?"
+
+#: ../lib/widgets.php:258
+msgid "How many recent comments to show?"
+msgstr "Cuantos comentarios recientes mostrar?"
+
+#: ../lib/widgets.php:274
+msgid "Shows your latest Twitter updates"
+msgstr "Muestra tus ultimas actualizaciones de Twitter"
+
+#: ../lib/widgets.php:275
+msgid "Mystique | Twitter"
+msgstr "Mystique | Twitter"
+
+#: ../lib/widgets.php:365
+#, php-format
+msgid "%s followers"
+msgstr "%s seguidores"
+
+#: ../lib/widgets.php:393
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr "Error al intentar obtener los tweets. (¿Twitter caido?)"
+
+#: ../lib/widgets.php:416
+#: ../lib/widgets.php:522
+msgid "Title:"
+msgstr "Titulo:"
+
+#: ../lib/widgets.php:421
+msgid "Twitter user name:"
+msgstr "Usuario de Twitter:"
+
+#: ../lib/widgets.php:426
+#, fuzzy
+msgid "Number of tweets to show:"
+msgstr "Numero de Twitts a mostrar:"
+
+#: ../lib/widgets.php:440
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "Mostrar galerias de Flickr (necesita llave API)"
+
+#: ../lib/widgets.php:442
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Galeria Flickr"
+
+#: ../lib/widgets.php:513
+msgid "Flickr Gallery"
+msgstr "Galeria Flickr"
+
+#: ../lib/widgets.php:527
+msgid "API key:"
+msgstr "Llave API:"
+
+#: ../lib/widgets.php:532
+msgid "Number of photos to show:"
+msgstr "Numero de fotos a mostrar:"
+
+#: ../lib/widgets.php:537
+msgid "Gallery source:"
+msgstr "Origen de la galeria:"
+
+#: ../lib/widgets.php:539
+msgid "Photoset"
+msgstr "Set de Fotos"
+
+#: ../lib/widgets.php:540
+msgid "User photostream"
+msgstr "Stream de fotos de usuario"
+
+#: ../lib/widgets.php:545
+msgid "Photoset ID:"
+msgstr "ID del set de Fotos:"
+
+#: ../lib/widgets.php:550
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "ID de Usuario (utliza %s para encontrarlo):"
+
+#: ../lib/widgets.php:565
+msgid "Login form"
+msgstr "Formulario de Ingreso"
+
+#: ../lib/widgets.php:566
+msgid "Mystique | Login"
+msgstr "Mystique |  Ingreso"
+
+#: ../lib/widgets.php:576
+#, php-format
+msgid "Logged in: %s"
+msgstr "Ingresado como: %s"
+
+#: ../lib/widgets.php:581
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: ../lib/widgets.php:583
+msgid "Write"
+msgstr "Sitio Personal"
+
+#: ../lib/widgets.php:584
+msgid "Comments"
+msgstr "Comentarios"
+
+#: ../lib/widgets.php:586
+msgid "Log out"
+msgstr "Salir"
+
+#: ../lib/widgets.php:590
+msgid "User Login"
+msgstr "Ingreso de Usuario"
+
+#: ../lib/widgets.php:594
+msgid "User"
+msgstr "Usuario"
+
+#: ../lib/widgets.php:595
+msgid "Password"
+msgstr "Clave"
+
+#: ../lib/widgets.php:596
+msgid "Login"
+msgstr "Ingresar"
+
+#: ../lib/widgets.php:597
+msgid "Remember me"
+msgstr "Recordarme"
+
+#: ../lib/widgets.php:602
+msgid "Register"
+msgstr "Registrarse"
+
+#: ../lib/widgets.php:603
+msgid "Lost your password?"
+msgstr "¿Perdio su clave?"
+

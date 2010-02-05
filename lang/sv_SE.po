@@ -1,0 +1,1323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-16 03:00+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Magnus Jonasson <magnus@magnusjonasson.com>\n"
+"Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/404.php:12
+msgid "The requested page was not found"
+msgstr "Den efterfrågade sidan kunde inte hittas"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:19
+#, php-format
+msgid "Posts tagged %s"
+msgstr "Inlägg taggade %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:21
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+#, php-format
+msgid "Archive for %s"
+msgstr "Arkiv för %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+msgid "F, Y"
+msgstr "F Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+#, php-format
+msgid "Archive for year %s"
+msgstr "Arkiv för år %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+msgid "Y"
+msgstr "Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
+msgid "Author archive"
+msgstr "Författararkiv"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
+msgid "Blog Archives"
+msgstr "Bloggarkiv"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:41
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:53
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:19
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Äldre inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:20
+msgid "Newer Entries &raquo;"
+msgstr "Nyare inlägg &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:49
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Beklagar, men det finns inga inlägg i kategorin %s ännu."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:51
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Beklagar, men det finns inga inlägg med detta datum."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:54
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Beklagar, men det finns inga inlägg av %s ännu."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:56
+msgid "No posts found."
+msgstr "Inga inlägg funna."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:27
+msgid "This user hasn't shared any biographical information"
+msgstr "Den här användaren delar inte sin biografi"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:32
+msgid "Homepage:"
+msgstr "Hemsida:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:33
+msgid "Yahoo Messenger:"
+msgstr "Yahoo Messenger:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:34
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:35
+msgid "AIM:"
+msgstr "AIM:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:31
+#, php-format
+msgid "Posts by %s"
+msgstr "Inlägg av %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:59
+msgid "No posts found by this author."
+msgstr "Inga inlägg av denna författare hittades."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Skriv in ditt lösenord för att se kommentarer."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:42
+msgid "Related Posts"
+msgstr "Relaterade inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:43
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Trackbacks (%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:44
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:50
+#, php-format
+msgid "Comments (%s)"
+msgstr "Kommentarer (%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:82
+msgid "No comments yet."
+msgstr "Inga kommentarer ännu."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Du måste vara <a href=\"%s\">inloggad</a> för att lämna en kommentar."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:102
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:128
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:129
+msgid "Name (required)"
+msgstr "Namn (krävs)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:103
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:132
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:133
+msgid "E-mail (required, will not be published)"
+msgstr "E-post (krävs, kommer inte att publiceras)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:104
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:136
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:137
+msgid "Website"
+msgstr "Hemsida"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:115
+#, php-format
+msgid "Logged in as %s."
+msgstr "Inloggad som %s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:117
+msgid "Log out of this account"
+msgstr "Logga ut från det här kontot"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:117
+msgid "Logout &raquo;"
+msgstr "Logga ut &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:122
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Välkommen tillbaka <strong>%s</strong>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:123
+msgid "Change &raquo;"
+msgstr "Ändra &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:144
+msgid "Type your comment"
+msgstr "Skriv din kommentar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:153
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "Spamskydd: Summan av %1$s + %2$s = ?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:162
+msgid "Submit Comment"
+msgstr "Skicka kommentar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:164
+msgid "Cancel Reply"
+msgstr "Avbryt svar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:188
+msgid "No trackbacks yet."
+msgstr "Inga trackbacks ännu."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:205
+msgid "No comments"
+msgstr "Inga kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:205
+msgid "1 comment"
+msgstr "1 kommentar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:205
+#, php-format
+msgid "% comments"
+msgstr "% kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:223
+msgid "Comments are closed."
+msgstr "Kommentarsfunktionen är avstängd."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/featured-posts.php:42
+msgid "Read more"
+msgstr "Läs mer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:11
+#, php-format
+msgid "Page %s &laquo;"
+msgstr "Sida %s &laquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:51
+msgid "RSS Feeds"
+msgstr "RSS Feeds"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:59
+msgid "Follow me on Twitter!"
+msgstr "Följ mig på Twitter!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:68
+msgid "You are Home"
+msgstr "Hem"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:68
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:70
+msgid "Home"
+msgstr "Hem"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:70
+msgid "Click for Home"
+msgstr "Klicka för att komma Hem"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:19
+msgid "More &gt;"
+msgstr "Mer &gt;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:31
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filled under %4$s. Follow any responses to this post through %5$s."
+msgstr "Det här inlägget postades av %1$s den %2$s klockan %3$s, och ligger i kategorin %4$s. Du kan följa alla svar på detta inlägg via %5$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:35
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Du kan <a%1$s>lämna en kommentar</a> eller <a%2$s>skapa en trackback</a> från din egen sida."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:39
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "Svarsfunktionen är för närvarande avstängd, men du kan <a%1$s>skapa en trackback</a> från din egen sida."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:43
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Du kan hoppa till slutet och lämna ett svar. Pingbacks ör för närvarande inte tillåtet."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:47
+msgid "Both comments and pings are currently closed."
+msgstr "Både kommentarer och pingbacks är för närvarande avstängda."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:49
+msgid "Edit this entry"
+msgstr "Redigera detta inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:61
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Beklagar, inga bilagor matchade dina kriterier."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:24
+msgid "No posts found"
+msgstr "Inga inlägg funna"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:25
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Beklagar, men du letar efter något som inte finns här."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/post.php:19
+msgid "Permanent Link:"
+msgstr "Permanent länk:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/post.php:22
+msgid "M jS"
+msgstr "j M y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/post.php:26
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Postad av %1$s i %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/post.php:29
+msgid "Edit"
+msgstr "Redigera"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/post.php:61
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%2$s ämnen)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:5
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:10
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:52
+msgid "Search"
+msgstr "Sök"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:18
+#, php-format
+msgid "Search Results for %s"
+msgstr "Sökresultat för %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:42
+msgid "Nothing found."
+msgstr "Ingenting hittades."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:42
+msgid "Try a different search?"
+msgstr "Vill du prova med en ny sökning?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:46
+msgid "What do you wish to search for?"
+msgstr "Vad vill du söka efter?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:11
+#, php-format
+msgid "You have searched the archives for %s"
+msgstr "Du har sökt i arkivet efter %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:13
+msgid "Type a valid search term..."
+msgstr "Skriv en giltig sökterm..."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:22
+msgid "My latest tweets"
+msgstr "Mina senaste tweets"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:30
+msgid "Blogroll"
+msgstr "Blogroll"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar2.php:8
+msgid "2nd sidebar is active. Add widgets here from the Dashboard"
+msgstr "Sidpanel 2 är aktiv. Addera widgets till denna från Panelen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:35
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:39
+msgid "Tags:"
+msgstr "Etiketter:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:232
+msgid "You are not authorised to perform this operation."
+msgstr "Du har inte behörighet att utföra den här operationen."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:310
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:874
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:875
+msgid "Mystique settings"
+msgstr "Mystique inställningar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:316
+#, php-format
+msgid "Settings saved. %s"
+msgstr "Inställningar sparade. %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:316
+msgid "View site"
+msgstr "Visa sida"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:320
+msgid "Please upload a valid image file!"
+msgstr "Vänligen ladda upp en giltig bildfil!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:321
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr "Filen du laddade upp verkar inte vara en giltig JPEG, PNG eller GIF-bild"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:322
+msgid "The image could not be saved on your server"
+msgstr "Bilden kunde inte sparas på din server"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:327
+#, php-format
+msgid "Error: %s"
+msgstr "Fel: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:334
+msgid "General"
+msgstr "Allmänt"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:335
+msgid "Design/colors"
+msgstr "Design/färger"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:336
+msgid "Navigation"
+msgstr "Navigation"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:337
+msgid "Posts"
+msgstr "Inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:338
+msgid "SEO"
+msgstr "SEO"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:340
+msgid "Ads"
+msgstr "Annonser"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:342
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:343
+msgid "User CSS"
+msgstr "Användar-CSS"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:353
+msgid "Layout style"
+msgstr "Layout"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:353
+msgid "Use page templates to apply these only to specific pages"
+msgstr "Använd sidmallar för att applicera dessa på specifika sidor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:389
+msgid "Imageless layout"
+msgstr "Bildlös layout"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:389
+msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
+msgstr "Inga bakgrundsbilder; reducerar sidladdningen ner till några få KB, på bekostnad av färre grafiska detaljer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:394
+msgid "Footer content"
+msgstr "Sidfotsinnehåll"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:394
+msgid "You can post HTML code"
+msgstr "Du kan infoga HTML-kod här"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:394
+msgid "HTML code is disallowed"
+msgstr "HTML kod är inte tillåtet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:398
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Använd följande kortkoder för bekväm anpassning: <br />%s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:406
+msgid "Loading site preview..."
+msgstr "Laddar förhandsgranskning av sidan..."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:414
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:426
+msgid "Sidebar(s) vs Main Content ratio"
+msgstr "Ratio för sinpanel(er) vs huvudinnehåll"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:436
+msgid "Preferred font style"
+msgstr "Föredraget typsnitt"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:436
+msgid "Font priority and their availability"
+msgstr "Typsnittsprioritet och tillgänglighet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:447
+msgid "Color scheme"
+msgstr "Färgschema"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:451
+msgid "Not available with <em>imageless</em> setting"
+msgstr "Inte tillgänglig med <em>bildlös</em> inställning"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:478
+msgid "Custom logo image"
+msgstr "Anpassad logobild"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:478
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Visa en logotyp-bild istället för text; Ladda upp bilden från din dator."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:484
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:499
+msgid "Remove current image"
+msgstr "Ta bort aktuell bild"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:487
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:502
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "Katalog %s har inte skrivrättigheter - kan inte ladda upp!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:487
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:502
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Kontrollera din sökväg för uppladdningar i Inställningar/Övrigt eller CHMOD denna katalog till 755/777.<br />Kontakta ditt webbhotell om du inte vet hur du skall göra"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:493
+msgid "Custom background image"
+msgstr "Anpassad bakgrundsbild"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:493
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Ladda upp en ny bakgrundsbild för att ersätta standardbilden."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:508
+msgid "Background color"
+msgstr "Bakgrundsfärg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:508
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "Lämna svart (#000000) för att behålla standardbakgrund"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:521
+msgid "Top navigation shows"
+msgstr "Toppmenyn visar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:524
+msgid "Pages"
+msgstr "Sidor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:525
+msgid "Categories"
+msgstr "Kategorier"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:526
+msgid "Links"
+msgstr "Länkar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:534
+msgid "from category"
+msgstr "från kategori"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:547
+msgid "No links found"
+msgstr "Inga länkar funna"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:556
+msgid "Exclude from navigation"
+msgstr "Exkludera från navigation"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:556
+msgid "Check the items you wish to hide from the main menu"
+msgstr "Markera de objekt som du vill dölja från huvudmenyn"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:566
+msgid "(Use the private property to hide other links)"
+msgstr "(Markera en länk som privat för att gömma den)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:632
+msgid "View page"
+msgstr "Visa sida"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:655
+msgid "Post previews"
+msgstr "Visning av inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:655
+msgid "The way posts are displayed on blog homepage and archive pages"
+msgstr "Sättet inlägg visas på bloggens hemsida och arkivsidor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:658
+msgid "Full"
+msgstr "Hela inlägget"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:659
+msgid "Excerpts"
+msgstr "Utdrag"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:660
+msgid "Titles only"
+msgstr "Bara rubriker"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:667
+msgid "Post thumbnail size"
+msgstr "Storlek på tumnagel för inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:667
+#, php-format
+msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
+msgstr "Notera att detta enbart fungerar på bilder som du laddar upp från och med nu, de äldre bilderna kommer webbläsaren att ändra storlek på. Du bör använda insticksprogrammet %s för att ställa in saknade bildstorlekar."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:671
+msgid "Small: 64 x 64"
+msgstr "Liten: 64 x 64"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:672
+msgid "Medium: 100 x 100"
+msgstr "Mellan: 100 x 100"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:673
+#, php-format
+msgid "WP's Media setting: %s"
+msgstr "WP's mediainställningar: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:680
+msgid "Enable \"Share This Post\" feature"
+msgstr "Aktivera \"ShareThis\"-funktionen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:680
+msgid "Uncheck this if you're using a social bookmaring plugin"
+msgstr "Avmarkera detta alternativ om du använder ett annat insticksprogram för social bokmärkning."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:685
+msgid "Featured content source"
+msgstr "Källa för utvalda inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:685
+msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
+msgstr "De senaste 5 inläggen från denna kategori kommer att visas som utvalda i fältet för detta (i slumpmässig ordning)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:690
+msgid "- All categories"
+msgstr "- Alla kategorier"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:699
+msgid "Where to display the featured posts?"
+msgstr "Var skall utvalda inlägg visas?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:702
+msgid "On pages that use the Featured Posts template"
+msgstr "På sidor som använder mallen Featured Posts"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:703
+msgid "On the home page"
+msgstr "På förstasidan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:704
+msgid "On all pages, including home"
+msgstr "På alla sidor, inklusive förstasidan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:705
+msgid "On all posts"
+msgstr "På alla inläggssidor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:706
+msgid "On all pages and posts"
+msgstr "På alla sidor och inläggssidor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:712
+msgid "Maximum number of featured posts"
+msgstr "Högsta antal utvalda inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:719
+msgid "Expand the &laquo;read more&raquo; button with more content"
+msgstr "Expandera &laquo;läs mer&raquo;-knappen med mer innehåll"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:719
+msgid "Uncheck if want the button to link to the single post page"
+msgstr "Avmarkera detta val om du vill att knappen skall länka till en inläggssida"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:724
+msgid "Show related posts next to comments"
+msgstr "Visa relaterade inlägg intill kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:729
+msgid "Show comment author's country flag"
+msgstr "Visa kommentar-författarens landsflagga"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:729
+msgid "May slow down page loading"
+msgstr "Kan eventuellt påverka sidans laddningstid"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:739
+msgid "Additional site optimization for search engines"
+msgstr "Ytterligare sidoptimering för sökmotorer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:739
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "Avmarkera detta val om du använder ett SEO-insticksprogram!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:746
+msgid "What does this do?"
+msgstr "Vad gör denna funktion?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:748
+msgid "enables canonical URLs for comments (duplicate content fix)"
+msgstr "aktiverar kanoniska webbadress för kommentarer (dubblett-innehållsfix)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:749
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "skapar unika titlar för inlägg med flera kommentarsidor (förhindrar titel-dubbletter)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:750
+#, php-format
+msgid "no keywords are generated because they are <a %s>useless</a>"
+msgstr "inga nyckelord genereras eftersom de är <a %s>värdelösa</a>"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:764
+msgid "Advertisment blocks"
+msgstr "Annonsblock"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:764
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "Använd %s kortkoder för att infoga dessa annonser i inlägg, textwidgets eller i sidfoten"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:765
+msgid "Example:"
+msgstr "Exempel:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:771
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Annonskod #%s:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:787
+msgid "Use jQuery"
+msgstr "Använd jQuery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:787
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "Endast för testsyfte. Avmarkera endast om du vet vad du gör!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:792
+msgid "Enable AJAX on comment pagination"
+msgstr "Aktivera AJAX för laddning av kommentarsidor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:792
+msgid "Navigate trough comment pages without refreshing (faster load, but may be incompatible with some plugins)"
+msgstr "Navigera bland kommentarer utan att ladda om sidan (laddar snabbare, men kan vara inkompatibelt med vissa insticksprogram)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:797
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "Aktivera den inbyggda Lightbox-funktionen på alla bildlänkar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:797
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "Avmarkera detta val om du föredrar ett separat Lightbox-insticksprogram"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:802
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "Ta bort inställningar för Mystique från databasen efter att du bytt tema"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:802
+msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+msgstr "Avmarkera denna om du planerar att behålla Mystique som ditt föredragna tema!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:814
+msgid "Document head code"
+msgstr "Kod för dokumenthuvud"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:814
+#, php-format
+msgid "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
+msgstr "PHP-kod att infoga i %s sektionen av XHTML-dokumentet. Användbart om du har insticksprogram som kräver att du lägger till kod här, exempelvis Analytics-kod m.m."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:815
+msgid "To output HTML only, close the PHP tag first."
+msgstr "För att skriva ut enbart HTML, stäng PHP-taggen först."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:817
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:838
+msgid "Examples and helpers:"
+msgstr "Exempel och hjälp:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:836
+msgid "Modify anything related to design using CSS code"
+msgstr "Modifiera allt som är relaterat till design med hjälp av CSS-kod"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:836
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "Markera %s för att se existerande tema klasser och egenskaper"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:836
+msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
+msgstr "Undvik att modifera temafiler direkt; använd detta val istället, för att bevara dina ändringar efter uppdatering"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:859
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/admin.php:859
+msgid "Reset to Defaults"
+msgstr "Återställ till standard"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:5
+msgid "Insert Ad slot #1 in every post and page"
+msgstr "Infoga Annonskod #1 i alla inlägg och sidor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:16
+msgid "Insert Ad slot #2 at every 5 comments"
+msgstr "Infoga Annonskod #2 mellan var femte kommentar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:25
+msgid "Replace blog description text with Ad #4"
+msgstr "Ersätt bloggbeskrivning med Annonsblock #4"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:39
+msgid "Black navigation style"
+msgstr "Svart navigationslist"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:67
+msgid "Alternate header image"
+msgstr "Alternativ huvudbild"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:71
+msgid "Hide RSS button"
+msgstr "Dölj RSS-knapp"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:75
+msgid "Hide Twitter button"
+msgstr "Dölj Twitter-knapp"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:79
+msgid "Set a fluid page width"
+msgstr "Sätt flytande sidbredd"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:83
+msgid "Decrease site title text size"
+msgstr "Förminstka sidtitelns teckenstorlek"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:87
+msgid "Hide post information bar"
+msgstr "Dölj informationslist för inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:91
+msgid "Change footer background color to light gray"
+msgstr "Ändra sidfotens bakgrundsfärg till ljusgrå"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:96
+msgid "Dark background footer"
+msgstr "Ändra sidfotens bakgrundsfärg till mörkgrå"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:102
+msgid "Join navigation with main content"
+msgstr "Bind ihop navigationslisten med innehåll"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:106
+msgid "Hide navigation"
+msgstr "Dölj navigationslist"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:112
+msgid "Remove styling from tables"
+msgstr "Ta bort utseende från tabeller"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:116
+msgid "Text-Justify post and page content"
+msgstr "Marginaljustera text i inlägg och på sidor"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/codehelpers.php:120
+msgid "Fixed custom background image"
+msgstr "Fast anpassad bakgrundsbild"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:83
+#, php-format
+msgid "about %s year ago"
+msgid_plural "about %s years ago"
+msgstr[0] "ungefär %s år sedan"
+msgstr[1] "ungefär %s år sedan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:84
+#, php-format
+msgid "about %s month ago"
+msgid_plural "about %s months ago"
+msgstr[0] "ungefär %s månad sedan"
+msgstr[1] "ungefär %s månader sedan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:85
+#, php-format
+msgid "about %s week ago"
+msgid_plural "about %s weeks ago"
+msgstr[0] "ungefär %s vecka sedan"
+msgstr[1] "ungefär %s veckor sedan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:86
+#, php-format
+msgid "about %s day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "ungefär %s dag sedan"
+msgstr[1] "ungefär %s dagar sedan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:87
+#, php-format
+msgid "about %s hour ago"
+msgid_plural "about %s hours ago"
+msgstr[0] "ungefär %s timme sedan"
+msgstr[1] "ungefär %s timmar sedan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:88
+#, php-format
+msgid "about %s minute ago"
+msgid_plural "about %s minutes ago"
+msgstr[0] "ungefär %s minut sedan"
+msgstr[1] "ungefär %s minuter sedan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:89
+#, php-format
+msgid "about %s second ago"
+msgid_plural "about %s seconds ago"
+msgstr[0] "ungefär %s sekund sedan"
+msgstr[1] "ungefär %s sekunder sedan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:340
+msgid "Share this post!"
+msgstr "Dela det här inlägget!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:460
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s skrivet av %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:468
+msgid "Reply"
+msgstr "Svara"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:469
+msgid "Quote"
+msgstr "Citera"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:476
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar godkännande."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:22
+msgid "Divider"
+msgstr "Avdelare"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:23
+msgid "Error text color"
+msgstr "Färg på feltext"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:24
+msgid "Error box"
+msgstr "Felruta"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:55
+msgid "Default sidebar"
+msgstr "Standard sidofält"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:57
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "Detta är standard-sidofältet, visas vid både 2- eller 3-kolumnslayout. Om inga widgets är aktiva, kommer en uppsättning standard-widgets att visas istället."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:65
+msgid "Secondary sidebar"
+msgstr "Sekundärt sidofält"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:67
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "Den här sidpanelen är bara aktiv om du valt att använda en 3-kolumnslayout."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:75
+msgid "Footer"
+msgstr "Sidfot"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:77
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "Du kan lägga till mellan 1 och 6 widgets här (3 eller 4 är optimalt). De kommer att anpassa sin storlek baserat på antalet widets."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:85
+msgid "Footer (slide 2)"
+msgstr "Sidfot (slide 2)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:87
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:97
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:107
+msgid "Only visible if jQuery is enabled. "
+msgstr "Visas bara om jQuery är aktiverat."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:95
+msgid "Footer (slide 3)"
+msgstr "Sidfot (slide 3)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/mystique.php:105
+msgid "Footer (slide 4)"
+msgstr "Sidfot (slide 4)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:66
+#, php-format
+msgid "You can configure Mystique from the <a%s>theme settings</a> page."
+msgstr "Du kan konfigurera Mystique från <a%s>inställnings-sidan</a>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:17
+#, php-format
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr "%s: Widget class kunde inte hittas. Säkerställt att denna widget existerar och att class-namnet är korrekt"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:52
+msgid "User name (required)"
+msgstr "Användarnamn (krävs)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:54
+msgid "Password (required)"
+msgstr "Lösenord (krävs)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:55
+msgid "Verify password (required)"
+msgstr "Verifiera lösenord (krävs)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:56
+msgid "E-mail (required)"
+msgstr "E-post (krävs)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:57
+msgid "First name"
+msgstr "Förnamn"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:58
+msgid "Last name"
+msgstr "Efternamn"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:59
+msgid "Profile info"
+msgstr "Efternamn"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:80
+msgid "Please type a user name"
+msgstr "Vänligen skriv in ett användarnamn"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:81
+msgid "User name already exists"
+msgstr "Användarnamnet finns redan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:82
+msgid "E-mail address is required."
+msgstr "E-postadress krävs."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:83
+msgid "E-mail address already in use"
+msgstr "E-postadressen används redan"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:84
+msgid "You must enter a password."
+msgstr "Du måste ange ett lösenord."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:85
+msgid "Please verify the password"
+msgstr "Vänligen verifiera lösenordet"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:86
+msgid "Passwords do not match"
+msgstr "Lösenorden matchar inte"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:87
+msgid "User registration failed.  Please try again."
+msgstr "Användarregistreringen misslyckades. Vänligen försök igen."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:96
+#, php-format
+msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't need another account :)"
+msgstr "Du är inloggad som <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. Du behöver inte ytterligare ett konto :)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:101
+#, php-format
+msgid "A user account for %1$s has been created."
+msgstr "Ett användarkonto för %1$s har skapats."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:102
+#, php-format
+msgid "Thank you for registering, %1$s."
+msgstr "Tack för att du registrerade dig, %1$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:154
+msgid "Add User"
+msgstr "Lägg till användare"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:154
+msgid "Register"
+msgstr "Registrera dig"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:289
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "Tom annonsyta (#%s)!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:294
+msgid "Top"
+msgstr "Till toppen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:302
+#, php-format
+msgid "%1$s theme by %2$s | Powered by %3$s"
+msgstr "%1$s tema av %2$s | Drivs av %3$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:307
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:320
+msgid "Site Admin"
+msgstr "Administratör"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:321
+msgid "Log in"
+msgstr "Logga in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:61
+#, php-format
+msgid "%s followers"
+msgstr "%s följare"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:85
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr "Fel vid hämtning av tweets (Twitter nere?)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:99
+msgid "Displays links to different sections grouped in tabs"
+msgstr "Visar länkar till olika sektioner grupperade i flikar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:101
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Sidpanelsflikar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:125
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:321
+msgid "Recent comments"
+msgstr "Senaste kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:126
+msgid "Popular posts"
+msgstr "Populära inlägg"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:127
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:313
+msgid "Archives"
+msgstr "Arkiv"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:128
+msgid "Tags"
+msgstr "Etiketter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:222
+msgid "Didn't find any posts popular enough :("
+msgstr "Hittade inga inlägg som var populära nog :("
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:265
+msgid "Sidebar tabs"
+msgstr "Sidpanelsflikar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:266
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:409
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:508
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery är inaktiverad och denna widget kräver det"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:301
+msgid "Tabs to show"
+msgstr "Flikar att visa"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:309
+msgid "Tags "
+msgstr "Etiketter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:317
+msgid "Popular posts (most commented)"
+msgstr "Populära inlägg (mest kommenterade)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:327
+msgid "Sort categories"
+msgstr "Sortera kategorier"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:329
+msgid "by name (alphabetically)"
+msgstr "efter namn (i alfabetiskt ordning)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:330
+msgid "by category ID"
+msgstr "efter kategori-ID"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:331
+msgid "by category slug"
+msgstr "efter kategori"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:332
+msgid "by post count"
+msgstr "efter inläggsantal"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:337
+msgid "Show post count (categories and archives)"
+msgstr "Visa inläggsräknare (kategorier och arkiv)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:343
+msgid "How many popular posts to show?"
+msgstr "Hur många 'populära inlägg' skall visas?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:350
+msgid "How many recent comments to show?"
+msgstr "Hur många 'senaste kommentarer' skall visas?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:366
+msgid "Shows your latest Twitter updates"
+msgstr "Visar dina senaste Twitter uppdateringar"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:367
+msgid "Mystique | Twitter"
+msgstr "Mystique | Twitter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:406
+msgid "Loading tweets..."
+msgstr "Laddar tweets..."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:436
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:542
+msgid "Title:"
+msgstr "Titel:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:441
+msgid "Twitter user name:"
+msgstr "Twitter användarnamn:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:446
+msgid "Number of tweets to show:"
+msgstr "Antal tweets att visa:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:460
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "Visa Flickr gallerier (kräver API-nyckel)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:462
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Flickr galleri"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:533
+msgid "Flickr Gallery"
+msgstr "Flickr galleri"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:547
+msgid "API key:"
+msgstr "API-nyckel:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:552
+msgid "Number of photos to show:"
+msgstr "Antal bilder att visa:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:557
+msgid "Gallery source:"
+msgstr "Galleri källa:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:559
+msgid "Photoset"
+msgstr "Photoset"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:560
+msgid "User photostream"
+msgstr "Användarens fotoström"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:565
+msgid "Photoset ID:"
+msgstr "Photoset ID:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:570
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "Användar-ID (använd %s för att hitta det):"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:585
+msgid "Login form"
+msgstr "Inloggningsformulär"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:586
+msgid "Mystique | Login"
+msgstr "Mystique | Logga in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:596
+#, php-format
+msgid "Logged in: %s"
+msgstr "Inloggad: %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:601
+msgid "Dashboard"
+msgstr "Panelen"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:603
+msgid "Write"
+msgstr "Skriv"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:604
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:606
+msgid "Log out"
+msgstr "Logga ut"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:610
+msgid "User Login"
+msgstr "Användarinloggning"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:614
+msgid "User"
+msgstr "Användarnamn"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:615
+msgid "Password"
+msgstr "Lösenord"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:616
+msgid "Login"
+msgstr "Logga in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:617
+msgid "Remember me"
+msgstr "Kom ihåg mig"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:623
+msgid "Lost your password?"
+msgstr "Glömt lösenordet?"
+

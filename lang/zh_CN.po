@@ -1,0 +1,1118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-01 14:23+0200\n"
+"PO-Revision-Date: 2009-12-04 21:51+0800\n"
+"Last-Translator: Awu <awuitcn@gmail.com>\n"
+"Language-Team: Awu汉化 <awuitcn@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/404.php:12
+msgid "The requested page was not found"
+msgstr "没有找到您请求的页面"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:19
+#, php-format
+msgid "Posts tagged %s"
+msgstr "由%s撰写的日志"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:21
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+#, php-format
+msgid "Archive for %s"
+msgstr "存档在%s年"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+msgid "F, Y"
+msgstr "F, Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+#, php-format
+msgid "Archive for year %s"
+msgstr "%s年的存档"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+msgid "Y"
+msgstr "Y"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
+msgid "Author archive"
+msgstr "存档"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
+msgid "Blog Archives"
+msgstr "存档"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:29
+msgid "Permanent Link:"
+msgstr "永久链接:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:32
+msgid "M jS"
+msgstr "M jS"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:56
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:36
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "由%s分类在%2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:56
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:30
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:36
+#, php-format
+msgid "Posts by %s"
+msgstr "由%s撰写的日志"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:59
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:201
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:39
+msgid "Edit"
+msgstr "编辑"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:66
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:201
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:45
+msgid "No comments"
+msgstr "没有评论"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:66
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:201
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:45
+msgid "1 comment"
+msgstr "1 评论"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:66
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:201
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:45
+#, php-format
+msgid "% comments"
+msgstr "% comments"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:73
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:19
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:51
+msgid "Read the rest of this entry &raquo;"
+msgstr "继续阅读 &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:84
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:63
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%2$s 主题)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:98
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:58
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:77
+msgid "&laquo; Older Entries"
+msgstr "&laquo; 旧的日志"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:99
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:59
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:78
+msgid "Newer Entries &raquo;"
+msgstr "新的日志 &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:106
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "对不起，在这个%s分类没有日志."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:108
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "对不起，在这个日期没有日志."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:111
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "对不起，关%s还没有日志."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:113
+msgid "No posts found."
+msgstr "没有日志找到."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:27
+msgid "This user hasn't shared any biographical information"
+msgstr "没有关于该用户的信息"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:32
+msgid "Homepage:"
+msgstr "首页:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:33
+msgid "Yahoo Messenger:"
+msgstr "Yahoo账户:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:34
+msgid "Jabber/GTalk:"
+msgstr "Jabber/GTalk:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:35
+msgid "AIM:"
+msgstr "AIM:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:201
+msgid "Tags:"
+msgstr "标签:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:201
+#, php-format
+msgid "Posted in %s"
+msgstr "分类为 %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:64
+msgid "No posts found by this author."
+msgstr "这个用户还没有日志."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "输入您的密码以查看评论"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:40
+msgid "Related Posts"
+msgstr "相关日志"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:41
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Trackbacks(%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:47
+#, php-format
+msgid "Comments (%s)"
+msgstr "评论(%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:65
+msgid "No comments yet."
+msgstr "还没有评论."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:85
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "发表评论前您必须<a href=\"%s\">logged in</a>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:96
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:122
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:123
+msgid "Name (required)"
+msgstr "昵称(必填)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:97
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:126
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:127
+msgid "E-mail (required, will not be published)"
+msgstr "E-mail (必填, 不会被公开)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:98
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:130
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:131
+msgid "Website"
+msgstr "网址"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:105
+msgid "Cancel Reply"
+msgstr "取消回复"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:112
+#, php-format
+msgid "Logged in as %s."
+msgstr "登录为 %s "
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:114
+msgid "Log out of this account"
+msgstr "退出这个账户"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:114
+msgid "Logout &raquo;"
+msgstr "退出"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:118
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "欢迎回来 <strong>%s</strong>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:118
+msgid "Change &raquo;"
+msgstr "改变 &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:147
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "垃圾邮件防护:%1$s + %2$s = ?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:159
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:182
+msgid "No trackbacks yet."
+msgstr "还没有引用."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:220
+msgid "Comments are closed."
+msgstr "本评论已关闭."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:223
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "这是默认的边栏,在2栏或3栏布局可见.如果没有激活的小工具,将会显示此主题默认的小工具。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:233
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "这个边栏激活仅仅在3栏布局."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:243
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "您可以添加1-6个小工具,他们将基于小工具的数量自动调整大小."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:253
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:264
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:275
+msgid "Only visible if jQuery is enabled. "
+msgstr "只有当jQuery可用时才显示."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:291
+msgid "Share this post!"
+msgstr "分享这篇文章!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:343
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s 由 %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:352
+msgid "Reply"
+msgstr "回复"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:353
+msgid "Quote"
+msgstr "引用"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:359
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:48
+msgid "RSS Feeds"
+msgstr "RSS订阅"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:56
+msgid "Follow me on Twitter!"
+msgstr "Follow me on Twitter!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:65
+msgid "You are Home"
+msgstr "首页"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:65
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:67
+msgid "Home"
+msgstr "首页"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:67
+msgid "Click for Home"
+msgstr "点击这里到达首页"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/header.php:143
+msgid "Read more"
+msgstr "阅读更多"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:30
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filled under %4$s. Follow any responses to this post through %5$s."
+msgstr "这篇文章发表由%1$s在 %2$s  %3$s,分类在%4$s.您可以评阅 %5$s."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:34
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "您可以<a%1$s>留一个回复</a>或<a%2$s>trackback</a>到您自己的网站."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:38
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "回复当前已关闭,您可以<a%1$s>trackback</a> 到您自己的网站."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:42
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "跳转到评论处,Pinging当前不允许."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:46
+msgid "Both comments and pings are currently closed."
+msgstr "评论和Pings已关闭."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:48
+msgid "Edit this entry"
+msgstr "编辑页面"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/image.php:60
+msgid "Sorry, no attachments matched your criteria."
+msgstr "对不起,没有找到符合条件的."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:83
+msgid "No posts found"
+msgstr "没有日志"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:84
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "对不起,没有找到."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/page.php:26
+msgid "Read the rest of this page &raquo;"
+msgstr "继续阅读  &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:15
+#, php-format
+msgid "Search Results for %s"
+msgstr "关于 %s的搜索结果"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:45
+msgid "Nothing found."
+msgstr "没有找到."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:45
+msgid "Try a different search?"
+msgstr "尝试不同的搜索?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:7
+msgid "Search"
+msgstr "搜索"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:22
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:409
+msgid "My latest tweets"
+msgstr "最近的tweets"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:30
+msgid "Blogroll"
+msgstr "链接"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar2.php:8
+msgid "2nd sidebar is active. Add widgets here from the Dashboard"
+msgstr "第2个边栏处于激活状态,您可以添加小工具在这里"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:36
+msgid "Pages:"
+msgstr "页面:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:187
+msgid "You are not authorised to perform this operation."
+msgstr "对不起,您没有权限."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:256
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:754
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:755
+msgid "Mystique settings"
+msgstr "Mystique设置"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:262
+#, php-format
+msgid "Settings saved. %s"
+msgstr "设置已保存. %s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:262
+msgid "View site"
+msgstr "查看网站"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:269
+msgid "General"
+msgstr "通用"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:270
+msgid "Design/colors"
+msgstr "设计/颜色"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:271
+msgid "Navigation"
+msgstr "导航"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:272
+msgid "Posts"
+msgstr "日志"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:273
+msgid "SEO"
+msgstr "SEO"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:274
+msgid "Ads"
+msgstr "广告"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:275
+msgid "Advanced"
+msgstr "高级"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:276
+msgid "User CSS"
+msgstr "使用CSS"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:286
+msgid "Layout style"
+msgstr "布局风格"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:286
+msgid "Use page templates to apply these only to specific pages"
+msgstr "更改页面模板的样式"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:322
+msgid "Imageless layout"
+msgstr "取消背景图片"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:322
+msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
+msgstr "取消背景图片可以适当的加快页面加载的速度,这取决于您的网速，影响是很小的."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:327
+msgid "Footer content"
+msgstr "页脚内容"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:327
+msgid "You can post HTML code"
+msgstr "您可以使用HTML代码"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:330
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "可以使用下面的代码来调整:<br />%s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:346
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:358
+msgid "Sidebar(s) vs Main Content ratio"
+msgstr "边栏 VS 主要内容比例"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:368
+msgid "Preferred font style"
+msgstr "首选字体样式"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:368
+msgid "Font priority and their availability"
+msgstr "可用字体"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:379
+msgid "Color scheme"
+msgstr "配色方案"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:383
+msgid "Not available with <em>imageless</em> setting"
+msgstr "关于<em>imageless</em>没有可用的设置"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:411
+msgid "Custom logo image"
+msgstr "自定义Logo图片"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:411
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "从本地电脑上传一张图片"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:417
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:432
+msgid "Remove current image"
+msgstr "删除当前图片"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:420
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:435
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "目录%s不具有写入权限-无法上传!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:420
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:435
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "检查您的设置上传路径或chmod此目录777/755.<br />如果您不知道,可以联系您的主机服务商."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:426
+msgid "Custom background image"
+msgstr "自定义背景"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:426
+msgid "Upload a new background/header image to replace the default one"
+msgstr "上传一个背景/头部图片替换默认的图片"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:441
+msgid "Background color"
+msgstr "背景颜色"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:441
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "保持默认的背景黑色(#000000)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:454
+msgid "Top navigation shows"
+msgstr "顶部导航显示"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:457
+msgid "Pages"
+msgstr "页面"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:458
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:37
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:213
+msgid "Categories"
+msgstr "分类"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:459
+msgid "Links"
+msgstr "链接"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:467
+msgid "from category"
+msgstr "按照分类"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:480
+msgid "No links found"
+msgstr "没有链接"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:489
+msgid "Exclude from navigation"
+msgstr "排除选项"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:489
+msgid "Check the items you wish to hide from the main menu"
+msgstr "选择您想要隐藏主菜单的项目."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:498
+msgid "(Use the private property to hide other links)"
+msgstr "(使用隐私保护隐藏其他链接)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:564
+msgid "View page"
+msgstr "查看"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:587
+msgid "Post previews"
+msgstr "日志预览"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:587
+msgid "The way posts are displayed on blog homepage and archive pages"
+msgstr "设置日志在首页和存档页的显示"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:590
+msgid "Full"
+msgstr "全部"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:591
+msgid "Excerpts"
+msgstr "部分"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:592
+msgid "Titles only"
+msgstr "仅标题"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:598
+msgid "Enable \"Share This Post\" feature"
+msgstr "启用\"ShareThis\" 功能"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:598
+msgid "Uncheck this if you're using a social bookmaring plugin"
+msgstr "如果你使用了其他的书签插件,请取消这个选项"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:603
+msgid "Featured content source"
+msgstr "精选内容来源"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:603
+msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
+msgstr "展示此分类的最新5篇日志(排名不分先后)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:608
+msgid "- All categories"
+msgstr "-所有分类"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:618
+msgid "Display featured posts on blog/home page"
+msgstr "显示精选文章在我的首页"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:618
+msgid "Use the \"Page with Featured Content\" template if you want it on specific pages"
+msgstr "更改页面模板的样式"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:628
+msgid "Additional site optimization for search engines"
+msgstr "添加搜索引擎优化"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:628
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "如果您使用了搜索引擎优化插件,请取消这个选项!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:635
+msgid "What does this do?"
+msgstr "这是什么?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:637
+msgid "enables canonical URLs for comments (duplicate content fix)"
+msgstr "规范评论的网址"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:638
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "防止重复的标题"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:639
+#, php-format
+msgid "no keywords are generated because they are <a %s>useless</a>"
+msgstr "无关键字生成,因为他们是 <a %s>没用的</a>"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:652
+msgid "Advertisment blocks"
+msgstr "广告区域"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:652
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "使用这个代码%s可以插入这些广告到文章,文本小工具或底部"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:653
+msgid "Example:"
+msgstr "例如:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:659
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Ad代码 #%s:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:674
+msgid "Use jQuery"
+msgstr "使用jQuery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:674
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "仅用于测试,如果不明白推荐不改变"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:679
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "启用所有的图片链接"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:679
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "如果您使用了搜索引擎优化插件,请取消这个选项!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:684
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "移除Mystique的设置"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:684
+msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+msgstr "取消您所更改的设置,恢复为默认的Mystique主题"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:694
+msgid "Document head code"
+msgstr "文件头部代码"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:694
+#, php-format
+msgid "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
+msgstr "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:695
+msgid "Don't add the PHP opening tags! To output HTML only, close the PHP tag first."
+msgstr "不要添加PHP标记!为了仅仅输出HTML,首先关闭PHP标记。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:697
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:718
+msgid "Examples and helpers:"
+msgstr "例子和帮助:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:716
+msgid "Modify anything related to design using CSS code"
+msgstr "使用CSS代码来修改设计"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:716
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "检查%s文件,看看已经定义的类和属性"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:716
+msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
+msgstr "避免直接修改主题文件,使用此选项,可以维护变化"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:739
+msgid "Save Changes"
+msgstr "保存设置"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:739
+msgid "Reset to Defaults"
+msgstr "重置到默认"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:117
+#, php-format
+msgid "%s comments"
+msgstr "%s  评论"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:137
+#, php-format
+msgid "%s (%s topics)"
+msgstr "%1$s (%2$s 主题)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:221
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "空的广告(#%s)!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:228
+msgid "Top"
+msgstr "顶部"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:240
+#, php-format
+msgid "Mystique theme by %1$s | Powered by %2$s"
+msgstr "Mystique theme by %1$s | Powered by %2$s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:247
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:263
+msgid "Site Admin"
+msgstr "网站管理"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:264
+msgid "Log in"
+msgstr "Log in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:63
+msgid "Insert Ad slot #1 in every post and page"
+msgstr "插入广告#1在每个文章和页面"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:74
+msgid "Insert Ad slot #2 at every 5 comments"
+msgstr "插入广告#2在每5个评论"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:83
+msgid "Replace blog description text with Ad #4"
+msgstr "替换博客描述文本用广告#4"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:95
+msgid "Black navigation style"
+msgstr "黑色导航风格"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:106
+msgid "Alternate header image"
+msgstr "替代头部图片"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:110
+msgid "Hide RSS button"
+msgstr "隐藏RSS按钮"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:114
+msgid "Hide Twitter button"
+msgstr "隐藏Twitter按钮"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:118
+msgid "Set a fluid page width"
+msgstr "设置页面宽度"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:122
+msgid "Decrease site title text size"
+msgstr "减小标题文字大小"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:126
+msgid "Hide post information bar"
+msgstr "隐藏日志信息"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:130
+msgid "Change footer background color to light gray"
+msgstr "更改页脚背景颜色为浅灰色"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:134
+msgid "Dark background footer"
+msgstr "设置背景页脚为深色"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:139
+msgid "Join navigation with main content"
+msgstr "在主要内容中加上导航"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:143
+msgid "Hide navigation"
+msgstr "隐藏导航"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:149
+msgid "Remove styling from tables"
+msgstr "从表中删除样式"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:153
+msgid "Text-Justify post and page content"
+msgstr "文本对齐在文章和页面的内容"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/variables.php:157
+msgid "Fixed custom background image"
+msgstr "自定义背景"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:7
+msgid "Displays links to different sections grouped in tabs"
+msgstr "以不同的标签显示链接"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:9
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Sidebar tabs"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:33
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:229
+msgid "Recent comments"
+msgstr "最近评论"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:34
+msgid "Popular posts"
+msgstr "热门日志"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:221
+msgid "Archives"
+msgstr "存档"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:36
+msgid "Tags"
+msgstr "标签"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:130
+msgid "Didn't find any posts popular enough :("
+msgstr "现在还没有:("
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:173
+msgid "Sidebar tabs"
+msgstr "Sidebar tabs"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:174
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:488
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery是不可用的,但这个小工具需要jQuery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:209
+msgid "Tabs to show"
+msgstr "标签显示"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:217
+msgid "Tags "
+msgstr "标签"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:225
+msgid "Popular posts (most commented)"
+msgstr "热门日志(最多评论)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:235
+msgid "Sort categories"
+msgstr "分类排序"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:237
+msgid "by name (alphabetically)"
+msgstr "按名称(字母顺序排列)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:238
+msgid "by category ID"
+msgstr "按分类"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:239
+msgid "by category slug"
+msgstr "按分类的缩略"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:240
+msgid "by post count"
+msgstr "按日志数"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:245
+msgid "Show post count (categories and archives)"
+msgstr "显示日志数量(分类和存档)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:251
+msgid "How many popular posts to show?"
+msgstr "展示多少热门日志?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:258
+msgid "How many recent comments to show?"
+msgstr "展示多少热门评论?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:274
+msgid "Shows your latest Twitter updates"
+msgstr "显示您最新的Twitter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:275
+msgid "Mystique | Twitter"
+msgstr "Mystique | Twitter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:295
+#, php-format
+msgid "about %s year ago"
+msgid_plural "about %s years ago"
+msgstr[0] "关于%s年前"
+msgstr[1] "关于%s年前"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:296
+#, php-format
+msgid "about %s month ago"
+msgid_plural "about %s months ago"
+msgstr[0] "关于%s月前"
+msgstr[1] "关于%s月前"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:297
+#, php-format
+msgid "about %s week ago"
+msgid_plural "about %s weeks ago"
+msgstr[0] "关于%s周前"
+msgstr[1] "关于%s周前"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:298
+#, php-format
+msgid "about %s day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "关于%s天前"
+msgstr[1] "关于%s天前"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:299
+#, php-format
+msgid "about %s hour ago"
+msgid_plural "about %s hours ago"
+msgstr[0] "关于%s小时前"
+msgstr[1] "关于%s小时前"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:300
+#, php-format
+msgid "about %s minute ago"
+msgid_plural "about %s minutes ago"
+msgstr[0] "关于%s分钟前"
+msgstr[1] "关于%s分钟前"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:301
+#, php-format
+msgid "about %s second ago"
+msgid_plural "about %s seconds ago"
+msgstr[0] "关于%s秒前"
+msgstr[1] "关于%s秒前"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:365
+#, php-format
+msgid "%s followers"
+msgstr "%s followers"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:393
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr "Error while retrieving tweets (Twitter down?)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:416
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:522
+msgid "Title:"
+msgstr "标题:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:421
+msgid "Twitter user name:"
+msgstr "Twitter 用户名:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:426
+msgid "Number of tweets to show:"
+msgstr "Number of tweets to show:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:440
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "显示您的Flickr(需要API密钥)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:442
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Flickr Gallery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:513
+msgid "Flickr Gallery"
+msgstr "Mystique | Flickr Gallery"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:527
+msgid "API key:"
+msgstr "API密钥:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:532
+msgid "Number of photos to show:"
+msgstr "Number of photos to show:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:537
+msgid "Gallery source:"
+msgstr "画廊来源:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:539
+msgid "Photoset"
+msgstr "Photoset"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:540
+msgid "User photostream"
+msgstr "用户 photostream"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:545
+msgid "Photoset ID:"
+msgstr "Photoset ID:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:550
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "用户 ID (use %s to find it):"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:565
+msgid "Login form"
+msgstr "Log in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:566
+msgid "Mystique | Login"
+msgstr "Mystique | Twitter"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:576
+#, php-format
+msgid "Logged in: %s"
+msgstr "登录为 %s "
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:581
+msgid "Dashboard"
+msgstr "侧面板"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:583
+msgid "Write"
+msgstr "网址"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:584
+msgid "Comments"
+msgstr "评论"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:586
+msgid "Log out"
+msgstr "Log in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:590
+msgid "User Login"
+msgstr "Log in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:594
+msgid "User"
+msgstr "用户"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:595
+msgid "Password"
+msgstr "密码"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:596
+msgid "Login"
+msgstr "Log in"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:597
+msgid "Remember me"
+msgstr "记住我"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:602
+msgid "Register"
+msgstr "注册"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:603
+msgid "Lost your password?"
+msgstr "忘记密码"
+

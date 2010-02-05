@@ -1,0 +1,1369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Finnish translation of Mystique (1.5.0)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-06 20:55+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tomi Rantalankila\n"
+"Language-Team: Tomi Rantalankila\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_ngettext:1,2\n"
+"X-Poedit-Basepath: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/\n"
+"X-Poedit-SearchPath-0: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2\n"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/404.php:12
+msgid "The requested page was not found"
+msgstr "Sivua ei löytynyt"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:19
+#, php-format
+msgid "Posts tagged %s"
+msgstr "Tagitut artikkelit %s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:21
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:23
+#, php-format
+msgid "Archive for %s"
+msgstr "Arkisto kohteelle %s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:23
+msgid "F, Y"
+msgstr "F, Y"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:25
+#, php-format
+msgid "Archive for year %s"
+msgstr "Arkisto vuodelle %s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:25
+msgid "Y"
+msgstr ""
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:27
+msgid "Author archive"
+msgstr "Kirjoittajan arkisto"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:29
+msgid "Blog Archives"
+msgstr "Blogin arkisto"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:41
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/author.php:53
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/index.php:19
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Vanhemmat kirjoitukset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:42
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/author.php:54
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/index.php:20
+msgid "Newer Entries &raquo;"
+msgstr "Uudemmat kirjoitukset &raquo;"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:49
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Kategoriassa %s ei valitettavasti ole vielä artikkeleja."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:51
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Tältä ajalta ei valitettavasti ole vielä artikkeleja."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:54
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Kirjoittajalta %s ei valitettavasti ole vielä artikkeleja."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/archive.php:56
+msgid "No posts found."
+msgstr "Artikkeleita ei löytynyt."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/author.php:27
+msgid "This user hasn't shared any biographical information"
+msgstr "Tämä käyttäjä ei ole jakanut henkilökohtaisia tietoja."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/author.php:32
+msgid "Homepage:"
+msgstr "Etusivu:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/author.php:33
+msgid "Yahoo Messenger:"
+msgstr ""
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/author.php:34
+msgid "Jabber/GTalk:"
+msgstr ""
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/author.php:35
+msgid "AIM:"
+msgstr ""
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/author.php:42
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/image.php:31
+#, php-format
+msgid "Posts by %s"
+msgstr "Artikkelit jotka on kirjoittanut %s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/author.php:59
+msgid "No posts found by this author."
+msgstr "Tältä kirjoittajalta ei löytynyt yhtään artikkelia."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:3
+msgid "Enter your password to view comments"
+msgstr "Ole hyvä ja syötä salasanasi nähdäksesi kommentit"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:42
+msgid "Related Posts"
+msgstr "Vastaavat artikkelit"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:43
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "Paluuviitteet (%s)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:44
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:50
+#, php-format
+msgid "Comments (%s)"
+msgstr "Kommentit (%s)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:69
+msgid "No comments yet."
+msgstr "Ei kommentteja vielä."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Sinun pitää olle <a href=\"%s\">kirjautuneena sisään</a> kommentoidaksesi."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:102
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:128
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:129
+msgid "Name (required)"
+msgstr "Nimi (vaaditaan)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:103
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:132
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:133
+msgid "E-mail (required, will not be published)"
+msgstr "Sähköposti (vaaditaan, ei julkaista)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:104
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:136
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:137
+msgid "Website"
+msgstr "WWW-sivu"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:111
+msgid "Cancel Reply"
+msgstr "Peruuta vastaus"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:118
+#, php-format
+msgid "Logged in as %s."
+msgstr "Kirjautunut sisään tunnuksella %s."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:120
+msgid "Log out of this account"
+msgstr "Kirjaa tunnus ulos"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:120
+msgid "Logout &raquo;"
+msgstr "Kirjaudu ulos &raquo;"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:124
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "Tervetuloa takaisin, <strong>%s</strong>."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:124
+msgid "Change &raquo;"
+msgstr "Muokkaa &raquo;"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:152
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "Spammisuoja : %1$s + %2$s = ?"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:161
+msgid "Submit Comment"
+msgstr "Lähetä kommentti"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:184
+msgid "No trackbacks yet."
+msgstr "Ei paluuviitteitä vielä."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:201
+msgid "No comments"
+msgstr "Ei kommentteja"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:201
+msgid "1 comment"
+msgstr "1 kommentti"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:201
+#, php-format
+msgid "% comments"
+msgstr "% kommentteja"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/comments.php:219
+msgid "Comments are closed."
+msgstr "Kommentointi on estetty."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/featured-posts.php:42
+msgid "Read more"
+msgstr "Lisää"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:58
+msgid "Search"
+msgstr "Hae"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:283
+msgid "Default sidebar"
+msgstr "Normaali sivupalkki"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:285
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "Tämä on normaali sivupalkki joka näkyy kahden tai kolmen kolumnin ulkoasuissa. Jos mitään vimpainta ei ole laitettu päälle niin normaalin teeman vimpaimet näytetään niiden sijasta."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:293
+msgid "Secondary sidebar"
+msgstr "Toissijainen sivupalkki"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:295
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "Tämä sivupalkki on saatavilla ainoastaan kolmen kolumnin kautta."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:303
+msgid "Footer"
+msgstr "Alaotsake"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:305
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "Voit lisätä 1-6 vimpainta tänne (joista 3 tai 4 on suositeltavin määrä). Vimpainten koko muuttuu määrän kanssa."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:313
+msgid "Footer (slide 2)"
+msgstr "Alaotsake (sivu 2)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:315
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:325
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:335
+msgid "Only visible if jQuery is enabled. "
+msgstr "Näkyvillä ainoastaan kun jQuery on päällä."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:323
+msgid "Footer (slide 3)"
+msgstr "Alaotsake (sivu 3)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:333
+msgid "Footer (slide 4)"
+msgstr "Alaotsake (sivu 4)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:349
+msgid "Share this post!"
+msgstr "Jaa tämä artikkeli!"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:401
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s kirjoitti %2$s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:408
+msgid "Reply"
+msgstr "Vastaa"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:409
+msgid "Quote"
+msgstr "Lainaa"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/functions.php:416
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi odottaa tarkistusta."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/header.php:47
+msgid "RSS Feeds"
+msgstr "RSS-syöte"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/header.php:55
+msgid "Follow me on Twitter!"
+msgstr "Seuraa minua Twitterissä!"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/header.php:64
+msgid "You are Home"
+msgstr "Olet etusivulla"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/header.php:64
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/header.php:66
+msgid "Home"
+msgstr "Etusivu"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/header.php:66
+msgid "Click for Home"
+msgstr "Klikkaa päästäksesi etusivulle"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/image.php:19
+msgid "More &gt;"
+msgstr "Lisää &gt;"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/image.php:31
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filled under %4$s. Follow any responses to this post through %5$s."
+msgstr "Tämä artikkelin on kirjoittanut %1$s aikana %2$s klo %3$s ja on kategiroituna %4$s alle. Seuraa tämän artikkeli viestejä %5$s-syötteen kautta."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/image.php:35
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Voit jättää <a%1$s>vastauksen</a> tai <a%2$s>seurannan</a> omalta sivultasi."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/image.php:39
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "Vastaukset on tällä hetkellä estetty mutta voit jättää <a%1$s>seurannan</a> omalta sivultasi."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/image.php:43
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Voit mennä suoraan artikkelin loppuun ja jättää vastauksen, seurannan jättäminen ei ole tällä hetkellä sallittua."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/image.php:47
+msgid "Both comments and pings are currently closed."
+msgstr "Sekä kommentit että seurannat on estetty toistaiseksi."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/image.php:49
+msgid "Edit this entry"
+msgstr "Muokkaa tätä kirjoitusta"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/image.php:61
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Pahoittelut, vastaavia liitteitä ei löytynyt hakusi perusteella."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/index.php:24
+msgid "No posts found"
+msgstr "Artikkeleja ei löytynyt"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/index.php:25
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Valitettavasti etsimääsi sisältöä ei löytynyt."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/post.php:18
+msgid "Permanent Link:"
+msgstr "Pysyvä linkki:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/post.php:21
+msgid "M jS"
+msgstr "j.m.Y, G:i"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/post.php:25
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Kirjoittanut %1$s %2$s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/post.php:28
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/post.php:60
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%$s aiheet)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/search.php:18
+#, php-format
+msgid "Search Results for %s"
+msgstr "Hakutulokset kohteelle %s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/search.php:42
+msgid "Nothing found."
+msgstr "Mitään ei löytynyt."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/search.php:42
+msgid "Try a different search?"
+msgstr "Kokeile eri hakusanoilla?"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/search.php:46
+msgid "What do you wish to search for?"
+msgstr "Mitä haluat etsiä?"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/searchform.php:11
+#, php-format
+msgid "You have searched the archives for %s"
+msgstr "Etsit arkistoista %s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/searchform.php:13
+msgid "Type a valid search term..."
+msgstr "Kirjoita kelvollinen hakusana..."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/sidebar.php:22
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:416
+msgid "My latest tweets"
+msgstr "Viimeisimmät tweettini"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/sidebar.php:30
+msgid "Blogroll"
+msgstr ""
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/sidebar2.php:8
+msgid "2nd sidebar is active. Add widgets here from the Dashboard"
+msgstr "Toinen sivupalkki on käytöss. Lisää vimpaimia ohjauspaneelista"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/single.php:35
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/single.php:39
+msgid "Tags:"
+msgstr "Tagit:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:5
+msgid "Insert Ad slot #1 in every post and page"
+msgstr "Lisää mainos #1 joka viestiin ja sivuun"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:16
+msgid "Insert Ad slot #2 at every 5 comments"
+msgstr "Lisää mainos #2 joka viidenteen viestiin"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:25
+msgid "Replace blog description text with Ad #4"
+msgstr "Korvaa blogin kuvaus mainoksella #4"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:39
+msgid "Black navigation style"
+msgstr "Musta navigointi-tyyli"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:67
+msgid "Alternate header image"
+msgstr "Valinnainen yläotsakkeen kuva"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:71
+msgid "Hide RSS button"
+msgstr "Piilot RSS-nappi"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:75
+msgid "Hide Twitter button"
+msgstr "Piilot Twitter-nappi"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:79
+msgid "Set a fluid page width"
+msgstr "Määrittele joustava sivun leveys"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:83
+msgid "Decrease site title text size"
+msgstr "Vähennä sivun otsikon tekstikokoa"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:87
+msgid "Hide post information bar"
+msgstr "Piilota artikkelin tiedot-palkki"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:91
+msgid "Change footer background color to light gray"
+msgstr "Vaihda alaotsakkeen taustaväri vaalean harmaaksi"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:96
+msgid "Dark background footer"
+msgstr "Tumma taustaväri alaotsakkeelle"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:102
+msgid "Join navigation with main content"
+msgstr "Yhdistä navigointi pääotsakkeen kanssa"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:106
+msgid "Hide navigation"
+msgstr "Piilota navigointi"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:112
+msgid "Remove styling from tables"
+msgstr "Poista tyylit taulukoista"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:116
+msgid "Text-Justify post and page content"
+msgstr "Tekstin sijoittelu artikkelissa ja sivun sisältö"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/codehelpers.php:120
+msgid "Fixed custom background image"
+msgstr "Sivun mukana kulkeva valinnainen taustakuva"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:45
+#, php-format
+msgid "You can configure Mystique from the <a%s>theme settings</a> page."
+msgstr "Voit muokata Mystiquea <a%s>teeman asetukset</a>-sivulta."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:326
+msgid "You are not authorised to perform this operation."
+msgstr "Sinulla ei ole valtuuksia suorittaa tätä toimenpidettä."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:402
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:959
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:960
+msgid "Mystique settings"
+msgstr "Mystiquen asetukset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:408
+#, php-format
+msgid "Settings saved. %s"
+msgstr "Asetukset tallennettu. %s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:408
+msgid "View site"
+msgstr "Näytä sivu"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:412
+msgid "Please upload a valid image file!"
+msgstr "Käytä toimivaa kuvamuotoa!"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:413
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr "Valitsemasi tiedosto ei näyttäisi olevan JPEG, PNG tai GIF sallituista muodoista"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:414
+msgid "The image could not be saved on your server"
+msgstr "Kuvaa ei voitu tallentaa"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:419
+#, php-format
+msgid "Error: %s"
+msgstr "Virhe: %s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:426
+msgid "General"
+msgstr "Yleiset asetukset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:427
+msgid "Design/colors"
+msgstr "Tyyli/värit"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:428
+msgid "Navigation"
+msgstr "Navigointi"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:429
+msgid "Posts"
+msgstr "Kirjoitukset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:430
+msgid "SEO"
+msgstr ""
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:432
+msgid "Ads"
+msgstr "Mainokset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:434
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:435
+msgid "User CSS"
+msgstr "Käyttäjän CSS"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:445
+msgid "Layout style"
+msgstr "Ulkoasun asetukset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:445
+msgid "Use page templates to apply these only to specific pages"
+msgstr "Käytä sivukohtaisia teemoja asettaaksesi ulkoasut vain tietyille sivuille"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:481
+msgid "Imageless layout"
+msgstr "Kuvaton ulkoasu"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:481
+msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
+msgstr "Taustakuvien poistaminen vähentää sivun lataamisaikaa muutamaan kilotavuun"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:486
+msgid "Footer content"
+msgstr "Alaotsakkeen sisältö"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:486
+msgid "You can post HTML code"
+msgstr "Voit kirjoittaa HTML-koodia"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:486
+msgid "HTML code is disallowed"
+msgstr "HTML-koodi ei ole käytettävissä"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:490
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Käytä seuraavia koodilyhenteitä käteville asetuksille: <br />%s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:498
+msgid "Loading site preview..."
+msgstr "Ladataan sivun esikatselua..."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:506
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:518
+msgid "Sidebar(s) vs Main Content ratio"
+msgstr "Sivupalkki/palkit verrattuna sivuston rungon suhteeseen"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:528
+msgid "Preferred font style"
+msgstr "Suosittu fontin tyyli"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:528
+msgid "Font priority and their availability"
+msgstr "Fonttien tärkeys ja saatavuus"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:539
+msgid "Color scheme"
+msgstr "Väriteema"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:543
+msgid "Not available with <em>imageless</em> setting"
+msgstr "Ei käytössä <em>kuvattomassa tilassa</em>"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:570
+msgid "Custom logo image"
+msgstr "Valinnainen kuva/logo"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:570
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Näytä logo kuvan sijasta (lataa tiedosto koneeltasi)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:576
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:591
+msgid "Remove current image"
+msgstr "Poista nykyinen kuva"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:579
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:594
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "Tiedostopolulla %s ei ole kirjoitusoikeuksia, tiedoston siirto ei onnistunut!"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:579
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:594
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Tarkista tiedoston tallennuspolku Asetukset/Sekalaista alta tai vaihda oikeudet CHMODilla tälle kansiolle arvolla 755/777.<br />Jos et tiedä miten tämä tehdään niin ota yhteys ylläpitäjään"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:585
+msgid "Custom background image"
+msgstr "Omavalintainen taustakuva"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:585
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Lähetä uusi taustakuva/yläotsakkeen kuva korvaamaan normaali"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:600
+msgid "Background color"
+msgstr "Taustaväri"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:600
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "Jätä arvoksi musta (#000000) pitääksesi normaalin taustavärin"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:613
+msgid "Top navigation shows"
+msgstr "Ylänavigaatio näyttää"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:616
+msgid "Pages"
+msgstr "Sivut"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:617
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:116
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:292
+msgid "Categories"
+msgstr "Kategoriat"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:618
+msgid "Links"
+msgstr "Linkit"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:626
+msgid "from category"
+msgstr "kategoriasta"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:639
+msgid "No links found"
+msgstr "Linkkejä ei löytynyt"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:648
+msgid "Exclude from navigation"
+msgstr "Poista sivut selauksesta"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:648
+msgid "Check the items you wish to hide from the main menu"
+msgstr "Ruksita kohteet mitä et halua näyttää päävalikossa"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:658
+msgid "(Use the private property to hide other links)"
+msgstr "(Käytä yksityisomaisuutta piilottaaksesi linkit)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:724
+msgid "View page"
+msgstr "Näytä sivu"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:747
+msgid "Post previews"
+msgstr "Kirjoituksen esikatselu"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:747
+msgid "The way posts are displayed on blog homepage and archive pages"
+msgstr "Miten artikkelit näytetään blogin kotisivulla ja arkiston sivuilla"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:750
+msgid "Full"
+msgstr "Täysi"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:751
+msgid "Excerpts"
+msgstr "Ekspertit"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:752
+msgid "Titles only"
+msgstr "Pelkät otsikot"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:759
+msgid "Post thumbnail size"
+msgstr "Artikkelin kuvakkeen koko"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:759
+#, php-format
+msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
+msgstr "Huomioithan että tämä toimii vain niiden kuvien kanssa mitkä laitat tästä lähtien sivulle, vanhat kuvat skaalaa selain. Sinun pitäisi käyttää %s lisäosaa luodaksesi puuttuvat kuvien koot"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:763
+msgid "Small: 64 x 64"
+msgstr "Pieni: 64 x 64"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:764
+msgid "Medium: 100 x 100"
+msgstr "Keskikokoinen: 100 x 100"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:765
+#, php-format
+msgid "WP's Media setting: %s"
+msgstr "WordPressin Media-asetukset: %s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:772
+msgid "Enable \"Share This Post\" feature"
+msgstr "Laita \"Jaa tämä viesti\" päälle"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:772
+msgid "Uncheck this if you're using a social bookmaring plugin"
+msgstr "Poista tästä ruksi jos käytät \"social bookmark\"-lisäosaa"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:777
+msgid "Featured content source"
+msgstr "Erikoissisällön lähde"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:777
+msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
+msgstr "Viimeisimmät viisi artikkelia tästä kategoriasta näytetään satunnaisjärjestyksessä erikoisartikkelit tilassa"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:782
+msgid "- All categories"
+msgstr "- Kaikki kategoriat"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:791
+msgid "Where to display the featured posts?"
+msgstr "Minne erikoisartikkelit sijoitetaan?"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:794
+msgid "On pages that use the Featured Posts template"
+msgstr "Sivuille jotka käyttävät erikoisartikkelien ulkoasua"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:795
+msgid "On the home page"
+msgstr "Kotisivulle"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:796
+msgid "On all pages, including home"
+msgstr "Kaikille sivuille, myös kotisivulle"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:797
+msgid "On all posts"
+msgstr "Kaikkiin artikkeleihin"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:798
+msgid "On all pages and posts"
+msgstr "Kaikkiin sivuihin ja artikkeleihin"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:804
+msgid "Maximum number of featured posts"
+msgstr "Enimmäismäärä erikoisartikkeleja"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:819
+msgid "Show related posts next to comments"
+msgstr "Näytä samankaltaiset artikkelit kommenttien vieressä"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:829
+msgid "Additional site optimization for search engines"
+msgstr "Valinnainen sivuston optimointi hakumoottoreille"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:829
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "Ota tästä ruksi pois jos käytät SEO-lisäosaa!"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:836
+msgid "What does this do?"
+msgstr "Mitä tämä tekee?"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:838
+msgid "enables canonical URLs for comments (duplicate content fix)"
+msgstr "sallii canonical URL:t kommenteille (tuplasisällön korjaus)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:839
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "luo uniikit otsikot artikkeleille monen kommenttisivun kera (estää tuplaotsikot)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:840
+#, php-format
+msgid "no keywords are generated because they are <a %s>useless</a>"
+msgstr "hakusanoja ei luotu koska ne ovat <a%s>hyödyttömiä</a>"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:854
+msgid "Advertisment blocks"
+msgstr "Mainoslootat"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:854
+#, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "Käytä %s lyhytkoodia syöttääksesi mainokset viesteihin,  tekstipohjaisiin vimpaimiin tai alaotsakkeeseen"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:855
+msgid "Example:"
+msgstr "Esimerkki:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:861
+#, php-format
+msgid "Ad code #%s:"
+msgstr "Mainoskoodi #%s:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:877
+msgid "Use jQuery"
+msgstr "Käytä jQuerya"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:877
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "Vain testikäyttöön. Ota ruksi pois jos tiedät mitä olet tekemässä!"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:882
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "Laita teemaan rakennettu kevytlaatikko päälle kaikkiin kuvalinkkeihin"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:882
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "Poista ruksi jos käytät mieluummin kevytlaatikko-lisäosaa"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:887
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "Poista Mystiquen asetukset tietokannasta teeman vaihtamisen jälkeen"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:887
+msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+msgstr "Ota ruksi pois tästä jos aiot käyttää Mystique-teemaa vakiona!"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:899
+msgid "Document head code"
+msgstr "Dokumentin pääkoodi"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:899
+#, php-format
+msgid "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
+msgstr "PHP-koodi joka syötetään %s osioon XHTML-dokumentista. Käytännöllinen jos sinulla on lisäosia jotka vaativat sinua lisäämään tavaraa tänne, kuten Analytics-koodia jne"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:900
+msgid "To output HTML only, close the PHP tag first."
+msgstr "Viedäksesi HTML:nä pelkästään ole hyvä ja sulje PHP-tag ensin."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:902
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:923
+msgid "Examples and helpers:"
+msgstr "Esimerkkejä ja apua:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:921
+msgid "Modify anything related to design using CSS code"
+msgstr "Muokkaa mitä vain ulkoasuun viittaavaa käyttämällä CSS-koodia"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:921
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "Katso %s löytääksesi jo olemassa olevat teeman luokat ja oikeudet"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:921
+msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
+msgstr "Kun olet muokannut teeman tiedostoja suoraan niin ole hyvä ja käytä tätä vaihtoehtoa säilyttääksei muokkaukset päivityksen jälkeen"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:944
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/settings.php:944
+msgid "Reset to Defaults"
+msgstr "Palauta normaalit asetukset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/shortcodes.php:32
+#, php-format
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr "%s: Vimpaimen luokkaa ei löytynyt. Tarkista että tämä vimpain on olemassa ja että luokan nimi on oikein"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/shortcodes.php:193
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "Tyhjä mainoskohta (#%s)!"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/shortcodes.php:200
+msgid "Top"
+msgstr "Ylös"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/shortcodes.php:212
+#, php-format
+msgid "%1$s theme by %2$s | Powered by %3$s"
+msgstr "%1$s teeman on tehnyt %2$s | Toimittanut sinulle %3$s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/shortcodes.php:219
+msgid "Copyright &copy;"
+msgstr ""
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/shortcodes.php:235
+msgid "Site Admin"
+msgstr "Sivun ylläpitäjä"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/shortcodes.php:236
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:52
+#, php-format
+msgid "%s followers"
+msgstr "%s seuraajia"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:73
+msgid "Error while retrieving tweets (Twitter down?)"
+msgstr "Virhe hakiessa tweettejä (Twitter kaatunut?)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:86
+msgid "Displays links to different sections grouped in tabs"
+msgstr "Näyttää linkit eri osioissa jaoteltuna ryhmiin"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:88
+msgid "Mystique | Sidebar tabs"
+msgstr "Mystique | Sivupalkin asetukset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:112
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:308
+msgid "Recent comments"
+msgstr "Viimeisimmät kommentit"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:113
+msgid "Popular posts"
+msgstr "Suositut kirjoitukset"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:114
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:300
+msgid "Archives"
+msgstr "Arkistot"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:115
+msgid "Tags"
+msgstr "Tagit"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:209
+msgid "Didn't find any posts popular enough :("
+msgstr "Ei löytynyt mitään tarpeeksi suosittua kirjoitusta :("
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:252
+msgid "Sidebar tabs"
+msgstr "Sivupalkin välilehdet"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:253
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:396
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:495
+msgid "jQuery is disabled and this widget needs it"
+msgstr "jQuery on pois päältä ja kyseinen vimpain tarvitsee sen"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:288
+msgid "Tabs to show"
+msgstr "Näytettävät välilehdet"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:296
+msgid "Tags "
+msgstr "Tagit"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:304
+msgid "Popular posts (most commented)"
+msgstr "Yleisimmät kirjoitukset (eniten kommentoiduimmat)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:314
+msgid "Sort categories"
+msgstr "Lajittele kategoriat"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:316
+msgid "by name (alphabetically)"
+msgstr "nimen mukaan (aakkosjärjestyksessä)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:317
+msgid "by category ID"
+msgstr "kategoria ID:n mukaan"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:318
+msgid "by category slug"
+msgstr "kategorioiden mukaan"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:319
+msgid "by post count"
+msgstr "kirjoituksien mukaan"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:324
+msgid "Show post count (categories and archives)"
+msgstr "Näytä kirjoituksien määrä (kategoriat ja arkistot)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:330
+msgid "How many popular posts to show?"
+msgstr "Kuinka monta yleistä kirjoitusta näytetään?"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:337
+msgid "How many recent comments to show?"
+msgstr "Kuinka monta viimeisintä kommenttia näytetään?"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:353
+msgid "Shows your latest Twitter updates"
+msgstr "Näyttää viimeisimmät Twitterin päivityksesi"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:354
+msgid "Mystique | Twitter"
+msgstr "Mystique | Twitter"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:393
+msgid "Loading tweets..."
+msgstr "Ladataan tweetttejä..."
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:423
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:529
+msgid "Title:"
+msgstr "Otsikko:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:428
+msgid "Twitter user name:"
+msgstr "Twitterin käyttäjätunnus:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:433
+msgid "Number of tweets to show:"
+msgstr "Kuinka monta tweettiä näytetään:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:447
+msgid "Displays Flickr galleries (needs API key)"
+msgstr "Näyttää Flickr-galleriat (tarvitsee API-avaimen)"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:449
+msgid "Mystique | Flickr Gallery"
+msgstr "Mystique | Flickr-galleria"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:520
+msgid "Flickr Gallery"
+msgstr "Flickr-galleria"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:534
+msgid "API key:"
+msgstr "API-avain:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:539
+msgid "Number of photos to show:"
+msgstr "Kuinka monta kuvaa näytetään:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:544
+msgid "Gallery source:"
+msgstr "Gallerian lähde:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:546
+msgid "Photoset"
+msgstr "Kuvakokoelma"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:547
+msgid "User photostream"
+msgstr "Käyttäjän kuvavalikoima"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:552
+msgid "Photoset ID:"
+msgstr "Kuvasarjan ID:"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:557
+#, php-format
+msgid "User ID (use %s to find it):"
+msgstr "Käyttäjän ID (käytä %s löytääksesi sen):"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:572
+msgid "Login form"
+msgstr "Sisäänkirjautumiskenttä"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:573
+msgid "Mystique | Login"
+msgstr "Mystique | Kirjaudu sisään"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:583
+#, php-format
+msgid "Logged in: %s"
+msgstr "Kirjautunut sisään tunnuksella %s"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:588
+msgid "Dashboard"
+msgstr "Ohjausnäkymä"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:590
+msgid "Write"
+msgstr "Kirjoita"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:591
+msgid "Comments"
+msgstr "Kommentit"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:593
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:597
+msgid "User Login"
+msgstr "Käyttäjän sisäänkirjautuminen"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:601
+msgid "User"
+msgstr "Käyttäjä"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:602
+msgid "Password"
+msgstr "Salasana"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:603
+msgid "Login"
+msgstr "Kirjaudu sisään"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:604
+msgid "Remember me"
+msgstr "Muista minut"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:609
+msgid "Register"
+msgstr "Rekisteröidy"
+
+#: /Users/rantom/Dropbox/Translations/Mystique/English/1.6.2/lib/widgets.php:610
+msgid "Lost your password?"
+msgstr "Hukkasitko salasanasi?"
+
+#~ msgid "Read the rest of this entry &raquo;"
+#~ msgstr "Lue loput tästä artikkelista &raquo;"
+#~ msgid "Posted in %s"
+#~ msgstr "Kirjoitettu %s alle"
+#~ msgid "Read the rest of this page &raquo;"
+#~ msgstr "Lue loput sivusta &raquo;"
+#~ msgid "%s comments"
+#~ msgstr "%s kommenttia"
+#~ msgid "%s (%s topics)"
+#~ msgstr "%s (%s aiheet)"
+#~ msgid "Continue reading"
+#~ msgstr "Lisää"
+#~ msgid "( subscribe to comments on this post )"
+#~ msgstr "( seuraa tämän artikkelin kommentteja )"
+#~ msgid "&laquo; Older Comments"
+#~ msgstr "&laquo; Vanhemmat kommentit"
+#~ msgid "Newer Comments &raquo;"
+#~ msgstr "Uudemmat kommentit &raquo;"
+#~ msgid "Sorry, the comment form is closed at this time."
+#~ msgstr "Valitettavasti kommentointi on toistaiseksi estetty."
+#~ msgid "Name"
+#~ msgstr "Nimi"
+#~ msgid "Submit"
+#~ msgstr "Lähetä"
+#~ msgid "Trackbacks are disabled."
+#~ msgstr "Paluuviitteet kytketty pois päältä."
+#~ msgid "Copyright %s %s %s &middot; Powered by %s <br/>"
+#~ msgstr "Copyright %s %s %s &middot; Toteutettu %sin avulla <br/>"
+#~ msgid ""
+#~ "<a href=\"http://www.lightword-theme.com/\" target=\"_blank\" title="
+#~ "\"Lightword Theme\">Lightword Theme</a> by Andrei Luca"
+#~ msgstr ""
+#~ "<a href=\"http://www.lightword-theme.com/\" target=\"_blank\" title="
+#~ "\"Lightword Theme\">Lightword Theme</a> on Andrei Lucan tekemä"
+#~ msgid "Go to top"
+#~ msgstr "Ylös"
+#~ msgid "Original"
+#~ msgstr "Normaali"
+#~ msgid "Wider"
+#~ msgstr "Leveä"
+#~ msgid "Cufon settings"
+#~ msgstr ""
+#~ "Cufonin asetukset<p><i>(kytke pois päältä jos ääkköset eivät toimi)</i></"
+#~ "p>"
+#~ msgid "Enabled"
+#~ msgstr "Päällä"
+#~ msgid "Disabled"
+#~ msgstr "Pois päältä"
+#~ msgid "Disable comments on pages"
+#~ msgstr "Estä kommentointi sivuilla"
+#~ msgid "Check this box if you would like to DISABLE COMMENTS on pages"
+#~ msgstr "Laita ruksi tähän laatikkoon jos haluat ESTÄÄ KOMMENTIT sivuilla"
+#~ msgid ""
+#~ "Check this box if you would like to SHOW IMAGE instead Cufon text on "
+#~ "header.<br/>Image location: <code>lightword/images/header-image.png</"
+#~ "code> / Max width: <code>796px</code>"
+#~ msgstr ""
+#~ "Laita ruksi tähän laatikkoon jos haluat NÄYTTÄÄ KUVAN Cufon tekstin "
+#~ "sijasta sivun ylätunnisteessa.<br/>Kuvan sijainti: <code>lightword/images/"
+#~ "header-image.png</code> / Mitat: <code>600x56px</code>"
+#~ msgid "Header image height in pixels"
+#~ msgstr "Ylätunnisteen kuvan korkeus pikseleinä"
+#~ msgid "About author feature"
+#~ msgstr "Tietoa artikkelin kirjoittaja (author) ominaisuudesta"
+#~ msgid "Add information about post author on post footer"
+#~ msgstr "Jätä tietoa artikkelin kirjoittajasta artikkelin alatunnisteeseen"
+#~ msgid ""
+#~ "Check this box if you would like to ACTIVATE <em>Enjoy this post</em> "
+#~ "feature"
+#~ msgstr ""
+#~ "Laita ruksi tähän laatikkoon jos haluat laittaa <em>Nauti tästä "
+#~ "artikkelista</em> ominaisuuden PÄÄLLE"
+#~ msgid "Show categories on front menu"
+#~ msgstr "Näytä kategoriat päävalikossa"
+#~ msgid ""
+#~ "Check this box if you would like to SHOW CATEGORIES instead pages on "
+#~ "front menu"
+#~ msgstr ""
+#~ "Laita ruksi tähän laatikkoon jos haluat NÄYTTÄÄ KATEGORIAT sivujen "
+#~ "sijasta päävalikossa"
+#~ msgid ""
+#~ "Type the pages id in the box below. Example input: <code>5,19,24</code>"
+#~ msgstr ""
+#~ "Kirjoita sivun numero seuraavaan kenttään, esimerkiksi : <code>5,19,24</"
+#~ "code>"
+#~ msgid "Exclude categories from front menu"
+#~ msgstr "Poista kategoriat yläotsakkeesta"
+#~ msgid ""
+#~ "Type the categories id in the box below. Example input: <code>5,19,24</"
+#~ "code>"
+#~ msgstr ""
+#~ "Kirjoita kategorioiden numero seuraavaan kenttään, esimerkiksi: "
+#~ "<code>5,19,24</code>"
+#~ msgid "Remove home button"
+#~ msgstr "Poista etusivu-nappi"
+#~ msgid "Remove home button from front menu"
+#~ msgstr "Poista etusivu-nappi päävalikosta"
+#~ msgid "Remove search box"
+#~ msgstr "Poista hakulaatikko"
+#~ msgid "Remove search box and expand space for front menu"
+#~ msgstr "Poista hakulaatikko ja lisää tilaa ylätunnisteelle"
+#~ msgid "Show only categories in post footer"
+#~ msgstr "Näytä ainoastaan kategoriat artikkelin alatunnisteessa"
+#~ msgid "Remove RSS badge from blog header"
+#~ msgstr "Poista RSS-leima blogin ylätunnisteesta"
+#~ msgid ""
+#~ "Find <code>name=\"cx\"</code> in the <strong>Search box code</strong> of "
+#~ "Google CSE, and type the <code>value</code> here."
+#~ msgstr ""
+#~ "Etsi <code>name=\"cx\"</code> in the <strong>Hakulaatikon koodi</strong> "
+#~ "Google CSE:llä ja kirjoita <code>arvo</code> tähän."
+#~ msgid "Sidebox settings"
+#~ msgstr "Artikkelin päivämäärän esitys"
+#~ msgid "Show only date"
+#~ msgstr "Näytä vain päivämäärä"
+#~ msgid "Show only in posts"
+#~ msgstr "Näytä ainoastaan artikkeleissa"
+#~ msgid "Last two options together"
+#~ msgstr "Kummatkin vaihtoehdot yhdessä"
+#~ msgid "Two sidebars option is available on Wider layout only"
+#~ msgstr "Kahta sivupalkkia voi käyttää ainoastaan leveämmän ulkoasun kanssa"
+#~ msgid "Two sidebars"
+#~ msgstr "Kaksi sivupalkkia"
+#~ msgid "Custom CSS"
+#~ msgstr "Omavalintainen CSS"
+#~ msgid "Put your custom css code here"
+#~ msgstr "Kirjoita oma CSS-koodisi tähän"
+#~ msgid "Copy your AdSense code and paste it here."
+#~ msgstr "Kopioi AdSense koodisi ja liitä se tähän."
+#~ msgid "LightWord Settings"
+#~ msgstr "LightWordin asetukset"
+#~ msgid "settings reset"
+#~ msgstr ": asetukset palautettu"
+#~ msgid "Support the developer"
+#~ msgstr "Tue kehittäjää"
+#~ msgid "Theme version check"
+#~ msgstr "Teeman version tarkistus"
+#~ msgid "Version check failed."
+#~ msgstr "Teeman version tarkistus epäonnistui."
+#~ msgid "Cool! You have the latest version."
+#~ msgstr "Hienoa! Sinulla on uusin versio."
+#~ msgid "Latest version"
+#~ msgstr "Uusin versio"
+#~ msgid "Get the latest version"
+#~ msgstr "Lataa uusin versio"
+#~ msgid "or"
+#~ msgstr "tai"
+#~ msgid "No updates available."
+#~ msgstr "Ei päivityksiä saatavilla."
+#~ msgid "Click here to reset all settings"
+#~ msgstr "Palauta tästä kaikki alkuperäiset asetukset"
+#~ msgid "Off"
+#~ msgstr "Pois"
+#~ msgid "delete"
+#~ msgstr "poista"
+#~ msgid "spam"
+#~ msgstr "merkitse roskapostiksi"
+#~ msgid ""
+#~ "Please enable referrers in your browser, or, if you're a spammer, bugger "
+#~ "off!"
+#~ msgstr ""
+#~ "Ole hyvä ja laita selaimesi viitteet päälle. Jos taas olet "
+#~ "roskapostittaja niin poistu sivulta!"
+#~ msgid "Syndicate this site using RSS"
+#~ msgstr "Seuraa sivua RSS-syötteellä"
+#~ msgid "Subscribe via RSS"
+#~ msgstr "RSS"
+#~ msgid "F jS, Y - H:i"
+#~ msgstr "j.m.Y, G:i"
+#~ msgid "( REPLY )"
+#~ msgstr "( VASTAA )"
+#~ msgid "PAGES"
+#~ msgstr "SIVUT"
+#~ msgid "Filed under:"
+#~ msgstr "Kategoriat:"
+#~ msgid "Comments Off"
+#~ msgstr "Kommentit pois päältä"
+#~ msgid "edit this comment"
+#~ msgstr "muokkaa tätä kommenttia"
+#~ msgid "You can use these tags: %s"
+#~ msgstr "Voit käyttää näitä tageja: %s"
+#~ msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+#~ msgstr "<abbr title=\"RSS-syöte\">RSS</abbr>"
+#~ msgid "The latest comments to all posts in RSS"
+#~ msgstr "Viimeimmät kommentit kaikista artikkeleista RSS-syötteenä"
+#~ msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+#~ msgstr ""
+#~ "Kommentit <abbr title=\"Really Simple Syndication\">RSS-syötteenä</abbr>"
+#~ msgid "Enjoy this article?"
+#~ msgstr "Nauti tästä artikkelista?"
+#~ msgid "Consider subscribing to our rss feed!"
+#~ msgstr "Harkitse RSS-syötteemme seuraamista!"
+#~ msgid "About"
+#~ msgstr "Tietoa"
+#~ msgid "No description. Please complete your profile."
+#~ msgstr "Ei kuvausta. Ole hyvä ja täydennä profiiliasi."
+#~ msgid "Image instead text on header"
+#~ msgstr "Kuva tekstin sijasta sivun ylätunnisteessa"
+#~ msgid "Correct input: <code>5,19,24</code>"
+#~ msgstr "Syöttötapa : <code>5,19,24</code>"
+#~ msgid "Check this box if you would like to DISABLE <em>Cufon</em><br/>"
+#~ msgstr ""
+#~ "Ruksita tämä laatikko jos haluat kytkeä <em>Cufonin</em> POIS PÄÄLTÄ<br/>"
+#~ msgid "Activate Extra Cufon"
+#~ msgstr "Laita Extra Cufon päälle"
+#~ msgid ""
+#~ "Check this box if you would like to ENABLE <em>Extra Cufon</em> feature."
+#~ "<br/><b>For umlauts (german) and other special characters.</b>"
+#~ msgstr ""
+#~ "Laita ruksi tähän laatikkoon laittaaksesi <em>Extra Cufon</em> "
+#~ "ominaisuuden PÄÄLLE<br/><b>Kielillä joissa on erikoismerkkejä (kuten "
+#~ "saksa)</b>"
+#~ msgid "Take out tags in posts footer"
+#~ msgstr "Poista tagit artikkelin alaosasta"
+#~ msgid "Author"
+#~ msgstr "Kirjoittaja"
+#~ msgid "Click here to cancel reply"
+#~ msgstr "Klikkaa tästä peruuttaaksesi vastaus"
+#~ msgid "Reply to this comment"
+#~ msgstr "Vastaa tähän kommenttiin"
+
