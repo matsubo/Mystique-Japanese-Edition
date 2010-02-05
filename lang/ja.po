@@ -233,7 +233,7 @@ msgstr "クリックしてホーム"
 
 #: c:\temp\mystique\image.php:19
 msgid "More &gt;"
-msgstr "次へ &gt;"
+msgstr "続きを読む &gt;"
 
 #
 #: c:\temp\mystique\image.php:31
