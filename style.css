@@ -2,7 +2,7 @@
 Theme Name: Mystique
 Theme URI: http://digitalnature.ro/projects/mystique
 Description:  Feature-packed theme with a solid design, built-in widgets and a intuitive theme settings interface... Designed by <a href="http://digitalnature.ro/">digitalnature</a>.
-Version: 1.72
+Version: 1.70
 Author: digitalnature
 Author URI: http://digitalnature.ro
 Tags: light, white, two-columns, three-columns, fixed-width, flexible-width, right-sidebar, left-sidebar, theme-options, threaded-comments, translation-ready, custom-header
@@ -19,7 +19,10 @@ Tags: light, white, two-columns, three-columns, fixed-width, flexible-width, rig
 
 
 /* reset spacing */
+/*
 *{margin:0;padding:0;font-family:"Segoe UI",Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif;}
+*/
+*{margin:0;padding:0;font-family:"Segoe UI", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif;}
 
 html,body{min-height:100%;}
 body{background:#000 url(images/bg.png) repeat-x center bottom;font-size:13px;font-style:normal;color:#4e4e4e;}
@@ -92,6 +95,18 @@ blockquote blockquote{margin:1em 0 1em;}
 #header .nav-extra span{display:none;}
 #header .nav-extra.rss{background:transparent url(images/nav-icons.png) no-repeat right top;right:20px;}
 #header a.twitter{background:transparent url(images/nav-icons.png) no-repeat left top;right:85px;}
+
+#header a.facebook{background:transparent url(images/nav-facebook.png) no-repeat center top;right:148px;}
+#header a.youtube{background:transparent url(images/nav-youtube.png) no-repeat right top;right:209px;}
+#header a.lastfm{background:transparent url(images/nav-lastfm.png) no-repeat right top;right:273px;}
+#header a.flickr{background:transparent url(images/nav-flickr.png) no-repeat right top;right:338px;}
+/*
+#header a.myspace{background:transparent url(images/nav-myspace.png) no-repeat right top;right:402px;}
+*/
+#header a.linkedin{background:transparent url(images/nav-linkedin.png) no-repeat right top;right:402px;}
+/*
+#header a.contact{background:transparent url(images/nav-contact.png) no-repeat right top;right:530px;}
+*/
 
 /*** LOGO & HEADLINE ***/
 
@@ -344,8 +359,8 @@ body.single-post .page-navigation div{display:block;max-width:49%;line-height:no
 ul.comments, li.comment{margin:0;padding:0;list-style-type:none;}
 ul.comments{width:90%;max-width:1000px;float:right;display:block;}
 ul.comments ul.children{margin:0 0 0 40px;padding:0;}
-li.comment{display:block;margin:.4em 0;line-height:normal;}
-li.comment .comment-head{background-color:#5e5e5e;background-repeat:no-repeat;background-position:left bottom;position:relative;color:#e4e4e4;padding:0 0 6px 0;margin:0;line-height:normal;}
+li.comment{display:block;margin:.4em 0;}
+li.comment .comment-head{background-color:#5e5e5e;background-repeat:no-repeat;background-position:left bottom;position:relative;color:#e4e4e4;padding-bottom:6px;}
 li.comment .comment-head.comment-author-admin,li.comment .comment-head.bypostauthor{background-position:-1000px bottom;color:#fff;text-shadow:rgba(0,0,0,0.4) 1px 1px 1px;}
 
 
