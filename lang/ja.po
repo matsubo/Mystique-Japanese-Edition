@@ -242,7 +242,7 @@ msgstr "この記事は%1$sによって、%2$s %3$sに投稿されました。%4
 
 #: c:\temp\mystique\image.php:35
 msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
-msgstr "<a href=\"#respond\">コメントを残すか</a>、ご自分のサイトから<a href=\"%s\" rel=\"trackback\">トラックバック</a>することができます。"
+msgstr "<a%1$s>コメントを残すか</a>、ご自分のサイトから<a%2$s>トラックバック</a>できます。"
 
 #: c:\temp\mystique\image.php:39
 msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
