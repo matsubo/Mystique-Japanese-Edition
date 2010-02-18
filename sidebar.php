@@ -1,12 +1,16 @@
 <?php /* Mystique/digitalnature */
 
-$layout = get_mystique_option('layout');
-if((!isLayoutTemplate() && ($layout!='col-1')) || (isLayoutTemplate() && (!is_page_template('page-1col.php')))):
-  if ((is_page_template('page-3col.php') || is_page_template('page-3col-left.php') || is_page_template('page-3col-right.php')) || (!isLayoutTemplate()  && ($layout=='col-3' || $layout=='col-3-left' || $layout=='col-3-right'))): include(TEMPLATEPATH . '/sidebar2.php'); endif;
-?>
+$layout = mystique_layout_type();
+
+$show_1stcolumn = ($layout != 'col-1') || ($_GET['preview']);
+$show_2ndcolumn = (($layout != 'col-1') && ($layout != 'col-2-left') && ($layout != 'col-2-right') ) || ($_GET['preview']);
+
+if($show_1stcolumn):
+ if($show_2ndcolumn) include(TEMPLATEPATH . '/sidebar2.php'); ?>
 
 <div id="sidebar">
- <ul class="sidebar-blocks">
+ <ul class="blocks">
+    <?php do_action('mystique_sidebar_start'); ?>
     <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar()): ?>
 
     <?php if(!is_search()): ?>
@@ -44,7 +48,8 @@ if((!isLayoutTemplate() && ($layout!='col-1')) || (isLayoutTemplate() && (!is_pa
     </li>
 
     <?php endif; ?>
-
+    <?php do_action('mystique_sidebar_end'); ?>
  </ul>
 </div>
+
 <?php endif; ?>

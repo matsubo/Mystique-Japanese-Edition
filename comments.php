@@ -14,7 +14,7 @@
   foreach ($comments as $comment)
    if (get_comment_type() != "comment") $numPingBacks++; else $numComments++;
 
-  if(get_mystique_option('related_posts')):
+  if(get_mystique_option('post_single_related')):
    // Related posts. Based on http://www.bin-co.com/blog/2009/04/show-related-post-in-wordpress-without-a-plugin/
    $tags = wp_get_post_tags($post->ID);
    if($tags):
@@ -63,7 +63,7 @@
      <div id="comments-wrap">
       <div class="clearfix">
        <ul id="comments" class="comments">
-        <?php wp_list_comments('type=comment&callback=list_comments'); ?>
+        <?php wp_list_comments('type=comment&callback=mystique_list_comments'); ?>
        </ul>
       </div>
      <?php
@@ -182,7 +182,7 @@
 	<div class="section" id="section-trackbacks">
      <?php if($numPingBacks>0): ?>
      <ul id="trackbacks">
-     <?php wp_list_comments('type=pings&callback=list_pings'); ?>
+     <?php wp_list_comments('type=pings&callback=mystique_list_pings'); ?>
     </ul>
     <?php else: ?>
     <h6 class="title"><?php _e("No trackbacks yet.","mystique"); ?></h6>
@@ -200,9 +200,10 @@
         while ($rp_query->have_posts()):
          $rp_query->the_post(); ?>
          <!-- short post -->
-         <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+         <div id="post-<?php the_ID(); ?>" class="<?php mystique_post_class(); ?>">
+           <?php mystique_post_thumb(); ?>
 	   	   <h3 class="title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-           <p class="post-short-info"><strong><?php echo timesince(get_the_time('U')); ?></strong> - <?php comments_popup_link(__('No comments','mystique'), __('1 comment','mystique'), __('% comments','mystique')); ?></p>
+           <p class="post-short-info"><strong><?php echo mystique_timesince(get_the_time('U')); ?></strong> - <?php comments_popup_link(__('No comments','mystique'), __('1 comment','mystique'), __('% comments','mystique')); ?></p>
            <div class="post-excerpt"><?php the_excerpt(); ?></div>
   	 </div>
          <!-- /short post -->

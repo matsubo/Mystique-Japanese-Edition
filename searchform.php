@@ -3,7 +3,7 @@
 <?php
  $searchquery = wp_specialchars(get_search_query(),1);
  if (!is_search() || (is_search() && have_posts() && ($searchquery && $searchquery!=__("Search","mystique")))):
-  search_form();
+  mystique_search_form();
  else: ?>
   <p class="aligncenter">
   <?php

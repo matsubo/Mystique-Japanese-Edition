@@ -1,5 +1,8 @@
 <?php /* Mystique/digitalnature */ ?>
- <!-- foooter -->
+
+ <?php do_action('mystique_after_main'); ?>
+
+ <!-- footer -->
   <div id="footer">
 
  <?php
@@ -92,15 +95,6 @@
 
      <?php echo do_shortcode(stripslashes(get_mystique_option('footer_content'))); ?>
 
-     <script type="text/javascript">
-     /* <![CDATA[ */
-      var isIE6 = false;
-      var isIE = false;
-      var lightbox = <?php echo get_mystique_option('lightbox') ?>;
-      var ajaxComments = <?php echo get_mystique_option('ajax_commentnavi') ?>;
-      var redirectReadMore = <?php echo get_mystique_option('read_more') ?>;
-     /* ]]> */
-     </script>
      <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
      <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
 

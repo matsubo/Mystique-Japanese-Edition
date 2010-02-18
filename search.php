@@ -2,60 +2,49 @@
  /* Mystique/digitalnature */
  get_header();
 ?>
-
-<!-- main content: primary + sidebar(s) -->
-<div id="shadow-left" class="page-content">
- <div id="shadow-right">
   <div id="main">
    <div id="main-inside" class="clearfix">
     <!-- primary content -->
     <div id="primary-content">
+     <div class="blocks">
+      <?php do_action('mystique_before_primary'); ?>
       <?php
        $searchquery = wp_specialchars(get_search_query(),1);
-       if(($searchquery) && ($searchquery!=__('Search',"mystique"))): ?>
+       if(($searchquery) && ($searchquery!=__('Search',"mystique"))):
+         if (have_posts()): ?>
+         <h1 class="title"><?php printf(__("Search results for %s","mystique"),'<span class="altText">'.$searchquery.'</span>'); ?></h1>
+         <?php
+          mystique_pagenavi();
 
-       <?php if (have_posts()) : ?>
-   	<h1 class="title"><?php printf(__("Search Results for %s","mystique"),'<span class="altText">'.$searchquery.'</span>'); ?></h1>
+          while (have_posts()):
+           the_post();
+           mystique_post();
+          endwhile; ?>
 
-        <div class="page-navigation clearfix">
-         <?php if(function_exists('wp_pagenavi')): wp_pagenavi(); else: ?>
-         <div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries','mystique')) ?></div>
-         <div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;','mystique')) ?></div>
-         <?php endif; ?>
-        </div>
+         <!-- page navigation -->
+         <div class="page-navigation clear-block">
+          <?php mystique_pagenavi('alignright'); ?>
+         </div>
+         <!-- /page navigation -->
 
-        <?php
-         while (have_posts()):
-          the_post();
-          include(TEMPLATEPATH . '/post.php');
-         endwhile;
-         ?>
-
-        <div class="page-navigation clearfix">
-         <?php if(function_exists('wp_pagenavi')): wp_pagenavi(); else: ?>
-         <div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries','mystique')) ?></div>
-         <div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;','mystique')) ?></div>
-         <?php endif; ?>
-        </div>
-       <?php else : ?>
-
-  	    <h1 class="title"><span class="error"><?php _e('Nothing found.','mystique'); ?></span> <?php _e('Try a different search?','mystique'); ?></h1>
-        <?php search_form(); ?>
-       <?php endif; ?>
-     <?php else: ?>
+        <?php else: ?>
+         <h1 class="title"><span class="error"><?php _e('Nothing found.','mystique'); ?></span> <?php _e('Try a different search?','mystique'); ?></h1>
+         <?php get_search_form(); ?>
+        <?php endif; ?>
+      <?php else: ?>
   	    <h1 class="title"><?php _e('What do you wish to search for?','mystique'); ?></h1>
-        <?php search_form(); ?>
-     <?php endif; ?>
-
-    </div>
-    <!-- /primary content -->
+        <?php mystique_search_form(); ?>
+      <?php endif; ?>
+      <?php do_action('mystique_after_primary'); ?>
+     </div>
+   </div>
+   <!-- /primary content -->
 
     <?php get_sidebar(); ?>
 
    </div>
   </div>
- </div>
-</div>
+
 <!-- /main content -->
 
 <?php get_footer(); ?>

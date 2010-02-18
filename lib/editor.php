@@ -8,13 +8,13 @@ function mystique_editor_styles($url) {
 }
 
 // "styles" drop down
-function mcekit_editor_buttons($buttons) {
+function mystique_mcekit_editor_buttons($buttons) {
 	array_unshift($buttons, 'styleselect');
 	return $buttons;
 }
 
 // "styles" drop down contents
-function mcekit_editor_settings($settings) {
+function mystique_mcekit_editor_settings($settings) {
 	if (!empty($settings['theme_advanced_styles'])) $settings['theme_advanced_styles'] .= ';';	else $settings['theme_advanced_styles'] = '';
 
 	// http://wiki.moxiecode.com/index.php/TinyMCE:Configuration/theme_advanced_styles
@@ -30,7 +30,5 @@ function mcekit_editor_settings($settings) {
 	$settings['theme_advanced_styles'] .= trim($class_settings, '; ');
 	return $settings;
 }
-
-
 
 ?>

@@ -26,7 +26,7 @@ CREDITS:
 - Chinese translation by Awu - http://www.awuit.cn
 - Polish translation by 96th http://96th.co.uk
 - Swedish translation by Magnus Jonasson - http://www.magnusjonasson.com
-- jQuery Farbtastic plugin by Steven Wittens
+- jQuery Color picker plugin by eyecon.ro
 - Spanish translation by Facundo Jordan - http://nogardtech.com.ar
 - Italian translation by Alessandro Fiorotto, updated by Piersandro Guerrera - http://www.theparrot.it
 - Turkish translation by Ömer Taylan Tugut http://www.tuguts.com ; old translation by Erdinç Gür - http://www.turkonline.org 
@@ -43,6 +43,7 @@ CREDITS:
 - IP2C database by Webhosting.info
 - Finnish translation by Tomi R. - http://www.rantom.fi
 - Dutch translation translation by FrankB
+- Hungarian translation by GabeszMeister - http://blog.gabesz-meister.hu
 
 REQUIREMENTS:
 - PHP 5+
@@ -52,9 +53,9 @@ TO DO: (a list of things to remember I need to do in the future)
 - add hide delay to shareThis
 - add Facebook connect, twitter and OpenID login to comment box
 - featured content: check if images from posts are links and show the link source image in the lightbox
-- add footer content filter for wpmu blogs to allow a few html tags like <p> <br> <a> etc...
 
 CHANGE LOG:
+17,02,2009   1.99 - too many changes to mention (rewritten most of the back-end)
 
 18,01,2009   1.72 - timeSince fix (really :)
 

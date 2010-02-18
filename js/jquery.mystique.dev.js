@@ -2064,7 +2064,7 @@ function setup_comments(){
     //  jQuery('#comment_post_ID').attr('value',postID);
 
     jQuery("#cancel-reply").hide();
-    jQuery("#respond").appendTo('#section-comments').slideFade('show',333,'easeOutQuart',function(){
+    jQuery("#respond").appendTo('#section-comments').show(0,function(){
 
      // move cursor in textarea, at the end of the text
      jQuery('#comment').each(function(){
@@ -2242,162 +2242,415 @@ function setup_comments(){
 
 
 
-// init
-jQuery(document).ready(function ($) {
-  if (isIE6) {
-    jQuery('#page').append("<div class='crap-browser-warning'>You're using a old and buggy browser. Switch to a <a href='http://www.mozilla.com/firefox/'>normal browser</a> or consider <a href='http://www.microsoft.com/windows/internet-explorer'>upgrading your Internet Explorer</a> to the latest version</div>");
-  }
-  jQuery('#navigation').superfish({
-    autoArrows: true
-  });
-  // layout controls
-  fontControl("#pageControls", "body", 10, 18);
-  pageWidthControl("#pageControls", ".page-content", '95%', '980px', '1200px');
-  webshot("a.websnapr", "webshot");
-  jQuery(".post-tabs").minitabs({
-    content: '.sections',
-    nav: '.tabs',
-    effect: 'top',
-    speed: 333,
-    cookies: false
-  });
-  jQuery(".sidebar-tabs").minitabs({
-    content: '.sections',
-    nav: '.box-tabs',
-    effect: 'slide',
-    speed: 150
-  });
-  // animate tabs
-  // jQuery('.tabs li').hover(function() {
-  //  jQuery(this).animate({bottom: 0}, 150,'swing');
-  //  }, function() {
-  //   jQuery(this).animate({bottom: -4 }, 150,'swing');
-  // });
-  jQuery("ul.menuList .cat-item").bubble({
-    timeout: 6000
-  });
-  jQuery(".shareThis, .bubble-trigger").bubble({
-    offset: 16,
-    timeout: 0
-  });
-
-  jQuery("#pageControls").bubble({
-    offset: 30
-  });
-  jQuery('ul.menuList li a').nudge({
-    property: 'padding',
-    direction: 'left',
-    amount: 6,
-    duration: 166
-  });
-  jQuery('a.nav-extra').nudge({
-    property: 'bottom',
-    direction: '',
-    amount: 14,
-    duration: 166
-  });
 
 
+(function( $ ){
+  $.cssRule = function (Selector, Property, Value) {
 
-  /*
-  if(!wpCaptions){
-
-  jQuery(".wp-caption img").each(function () {
-	var $this = jQuery(this);
-	var title = $this.attr("alt");
-	var classes = $this.attr("class");
-	$this.wrap('<div class="imgCaption" width="'+$this.width()+'"></div>');
-	$this.parent().append('<p><span>'+ title +'</span></p>');
-
-    $this.parent().parent().find('p.wp-caption-text').remove();
-
-    if(classes != '') {
-       $this.parent().addClass(classes);
-       $this.removeClass();
-     }
-
-    var c = jQuery(this).parent().find('p');
-    var cHeight = c.height();
-
-    c.css({bottom: -c});
-
-
-  $this.parent().hover(
-   function () {
-    c.stop(false, true).animate({
-      bottom: 0
-    },
-    {
-      duration: 200,
-      easing: 'easeOutQuart'
-    });
-  },
-
-  function () {
-    c.stop(false, true).animate({
-      bottom: -cHeight
-    },
-    {
-      duration: 200,
-      easing: 'easeInQuart'
-    });
-  });
-
-  });
- }
- */
-  if (lightbox != 0) // enable fancyBox for any link with rel="lightbox" and on links which references end in image extensions (jpg, gif, png)
-  jQuery("a[rel='lightbox'], a[href$='.jpg'], a[href$='.jpeg'], a[href$='.gif'], a[href$='.png'], a[href$='.JPG'], a[href$='.JPEG'], a[href$='.GIF'], a[href$='.PNG']").fancyboxlite({
-    'zoomSpeedIn': 333,
-    'zoomSpeedOut': 333,
-    'zoomSpeedChange': 133,
-    'easingIn': 'easeOutQuart',
-    'easingOut': 'easeInQuart',
-    'overlayShow': true,
-    'overlayOpacity': 0.75
-  }); // fade effect
-  if (!isIE) {
-    jQuery('.fadeThis').append('<span class="hover"></span>').each(function () {
-      var jQueryspan = jQuery('> span.hover', this).css('opacity', 0);
-      jQuery(this).hover(function () {
-        jQueryspan.stop().fadeTo(333, 1);
-      },
-      function () {
-        jQueryspan.stop().fadeTo(333, 0);
+    // Selector == {}
+    if(typeof Selector == "object"){
+      jQuery.each(Selector, function(NewSelector, NewProperty){
+        jQuery.cssRule(NewSelector, NewProperty);
       });
-    });
-  }
-  jQuery("#footer-blocks.withSlider").loopedSlider();
-  jQuery("#featured-content.withSlider").loopedSlider({
-    autoStart: 10000,
-    autoHeight: false
-  }); // scroll to top
-  jQuery("a#goTop").click(function () {
-    jQuery('html').animate({
-      scrollTop: 0
-    },
-    'slow');
+      return;
+    }
+
+    // Selector == "body:background:#F99"
+    if((typeof Selector == "string") && (Selector.indexOf(":") > -1)
+      && (Property == undefined) && (Value == undefined)){
+      Data = Selector.split("{");
+      Data[1] = Data[1].replace(/\}/, "");
+      jQuery.cssRule(jQuery.trim(Data[0]), jQuery.trim(Data[1]));
+      return;
+    }
+
+    // Check for multi-selector, [ IE don't accept multi-selector on this way, we need to split ]
+    if((typeof Selector == "string") && (Selector.indexOf(",") > -1)){
+      Multi = Selector.split(",");
+      for(x = 0; x < Multi.length; x++){
+        Multi[x] = jQuery.trim(Multi[x]);
+        if(Multi[x] != "")
+          jQuery.cssRule(Multi[x], Property, Value);
+      }
+
+      return;
+    }
+
+    // Porperty == {} or []
+    if(typeof Property == "object"){
+
+      // Is {}
+      if(Property.length == undefined){
+
+        // Selector, {}
+        jQuery.each(Property, function(NewProperty, NewValue){
+          jQuery.cssRule(Selector + " " + NewProperty, NewValue);
+        });
+
+      // Is [Prop, Value]
+      }else if((Property.length == 2) && (typeof Property[0] == "string") &&
+        (typeof Property[1] == "string")){
+        jQuery.cssRule(Selector, Property[0], Property[1]);
+
+      // Is array of settings
+      }else{
+        for(x1 = 0; x1 < Property.length; x1++){
+          jQuery.cssRule(Selector, Property[x1], Value);
+        }
+      }
+
+      return;
+    }
+
+    // Parse for property at CSS Style "{property:value}"
+    if((typeof Property == "string") && (Property.indexOf("{") > -1)
+       && (Property.indexOf("}") > -1)){
+      Property = Property.replace(/\{/, "").replace(/\}/, "");
+    }
+
+    // Check for multiple properties
+    if((typeof Property == "string") && (Property.indexOf(";") > -1)){
+      Multi1 = Property.split(";");
+      for(x2 = 0; x2 < Multi1.length; x2++){
+        jQuery.cssRule(Selector, Multi1[x2], undefined);
+      }
+      return;
+    }
+
+    // Check for property:value
+    if((typeof Property == "string") && (Property.indexOf(":") > -1)){
+      Multi3 = Property.split(":");
+      jQuery.cssRule(Selector, Multi3[0], Multi3[1]);
+      return;
+    }
+
+    //********************************************
+    // Logical CssRule additions
+    // Check for multiple logical properties [ "padding,margin,border:0px" ]
+    if((typeof Property == "string") && (Property.indexOf(",") > -1)){
+      Multi2 = Property.split(",");
+      for(x3 = 0; x3 < Multi2.length; x3++){
+        jQuery.cssRule(Selector, Multi2[x3], Value);
+      }
+      return;
+    }
+
+
+    if((Property == undefined) || (Value == undefined))
+      return;
+
+    Selector = jQuery.trim(Selector);
+    Property = jQuery.trim(Property);
+    Value = jQuery.trim(Value);
+
+    if((Property == "") || (Value == ""))
+      return;
+
+    // adjusts on property
+    if(jQuery.browser.msie){
+      // for IE (@.@)^^^
+      switch(Property){
+        case "float": Property = "style-float"; break;
+      }
+    }else{
+      // CSS rights
+      switch(Property){
+        case "float": Property = "css-float"; break;
+      }
+    }
+
+    CssProperty = (Property || "").replace(/\-(\w)/g, function(m, c){ return (c.toUpperCase()); });
+
+
+
+    if(Property && Value){
+      for(var i = 0; i < document.styleSheets.length; i++){
+        WorkerStyleSheet = document.styleSheets[i];
+        if(WorkerStyleSheet.insertRule){
+          Rules = (WorkerStyleSheet.cssRules || WorkerStyleSheet.rules);
+          WorkerStyleSheet.insertRule(Selector + "{ " + Property + ":" + Value + "; }", Rules.length);
+        }else if(WorkerStyleSheet.addRule){
+          WorkerStyleSheet.addRule(Selector, Property + ":" + Value + ";", 0);
+        }else{
+          throw new Error("Add/insert not enabled.");
+        }
+      }
+    }
+  };
+})( jQuery );
+
+
+
+
+
+ jQuery.fn.extend({
+    highlight: function(search, insensitive, hls_class){
+      var regex = new RegExp("(<[^>]*>)|(\\b"+ search.replace(/([-.*+?^${}()|[\]\/\\])/g,"\\$1") +")", insensitive ? "ig" : "g");
+      return this.html(this.html().replace(regex, function(a, b, c){
+        return (a.charAt(0) == "<") ? a : "<strong class=\""+ hls_class +"\">" + c + "</strong>";
+      }));
+    }
   });
-  jQuery('.clearField').clearField({
-    blurClass: 'clearFieldBlurred',
-    activeClass: 'clearFieldActive'
-  });
-
-  //setup_readmorelink();
-
-  setup_comments();
-
-  if(redirectReadMore) setup_readmorelink();
 
 
-  if (!isIE) { // flash z-index "fix" (firefox only)
-    jQuery("object").append('<param name="wmode" value="transparent">');
-    jQuery("embed").attr("wmode", "transparent");
-    jQuery("object,embed").css("display", "none");
-    jQuery("object,embed").css("display", "inline");
-  } // set accessibility roles on some elements trough js (to not break the xhtml markup)
-  jQuery("#navigation").attr("role", "navigation");
-  jQuery("#primary-content").attr("role", "main");
-  jQuery("#sidebar").attr("role", "complementary");
-  jQuery("#searchform").attr("role", "search");
-});
+
+/*
+* Print Element Plugin 1.0
+*
+* Copyright (c) 2009 Erik Zaadi
+*
+* Inspired by PrintArea (http://plugins.jquery.com/project/PrintArea) and
+* http://stackoverflow.com/questions/472951/how-do-i-print-an-iframe-from-javascript-in-safari-chrome
+*
+*  jQuery plugin page : http://plugins.jquery.com/project/printElement
+*  Wiki : http://wiki.github.com/erikzaadi/jQueryPlugins/jqueryprintelement
+*  Home Page : http://erikzaadi.github.com/jQueryPlugins/jQuery.printElement
+*
+*  Thanks to David B (http://github.com/ungenio) and icgJohn (http://www.blogger.com/profile/11881116857076484100)
+*  For their great contributions!
+*
+* Dual licensed under the MIT and GPL licenses:
+*   http://www.opensource.org/licenses/mit-license.php
+*   http://www.gnu.org/licenses/gpl.html
+*
+*   Note, Iframe Printing is not supported in Opera and Chrome 3.0, a popup window will be shown instead
+*/
+;
+(function($){
+    $.fn.printElement = function(options){
+        var mainOptions = $.extend({}, $.fn.printElement.defaults, options);
+        //iframe mode is not supported for opera and chrome 3.0 (it prints the entire page).
+        //http://www.google.com/support/forum/p/Webmasters/thread?tid=2cb0f08dce8821c3&hl=en
+        if (mainOptions.printMode == 'iframe') {
+            if ($.browser.opera || (/chrome/.test(navigator.userAgent.toLowerCase())))
+                mainOptions.printMode = 'popup';
+        }
+        //Remove previously printed iframe if exists
+        $("[id^='printElement_']").remove();
+
+        return this.each(function(){
+            //Support Metadata Plug-in if available
+            var opts = $.meta ? $.extend({}, mainOptions, $this.data()) : mainOptions;
+            _printElement($(this), opts);
+        });
+    };
+    $.fn.printElement.defaults = {
+        printMode: 'iframe', //Usage : iframe / popup
+        pageTitle: '', //Print Page Title
+        overrideElementCSS: null,
+        /* Can be one of the following 3 options:
+         * 1 : boolean (pass true for stripping all css linked)
+         * 2 : array of $.fn.printElement.cssElement (s)
+         * 3 : array of strings with paths to alternate css files (optimized for print)
+         */
+        printBodyOptions: {
+            styleToAdd: 'padding:10px;margin:10px;background:#fff;', //style attributes to add to the body of print document
+            classNameToAdd: '' //css class to add to the body of print document
+        },
+        leaveOpen: false, // in case of popup, leave the print page open or not
+        iframeElementOptions: {
+            styleToAdd: 'border:none;position:absolute;width:0px;height:0px;bottom:0px;left:0px;background:#fff;', //style attributes to add to the iframe element
+            classNameToAdd: '' //css class to add to the iframe element
+        }
+    };
+    $.fn.printElement.cssElement = {
+        href: '',
+        media: ''
+    };
+    function _printElement(element, opts){
+        //Create markup to be printed
+        var html = _getMarkup(element, opts);
+
+        var popupOrIframe = null;
+        var documentToWriteTo = null;
+        if (opts.printMode.toLowerCase() == 'popup') {
+            popupOrIframe = window.open('about:blank', 'printElementWindow', 'width=650,height=440,scrollbars=yes');
+            documentToWriteTo = popupOrIframe.document;
+        }
+        else {
+            //The random ID is to overcome a safari bug http://www.cjboco.com.sharedcopy.com/post.cfm/442dc92cd1c0ca10a5c35210b8166882.html
+            var printElementID = "printElement_" + (Math.round(Math.random() * 99999)).toString();
+            //Native creation of the element is faster..
+            var iframe = document.createElement('IFRAME');
+            $(iframe).attr({
+                style: opts.iframeElementOptions.styleToAdd,
+                id: printElementID,
+                className: opts.iframeElementOptions.classNameToAdd,
+                frameBorder: 0,
+                scrolling: 'no',
+                src: 'about:blank'
+            });
+            document.body.appendChild(iframe);
+            documentToWriteTo = (iframe.contentWindow || iframe.contentDocument);
+            if (documentToWriteTo.document)
+                documentToWriteTo = documentToWriteTo.document;
+            iframe = document.frames ? document.frames[printElementID] : document.getElementById(printElementID);
+            popupOrIframe = iframe.contentWindow || iframe;
+        }
+        focus();
+        documentToWriteTo.open();
+        documentToWriteTo.write(html);
+        documentToWriteTo.close();
+        _callPrint(popupOrIframe);
+    };
+
+    function _callPrint(element){
+        if (element && element.printPage)
+            element.printPage();
+        else
+            setTimeout(function(){
+                _callPrint(element);
+            }, 50);
+    }
+
+    function _getElementHTMLIncludingFormElements(element){
+        var $element = $(element);
+        //Radiobuttons and checkboxes
+        $(":checked", $element).each(function(){
+            this.setAttribute('checked', 'checked');
+        });
+        //simple text inputs
+        $("input[type='text']", $element).each(function(){
+            this.setAttribute('value', $(this).val());
+        });
+        $("select", $element).each(function(){
+            var $select = $(this);
+            $("option", $select).each(function(){
+                if ($select.val() == $(this).val())
+                    this.setAttribute('selected', 'selected');
+            });
+        });
+        $("textarea", $element).each(function(){
+            //Thanks http://blog.ekini.net/2009/02/24/jquery-getting-the-latest-textvalue-inside-a-textarea/
+            var value = $(this).attr('value');
+            if ($.browser.mozilla) {
+               if(this.firstChild) this.firstChild.textContent = value;
+            }
+            else {
+                this.innerHTML = value; }
+        });
+        var elementHtml = $element.html();
+        return elementHtml;
+    }
+
+    function _getBaseHref(){
+        return window.location.protocol + window.location.hostname + window.location.pathname;
+    }
+
+    function _getMarkup(element, opts){
+        var $element = $(element);
+        var elementHtml = _getElementHTMLIncludingFormElements(element);
+
+        var html = new Array();
+        html.push('<html><head><title>' + opts.pageTitle + '</title>');
+        if (opts.overrideElementCSS) {
+            if (opts.overrideElementCSS.length > 0) {
+                for (var x = 0; x < opts.overrideElementCSS.length; x++) {
+                    var current = opts.overrideElementCSS[x];
+                    if (typeof(current) == 'string')
+                        html.push('<link type="text/css" rel="stylesheet" href="' + current + '" >');
+                    else
+                        html.push('<link type="text/css" rel="stylesheet" href="' + current.href + '" media="' + current.media + '" >');
+                }
+            }
+        }
+        else {
+            $(document).find("link").filter(function(){
+                return $(this).attr("rel").toLowerCase() == "stylesheet";
+            }).each(function(){
+                html.push('<link type="text/css" rel="stylesheet" href="' + $(this).attr("href") + '" media="' + $(this).attr('media') + '" >');
+            });
+        }
+        //Ensure that relative links work
+        html.push('<base href="' + _getBaseHref() + '" />');
+        html.push('</head><body style="' + opts.printBodyOptions.styleToAdd + '" class="' + opts.printBodyOptions.classNameToAdd + '">');
+        html.push('<div class="' + $element.attr('class') + '">' + elementHtml + '</div>');
+        html.push('<script type="text/javascript">function printPage(){focus();print();' + ((!$.browser.opera && !opts.leaveOpen && opts.printMode.toLowerCase() == 'popup') ? 'close();' : '') + '}</script>');
+        html.push('</body></html>');
+
+        return html.join('');
+    };
+    })(jQuery);
+
+
+
+
+
+
+(function (jQuery) {
+	jQuery.fn.addGrid = function (cols, options) {
+		var defaults = {
+			default_cols: 12,
+			z_index: 999,
+			img_path: '/images/',
+			opacity:.6
+		};
+
+		// Extend our default options with those provided.
+		var opts = jQuery.extend(defaults, options);
+
+		var cols = cols != null && (cols === 12 || cols === 16) ? cols : 12;
+		var cols = cols === opts.default_cols ? '12_col' : '16_col';
+
+		return this.each(function () {
+			var $el = jQuery(this);
+			var height = $el.height();
+
+			var wrapper = jQuery('<div id="'+opts.grid_id+'"/>')
+				.appendTo($el)
+				.css({
+					'display':'none',
+					'position':'absolute',
+					'top':0,
+					'z-index':(opts.z_index -1),
+					'height':height,
+					'opacity':opts.opacity,
+					'width':'100%'});
+
+			jQuery('<div/>')
+				.addClass('container_12')
+				.css({
+					'margin':'0 auto',
+					'width':'960px',
+					'height':height,
+					'background-image': 'url('+opts.img_path+cols + '.png)',
+					'background-repeat': 'repeat-y'})
+				.appendTo(wrapper);
+
+				// add toggle
+				jQuery('<div>grid on</div>')
+					.appendTo($el)
+					.css({
+						'position':'absolute',
+						'top':0,
+						'left':0,
+						'z-index':opts.z_index,
+						'background': '#ed1e24',
+						'font-weight': 'bold',
+						'text-transform': 'uppercase',
+						'color':'#fff',
+						'padding': '3px 6px',
+                        'cursor' : 'pointer',
+						'text-align':'left'
+					})
+					.hover( function() {
+						jQuery(this).css("cursor", "pointer");
+					}, function() {
+						jQuery(this).css("cursor", "default");
+					})
+					.toggle( function () {
+						jQuery(this).text("grid off");
+						jQuery('#'+opts.grid_id).slideDown();
+					},
+					function() {
+						jQuery(this).text("grid on");
+						jQuery('#'+opts.grid_id).slideUp();
+					});
+
+		});
+
+	};
+})(jQuery);
+
+
+

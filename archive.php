@@ -9,7 +9,8 @@
 
     <!-- primary content -->
     <div id="primary-content">
-
+     <div class="blocks">
+      <?php do_action('mystique_before_primary'); ?>
       <?php if (have_posts()) : ?>
 
        <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
@@ -33,32 +34,25 @@
        <?php
         while (have_posts()):
          the_post();
-         include(TEMPLATEPATH . '/post.php');
-        endwhile; ?>
+         mystique_post();
+        endwhile;
 
-       <div class="page-navigation clearfix">
-        <?php if(function_exists('wp_pagenavi')): wp_pagenavi(); else: ?>
-        <div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries','mystique')) ?></div>
-        <div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;','mystique')) ?></div>
-        <?php endif; ?>
-       </div>
+        mystique_pagenavi();
 
-       <?php else:
+       else:
 
-       if ( is_category() ) { // If this is a category archive
-       ?> <h2> <?php printf(__("Sorry, but there aren't any posts in the %s category yet.", "mystique"),single_cat_title('',false)); ?> </h2> <?php
-       } else if ( is_date() ) { // If this is a date archive
-       ?> <h2> <?php _e("Sorry, but there aren't any posts within this date."); ?> </h2> <?php
-       } else if ( is_author() ) { // If this is a category archive
-       $userdata = get_userdatabylogin(get_query_var('author_name'));
-       ?> <h2> <?php printf(__("Sorry, but there aren't any posts by %s yet.", "mystique"),$userdata->display_name); ?> </h2> <?php
-       } else {
-       ?> <h2> <?php _e('No posts found.'); ?> </h2> <?php
-       }
-       get_search_form();
+         if (is_category()): ?> <h2> <?php printf(__("Sorry, but there aren't any posts in the %s category yet.", "mystique"),single_cat_title('',false)); ?> </h2> <?php
+         elseif (is_date()): ?> <h2> <?php _e("Sorry, but there aren't any posts within this date."); ?> </h2> <?php
+         elseif (is_author()):
+          $userdata = get_userdatabylogin(get_query_var('author_name')); ?>
+          <h2> <?php printf(__("Sorry, but there aren't any posts by %s yet.", "mystique"),$userdata->display_name); ?> </h2> <?php
+         else: ?> <h2> <?php _e('No posts found.'); ?> </h2> <?php  endif;
+         get_search_form();
+
        endif;
        ?>
-
+       <?php do_action('mystique_after_primary'); ?>
+     </div>
     </div>
     <!-- /primary content -->
 

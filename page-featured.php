@@ -1,6 +1,6 @@
 <?php /* Mystique/digitalnature
 
- Template Name: Page with featured posts
+ Template Name: Featured posts
  */
 
  include(TEMPLATEPATH . '/page.php');

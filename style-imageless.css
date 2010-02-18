@@ -7,8 +7,19 @@
 html,body{min-height:100%;}
 body{background-color:#000;font-size:13px;font-style:normal;color:#4e4e4e;}
 
-/* page width. default = fluid @ 780-1190px (max. possible width is 1735px)  */
-.page-content{width:100%;/* <- do not change this! use max-width to set the page width! */max-width:980px;min-width:780px;margin:0 auto;}
+
+.page-content{max-width:1600px;min-width:780px;margin:0 auto;}
+
+/* fluid width page */
+body.fluid .page-content{
+  padding:0 10px;
+  width: auto;
+}
+
+/* fixed width page - 960gs */
+body.fixed .page-content{
+  width:940px;
+}
 
 
 /*** GENERAL ELEMENTS ***/
@@ -161,65 +172,71 @@ ul#navigation li li a.fadeThis span.hover,ul#navigation li.active li a.fadeThis 
 
 /*** MAIN LAYOUT ***/
 
+/* default widths */
+#primary-content{width:630px;}
+#sidebar{width:310px;}
+#sidebar2{width:230px;}
 
-.shadow-right{padding-bottom:32px;}
-#main{background-color:#fff}
-#main-inside{min-height:810px;padding:1em;}
+/* col-1 */
+body.col-1 #primary-content{width:940px;left:0;}
+body.col-1 #sidebar, body.col-1 #sidebar2{display:none;}
 
-#primary-content{width:70%;top:0;left:0;position:relative;float:left;z-index:0;overflow:hidden;}
-#sidebar{width:30%;position:relative;right:0;top:0;float:left;z-index:0;overflow:hidden;}
-#sidebar2{width:30%;position:relative;right:0;top:0;float:left;z-index:0;overflow:hidden;}
-
-ul.sidebar-blocks,ul.sidebar-blocks li.block{list-style-type:none;margin:0;padding:0;}
-ul.sidebar-blocks{margin-left:1em;/* <- space between main content and sidebar */}
-ul.sidebar-blocks li.block, .arbitrary-block{margin:1em 0 2em;position:relative;}
-
-.block ul{
-  list-style-type: none;
-  margin:0 0 .4em 0;
-}
-
-.block li{
-  margin:0;
-  padding:0 0 0 12px;
-}
-
-.block li li{
-  margin-left: .4em;
-}
+/* col-2-left */
+body.col-2-left #primary-content{left:310px;}
+body.col-2-left #sidebar{left:-630px;}
+body.col-2-left #sidebar2{display:none;}
 
 
-/* no sidebars */
-body.col-1 #primary-content{width:100%;}
-
-/* left sidebar */
-body.col-2-left #primary-content{left:30%;}
-body.col-2-left #sidebar{left:-70%;}
-body.col-2-left ul.sidebar-blocks{margin:0 1em 0 0;}
-
-/* right sidebar (default) */
-body.col-2-right #primary-content{left:0%;}
+/* col-2-right, default */
+body.col-2-right #primary-content{left:0;}
 body.col-2-right #sidebar{right:0;}
-body.col-2-right ul.sidebar-blocks{margin:0 0 0 1em;}
+body.col-2-right #sidebar2{display:none;}
 
-/* 3 col: sidebar1 + primary + sidebar2 */
-body.col-3 #primary-content{left:25%;width:50%;}
-body.col-3 #sidebar{left:-75%;width:25%;}
-body.col-3 #sidebar2{left:25%;width:25%;}
-body.col-3 #sidebar ul.sidebar-blocks{margin:0 1em 0 0;}
-body.col-3 #sidebar2 ul.sidebar-blocks{margin:0 0 0 1em;}
+/* col-3 */
+body.col-3 #primary-content{left:230px;width:480px;}
+body.col-3 #sidebar{right:0px;width:230px;}
+body.col-3 #sidebar2{left:-480px;}
 
-/* 3 col: sidebar1 + sidebar2 + primary */
-body.col-3-left #primary-content{left:50%;width:50%;}
-body.col-3-left #sidebar{left:-75%;width:25%;}
-body.col-3-left #sidebar2{left:-25%;width:25%;}
-body.col-3-left ul.sidebar-blocks{margin:0 1em 0 0;}
+/* col-3-left */
+body.col-3-left #primary-content{left:460px;width:480px;}
+body.col-3-left #sidebar{left:-710px;width:230px;}
+body.col-3-left #sidebar2{left:-250px;}  /* gs - s1 - (s1+s2) */
+body.col-3-left #primary-content .blocks{margin-left:10px;}
 
-/* 3 col: primary + sidebar1 + sidebar2 */
-body.col-3-right #primary-content{left:0%;width:50%;}
-body.col-3-right #sidebar{left:-25%;width:25%;}
-body.col-3-right #sidebar2{left:25%;width:25%;}
-body.col-3-right ul.sidebar-blocks{margin:0 0 0 1em;}
+/* col-3-right */
+body.col-3-right #primary-content{left:0;width:480px;}
+body.col-3-right #sidebar{left:0;width:230px;}
+body.col-3-right #sidebar2{left:0;}
+body.col-3-right #primary-content .blocks{margin-right:10px;}
+
+#main{
+  position: relative;
+  min-height: 540px;
+}
+
+#primary-content,#sidebar,#sidebar2{
+  top:0;
+  position:relative;
+  float:left;
+  z-index:0;
+  overflow:hidden;
+  min-height: 150px;
+}
+
+#primary-content .blocks{
+  padding: 1em;
+}
+
+
+#sidebar .blocks, #sidebar2 .blocks{padding:1em;margin:0;list-style-type:none;}
+
+li.block{list-style-type:none;padding:0;margin:0;}
+li.block, .arbitrary-block{margin:1em 0 2.6em;position:relative;}
+
+.block ul{list-style-type:none;margin:0 0 .4em 0;}
+.block li{background:transparent url(images/icons.png) no-repeat 4px -816px;margin:0;padding:0 0 0 18px;}
+.block li:hover{background-position:4px -1005px;}
+.block li li{margin-left:.4em;}
 
 
 h1.title{font-weight:bold;font-size:250%;text-shadow:#fff 1px 1px 1px;margin:.5em 0 .3em 0;padding:0;}

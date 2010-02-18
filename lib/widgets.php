@@ -1,12 +1,6 @@
 <?php /* Mystique/digitalnature */
 
 
-function objectToArray($object){
-   if(!is_object($object) && !is_array($object)) return $object;
-   if(is_object($object)) $object = get_object_vars($object);
-   return array_map('objectToArray', $object);
-}
-
 function get_twitter_data() {
   if($_GET['get_twitter_data']==1):
 
@@ -31,8 +25,8 @@ function get_twitter_data() {
 
       if(!$error):
         // for php < 5 (included JSON returns object)
-        $userdata = objectToArray($userdata);
-        $tweets = objectToArray($tweets);
+        $userdata = mystique_objectToArray($userdata);
+        $tweets = mystique_objectToArray($tweets);
 
         $newtwitdata[$id]['last_update'] = mktime();
 
@@ -74,7 +68,7 @@ function get_twitter_data() {
           $tweettime = substr_replace($tweet['created_at'],'',strpos($tweet['created_at'],"+"),5);
 
           $link = "http://twitter.com/".$twitdata[$id]['user']['screen_name']."/statuses/".$tweet['id'];
-          echo '<li><span class="entry">' . $tweet['text'] .'<a class="date" href="'.$link.'" rel="nofollow">'.timeSince(abs(strtotime($tweettime . " GMT")),time()). '</a></span></li>';
+          echo '<li><span class="entry">' . $tweet['text'] .'<a class="date" href="'.$link.'" rel="nofollow">'.mystique_timeSince(abs(strtotime($tweettime . " GMT")),time()). '</a></span></li>';
           $i++;
           if ($i == $twitcount) break;
         endforeach;
@@ -244,7 +238,7 @@ class SidebarTabsWidget extends WP_Widget{
                 //$true_comment_count = $true_comment_count+1;
                 //$comm_title = get_the_title($comment->comment_post_ID);
                 $comm_content = get_comment($comment->comment_ID,ARRAY_A); ?>
-                <li><a class="fadeThis" href="<?php echo get_comment_link($comment->comment_ID) ?>"><span class="entry"><?php echo($comment->comment_author)?>: <span class="details"> <?php echo strip_string(100,$comm_content['comment_content']); ?></span></span></a></li>
+                <li><a class="fadeThis" href="<?php echo get_comment_link($comment->comment_ID) ?>"><span class="entry"><?php echo($comment->comment_author)?>: <span class="details"> <?php echo mystique_strip_string(100,$comm_content['comment_content']); ?></span></span></a></li>
                <?php
                 //endif;
                 //if($true_comment_count == $commentnumber) break;
@@ -602,7 +596,7 @@ class LoginWidget extends WP_Widget{
          <li><a href="<?php bloginfo('wpurl') ?>/wp-admin/post-new.php"><?php _e("Write","mystique"); ?></a></li>
          <li><a href="<?php bloginfo('wpurl') ?>/wp-admin/edit-comments.php"><?php _e("Comments","mystique"); ?></a></li>
          <?php endif; ?>
-         <li><a href="<?php echo wp_logout_url() ?>&amp;redirect_to=<?php echo urlencode(curPageURL()); ?>"><?php _e("Log out","mystique"); ?></a></li>
+         <li><a href="<?php echo wp_logout_url() ?>&amp;redirect_to=<?php echo urlencode(mystique_curPageURL()); ?>"><?php _e("Log out","mystique"); ?></a></li>
         </ul>
         </div>
       <?php else:
@@ -614,7 +608,7 @@ class LoginWidget extends WP_Widget{
            <label for="pwd"><?php _e("Password","mystique"); ?></label><br /><input type="password" name="pwd" id="pwd" size="20" /><br />
            <input type="submit" name="submit" value="<?php _e("Login","mystique"); ?>" class="button" />
            <label for="rememberme"><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /><?php _e("Remember me","mystique"); ?></label><br />
-          <input type="hidden" name="redirect_to" value="<?php echo curPageURL(); ?>"/>
+          <input type="hidden" name="redirect_to" value="<?php echo mystique_curPageURL(); ?>"/>
          </fieldset>
         </form>
         <ul>

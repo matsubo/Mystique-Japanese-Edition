@@ -236,7 +236,7 @@ function sc_queryposts($atts){
 
   while ($posts->have_posts()):
     $posts->the_post();
-    include(TEMPLATEPATH . '/post.php');
+    mystique_post();
   endwhile;
 
   $post = $backup;

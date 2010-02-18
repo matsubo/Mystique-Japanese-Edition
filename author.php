@@ -8,13 +8,9 @@
    <div id="main-inside" class="clearfix">
     <!-- primary content -->
     <div id="primary-content">
-
-       <?php
-       // global $wp_query;
-       // $curauth = $wp_query->get_queried_object();
-
-       if(isset($_GET['author_name'])): $curauth = get_userdatabylogin($author_name); else : $curauth = get_userdata(intval($author)); endif;
-       ?>
+     <div class="blocks">
+       <?php do_action('mystique_before_primary'); ?>
+       <?php if(isset($_GET['author_name'])) $curauth = get_userdatabylogin($author_name); else $curauth = get_userdata(intval($author)); ?>
 
        <h1 class="title"><?php echo $curauth->display_name; ?></h1>
 
@@ -40,26 +36,19 @@
        <br />
        <?php if (have_posts()): ?>
         <h3 class="title"><?php printf(__('Posts by %s', 'mystique'), $curauth->display_name); ?></h3>
-        <div class="divider"></div>  
+        <div class="divider"></div>
         <?php
           while (have_posts()):
            the_post();
-           include(TEMPLATEPATH . '/post.php');
+           mystique_post();
           endwhile;
-        ?>
 
-       <div class="page-navigation clearfix">
-        <?php if(function_exists('wp_pagenavi')): wp_pagenavi(); else: ?>
-        <div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries','mystique')) ?></div>
-        <div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;','mystique')) ?></div>
-        <?php endif; ?>
-       </div>
-
-       <?php else : ?>
+          mystique_pagenavi();
+        else : ?>
         <p class="error"><?php _e('No posts found by this author.','mystique'); ?></p>
        <?php endif; ?>
-
-
+       <?php do_action('mystique_after_primary'); ?>
+     </div>
     </div>
     <!-- /primary content -->
 
@@ -70,3 +59,4 @@
   <!-- /main content -->
 
 <?php get_footer(); ?>
+
