@@ -19,7 +19,8 @@ Tags: light, white, two-columns, three-columns, fixed-width, flexible-width, rig
 
 
 /* reset spacing */
-*{margin:0;padding:0;font-family:"Segoe UI",Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif;}
+*{margin:0;padding:0;font-family:"Segoe UI", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif;}
+
 
 html,body{min-height:100%;}
 body{background:#000 url(images/bg.png) repeat-x center bottom;font-size:13px;font-style:normal;color:#4e4e4e;}
