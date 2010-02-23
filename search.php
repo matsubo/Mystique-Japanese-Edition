@@ -29,7 +29,7 @@
 
         <?php else: ?>
          <h1 class="title"><span class="error"><?php _e('Nothing found.','mystique'); ?></span> <?php _e('Try a different search?','mystique'); ?></h1>
-         <?php get_search_form(); ?>
+         <?php mystique_search_form(); ?>
         <?php endif; ?>
       <?php else: ?>
   	    <h1 class="title"><?php _e('What do you wish to search for?','mystique'); ?></h1>

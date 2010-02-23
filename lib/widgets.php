@@ -108,6 +108,9 @@ class SidebarTabsWidget extends WP_Widget{
       $commentnumber = empty($instance['commentnumber']) ? '8' : $instance['commentnumber'];
       $id = $args['widget_id'];
       $jquery = get_mystique_option('jquery');
+
+      global $wp_version;
+
       echo $before_widget; ?>
       <?php if($jquery): // no tab navigation if jquery is disabled ?>
       <!-- tabbed content -->
@@ -115,7 +118,7 @@ class SidebarTabsWidget extends WP_Widget{
 
        <!-- tab navigation (items must be in reverse order because of the tab-design) -->
        <ul class="box-tabs clearfix">
-          <?php if($showrecentcomm): ?><li class="recentcomm"><a href="#<?php echo $id; ?>-section-recentcomments" title="<?php _e('Recent comments','mystique'); ?>"><span><?php _e('Recent comments','mystique'); ?></span></a></li><?php endif; ?>
+          <?php if($showrecentcomm && $wp_version > 2.8): ?><li class="recentcomm"><a href="#<?php echo $id; ?>-section-recentcomments" title="<?php _e('Recent comments','mystique'); ?>"><span><?php _e('Recent comments','mystique'); ?></span></a></li><?php endif; ?>
           <?php if($showpopular): ?><li class="popular"><a href="#<?php echo $id; ?>-section-popular" title="<?php _e('Popular posts','mystique'); ?>"><span><?php _e('Popular posts','mystique'); ?></span></a></li><?php endif; ?>
           <?php if($showarchives): ?><li class="archives"><a href="#<?php echo $id; ?>-section-archives" title="<?php _e('Archives','mystique'); ?>"><span><?php _e('Archives','mystique'); ?></span></a></li><?php endif; ?>
           <?php if($showtags): ?><li class="tags"><a href="#<?php echo $id; ?>-section-tags" title="<?php _e('Tags','mystique'); ?>"><span><?php _e('Tags','mystique'); ?></span></a></li><?php endif; ?>
@@ -191,29 +194,18 @@ class SidebarTabsWidget extends WP_Widget{
           <div class="box-main">
            <div class="box-content">
             <?php
-             //$popularposts = 8;
-             $show_pass_post = false;
-             $duration='';
-             global $wpdb;
-             $request = "SELECT ID, post_title, COUNT($wpdb->comments.comment_post_ID) AS 'comment_count' FROM $wpdb->posts, $wpdb->comments";
-             $request .= " WHERE comment_approved = '1' AND $wpdb->posts.ID=$wpdb->comments.comment_post_ID AND post_status = 'publish'";
-             if(!$show_pass_post) $request .= " AND post_password =''";
-             if($duration !="") $request .= " AND DATE_SUB(CURDATE(),INTERVAL ".$duration." DAY) < post_date ";
-             $request .= " GROUP BY $wpdb->comments.comment_post_ID ORDER BY comment_count DESC LIMIT $popularpostnumber";
-             $posts = $wpdb->get_results($wpdb->prepare($request));
-             if ($posts):
-              echo '<ul class="menuList">';
-              foreach ($posts as $post):
-               setup_postdata($post);
-               $post_title = stripslashes($post->post_title);
-               $comment_count = $post->comment_count;
-               $permalink = get_permalink($post->ID);
-               echo '<li><a class="fadeThis" href="' . $permalink . '" title="' . $post_title.'"><span class="entry">' . $post_title . ' <span class="details inline">(' . $comment_count.')</span></span></a></li>';
-              endforeach;
-              echo '</ul>';
+             $popular = new WP_Query('orderby=comment_count&posts_per_page='.$popularpostnumber);
+	         if ($popular->have_posts()): ?>
+              <ul class="menuList"><?php
+              while ($popular->have_posts()):
+               $popular->the_post(); ?>
+               <li><a class="fadeThis" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><span class="entry"><?php the_title(); ?> <span class="details inline">(<?php comments_number('0','1','%'); ?>)</span></span></a></li><?php
+              endwhile; ?>
+              </ul> <?php
              else:
-              _e("Didn't find any posts popular enough :(","mystique");
+               _e("Didn't find any posts popular enough :(","mystique");
              endif;
+             wp_reset_query();
              ?>
            </div>
           </div>
@@ -221,7 +213,7 @@ class SidebarTabsWidget extends WP_Widget{
 
        <?php endif; ?>
 
-       <?php if($showrecentcomm): ?>
+       <?php if($showrecentcomm && $wp_version > 2.8): ?>
 
          <div class="box section" id="<?php echo $id; ?>-section-recentcomments">
           <div class="box-top-left"><div class="box-top-right"></div></div>
@@ -237,8 +229,8 @@ class SidebarTabsWidget extends WP_Widget{
                 //if($comment_type == 'comment'):
                 //$true_comment_count = $true_comment_count+1;
                 //$comm_title = get_the_title($comment->comment_post_ID);
-                $comm_content = get_comment($comment->comment_ID,ARRAY_A); ?>
-                <li><a class="fadeThis" href="<?php echo get_comment_link($comment->comment_ID) ?>"><span class="entry"><?php echo($comment->comment_author)?>: <span class="details"> <?php echo mystique_strip_string(100,$comm_content['comment_content']); ?></span></span></a></li>
+                $comm_content = get_comment($comment->comment_ID, ARRAY_A); ?>
+                <li class="clearfix"><a title="<?php printf(__("Posted in: %s", "mystique"), get_the_title($comment->comment_post_ID)); ?>" class="fadeThis" href="<?php echo get_comment_link($comment->comment_ID) ?>"><span class="avatar"><?php echo get_avatar($comment, 32); ?></span><span class="entry"><?php echo($comment->comment_author)?>: <span class="details"> <?php echo mystique_strip_string(100, $comm_content['comment_content']); ?></span></span></a></li>
                <?php
                 //endif;
                 //if($true_comment_count == $commentnumber) break;
@@ -309,10 +301,13 @@ class SidebarTabsWidget extends WP_Widget{
        <input class="checkbox" type="checkbox" <?php checked($instance['showpopular'], true) ?> id="<?php echo $this->get_field_id('showpopular'); ?>" name="<?php echo $this->get_field_name('showpopular'); ?>" />
        <label for="<?php echo $this->get_field_id('showpopular'); ?>"><?php _e('Popular posts (most commented)','mystique'); ?></label>
       </p>
+
+      <?php if($wp_version > 2.8): ?>
       <p>
        <input class="checkbox" type="checkbox" <?php checked($instance['showrecentcomm'], true) ?> id="<?php echo $this->get_field_id('showrecentcomm'); ?>" name="<?php echo $this->get_field_name('showrecentcomm'); ?>" />
        <label for="<?php echo $this->get_field_id('showrecentcomm'); ?>"><?php _e('Recent comments','mystique'); ?></label>
       </p>
+      <?php endif; ?>
       </fieldset>
       <br />
       <fieldset>

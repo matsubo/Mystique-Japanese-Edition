@@ -11,7 +11,7 @@
 <meta name="designer" content="digitalnature.ro" />
 
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
-<link rel="alternate" type="application/mystique+xml" title="<?php bloginfo('name'); ?> Mystique Feed" href="<?php bloginfo('mystique_url'); ?>" />
+<link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 
@@ -21,11 +21,12 @@
  <div id="page">
 
 
-  <div class="shadow-left page-content header-wrapper">
-   <div class="shadow-right">
+  <div class="page-content header-wrapper">
+
 
     <div id="header" class="bubbleTrigger">
-      <div id="site-title">
+
+      <div id="site-title" class="clearfix">
 
         <?php mystique_logo(); ?>
         <?php if(get_bloginfo('description')): ?><p class="headline"><?php bloginfo('description'); ?></p><?php endif; ?>
@@ -38,7 +39,6 @@
 
     </div>
 
-   </div>
   </div>
 
   <!-- left+right bottom shadow -->

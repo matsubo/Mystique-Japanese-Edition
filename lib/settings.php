@@ -141,7 +141,7 @@ function mystique_is_color_dark($hex){
 
 // user css, dynamic way
 function mystique_css(){
-  if(isset($_GET['css'])):
+  if($_GET['mystique'] == 'css'):
 
    $mystique_options = get_option('mystique');
    $font_styles = font_styles();
@@ -150,14 +150,12 @@ function mystique_css(){
    header("Cache-Control: no-cache");
    header("Pragma: no-cache");
 
-   if($mystique_options['imageless']):
-    echo '@import "'.THEME_URL.'/style-imageless.css";'.PHP_EOL;
-   else:
-    echo '@import "'.get_bloginfo('stylesheet_url').'";'.PHP_EOL;
-    echo '@import "'.THEME_URL.'/color-'.$mystique_options['color_scheme'].'.css";'.PHP_EOL;
-   endif;
-
+   if(!$mystique_options['imageless']) echo '@import "'.THEME_URL.'/color-'.$mystique_options['color_scheme'].'.css";'.PHP_EOL;
    do_action('mystique_css');
+
+   // font styles
+   if($mystique_options['font_style'] != 0)
+    echo '*{font-family:'.$font_styles[$mystique_options['font_style']]['code'].';}'.PHP_EOL;
 
    // column dimensions
    $unit = ($mystique_options['page_width'] == 'fluid') ? '%' : 'px';
@@ -214,7 +212,7 @@ function mystique_css(){
 
 // dynamic js
 function mystique_jquery_init(){
-  if(isset($_GET['jquery_init'])):
+  if($_GET['mystique'] == 'jquery_init'):
    $mystique_options = get_option('mystique');
    header("content-type: application/x-javascript");
    header("Expires: Mon, 25 Dec 1989 02:00:00 GMT");
@@ -284,9 +282,9 @@ function mystique_jquery_init(){
       duration: 166
     });
     jQuery('a.nav-extra').nudge({
-      property: 'bottom',
+      property: 'marginTop',
       direction: '',
-      amount: 14,
+      amount: -18,
       duration: 166
     });
 
@@ -334,7 +332,6 @@ function mystique_jquery_init(){
     jQuery("#sidebar").attr("role", "complementary");
     jQuery("#searchform").attr("role", "search");
 
-
     <?php if($_GET['preview'] == 1): ?>jQuery('body').addGrid(12, {img_path: '<?php echo THEME_URL; ?>/admin/images/'});<?php endif; ?>
 
     <?php do_action('mystique_jquery_init'); ?>
@@ -355,15 +352,14 @@ function mystique_user_functions(){
   if ($user_functions && $userfunctions<>('<?php'.str_repeat(PHP_EOL, 3))):
     // remove any php tags from start/end of the string (there shouldn't be html output outside any function)
     $user_functions = mystique_trim_string($user_functions, '<?php');
-    $user_functions = mystique_trim_string($user_functions, '<?');
     $user_functions = mystique_trim_string($user_functions, '?>');
     if (FALSE === @eval($user_functions.' return true;')) add_action('admin_notices', 'eval_functions_error');
   endif;
 }
 
 function mystique_load_stylesheets(){ ?>
-<link media="print" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/print.css" />
-<link media="screen" rel="stylesheet" href="<?php echo add_query_arg('css', true, (is_404() ? get_bloginfo('url') : mystique_curPageURL())); ?>" type="text/css" />
+<link media="screen" rel="stylesheet" href="<?php echo get_mystique_option('imageless') ? THEME_URL.'/style-imageless.css' : get_bloginfo('stylesheet_url'); ?>" type="text/css" />
+<link media="screen" rel="stylesheet" href="<?php echo esc_url(add_query_arg('mystique', 'css', (is_404() ? get_bloginfo('url') : mystique_curPageURL()))); ?>" type="text/css" />
 <!--[if lte IE 6]><link media="screen" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/ie6.css" type="text/css" /><![endif]-->
 <!--[if IE 7]><link media="screen" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/ie7.css" type="text/css" /><![endif]-->
   <?php
@@ -373,6 +369,6 @@ function mystique_load_scripts(){
  if(get_mystique_option('jquery')):
   wp_enqueue_script('jquery');
   wp_enqueue_script('mystique', THEME_URL.'/js/jquery.mystique.js', array('jquery'), $ver=THEME_VERSION, $in_footer=true);
-  wp_enqueue_script('mystique-init', add_query_arg('jquery_init', 1, (is_404() ? get_bloginfo('url') : mystique_curPageURL())), array('jquery', 'mystique'), $ver=THEME_VERSION, $in_footer=true);
+  wp_enqueue_script('mystique-init', esc_url(add_query_arg('mystique', 'jquery_init', (is_404() ? get_bloginfo('url') : mystique_curPageURL()))), array('jquery', 'mystique'), $ver=THEME_VERSION, $in_footer=true);
  endif;
 }

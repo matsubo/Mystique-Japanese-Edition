@@ -22,20 +22,26 @@
           <?php if (!get_post_meta($post->ID, 'hide_title', true)): ?><h1 class="title"><?php the_title(); ?></h1><?php endif; ?>
 
           <div class="post-content clearfix">
-          <?php if($post_thumb): ?>
-          <div class="post-thumb alignleft"><?php the_post_thumbnail(); ?></div>
-          <?php endif; ?>
           <?php the_content(__('More &gt;', 'mystique')); ?>
           <?php if(function_exists('wp_print')): ?><div class="alignright"><?php print_link(); ?></div><?php endif; ?>
           </div>
-          <?php wp_link_pages(array('before' => '<div class="page-navigation"><p><strong>'.__("Pages:","mystique").' </strong> ', 'after' => '</p></div>', 'next_or_number' => 'number')); ?>
+          <?php wp_link_pages(array('before' => '<div class="page-navigation"><p><strong> '.__("Pages:","mystique").' </strong>', 'after' => '</p></div>', 'next_or_number' => 'number')); ?>
 
           <?php
             $settings = get_option('mystique');
-            $posttags = get_the_tags();
-            if ($settings['post_single_tags'] && $posttags): ?>
-            <div class="post-tags"> <?php the_tags(__('Tags:','mystique').' ', ', ', ''); ?></div>
-          <?php endif; ?>
+            $post_tags = get_the_tags();
+            if ($post_tags && $settings['post_single_tags']): ?>
+            <div class="post-tags">
+            <?php
+              $tags = array();
+              $i = 0;
+              foreach($post_tags as $tag):
+               $tags[$i] .=  '<a href="'.get_tag_link($tag->term_id).'" rel="tag" title="'.sprintf(__('%1$s (%2$s topics)'),$tag->name,$tag->count).'">'.$tag->name.'</a>';
+               $i++;
+              endforeach;
+              echo implode(', ',$tags); ?>
+            </div>
+            <?php endif; ?>
 
 
           <?php if($settings['post_single_author']): ?>
@@ -44,7 +50,7 @@
              <a href="<?php echo get_author_posts_url(get_the_author_ID()); ?>" title="<?php echo get_the_author(); ?>"><?php echo get_avatar(get_the_author_email(), '80'); ?></a>
            </div>
            <h3><?php _e("About the author","mystique"); ?></h3>
-           <p><?php the_author_description(); ?></p>
+           <p><?php the_author_meta('description'); ?></p>
           </div>
           <?php endif; ?>
 

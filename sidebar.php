@@ -2,8 +2,8 @@
 
 $layout = mystique_layout_type();
 
-$show_1stcolumn = ($layout != 'col-1') || ($_GET['preview']);
-$show_2ndcolumn = (($layout != 'col-1') && ($layout != 'col-2-left') && ($layout != 'col-2-right') ) || ($_GET['preview']);
+$show_1stcolumn = ($layout != 'col-1') || ($_GET['mystique'] == 'preview');
+$show_2ndcolumn = (($layout != 'col-1') && ($layout != 'col-2-left') && ($layout != 'col-2-right') ) || ($_GET['mystique'] == 'preview');
 
 if($show_1stcolumn):
  if($show_2ndcolumn) include(TEMPLATEPATH . '/sidebar2.php'); ?>
@@ -15,7 +15,7 @@ if($show_1stcolumn):
 
     <?php if(!is_search()): ?>
     <li class="block">
-     <?php search_form(); ?>
+     <?php mystique_search_form(); ?>
     </li>
     <?php endif; ?>
 

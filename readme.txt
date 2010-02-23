@@ -44,6 +44,9 @@ CREDITS:
 - Finnish translation by Tomi R. - http://www.rantom.fi
 - Dutch translation translation by FrankB
 - Hungarian translation by GabeszMeister - http://blog.gabesz-meister.hu
+- wp_pagenavi plugin - http://wordpress.org/extend/plugins/wp-pagenavi
+- jQuery Slider by Egor Khmelev - http://blog.egorkhmelev.com/
+
 
 REQUIREMENTS:
 - PHP 5+

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mystique 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-18 01:25+0200\n"
+"POT-Creation-Date: 2010-02-23 02:53+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: digitalnature <hello@digitalnature.ro>\n"
 "Language-Team: digitalnature.ro <hello@digitalnature.ro>\n"
@@ -22,53 +22,53 @@ msgstr ""
 msgid "The requested page was not found"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:20
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
 #, php-format
 msgid "Posts tagged %s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:22
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:24
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
 #, php-format
 msgid "Archive for %s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:24
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
 msgid "F, Y"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:26
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
 #, php-format
 msgid "Archive for year %s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:26
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
 msgid "Y"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:28
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:31
 msgid "Author archive"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:30
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:33
 msgid "Blog Archives"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:44
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:47
 #, php-format
 msgid "Sorry, but there aren't any posts in the %s category yet."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:45
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:48
 msgid "Sorry, but there aren't any posts within this date."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:48
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:51
 #, php-format
 msgid "Sorry, but there aren't any posts by %s yet."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:52
 msgid "No posts found."
 msgstr ""
 
@@ -190,20 +190,20 @@ msgstr ""
 msgid "No trackbacks yet."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:205
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
 msgid "No comments"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:205
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
 msgid "1 comment"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:205
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
 #, php-format
 msgid "% comments"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:223
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:224
 msgid "Comments are closed."
 msgstr ""
 
@@ -265,10 +265,12 @@ msgstr ""
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:13
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:5
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:10
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:358
 msgid "Search"
 msgstr ""
 
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:239
 #, php-format
 msgid "Search results for %s"
 msgstr ""
@@ -306,51 +308,56 @@ msgstr ""
 msgid "You activated the 2nd sidebar. Add widgets here from the Dashboard to remove this message"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:28
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:544
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:557
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:625
 msgid "More &gt;"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:28
 msgid "Pages:"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:37
-msgid "Tags:"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:39
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:569
+#, php-format
+msgid "%1$s (%2$s topics)"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:52
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:580
 msgid "About the author"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:58
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:64
 msgid "Print article"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:62
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:68
 #, php-format
 msgid "This entry was posted by %1$s on %2$s at %3$s, and is filed under %4$s. Follow any responses to this post through %5$s."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:65
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:71
 #, php-format
 msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:67
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:73
 #, php-format
 msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:69
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:75
 msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:71
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:77
 msgid "Both comments and pings are currently closed."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:74
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:80
 msgid "Edit this entry"
 msgstr ""
 
@@ -698,6 +705,8 @@ msgid "Check the items you wish to hide from the main menu"
 msgstr ""
 
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:688
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:169
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:171
 msgid "Home"
 msgstr ""
 
@@ -809,10 +818,6 @@ msgstr ""
 msgid "Create thumbnail from the 1st image found in a post, if no thumbnail is set"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/code-highlight/code-highlight.php:93
-msgid "(Invalid code)"
-msgstr ""
-
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/ip2country/ip2country.php:48
 msgid "Show comment author's country flag"
 msgstr ""
@@ -821,8 +826,42 @@ msgstr ""
 msgid "May slow down page loading"
 msgstr ""
 
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:15
+msgid "Extra navigation items"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:15
+msgid "(Leave blank to disable)"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:19
+msgid "Twitter ID"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:24
+msgid "RSS URL"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:29
+msgid "Facebook ID"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:53
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:56
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:156
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:263
+msgid "RSS Feeds"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:59
+msgid "My Facebook"
+msgstr ""
+
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:40
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:273
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:282
 #, php-format
 msgid "%s post"
 msgid_plural "%s posts"
@@ -833,182 +872,165 @@ msgstr[1] ""
 msgid "View page"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:150
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:263
-msgid "RSS Feeds"
-msgstr ""
-
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:153
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:406
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:159
 msgid "Follow me on Twitter!"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:162
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:169
 msgid "You are Home"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:164
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:171
 msgid "Click for Home"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:220
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:229
 msgid "F jS, Y"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:222
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:231
 #, php-format
 msgid "Archive for week %1$s of %2$s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:222
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:231
 msgid "W"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:233
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:242
 msgid "404 Not Found"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:239
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:248
 #, php-format
 msgid "Page %s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:243
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:252
 #, php-format
 msgid "Comment Page %s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:265
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:274
 #, php-format
 msgid "View all posts in %s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:325
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:334
 msgid "Share this post!"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:510
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:519
 msgid "Permanent Link:"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:515
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:524
 msgid "M jS"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:519
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:528
 #, php-format
 msgid "Posted by %1$s in %2$s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:522
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:531
 msgid "Edit"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:535
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:548
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:616
-msgid "Read more"
-msgstr ""
-
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:560
-#, php-format
-msgid "%1$s (%2$s topics)"
-msgstr ""
-
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:602
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:611
 msgid "Pages: "
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:604
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:613
 msgid "Edit this page"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:673
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:682
 msgid "Go to the first page"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:673
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:682
 msgid "&laquo; First"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:679
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:685
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:691
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:688
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:694
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:700
 #, php-format
 msgid "Go to page %s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:695
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:704
 msgid "Go to the last page"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:695
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:704
 msgid "Last &raquo;"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:729
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:738
 #, php-format
 msgid "about %s year ago"
 msgid_plural "about %s years ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:730
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:739
 #, php-format
 msgid "about %s month ago"
 msgid_plural "about %s months ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:731
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:740
 #, php-format
 msgid "about %s week ago"
 msgid_plural "about %s weeks ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:732
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:741
 #, php-format
 msgid "about %s day ago"
 msgid_plural "about %s days ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:733
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:742
 #, php-format
 msgid "about %s hour ago"
 msgid_plural "about %s hours ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:734
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:743
 #, php-format
 msgid "about %s minute ago"
 msgid_plural "about %s minutes ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:735
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:744
 #, php-format
 msgid "about %s second ago"
 msgid_plural "about %s seconds ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1029
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1038
 #, php-format
 msgid "%1$s written by %2$s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1037
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1046
 msgid "Reply"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1038
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1047
 msgid "Quote"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1045
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1054
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
@@ -1024,34 +1046,12 @@ msgstr ""
 msgid "Error box"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:87
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:154
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:615
-msgid "Register"
-msgstr ""
-
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:99
-msgid "Reset password"
-msgstr ""
-
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:111
-msgid "About us"
-msgstr ""
-
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:123
-msgid "Contact us"
-msgstr ""
-
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:135
-msgid "Tag Cloud"
-msgstr ""
-
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:148
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:73
 #, php-format
 msgid "You can configure Mystique from the <a%s>theme settings</a> page."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:427
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:348
 msgid "There are one or more PHP parse errors in your custom functions."
 msgstr ""
 
@@ -1139,6 +1139,10 @@ msgstr ""
 msgid "Add User"
 msgstr ""
 
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:154
+msgid "Register"
+msgstr ""
+
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:289
 #, php-format
 msgid "Empty ad slot (#%s)!"
@@ -1183,7 +1187,7 @@ msgid "Mystique | Sidebar tabs"
 msgstr ""
 
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:118
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:314
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:303
 msgid "Recent comments"
 msgstr ""
 
@@ -1192,184 +1196,189 @@ msgid "Popular posts"
 msgstr ""
 
 #: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:120
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:306
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:295
 msgid "Archives"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:215
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:203
 msgid "Didn't find any posts popular enough :("
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:258
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:230
+#, php-format
+msgid "Posted in: %s"
+msgstr ""
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:247
 msgid "Sidebar tabs"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:259
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:402
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:501
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:248
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:391
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:490
 msgid "jQuery is disabled and this widget needs it"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:294
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:283
 msgid "Tabs to show"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:302
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:291
 msgid "Tags "
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:310
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:299
 msgid "Popular posts (most commented)"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:320
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:309
 msgid "Sort categories"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:322
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:311
 msgid "by name (alphabetically)"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:323
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:312
 msgid "by category ID"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:324
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:313
 msgid "by category slug"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:325
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:314
 msgid "by post count"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:330
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:319
 msgid "Show post count (categories and archives)"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:336
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:325
 msgid "How many popular posts to show?"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:343
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:332
 msgid "How many recent comments to show?"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:359
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:348
 msgid "Shows your latest Twitter updates"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:360
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:349
 msgid "Mystique | Twitter"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:399
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:388
 msgid "Loading tweets..."
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:429
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:535
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:418
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:524
 msgid "Title:"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:434
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:423
 msgid "Twitter user name:"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:439
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:428
 msgid "Number of tweets to show:"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:453
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:442
 msgid "Displays Flickr galleries (needs API key)"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:455
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:444
 msgid "Mystique | Flickr Gallery"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:526
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:515
 msgid "Flickr Gallery"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:540
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:529
 msgid "API key:"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:545
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:534
 msgid "Number of photos to show:"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:550
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:539
 msgid "Gallery source:"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:552
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:541
 msgid "Photoset"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:553
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:542
 msgid "User photostream"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:558
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:547
 msgid "Photoset ID:"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:563
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:552
 #, php-format
 msgid "User ID (use %s to find it):"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:578
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:567
 msgid "Login form"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:579
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:568
 msgid "Mystique | Login"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:589
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:578
 #, php-format
 msgid "Logged in: %s"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:594
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:583
 msgid "Dashboard"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:596
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:585
 msgid "Write"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:597
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:586
 msgid "Comments"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:599
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:588
 msgid "Log out"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:603
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:592
 msgid "User Login"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:607
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:596
 msgid "User"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:608
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:597
 msgid "Password"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:609
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:598
 msgid "Login"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:610
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:599
 msgid "Remember me"
 msgstr ""
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:616
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:605
 msgid "Lost your password?"
 msgstr ""
 

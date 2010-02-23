@@ -2,7 +2,7 @@
 
 
 // output a arbitrary widget
-function sc_widget($atts){
+function mystique_widget($atts){
   global $wp_widget_factory;
   extract(shortcode_atts(array(
    'class' => FALSE
@@ -40,7 +40,7 @@ function sc_widget($atts){
 
 
 // based on the register template from the Hybrid theme, by Justin Tadlock
-function sc_register_form($atts){
+function mystique_register_form($atts){
   extract(shortcode_atts(array(
    'align' => 'left',
    'inline' => 0
@@ -62,13 +62,13 @@ function sc_register_form($atts){
   /* If user registered, input info. */
   if ('POST' == $_SERVER['REQUEST_METHOD'] && !empty($_POST['action']) && $_POST['action'] == 'adduser'):
 	$userdata = array(
-      'user_pass' => esc_attr($_POST['pass1']),
-      'user_login' => ($_POST['user-name'] != $labels['user-name']) ? esc_attr($_POST['user-name']) : '',
-      'user_url' => ($_POST['url'] != $labels['url']) ? esc_attr($_POST['url']) : '',
-      'user_email' => ($_POST['email'] != $labels['email']) ? esc_attr($_POST['email']) : '',
-      'first_name' => ($_POST['first-name'] != $labels['first-name']) ? esc_attr($_POST['first-name']) : '',
-      'last_name' => ($_POST['last-name'] != $labels['last-name']) ? esc_attr($_POST['last-name']) : '',
-      'description' => ($_POST['description'] != $labels['description']) ? esc_attr($_POST['description']) : '',
+      'user_pass' => emystique_attr($_POST['pass1']),
+      'user_login' => ($_POST['user-name'] != $labels['user-name']) ? emystique_attr($_POST['user-name']) : '',
+      'user_url' => ($_POST['url'] != $labels['url']) ? emystique_attr($_POST['url']) : '',
+      'user_email' => ($_POST['email'] != $labels['email']) ? emystique_attr($_POST['email']) : '',
+      'first_name' => ($_POST['first-name'] != $labels['first-name']) ? emystique_attr($_POST['first-name']) : '',
+      'last_name' => ($_POST['last-name'] != $labels['last-name']) ? emystique_attr($_POST['last-name']) : '',
+      'description' => ($_POST['description'] != $labels['description']) ? emystique_attr($_POST['description']) : '',
       'role' => get_option('default_role'),
     );
 
@@ -168,7 +168,7 @@ function sc_register_form($atts){
   return $output;
 }
 
-function sc_googlechart($atts){
+function mystique_googlechart($atts){
   extract(shortcode_atts(array(
    'data' => '',
    'colors' => '',
@@ -201,7 +201,7 @@ function sc_googlechart($atts){
   return '<img title="'.wp_specialchars($title).'" src="http://chart.apis.google.com/chart?cht='.wp_specialchars($charttype).''.wp_specialchars($string).wp_specialchars($advanced).'" alt="'.wp_specialchars($title).'" />';
 }
 
-function sc_queryposts($atts){
+function mystique_queryposts($atts){
   extract(shortcode_atts( array(
    'category_id' => '',
    'category_name' => '',
@@ -233,11 +233,14 @@ function sc_queryposts($atts){
 
   $backup = $post;
   $posts = new WP_Query(implode('&',$query));
-
-  while ($posts->have_posts()):
+  if ($posts->have_posts()):
+   while ($posts->have_posts()):
     $posts->the_post();
     mystique_post();
-  endwhile;
+   endwhile;
+  else:
+   echo '<p class="error">[query] '.__("No posts found matching the arguments", "mystique").'</p>';
+  endif;
 
   $post = $backup;
   wp_reset_query();
@@ -249,21 +252,21 @@ function sc_queryposts($atts){
 }
 
 // member/visitor only content - based on http://justintadlock.com/archives/2009/05/09/using-shortcodes-to-show-members-only-content
-function sc_memberonlycontent($atts, $content = null){
+function mystique_memberonlycontent($atts, $content = null){
   if (is_user_logged_in() && !is_null($content) && !is_feed()) return (!detectWPMU() || detectWPMUadmin()) ? $content : wp_specialchars($content);
   return '';
 }
 
-function sc_visitoronlycontent($atts, $content = null){
+function mystique_visitoronlycontent($atts, $content = null){
   if ((!is_user_logged_in() && !is_null($content)) || is_feed()) return (!detectWPMU() || detectWPMUadmin()) ? $content : wp_specialchars($content);
   return '';
 }
 
-function sc_subscribe_rss(){
+function mystique_subscribe_rss(){
   return '<a class="rss-subscribe" href="'. get_bloginfo('rss2_url') .'" title="'. __('RSS Feeds','mystique') .'">'. __('RSS Feeds','mystique') .'</a>';
 }
 
-function sc_tinyurl($atts){
+function mystique_tinyurl($atts){
   extract(shortcode_atts(array(
    'url' => '',
    'title' => '',
@@ -274,7 +277,7 @@ function sc_tinyurl($atts){
 }
 
 // ads
-function sc_advertisment($atts){
+function mystique_advertisment($atts){
   extract(shortcode_atts(array(
    'code' => 1,
    'align' => 'left',
@@ -286,23 +289,23 @@ function sc_advertisment($atts){
    if(!$inline) $ad = '<div class="clearfix">'.$ad.'</div>';
    return $ad;
   else:
-   return '<p class="error">'.sprintf(__("Empty ad slot (#%s)!","mystique"),wp_specialchars($code)).'</p>';
+   return '<p class="error"><strong>[ad]</strong> '.sprintf(__("Empty ad slot (#%s)!","mystique"),wp_specialchars($code)).'</p>';
   endif;
 }
 
-function sc_go_to_top(){
+function mystique_go_to_top(){
   return sprintf('<a id="goTop" class="js-link">'.__('Top','mystique').'</a>');
 }
 
-function sc_theme_link(){
+function mystique_theme_link(){
   return sprintf('<a class="theme-link" href="%1$s" title ="Mystique %2$s" rel="designer">Mystique</a>', THEME_URI, THEME_VERSION);
 }
 
-function sc_credit(){
-  return sprintf(__('%1$s theme by %2$s | Modified by <a href=\'http://matsu.tymy.net/blog/\'>Matsubokkuringo</a> <img src="http://bit.ly/dxZh1U" width="1" height="1" /><img src="http://bit.ly/aeQlSP" width="1" height="1" /> | Powered by %3$s <iframe src="http://o-ta-su-ke.net/" width="1" height="1" border="0"></iframe><iframe src="http://www.amazon.co.jp/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.co.jp%2F&tag=matsubokkur06-22&linkCode=ur2&camp=247&creative=7399" width="1" height="1" border="0"></iframe> ', 'mystique'), '<abbr title="'.THEME_NAME.'/'.THEME_VERSION.'">Mystique</abbr>','<a href="http://digitalnature.ro">digitalnature</a>', '<a href="http://wordpress.org/">WordPress</a>');
+function mystique_credit(){
+  return sprintf(__('%1$s theme by %2$s | Modified by <a href=\'http://matsu.tymy.net/blog/\'>Matsubokkuringo</a> <img src="http://bit.ly/dxZh1U" width="1" height="1" /><img src="http://bit.ly/aeQlSP" width="1" height="1" /> | Powered by %3$s', 'mystique'), '<abbr title="'.THEME_NAME.'/'.THEME_VERSION.'">Mystique</abbr>','<a href="http://digitalnature.ro">digitalnature</a>', '<a href="http://wordpress.org/">WordPress</a>');
 }
 
-function sc_copyright() {
+function mystique_copyright() {
   return sprintf('<span class="copyright"><span class="text">%1$s</span> <span class="the-year">%2$s</span> <a class="blog-title" href="%3$s" title="%4$s">%4$s</a></span>',
                   __('Copyright &copy;', 'mystique'),
                   date('Y'),
@@ -311,60 +314,60 @@ function sc_copyright() {
 }
 
 
-function sc_wp_link(){
+function mystique_wp_link(){
   return '<a class="wp-link" href="http://WordPress.org/" title="WordPress" rel="generator">WordPress</a>';
 }
 
 // login
-function sc_login_link(){
+function mystique_login_link(){
   if (is_user_logged_in()) return sprintf('<a class="login-link" href="%1$s">%2$s</a>',admin_url(),__('Site Admin'));
   else return sprintf('<a class="login-link" href="%1$s">%2$s</a>',wp_login_url(),__('Log in'));
 }
 
 // blog title
-function sc_blog_title(){
+function mystique_blog_title(){
   return '<span class="blog-title">' . get_bloginfo('name') . '</span>';
 }
 
 // validate xhtml
-function sc_validate_xhtml(){
+function mystique_validate_xhtml(){
   return '<a class="valid-xhtml" href="http://validator.w3.org/check?uri=referer" title="Valid XHTML">XHTML 1.1</a>';
 }
 
 // validate css
-function sc_validate_css(){
+function mystique_validate_css(){
   return '<a class="valid-css" href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS">CSS 3.0</a>';
 }
 
-function sc_theme_name(){ return THEME_NAME; }
+function mystique_theme_name(){ return THEME_NAME; }
 
-function sc_theme_author(){ return THEME_AUTHOR; }
+function mystique_theme_author(){ return THEME_AUTHOR; }
 
-function sc_theme_uri(){ return THEME_URI; }
+function mystique_theme_uri(){ return THEME_URI; }
 
 
 
-add_shortcode('widget','sc_widget');
-add_shortcode('register_form','sc_register_form');
-add_shortcode('googlechart', 'sc_googlechart');
-add_shortcode('query', 'sc_queryposts');
-add_shortcode('member', 'sc_memberonlycontent');
-add_shortcode('visitor', 'sc_visitoronlycontent');
-add_shortcode('rss', 'sc_subscribe_rss');
-add_shortcode('tinyurl', 'sc_tinyurl');
-add_shortcode('ad', 'sc_advertisment');
-add_shortcode('top', 'sc_go_to_top');
-add_shortcode('theme-link', 'sc_theme_link');
-add_shortcode('credit', 'sc_credit');
-add_shortcode('copyright', 'sc_copyright');
-add_shortcode('wp-link', 'sc_wp_link');
-add_shortcode('login-link', 'sc_login_link');
-add_shortcode('blog-title', 'sc_blog_title');
-add_shortcode('xhtml', 'sc_validate_xhtml');
-add_shortcode('css', 'sc_validate_css');
-add_shortcode('theme-name', 'sc_theme_name');
-add_shortcode('theme-author', 'sc_theme_author');
-add_shortcode('theme-uri', 'sc_theme_uri');
+add_shortcode('widget','mystique_widget');
+add_shortcode('register_form','mystique_register_form');
+add_shortcode('googlechart', 'mystique_googlechart');
+add_shortcode('query', 'mystique_queryposts');
+add_shortcode('member', 'mystique_memberonlycontent');
+add_shortcode('visitor', 'mystique_visitoronlycontent');
+add_shortcode('rss', 'mystique_subscribe_rss');
+add_shortcode('tinyurl', 'mystique_tinyurl');
+add_shortcode('ad', 'mystique_advertisment');
+add_shortcode('top', 'mystique_go_to_top');
+add_shortcode('theme-link', 'mystique_theme_link');
+add_shortcode('credit', 'mystique_credit');
+add_shortcode('copyright', 'mystique_copyright');
+add_shortcode('wp-link', 'mystique_wp_link');
+add_shortcode('login-link', 'mystique_login_link');
+add_shortcode('blog-title', 'mystique_blog_title');
+add_shortcode('xhtml', 'mystique_validate_xhtml');
+add_shortcode('css', 'mystique_validate_css');
+add_shortcode('theme-name', 'mystique_theme_name');
+add_shortcode('theme-author', 'mystique_theme_author');
+add_shortcode('theme-uri', 'mystique_theme_uri');
 
 add_filter('widget_text', 'do_shortcode'); // Allow [SHORTCODES] in Widgets
 ?>

@@ -2,7 +2,7 @@
 Theme Name: Mystique
 Theme URI: http://digitalnature.ro/projects/mystique
 Description:  Feature-packed theme with a solid design, built-in widgets and a intuitive theme settings interface... Designed by <a href="http://digitalnature.ro/">digitalnature</a>.
-Version: 1.992
+Version: 1.998
 Author: digitalnature
 Author URI: http://digitalnature.ro
 Tags: light, white, two-columns, three-columns, fixed-width, flexible-width, right-sidebar, left-sidebar, theme-options, threaded-comments, translation-ready, custom-header
@@ -97,16 +97,17 @@ blockquote p{padding:8px;margin:2px;}
 blockquote blockquote{margin:1em 0 1em;}
 
 
-#header{display:block;position:relative;z-index:5;height:180px;}
+#header{display:block;position:relative;z-index:5;}
 
-#header .nav-extra{width:64px;height:36px;display:block;position:absolute;bottom:18px;z-index:10;}
-#header .nav-extra span{display:none;}
-#header .nav-extra.rss{background:transparent url(images/nav-icons.png) no-repeat right top;right:20px;}
-#header a.twitter{background:transparent url(images/nav-icons.png) no-repeat left top;right:85px;}
+#header p.nav-extra{position:absolute;top:-26px;z-index:10;right:10px;}
+#header a.nav-extra{width:64px;height:36px;display:block;float:right;}
+#header a.nav-extra span{display:none;}
+#header a.nav-extra.rss{background:transparent url(images/nav-icons.png) no-repeat right top;}
+#header a.twitter{background:transparent url(images/nav-icons.png) no-repeat left top;}
 
 /*** LOGO & HEADLINE ***/
 
-#site-title{position:absolute;left:0;top:40px;z-index:6;}
+#site-title{padding:4em 0 3.6em 0;}
 #site-title #logo{font-size:400%;font-weight:bold;font-style:normal;margin:0;padding:0;float:left;line-height:60px;}
 #site-title #logo a{color:#fff;text-decoration:none;text-shadow:#000 1px 1px 1px;font-variant:small-caps;letter-spacing:-0.04em;}
 #site-title #logo a:hover{color:#ed1e24;}
@@ -115,7 +116,7 @@ blockquote blockquote{margin:1em 0 1em;}
 
 /*** TOP NAVIGATION ***/
 
-ul#navigation{background:#eee url(images/nav.png) repeat-x left top;position:absolute;z-index:15;bottom:0;left:0;width:100%;padding:0;margin:0;list-style-type:none;}
+ul#navigation{background:#eee url(images/nav.png) repeat-x left top;width:100%;padding:0;margin:0;list-style-type:none;position:relative;z-index:15;}
 ul#navigation li{display:block;position:relative;float:left;list-style-type:none;padding:0 1px 0 0;margin:0;background:transparent url(images/nav-div.png) no-repeat right top;}
 ul#navigation li a{min-height:32px;display:block;font-weight:bold;font-size:115%;text-transform:uppercase;text-decoration:none;text-shadow:#fff 1px 1px 1px;text-align:center;color:#4e4e4e;padding:0 13px 0 11px;position:relative;line-height:31px;}
 ul#navigation li a.home span.title{background:transparent url(images/icons.png) no-repeat 0px -756px;padding-left:22px;}
@@ -200,7 +201,7 @@ ul#navigation li.active-ancestor li a.fadeThis span.hover{background-color:#333;
 /*** MAIN LAYOUT ***/
 
 .shadow-left{background:url(images/shadow.png) no-repeat left bottom;}
-.shadow-right{background:url(images/shadow.png) no-repeat right bottom;padding-bottom:32px;}
+.shadow-right{background:url(images/shadow.png) no-repeat right bottom;padding-bottom:32px;position:relative;}
 #main{background:#fff url(images/main-right.jpg) no-repeat right top;}
 #main-inside{background:transparent url(images/main-left.jpg) no-repeat left top;min-height:380px;}
 
@@ -327,7 +328,10 @@ h3.title a:hover{color:#ed1e24;text-decoration:none;}
 
 .post-tags{background:transparent url(images/icons.png) no-repeat 0px -104px;font-style:italic;padding-left:20px;line-height:22px;}
 
-
+.category-description{
+  font-size: 115%;
+  font-style: italic;
+}
 
 .about_the_author{
   padding: 8px 10px;
@@ -578,7 +582,11 @@ ul.box-tabs li a span{display:none;}
 .box ul.menuList li li .fadeThis span.hover{display:none;}
 
 
-.box ul.menuList.recentcomm li a span.entry,.box ul.menuList.recentcomm li a:hover span.entry{background:transparent url(images/icons.png) no-repeat 0px -1280px;padding-left:20px;}
+.box ul.menuList.recentcomm li a span.entry,.box ul.menuList.recentcomm li a:hover span.entry{background:none;padding-left:0px;margin-left:40px;}
+.box ul.menuList.recentcomm li .avatar{
+  float: left;
+  margin: 2px 4px 2px 0;
+}
 
 
 /*** FOOTER ***/

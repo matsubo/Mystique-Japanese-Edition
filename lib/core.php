@@ -145,7 +145,13 @@ function mystique_list_pages($args='') {
 // print the main navigation menu
 function mystique_navigation() {
   $navtype = get_mystique_option('navigation');
-  if($navtype):
+  if($navtype): ?>
+
+   <div class="shadow-left">
+   <div class="shadow-right clearfix">
+
+   <p class="nav-extra">
+   <?php
 
    $nav_extra = '<a href="'.get_bloginfo('rss2_url').'" class="nav-extra rss" title="'.__("RSS Feeds","mystique").'"><span>'.__("RSS Feeds","mystique").'</span></a>';
    $twitinfo =  get_option('mystique-twitter');
@@ -154,8 +160,9 @@ function mystique_navigation() {
 
    // check for new icons and output
    echo apply_filters("mystique_navigation_extra", $nav_extra); ?>
+   </p>
 
-   <ul id="navigation">
+   <ul id="navigation" class="clearfix">
      <?php
       if((get_option('show_on_front')<>'page') && get_mystique_option('exclude_home')<>'1'):
        if(is_home() && !is_paged()): ?>
@@ -189,11 +196,13 @@ function mystique_navigation() {
         endforeach;
 
        else:
-        mystique_list_pages(array('exclude' => get_mystique_option('exclude_pages')));
+        mystique_list_pages(array('exclude' => get_mystique_option('exclude_pages'), 'sort_column' => 'menu_order'));
        endif;
 
        do_action('mystique_navigation'); ?>
    </ul>
+   </div>
+   </div>
   <?php endif;
 }
 
@@ -532,7 +541,7 @@ function mystique_post(){
      <div class="post-content clearfix">
       <?php
 
-       if($post_settings['post_content_length'] == 'f'): the_content(__('Read more','mystique'));
+       if($post_settings['post_content_length'] == 'f'): the_content(__('More &gt;','mystique'));
        elseif($post_settings['post_content_length'] == 'e'): the_excerpt();
        else:
          $word_count = $post_settings['post_content_length'];
@@ -545,7 +554,7 @@ function mystique_post(){
          $content = str_replace(']]>', ']]&gt;', $content);
 
          // throw out trimmed: content to process, read more tag, post permalink, words length
-         echo mystique_trim_the_content($content, __('Read more','mystique'), get_permalink($post->ID), $word_count);
+         echo mystique_trim_the_content($content, __('More &gt;','mystique'), get_permalink($post->ID), $word_count);
        endif; ?>
      </div>
    <?php endif; ?>
@@ -613,7 +622,7 @@ function mystique_page(){
 
 function mystique_excerpt_more($excerpt) {
   global $wp_version;
-  $link = ' <a href="'.get_permalink().'" class="more-link">'.__('Read more', 'mystique').'</a>';
+  $link = ' <a href="'.get_permalink().'" class="more-link">'.__('More &gt;', 'mystique').'</a>';
   return ($wp_version <= 2.8) ? str_replace('[...]', $link, $excerpt) : $link;
 }
 
@@ -788,7 +797,7 @@ function mystique_body_class($class = '') {
     if ($tags = get_the_tags()) foreach ($tags as $tag) $classes[] = 'tag-'.$tag->slug;
 
     // Adds author class for the post author
-    $classes[] = 'author-' . sanitize_title_with_dashes(strtolower(get_the_author_login()));
+    $classes[] = 'author-' . sanitize_title_with_dashes(strtolower(get_the_author_meta('login')));
     rewind_posts();
 
   elseif (is_author()):	// Author name classes for BODY on author archives
@@ -940,7 +949,7 @@ function mystique_curPageURL() {
   $pageURL = 'http';
   if ($_SERVER["HTTPS"] == "on") $pageURL .= "s";
   $pageURL .= "://";
-  if ($_SERVER["SERVER_PORT"] != "80") $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"]; else $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+  if ($_SERVER["SERVER_PORT"] != "80") $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].esc_url($_SERVER["REQUEST_URI"]); else $pageURL .= $_SERVER["SERVER_NAME"].esc_url($_SERVER["REQUEST_URI"]);
   return $pageURL;
 }
 
@@ -1018,7 +1027,7 @@ function mystique_list_comments($comment, $args, $depth) {
   <li class="<?php mystique_comment_class(); ?>" id="comment-<?php comment_ID() ?>">
     <div class="comment-head <?php mystique_comment_class(); ?>">
 
-      <?php if (function_exists('get_avatar') && get_option('show_avatars')): ?><div class="avatar-box"><?php print get_avatar($comment, 48); ?></div><?php endif; ?>
+      <?php if (function_exists('get_avatar') && get_option('show_avatars')): ?><div class="avatar-box"><?php echo get_avatar($comment, 48); ?></div><?php endif; ?>
       <div class="author">
        <?php
         if (get_comment_author_url()) $authorlink='<a class="comment-author" id="comment-author-'.get_comment_ID().'" href="'.get_comment_author_url().'" rel="nofollow">'.get_comment_author().'</a>';

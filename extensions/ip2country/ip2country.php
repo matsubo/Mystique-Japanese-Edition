@@ -24,16 +24,16 @@ function mystique_author_flag($authorlink){
   if(get_mystique_option('comment_author_country')):
     $flag = @mystique_get_flag(get_comment_author_IP());
     if (!empty($flag['code'])) $authorlink .= '<abbr class="flag '.$flag['code'].'" title="'.$flag['name'].'">&nbsp;</abbr>';
-    return $authorlink;
   endif;
+  return $authorlink;  
 }
 
 function mystique_ip2c_comment_class($class){
   if(get_mystique_option('comment_author_country')):
     $flag = @mystique_get_flag(get_comment_author_IP());
     if (!empty($flag['code'])) $class .= ' country-'.$flag['code'];
-    return $class;
   endif;
+  return $class;
 }
 
 function mystique_ip2c_css(){
