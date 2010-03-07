@@ -358,7 +358,7 @@ function mystique_theme_settings() {
 
    <?php wp_nonce_field('theme-settings'); ?>
 
-   <?php //mystique_check_update(); ?>
+   <?php mystique_check_update(); ?>
 
    <?php if (isset($_GET['updated'])): ?>
    <div class="updated fade below-h2">
@@ -446,9 +446,6 @@ function mystique_theme_settings() {
         <th scope="row"><p><?php _e("Color scheme","mystique"); ?></p></th>
         <td id="color-scheme">
 
-         <?php if(get_mystique_option('imageless')): ?>
-         <p class="error"><?php _e("Not available with <em>imageless</em> setting","mystique"); ?></p>
-         <?php else: ?>
          <div class="color-box">
           <label for="color-box-green" class="color_scheme green"></label>
           <input class="radio" type="radio" name="color_scheme" id="color-box-green" value="green" <?php checked('green', get_mystique_option('color_scheme')) ?>/>
@@ -469,7 +466,6 @@ function mystique_theme_settings() {
           <input class="radio" type="radio" name="color_scheme" id="color-box-grey" value="grey" <?php checked('grey', get_mystique_option('color_scheme')) ?>/>
          </div>
 
-         <?php endif; ?>
         </td>
        </tr>
 
@@ -634,7 +630,7 @@ function mystique_theme_settings() {
         <th scope="row"><p><?php _e("Footer content","mystique"); ?><span><?php  if(current_user_can('unfiltered_html')) _e("You can post HTML code",'mystique'); else _e("Only some HTML tags and attributes are allowed",'mystique'); ?></span></p></th>
         <td>
          <textarea id="opt_footer_content" rows="8" cols="60" name="footer_content" class="code"><?php echo wp_specialchars(get_mystique_option('footer_content')); ?></textarea>
-
+         <br />
          <?php printf(__("Use the following short codes for convenient adjustments: <br />%s",'mystique'),'<code>[rss]</code> <code>[copyright]</code> <code>[credit]</code> <code>[ad code=#]</code> <code>[wp-link]</code> <code>[theme-link]</code> <code>[login-link]</code> <code>[blog-title]</code> <code>[xhtml]</code> <code>[css]</code> <code>[top]</code>.'); ?>
         </td>
        </tr>

@@ -1,1283 +1,1642 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Mystique Japanese Translation\n"
+"Project-Id-Version: Mystique 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-18 12:40+0200\n"
+"POT-Creation-Date: 2010-03-04 02:22+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Yuki Matsukura <matsubokkuri@gmail.com>\n"
-"Language-Team: Yuki Matsukura\n"
-"Last-Translator: Yuki Matsukura\n"
+"Language-Team: Yuki Matsukura <matsubokkuri@gmail.com>\n"
 "MIME-Version: 1.0\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
 
-#: c:\temp\mystique\404.php:12
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/404.php:13
+#, fuzzy
 msgid "The requested page was not found"
 msgstr "ページが見つかりませんでした"
 
-#
-#: c:\temp\mystique\archive.php:19
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:23
+#, fuzzy, php-format
 msgid "Posts tagged %s"
 msgstr "%sタグのついている投稿"
 
-#: c:\temp\mystique\archive.php:21
-#: c:\temp\mystique\archive.php:23
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
+#, fuzzy, php-format
 msgid "Archive for %s"
 msgstr "%1$s のアーカイブ"
 
-#: c:\temp\mystique\archive.php:23
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:27
+#, fuzzy
 msgid "F, Y"
 msgstr "Y年n月"
 
-#: c:\temp\mystique\archive.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
+#, fuzzy, php-format
 msgid "Archive for year %s"
 msgstr "%s のアーカイブ|日別アーカイブのページ"
 
-#: c:\temp\mystique\archive.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:29
+#, fuzzy
 msgid "Y"
 msgstr "Y年"
 
-#: c:\temp\mystique\archive.php:27
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:31
+#, fuzzy
 msgid "Author archive"
 msgstr "投稿者のアーカイブ"
 
-#: c:\temp\mystique\archive.php:29
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:33
+#, fuzzy
 msgid "Blog Archives"
 msgstr "ブログアーカイブ"
 
-#: c:\temp\mystique\archive.php:41
-#: c:\temp\mystique\author.php:53
-#: c:\temp\mystique\index.php:19
-msgid "&laquo; Older Entries"
-msgstr "&laquo; 前ページへ"
-
-#: c:\temp\mystique\archive.php:42
-#: c:\temp\mystique\author.php:54
-#: c:\temp\mystique\index.php:20
-msgid "Newer Entries &raquo;"
-msgstr "次ページへ &raquo;"
-
-#: c:\temp\mystique\archive.php:49
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:47
+#, fuzzy, php-format
 msgid "Sorry, but there aren't any posts in the %s category yet."
 msgstr "%s カテゴリーに投稿はありません。"
 
-#: c:\temp\mystique\archive.php:51
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:48
+#, fuzzy
 msgid "Sorry, but there aren't any posts within this date."
 msgstr "この日付に投稿はありません。"
 
-#: c:\temp\mystique\archive.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:51
+#, fuzzy, php-format
 msgid "Sorry, but there aren't any posts by %s yet."
 msgstr "%s からの投稿はありません。"
 
-#: c:\temp\mystique\archive.php:56
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/archive.php:52
+#, fuzzy
 msgid "No posts found."
 msgstr "投稿は見つかりませんでした。"
 
-#: c:\temp\mystique\author.php:27
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:23
+#, fuzzy
 msgid "This user hasn't shared any biographical information"
 msgstr "このユーザーではテンプレートの編集はできません。"
 
-#: c:\temp\mystique\author.php:32
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:28
+#, fuzzy
 msgid "Homepage:"
 msgstr "ホームページ:"
 
-#: c:\temp\mystique\author.php:33
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:29
+#, fuzzy
 msgid "Yahoo Messenger:"
 msgstr "Yahoo IM"
 
-#: c:\temp\mystique\author.php:34
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:30
+#, fuzzy
 msgid "Jabber/GTalk:"
 msgstr "Jabber / Google Talk"
 
-#: c:\temp\mystique\author.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:31
+#, fuzzy
 msgid "AIM:"
 msgstr "AIM"
 
-#: c:\temp\mystique\author.php:42
-#: c:\temp\mystique\image.php:31
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:38
+#, fuzzy, php-format
 msgid "Posts by %s"
 msgstr "%s による投稿"
 
-#: c:\temp\mystique\author.php:59
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/author.php:48
+#, fuzzy
 msgid "No posts found by this author."
 msgstr "この文字列への参照は見つかりませんでした。"
 
-#: c:\temp\mystique\comments.php:3
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:3
+#, fuzzy
 msgid "Enter your password to view comments"
 msgstr "コメントを読むにはパスワードを入力してください"
 
-#: c:\temp\mystique\comments.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:42
+#, fuzzy
 msgid "Related Posts"
 msgstr "関連記事"
 
-#: c:\temp\mystique\comments.php:43
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:43
+#, fuzzy, php-format
 msgid "Trackbacks (%s)"
 msgstr "トラックバック"
 
-#: c:\temp\mystique\comments.php:44
-#: c:\temp\mystique\comments.php:50
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:44
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:50
+#, fuzzy, php-format
 msgid "Comments (%s)"
 msgstr "コメント"
 
-#: c:\temp\mystique\comments.php:82
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:82
 msgid "No comments yet."
-msgstr "コメントはまだありません。"
+msgstr "コメント無し"
 
-#: c:\temp\mystique\comments.php:91
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:91
+#, fuzzy, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "コメントを投稿するには<a href=\"%s\">ログイン</a>してください。"
 
-#: c:\temp\mystique\comments.php:102
-#: c:\temp\mystique\comments.php:128
-#: c:\temp\mystique\comments.php:129
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:102
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:128
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:129
+#, fuzzy
 msgid "Name (required)"
 msgstr "名前 (必須)"
 
-#: c:\temp\mystique\comments.php:103
-#: c:\temp\mystique\comments.php:132
-#: c:\temp\mystique\comments.php:133
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:103
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:132
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:133
+#, fuzzy
 msgid "E-mail (required, will not be published)"
 msgstr "メール (必須)"
 
-#: c:\temp\mystique\comments.php:104
-#: c:\temp\mystique\comments.php:136
-#: c:\temp\mystique\comments.php:137
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:104
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:136
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:137
+#, fuzzy
 msgid "Website"
 msgstr "ウェブサイト"
 
-#: c:\temp\mystique\comments.php:115
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:115
+#, fuzzy, php-format
 msgid "Logged in as %s."
 msgstr "%s としてログイン中。"
 
-#: c:\temp\mystique\comments.php:117
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:117
+#, fuzzy
 msgid "Log out of this account"
 msgstr "このアカウントからログアウト"
 
-#: c:\temp\mystique\comments.php:117
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:117
+#, fuzzy
 msgid "Logout &raquo;"
 msgstr "ログアウト &raquo;"
 
-#: c:\temp\mystique\comments.php:122
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:122
+#, fuzzy, php-format
 msgid "Welcome back <strong>%s</strong>."
 msgstr "お帰りなさい <strong>%s</strong>."
 
-#: c:\temp\mystique\comments.php:123
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:123
+#, fuzzy
 msgid "Change &raquo;"
 msgstr "変更する &raquo;"
 
-#: c:\temp\mystique\comments.php:144
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:144
 msgid "Type your comment"
-msgstr "エラー: コメントを入力してください。"
+msgstr "コメントを入力してください。"
 
-#: c:\temp\mystique\comments.php:153
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:153
+#, php-format
 msgid "Spam protection: Sum of %1$s + %2$s = ?"
-msgstr "スパムとしてマーク"
+msgstr "スパム防止のための質問: %1$s + %2$s = ?"
 
-#: c:\temp\mystique\comments.php:162
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:162
+#, fuzzy
 msgid "Submit Comment"
 msgstr "コメント送信"
 
-#: c:\temp\mystique\comments.php:164
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:164
+#, fuzzy
 msgid "Cancel Reply"
 msgstr "返信をキャンセル"
 
-#: c:\temp\mystique\comments.php:188
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:188
 msgid "No trackbacks yet."
-msgstr "トラックバックはまだありません。"
+msgstr "トラックバックはありません。"
 
-#: c:\temp\mystique\comments.php:205
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
 msgid "No comments"
-msgstr "コメントはありません"
+msgstr "コメント無し"
 
-#: c:\temp\mystique\comments.php:205
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
+#, fuzzy
 msgid "1 comment"
 msgstr "コメント 1 件"
 
-#: c:\temp\mystique\comments.php:205
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:206
+#, fuzzy, php-format
 msgid "% comments"
 msgstr "コメント % 件"
 
-#: c:\temp\mystique\comments.php:223
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/comments.php:224
+#, fuzzy
 msgid "Comments are closed."
 msgstr "コメントは受け付けていません。"
 
-#: c:\temp\mystique\featured-posts.php:42
-msgid "Read more"
-msgstr "続きを読む..."
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:10
+#, php-format
+msgid "Your site is running on %1$s. Mystique requires at least %2$s."
+msgstr "このサイトは %1$s で動作しています。 Mystiqueは最低%2$sが必要です。"
 
-#: c:\temp\mystique\header.php:11
-msgid "Page %s &laquo;"
-msgstr "&laquo; 前ページへ"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:76
+msgid "Default sidebar"
+msgstr "デフォルトサイドバー"
 
-#: c:\temp\mystique\header.php:51
-msgid "RSS Feeds"
-msgstr "RSSフィード"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:78
+#, fuzzy
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "これはデフォルトのサイドバーで、2カラムか3カラムのレイアウトで表示されます。ウィジェットが指定されていなければデフォルトのウィジェットが表示されます。"
 
-#: c:\temp\mystique\header.php:59
-msgid "Follow me on Twitter!"
-msgstr "Twitterでフォローする"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:86
+msgid "Secondary sidebar"
+msgstr "2つめのサイドバー"
 
-#: c:\temp\mystique\header.php:68
-msgid "You are Home"
-msgstr "ホーム"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:88
+#, fuzzy
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "この投稿は %1$s %2$s %3$s に %4$s カテゴリーに公開されました。"
 
-#: c:\temp\mystique\header.php:68
-#: c:\temp\mystique\header.php:70
-msgid "Home"
-msgstr "ホーム"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:96
+#, fuzzy
+msgid "Footer"
+msgstr "フッター"
 
-#: c:\temp\mystique\header.php:70
-msgid "Click for Home"
-msgstr "クリックしてホーム"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:98
+#, fuzzy
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "1個から6個のウィジェットを追加できます（3つか4つが最適）。ウィジェット数に応じて横幅は自動調整されます。"
 
-#: c:\temp\mystique\image.php:19
-msgid "More &gt;"
-msgstr "続きを読む &gt;"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:106
+#, fuzzy
+msgid "Footer (slide 2)"
+msgstr "フッター (2ページ目)"
 
-#
-#: c:\temp\mystique\image.php:31
-msgid "This entry was posted by %1$s on %2$s at %3$s, and is filled under %4$s. Follow any responses to this post through %5$s."
-msgstr "この記事は%1$sによって、%2$s %3$sに投稿されました。%4$s カテゴリに属しています。最新の返信は%5$sで購読できます。"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:108
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:118
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:128
+#, fuzzy
+msgid "Only visible if jQuery is enabled. "
+msgstr "もしいくつかのエラーが出るなら, 設定は正しくありません."
 
-#: c:\temp\mystique\image.php:35
-msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
-msgstr "<a%1$s>コメントを残すか</a>、ご自分のサイトから<a%2$s>トラックバック</a>できます。"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:116
+#, fuzzy
+msgid "Footer (slide 3)"
+msgstr "フッター (3ページ目)"
 
-#: c:\temp\mystique\image.php:39
-msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
-msgstr "現在コメントは受け付けておりませんが、ご自分のサイトから<a href=\"%s\" rel=\"trackback\">トラックバック</a>を送ることはできます。"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/functions.php:126
+#, fuzzy
+msgid "Footer (slide 4)"
+msgstr "フッター (4ページ目)"
 
-#: c:\temp\mystique\image.php:43
-msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
-msgstr "このページの一番下でコメントを残すことができます。トラックバック / ピンバックは現在受け付けていません。"
-
-#: c:\temp\mystique\image.php:47
-msgid "Both comments and pings are currently closed."
-msgstr "現在コメント、トラックバックともに受け付けておりません。"
-
-#: c:\temp\mystique\image.php:49
-msgid "Edit this entry"
-msgstr "この投稿を編集 "
-
-#: c:\temp\mystique\image.php:61
-msgid "Sorry, no attachments matched your criteria."
-msgstr "該当する投稿は見つかりませんでした。"
-
-#: c:\temp\mystique\index.php:24
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:23
+#, fuzzy
 msgid "No posts found"
 msgstr "投稿は見つかりませんでした。"
 
-#: c:\temp\mystique\index.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/index.php:24
+#, fuzzy
 msgid "Sorry, but you are looking for something that isn't here."
 msgstr "お探しの物はここにはありません。"
 
-#: c:\temp\mystique\post.php:19
-msgid "Permanent Link:"
-msgstr "%s のパーマリンク"
-
-#: c:\temp\mystique\post.php:22
-msgid "M jS"
-msgstr "Y年n月j日"
-
-#: c:\temp\mystique\post.php:26
-msgid "Posted by %1$s in %2$s"
-msgstr "投稿者: %1$s (%2$s)"
-
-#: c:\temp\mystique\post.php:29
-msgid "Edit"
-msgstr "編集"
-
-#
-#: c:\temp\mystique\post.php:61
-msgid "%1$s (%2$s topics)"
-msgstr "%1 (%2 記事)"
-
-#: c:\temp\mystique\search.php:15
-#: c:\temp\mystique\searchform.php:5
-#: c:\temp\mystique\searchform.php:10
-#: c:\temp\mystique\lib/core.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:5
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:10
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:354
+#, fuzzy
 msgid "Search"
 msgstr "検索"
 
-#: c:\temp\mystique\search.php:18
-msgid "Search Results for %s"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:15
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:235
+#, fuzzy, php-format
+msgid "Search results for %s"
 msgstr "&#8220;%s&#8221; の検索結果"
 
-#: c:\temp\mystique\search.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:31
+#, fuzzy
 msgid "Nothing found."
 msgstr "見つかりませんでした。"
 
-#: c:\temp\mystique\search.php:42
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:31
+#, fuzzy
 msgid "Try a different search?"
 msgstr "別の単語で検索してください。"
 
-#: c:\temp\mystique\search.php:46
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/search.php:35
 msgid "What do you wish to search for?"
-msgstr "WYSIWYGモードに切り替えますか ?"
+msgstr "何を探しますか？"
 
-#: c:\temp\mystique\searchform.php:11
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:11
+#, fuzzy, php-format
 msgid "You have searched the archives for %s"
 msgstr "%s の検索結果を表示しています。"
 
-#: c:\temp\mystique\searchform.php:13
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/searchform.php:13
+#, fuzzy
 msgid "Type a valid search term..."
 msgstr "検索..."
 
-#: c:\temp\mystique\sidebar.php:22
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:26
+#, fuzzy
 msgid "My latest tweets"
 msgstr "最新のバージョンをインストールしています。"
 
-#: c:\temp\mystique\sidebar.php:30
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar.php:34
+#, fuzzy
 msgid "Blogroll"
 msgstr "ブログロール"
 
-#: c:\temp\mystique\sidebar2.php:8
-msgid "2nd sidebar is active. Add widgets here from the Dashboard"
-msgstr "ウィジェットをここにドラッグすると、設定を維持したままウェブサイトから取り除かれます。"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/sidebar2.php:7
+msgid "You activated the 2nd sidebar. Add widgets here from the Dashboard to remove this message"
+msgstr "2つめのサイドバーを有効化しました。このメッセージを消すためにウィジェットをダッシュボードから追加してください。"
 
-#: c:\temp\mystique\single.php:35
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:25
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:541
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:554
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:622
+#, fuzzy
+msgid "More &gt;"
+msgstr "続きを読む &gt;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:28
+#, fuzzy
 msgid "Pages:"
 msgstr "ページ:"
 
-#: c:\temp\mystique\single.php:39
-msgid "Tags:"
-msgstr "タグ:"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:39
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:566
+#, fuzzy, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1 (%2 記事)"
 
-#: c:\temp\mystique\lib/admin.php:232
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:576
+msgid "About the author"
+msgstr "投稿者について"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:64
+msgid "Print article"
+msgstr "印刷"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:68
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filed under %4$s. Follow any responses to this post through %5$s."
+msgstr "この記事は %1$s によって %2$s %3$s に投稿されました, %4$s 以下に保存されています。 %5$s を通してコメントをフォローする。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:71
+#, fuzzy, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "<a%1$s>コメントを残すか</a>、ご自分のサイトから<a%2$s>トラックバック</a>できます。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:73
+#, fuzzy, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "現在コメントは受け付けておりませんが、ご自分のサイトから<a href=\"%s\" rel=\"trackback\">トラックバック</a>を送ることはできます。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:75
+#, fuzzy
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "このページの一番下でコメントを残すことができます。トラックバック / ピンバックは現在受け付けていません。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:77
+#, fuzzy
+msgid "Both comments and pings are currently closed."
+msgstr "現在コメント、トラックバックともに受け付けておりません。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/single.php:80
+#, fuzzy
+msgid "Edit this entry"
+msgstr "この投稿を編集 "
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:285
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:349
+#, fuzzy
 msgid "You are not authorised to perform this operation."
 msgstr "このページを編集する権限がありません。"
 
-#: c:\temp\mystique\lib/admin.php:310
-#: c:\temp\mystique\lib/admin.php:874
-#: c:\temp\mystique\lib/admin.php:875
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:336
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a>."
+msgstr "%1$s の新しいバージョンが利用可能です。 <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">%3$s の詳細を見る</a>。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:337
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" >upgrade automatically</a>."
+msgstr "%1$s の新しいバージョンが利用可能です3002 <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">%3$sの詳細を見る</a> または <a href=\"%4$s\" >自動更新</a>."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:355
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:862
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:863
+#, fuzzy
 msgid "Mystique settings"
 msgstr "Mystiqueの設定"
 
-#: c:\temp\mystique\lib/admin.php:316
-msgid "Settings saved. %s"
-msgstr "設定を保存しました。"
-
-#: c:\temp\mystique\lib/admin.php:316
-msgid "View site"
-msgstr "サイトを見る"
-
-#: c:\temp\mystique\lib/admin.php:320
-msgid "Please upload a valid image file!"
-msgstr "画像ファイルをアップロードしてください。"
-
-#: c:\temp\mystique\lib/admin.php:321
-msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
-msgstr "JPEG、PNG、GIFファイルをアップロードしてください。"
-
-#: c:\temp\mystique\lib/admin.php:322
-msgid "The image could not be saved on your server"
-msgstr "この作業はあなたのデータベースの大きさによっては数分かかることがありますので、あせらずお待ちください。"
-
-#: c:\temp\mystique\lib/admin.php:327
-msgid "Error: %s"
-msgstr "エラー:"
-
-#: c:\temp\mystique\lib/admin.php:334
-msgid "General"
-msgstr "一般"
-
-#: c:\temp\mystique\lib/admin.php:335
-msgid "Design/colors"
-msgstr "デザイン・配色"
-
-#: c:\temp\mystique\lib/admin.php:336
-msgid "Navigation"
-msgstr "ナビゲーション"
-
-#: c:\temp\mystique\lib/admin.php:337
-msgid "Posts"
-msgstr "投稿"
-
-#: c:\temp\mystique\lib/admin.php:338
-msgid "SEO"
-msgstr "SEO"
-
-#: c:\temp\mystique\lib/admin.php:340
-msgid "Ads"
-msgstr "広告"
-
-#: c:\temp\mystique\lib/admin.php:342
-msgid "Advanced"
-msgstr "詳細"
-
-#: c:\temp\mystique\lib/admin.php:343
-msgid "User CSS"
-msgstr "オリジナルCSS"
-
-#: c:\temp\mystique\lib/admin.php:353
-msgid "Layout style"
-msgstr "レイアウト"
-
-#: c:\temp\mystique\lib/admin.php:353
-msgid "Use page templates to apply these only to specific pages"
-msgstr "ある特定のページのみレイアウトを変更したい場合合は、ページテンプレートを使ってください。"
-
-#: c:\temp\mystique\lib/admin.php:389
-msgid "Imageless layout"
-msgstr "画像を表示しない"
-
-#: c:\temp\mystique\lib/admin.php:389
-msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
-msgstr "背景画像無し：数キロバイト軽くなり、ページ表示が早くなります。"
-
-#: c:\temp\mystique\lib/admin.php:394
-msgid "Footer content"
-msgstr "フッター"
-
-#: c:\temp\mystique\lib/admin.php:394
-msgid "You can post HTML code"
-msgstr "HTMLを追加できます"
-
-#: c:\temp\mystique\lib/admin.php:394
-msgid "HTML code is disallowed"
-msgstr "HTMLの利用は許可されていません"
-
-#
-#: c:\temp\mystique\lib/admin.php:398
-msgid "Use the following short codes for convenient adjustments: <br />%s"
-msgstr "以下のコードを使ってください：<br />%s"
-
-#: c:\temp\mystique\lib/admin.php:406
-msgid "Loading site preview..."
-msgstr "プレビューを読み込み中"
-
-#: c:\temp\mystique\lib/admin.php:414
-#: c:\temp\mystique\lib/admin.php:426
-msgid "Sidebar(s) vs Main Content ratio"
-msgstr "サイドバーとメインコンテンツの横幅の割合"
-
-#: c:\temp\mystique\lib/admin.php:436
-msgid "Preferred font style"
-msgstr "お好みのフォント"
-
-#: c:\temp\mystique\lib/admin.php:436
-msgid "Font priority and their availability"
-msgstr "利用するフォントの優先度を設定します"
-
-#: c:\temp\mystique\lib/admin.php:447
-msgid "Color scheme"
-msgstr "配色"
-
-#: c:\temp\mystique\lib/admin.php:451
-msgid "Not available with <em>imageless</em> setting"
-msgstr "画像をアップロードしてください"
-
-#: c:\temp\mystique\lib/admin.php:478
-msgid "Custom logo image"
-msgstr "ヘッダー画像"
-
-#: c:\temp\mystique\lib/admin.php:478
-msgid "Show a logo image instead of text; Upload the graphic file from your computer"
-msgstr "文字の替わりに画像を表示するためには画像をアップロードしてください"
-
-#: c:\temp\mystique\lib/admin.php:484
-#: c:\temp\mystique\lib/admin.php:499
-msgid "Remove current image"
-msgstr "ヘッダー画像"
-
-#: c:\temp\mystique\lib/admin.php:487
-#: c:\temp\mystique\lib/admin.php:502
-msgid "Directory %s doesn't have write permissions - can't upload!"
-msgstr "このファイルをサーバへ戻すためにアップロードしますか?"
-
-#: c:\temp\mystique\lib/admin.php:487
-#: c:\temp\mystique\lib/admin.php:502
-msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
-msgstr "その他の設定→アップロードするファイル保存場所、パーミッションをチェックしてください。<br />やり方がわからない場合は管理者にお問い合わせください"
-
-#: c:\temp\mystique\lib/admin.php:493
-msgid "Custom background image"
-msgstr "ヘッダー画像"
-
-#: c:\temp\mystique\lib/admin.php:493
-msgid "Upload a new background/header image to replace the default one"
-msgstr "ヘッダーの背景画像をアップロードしてください。アップロードするとデフォルトの文言を上書きします。"
-
-#: c:\temp\mystique\lib/admin.php:508
-msgid "Background color"
-msgstr "背景色"
-
-#: c:\temp\mystique\lib/admin.php:508
-msgid "Leave Black (#000000) to keep the default background"
-msgstr "デフォルトは黒(#000000)です。"
-
-#: c:\temp\mystique\lib/admin.php:521
-msgid "Top navigation shows"
-msgstr "上部にナビゲーションを表示する"
-
-#: c:\temp\mystique\lib/admin.php:524
-msgid "Pages"
-msgstr "ページ"
-
-#: c:\temp\mystique\lib/admin.php:525
-msgid "Categories"
-msgstr "カテゴリ"
-
-#: c:\temp\mystique\lib/admin.php:526
-msgid "Links"
-msgstr "リンク"
-
-#: c:\temp\mystique\lib/admin.php:534
-msgid "from category"
-msgstr "親カテゴリー"
-
-#: c:\temp\mystique\lib/admin.php:547
-msgid "No links found"
-msgstr "リンクは見つかりませんでした。"
-
-#: c:\temp\mystique\lib/admin.php:556
-msgid "Exclude from navigation"
-msgstr "ナビゲーションから除外"
-
-#: c:\temp\mystique\lib/admin.php:556
-msgid "Check the items you wish to hide from the main menu"
-msgstr "メインメニューから除外するページにチェックしてください"
-
-#: c:\temp\mystique\lib/admin.php:566
-msgid "(Use the private property to hide other links)"
-msgstr "公開鍵認証を行うには, FileZilla に使用する秘密鍵を指示する必要があります."
-
-#: c:\temp\mystique\lib/admin.php:632
-msgid "View page"
-msgstr "ページを表示"
-
-#: c:\temp\mystique\lib/admin.php:655
-msgid "Post previews"
-msgstr "記事の表示方法"
-
-#: c:\temp\mystique\lib/admin.php:655
-msgid "The way posts are displayed on blog homepage and archive pages"
-msgstr "記事がホームページとアーカイブページに表示される内容"
-
-#: c:\temp\mystique\lib/admin.php:658
-msgid "Full"
-msgstr "全て"
-
-#: c:\temp\mystique\lib/admin.php:659
-msgid "Excerpts"
-msgstr "引用"
-
-#: c:\temp\mystique\lib/admin.php:660
-msgid "Titles only"
-msgstr "タイトルのみ"
-
-#: c:\temp\mystique\lib/admin.php:667
-msgid "Post thumbnail size"
-msgstr "記事のサムネイル画像サイズ"
-
-#
-#: c:\temp\mystique\lib/admin.php:667
-msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
-msgstr "今からアップロードされた画像のみに適応されます。不足画像を生成するためには%sプラグインを利用してください"
-
-#: c:\temp\mystique\lib/admin.php:671
-msgid "Small: 64 x 64"
-msgstr "小: 64 x 64"
-
-#: c:\temp\mystique\lib/admin.php:672
-msgid "Medium: 100 x 100"
-msgstr "中: 100 x 100"
-
-#: c:\temp\mystique\lib/admin.php:673
-msgid "WP's Media setting: %s"
-msgstr "ワードプレスのメディア設定"
-
-#: c:\temp\mystique\lib/admin.php:680
-msgid "Enable \"Share This Post\" feature"
-msgstr "ソーシャルブックマークボタンを表示"
-
-#: c:\temp\mystique\lib/admin.php:680
-msgid "Uncheck this if you're using a social bookmaring plugin"
-msgstr "他にソーシャルブックマークプラグインを使っている場合はチェックを外してください"
-
-#: c:\temp\mystique\lib/admin.php:685
-msgid "Featured content source"
-msgstr "注目の記事の引用元カテゴリ"
-
-#: c:\temp\mystique\lib/admin.php:685
-msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
-msgstr "このカテゴリから最新の5つの記事が注目の記事エリアに表示されます（順番はランダム）"
-
-#: c:\temp\mystique\lib/admin.php:690
-msgid "- All categories"
-msgstr "すべてのカテゴリー"
-
-#: c:\temp\mystique\lib/admin.php:699
-msgid "Where to display the featured posts?"
-msgstr "注目の記事を表示する場所"
-
-#: c:\temp\mystique\lib/admin.php:702
-msgid "On pages that use the Featured Posts template"
-msgstr ""
-
-#: c:\temp\mystique\lib/admin.php:703
-msgid "On the home page"
-msgstr "ホームページ上"
-
-#: c:\temp\mystique\lib/admin.php:704
-msgid "On all pages, including home"
-msgstr "ホームページを含めた全てのページに"
-
-#: c:\temp\mystique\lib/admin.php:705
-msgid "On all posts"
-msgstr "全ての記事に"
-
-#: c:\temp\mystique\lib/admin.php:706
-msgid "On all pages and posts"
-msgstr "すべての記事とページに"
-
-#: c:\temp\mystique\lib/admin.php:712
-msgid "Maximum number of featured posts"
-msgstr "表示する投稿数"
-
-#: c:\temp\mystique\lib/admin.php:719
-msgid "Expand the &laquo;read more&raquo; button with more content"
-msgstr "&laquo;もっと読む&raquo; ボタンをクリックして展開する。"
-
-#: c:\temp\mystique\lib/admin.php:719
-msgid "Uncheck if want the button to link to the single post page"
-msgstr "もっと読むボタンのリンクを記事のURLへリンクさせたい場合チェックを外してください。"
-
-#: c:\temp\mystique\lib/admin.php:724
-msgid "Show related posts next to comments"
-msgstr "関連記事をコメントの隣に表示"
-
-#: c:\temp\mystique\lib/admin.php:729
-msgid "Show comment author's country flag"
-msgstr "コメント投稿者ごとに国旗を表示する"
-
-#: c:\temp\mystique\lib/admin.php:729
-msgid "May slow down page loading"
-msgstr "ページ表示を遅くする可能性があります"
-
-#: c:\temp\mystique\lib/admin.php:739
-msgid "Additional site optimization for search engines"
-msgstr "SEO設定"
-
-#: c:\temp\mystique\lib/admin.php:739
-msgid "Uncheck if you are using a SEO plugin!"
-msgstr "SEO関連のプラグインを使っている場合はチェックしないでください。"
-
-#: c:\temp\mystique\lib/admin.php:746
-msgid "What does this do?"
-msgstr "チェックした場合:"
-
-#: c:\temp\mystique\lib/admin.php:748
-msgid "enables canonical URLs for comments (duplicate content fix)"
-msgstr "Canonical URLを有効にする （重複コンテンツを防ぐため規格）"
-
-#: c:\temp\mystique\lib/admin.php:749
-msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
-msgstr "複数ページにわたるコメントがある場合、記事毎に一意のタイトルを生成する。（重複タイトルを防ぐため）"
-
-#: c:\temp\mystique\lib/admin.php:750
-msgid "no keywords are generated because they are <a %s>useless</a>"
-msgstr "metaタグのkeywordを生成しない。metaタグのkeywordはサーチエンジンに評価されないため。<a %s>参考記事</a>"
-
-#: c:\temp\mystique\lib/admin.php:764
-msgid "Advertisment blocks"
-msgstr "広告ブロック"
-
-#
-#: c:\temp\mystique\lib/admin.php:764
-msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
-msgstr "記事、テキストまたはフッターへ広告コードを挿入する場合は %s を使ってください。"
-
-#: c:\temp\mystique\lib/admin.php:765
-msgid "Example:"
-msgstr "例:"
-
-#: c:\temp\mystique\lib/admin.php:771
-msgid "Ad code #%s:"
-msgstr "広告コード #%s"
-
-#: c:\temp\mystique\lib/admin.php:787
-msgid "Use jQuery"
-msgstr "jQueryを利用する"
-
-#: c:\temp\mystique\lib/admin.php:787
-msgid "For testing purposes only. Only uncheck if you know what you're doing!"
-msgstr "テスト段階。利用には注意してください。"
-
-#: c:\temp\mystique\lib/admin.php:792
-msgid "Enable AJAX on comment pagination"
-msgstr "ページャをAJAXで行う"
-
-#: c:\temp\mystique\lib/admin.php:792
-msgid "Navigate trough comment pages without refreshing (faster load, but may be incompatible with some plugins)"
-msgstr "コメントページをリロードなしに表示 （便利ですが、動作しないプラグインが発生するかもしれません）"
-
-#: c:\temp\mystique\lib/admin.php:797
-msgid "Enable theme built-in lightbox on all image links"
-msgstr "テーマに組み込まれているlightboxを使う"
-
-#: c:\temp\mystique\lib/admin.php:797
-msgid "Uncheck if you prefer a lightbox plugin"
-msgstr "lightboxプラグインを利用したい場合はチェックを外してください"
-
-#: c:\temp\mystique\lib/admin.php:802
-msgid "Remove Mystique settings from the database after theme switch"
-msgstr "テーマを変更したらテーマに関する設定を全て削除する"
-
-#: c:\temp\mystique\lib/admin.php:802
-msgid "Uncheck this if you plan to keep Mystique as your default theme!"
-msgstr "Mystiqueをデフォルトのテーマにする場合はチェックを外してください。"
-
-#: c:\temp\mystique\lib/admin.php:814
-msgid "Document head code"
-msgstr "headタグ内に挿入されるコードコード"
-
-#
-#: c:\temp\mystique\lib/admin.php:814
-msgid "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
-msgstr "XHTMLの %s セクションへ追加するためのPHPコード。アナリティクスなど、ここへ追加するプラグインがあったら便利です。"
-
-#: c:\temp\mystique\lib/admin.php:815
-msgid "To output HTML only, close the PHP tag first."
-msgstr "HTMLを記入する場合は、PHPの終了タグを行頭に記入してください。"
-
-#: c:\temp\mystique\lib/admin.php:817
-#: c:\temp\mystique\lib/admin.php:838
-msgid "Examples and helpers:"
-msgstr "例"
-
-#: c:\temp\mystique\lib/admin.php:836
-msgid "Modify anything related to design using CSS code"
-msgstr "見た目に関する変更はCSSを使って調整してください。"
-
-#: c:\temp\mystique\lib/admin.php:836
-msgid "Check %s to see existing theme classes and properties"
-msgstr "既存のCSSを閲覧するためには %s をチェックしてください。"
-
-#: c:\temp\mystique\lib/admin.php:836
-msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
-msgstr "テーマファイルを直接編集する替わりにこのオプションを使ってください。テーマをアップデートしてもこの内容は保存されます。"
-
-#: c:\temp\mystique\lib/admin.php:859
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:356
+#, fuzzy
 msgid "Save Changes"
 msgstr "変更を保存"
 
-#: c:\temp\mystique\lib/admin.php:859
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:356
+#, fuzzy
 msgid "Reset to Defaults"
 msgstr "初期値に戻す"
 
-#: c:\temp\mystique\lib/codehelpers.php:5
-msgid "Insert Ad slot #1 in every post and page"
-msgstr "広告ブロック#1を全ての投稿とページに表示する"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:356
+msgid "Reset all theme settings to the default values? Are you sure?"
+msgstr "テーマの設定をすべてデフォルトに戻しますか？"
 
-#: c:\temp\mystique\lib/codehelpers.php:16
-msgid "Insert Ad slot #2 at every 5 comments"
-msgstr "広告ブロック#2をコメント5つ毎に表示する"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:365
+#, fuzzy, php-format
+msgid "Settings saved. %s"
+msgstr "設定を保存しました。"
 
-#: c:\temp\mystique\lib/codehelpers.php:25
-msgid "Replace blog description text with Ad #4"
-msgstr "ブログの説明部分を広告ブロック#4で置き換える"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:365
+#, fuzzy
+msgid "View site"
+msgstr "サイトを見る"
 
-#: c:\temp\mystique\lib/codehelpers.php:39
-msgid "Black navigation style"
-msgstr "ブラックナビゲーション"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:369
+#, fuzzy
+msgid "Please upload a valid image file!"
+msgstr "画像ファイルをアップロードしてください。"
 
-#: c:\temp\mystique\lib/codehelpers.php:67
-msgid "Alternate header image"
-msgstr "ヘッダ画像の置き換え"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:370
+#, fuzzy
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr "JPEG、PNG、GIFファイルをアップロードしてください。"
 
-#: c:\temp\mystique\lib/codehelpers.php:71
-msgid "Hide RSS button"
-msgstr "RSSボタンを隠す"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:371
+#, fuzzy
+msgid "The image could not be saved on your server"
+msgstr "この作業はあなたのデータベースの大きさによっては数分かかることがありますので、あせらずお待ちください。"
 
-#: c:\temp\mystique\lib/codehelpers.php:75
-msgid "Hide Twitter button"
-msgstr "Twitterボタンを隠す。"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:376
+#, fuzzy, php-format
+msgid "Error: %s"
+msgstr "エラー:"
 
-#: c:\temp\mystique\lib/codehelpers.php:79
-msgid "Set a fluid page width"
-msgstr "横幅をウィンドウにフィット"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:385
+msgid "Design"
+msgstr "デザイン"
 
-#: c:\temp\mystique\lib/codehelpers.php:83
-msgid "Decrease site title text size"
-msgstr "タイトルの文字数を減らしてください"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:386
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:600
+msgid "Content"
+msgstr "コンテンツ"
 
-#: c:\temp\mystique\lib/codehelpers.php:87
-msgid "Hide post information bar"
-msgstr "投稿情報のバーを非表示"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:387
+#, fuzzy
+msgid "Navigation"
+msgstr "ナビゲーション"
 
-#: c:\temp\mystique\lib/codehelpers.php:91
-msgid "Change footer background color to light gray"
-msgstr "フッターの背景色をライトグレーに変更"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:388
+#, fuzzy
+msgid "SEO"
+msgstr "SEO"
 
-#: c:\temp\mystique\lib/codehelpers.php:96
-msgid "Dark background footer"
-msgstr "暗めのフッター背景"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:389
+#, fuzzy
+msgid "Ads"
+msgstr "広告"
 
-#: c:\temp\mystique\lib/codehelpers.php:102
-msgid "Join navigation with main content"
-msgstr "ナビゲーションとメインコンテンツを統合する"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:390
+#, fuzzy
+msgid "Advanced"
+msgstr "詳細"
 
-#: c:\temp\mystique\lib/codehelpers.php:106
-msgid "Hide navigation"
-msgstr "ナビゲーションを隠す"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:391
+#, fuzzy
+msgid "User CSS"
+msgstr "オリジナルCSS"
 
-#: c:\temp\mystique\lib/codehelpers.php:112
-msgid "Remove styling from tables"
-msgstr "tableのスタイルを削除する"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:392
+msgid "More themes by digitalnature"
+msgstr "digitalnatureのテーマ"
 
-#: c:\temp\mystique\lib/codehelpers.php:116
-msgid "Text-Justify post and page content"
-msgstr "横幅をウィンドウにフィット"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:402
+msgid "The design settings panel is not yet supported by Internet Explorer. Sorry :("
+msgstr "Internet Explorerではデザインの設定変更パネルはサポートされていません。"
 
-#: c:\temp\mystique\lib/codehelpers.php:120
-msgid "Fixed custom background image"
-msgstr "背景画像をスクロールしない"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:405
+#, fuzzy
+msgid "Loading site preview..."
+msgstr "プレビューを読み込み中"
 
-#: c:\temp\mystique\lib/core.php:83
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:410
+#, fuzzy
+msgid "Layout style"
+msgstr "レイアウト"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:410
+msgid "Use page templates if you want to apply these only to specific pages"
+msgstr "ページごとにテンプレートを変更する"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:446
+#, fuzzy
+msgid "Color scheme"
+msgstr "配色"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:473
+msgid "Page (content) width"
+msgstr "ページ（コンテンツ）の横幅"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:473
+msgid "Note that fluid pages can be hard to read on large resolutions."
+msgstr "動的なページは解像度の高い環境では読みづらい場合があります。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:476
+#, php-format
+msgid "Fixed (%s)"
+msgstr "固定 (%s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:477
+msgid "Fluid (100%)"
+msgstr "ダイナミック (100%)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:483
+msgid "Column sizes"
+msgstr "カラムサイズ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:483
+msgid "(With 10 pixel padding between them)"
+msgstr "(10pxの間隔)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:496
+msgid "Font style"
+msgstr "フォンt"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:509
+#, fuzzy
+msgid "Background color"
+msgstr "背景色"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:509
+#, fuzzy
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "デフォルトは黒(#000000)です。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:522
+#, fuzzy
+msgid "Custom logo image"
+msgstr "ヘッダー画像"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:522
+#, fuzzy
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "文字の替わりに画像を表示するためには画像をアップロードしてください"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:527
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:545
+#, fuzzy
+msgid "Remove current image"
+msgstr "ヘッダー画像"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:533
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:551
+#, fuzzy, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "このファイルをサーバへ戻すためにアップロードしますか?"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:533
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:551
+#, fuzzy
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "その他の設定→アップロードするファイル保存場所、パーミッションをチェックしてください。<br />やり方がわからない場合は管理者にお問い合わせください"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:540
+#, fuzzy
+msgid "Custom background image"
+msgstr "ヘッダー画像"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:540
+#, fuzzy
+msgid "Upload a new background/header image to replace the default one"
+msgstr "ヘッダーの背景画像をアップロードしてください。アップロードするとデフォルトの文言を上書きします。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:564
+msgid "Posts (single)"
+msgstr "投稿 (single)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:564
+msgid "How much information do you want to show on the single post page?"
+msgstr "どのくらい投稿ページに情報を表示しますか？"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:567
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:597
+#, fuzzy
+msgid "Tags"
+msgstr "タグ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:570
+msgid "Meta"
+msgstr "メタ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:573
+msgid "Share"
+msgstr "共有"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:579
+msgid "Print link"
+msgstr "印刷リンク"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:582
+#, fuzzy
+msgid "Related posts"
+msgstr "関連記事"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:588
+#, fuzzy
+msgid "Post previews"
+msgstr "記事の表示方法"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:588
+msgid "How much info do you want to show on blog/category/archive/search pages?"
+msgstr "blog/category/archive/searchページに表示する情報"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:591
+#, fuzzy
+msgid "Title"
+msgstr "タイトル:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:594
+msgid "Info bar"
+msgstr "インフォバー"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:602
+msgid "max. 50 words, filtered"
+msgstr "最大50単語"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:603
+msgid "max. 100 words, filtered"
+msgstr "最大100単語"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:604
+msgid "max. 200 words, filtered"
+msgstr "最大200単語"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:605
+#, fuzzy
+msgid "full"
+msgstr "全て"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:606
+msgid "full, filtered"
+msgstr "全単語"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:607
+msgid "excerpt"
+msgstr "詳細"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:614
+#, fuzzy
+msgid "Post thumbnail size"
+msgstr "記事のサムネイル画像サイズ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:614
+#, fuzzy, php-format
+msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
+msgstr "今からアップロードされた画像のみに適応されます。不足画像を生成するためには%sプラグインを利用してください"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:618
+msgid "Very small: 48 x 48"
+msgstr "とても小さい 48 x 48"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:619
+#, fuzzy
+msgid "Small: 64 x 64"
+msgstr "小: 64 x 64"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:620
+msgid "Medium: 80 x 80"
+msgstr "中: 80 x 80"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:621
+msgid "Larger: 100 x 100"
+msgstr "大: 100 x 100"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:622
+#, fuzzy, php-format
+msgid "WP's Media setting: %s"
+msgstr "ワードプレスのメディア設定"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:630
+#, fuzzy
+msgid "Footer content"
+msgstr "フッター"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:630
+#, fuzzy
+msgid "You can post HTML code"
+msgstr "HTMLを追加できます"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:630
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:745
+msgid "Only some HTML tags and attributes are allowed"
+msgstr "いくつかのHTMLタグと属性が許可されています"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:634
+#, fuzzy, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "以下のコードを使ってください：<br />%s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:644
+#, fuzzy
+msgid "Top navigation shows"
+msgstr "上部にナビゲーションを表示する"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:647
+msgid "Nothing (disabled)"
+msgstr "1つもない（無効）"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:648
+#, fuzzy
+msgid "Pages"
+msgstr "ページ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:649
+#, fuzzy
+msgid "Categories"
+msgstr "カテゴリ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:650
+#, fuzzy
+msgid "Links"
+msgstr "リンク"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:658
+#, fuzzy
+msgid "from category"
+msgstr "親カテゴリー"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:663
+#, fuzzy, php-format
+msgid "%s links"
+msgstr "リンク"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:670
+#, fuzzy
+msgid "No links found"
+msgstr "リンクは見つかりませんでした。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:679
+#, fuzzy
+msgid "Exclude from navigation"
+msgstr "ナビゲーションから除外"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:679
+#, fuzzy
+msgid "Check the items you wish to hide from the main menu"
+msgstr "メインメニューから除外するページにチェックしてください"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:684
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:165
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:167
+#, fuzzy
+msgid "Home"
+msgstr "ホーム"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:689
+#, fuzzy
+msgid "(Use the private property to hide other links)"
+msgstr "公開鍵認証を行うには, FileZilla に使用する秘密鍵を指示する必要があります."
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:719
+msgid "Additional site optimization for search engines"
+msgstr "SEO最適化"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:719
+#, fuzzy
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "SEO関連のプラグインを使っている場合はチェックしないでください。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:726
+#, fuzzy
+msgid "What does this do?"
+msgstr "チェックした場合:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:728
+msgid "enables canonical URLs for comments (duplicate content fix, only needed on wp < 2.9)"
+msgstr "コメントページにcanonical URLを有効にする（重複コンテンツ問題を回避するため。Wordpress 2.9未満）"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:729
+#, fuzzy
+msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
+msgstr "複数ページにわたるコメントがある場合、記事毎に一意のタイトルを生成する。（重複タイトルを防ぐため）"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:730
+#, php-format
+msgid "generates a unique meta description tag for each page (no meta keywords; why? -<a %s>useless</a>)"
+msgstr "各ページにユニークなmeta descriptionを生成する（%s）"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:745
+#, fuzzy
+msgid "Advertisment blocks"
+msgstr "広告ブロック"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:745
+#, fuzzy, php-format
+msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr "記事、テキストまたはフッターへ広告コードを挿入する場合は %s を使ってください。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:746
+#, fuzzy
+msgid "Example:"
+msgstr "例:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:752
+#, fuzzy, php-format
+msgid "Ad code #%s:"
+msgstr "広告コード #%s"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:768
+#, fuzzy
+msgid "Use jQuery"
+msgstr "jQueryを利用する"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:768
+#, fuzzy
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "テスト段階。利用には注意してください。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:773
+#, fuzzy
+msgid "Enable AJAX on comment pagination"
+msgstr "ページャをAJAXで行う"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:773
+#, fuzzy
+msgid "Navigate trough comment pages without refreshing (faster load, but may be incompatible with some plugins)"
+msgstr "コメントページをリロードなしに表示 （便利ですが、動作しないプラグインが発生するかもしれません）"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:778
+#, fuzzy
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "テーマに組み込まれているlightboxを使う"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:778
+#, fuzzy
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "lightboxプラグインを利用したい場合はチェックを外してください"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:783
+#, fuzzy
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "テーマを変更したらテーマに関する設定を全て削除する"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:783
+msgid "Only check if you're planning to remove and change the theme"
+msgstr "テーマを削除しようとしている場合チェックする"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:798
+msgid "User functions"
+msgstr "ユーザ定義関数"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:798
+msgid "PHP code to add to the theme functions. Useful if you have plugins that require you to change the theme's functions.php file"
+msgstr "テーマにPHPコードを追加する。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:813
+msgid "CSS to add, or modify theme styles"
+msgstr "テーマのスタイルを変更するCSS"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:813
+#, fuzzy, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "既存のCSSを閲覧するためには %s をチェックしてください。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/admin/theme-settings.php:876
+msgid "Active shortcodes you can use in your posts or widgets"
+msgstr "ショートコードを記事とウィジェットで有効化する"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/auto-thumb/auto-thumb.php:5
+msgid "Auto generate thumbnails"
+msgstr "サムネイル自動生成"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/auto-thumb/auto-thumb.php:5
+msgid "Create thumbnail from the 1st image found in a post, if no thumbnail is set"
+msgstr "サムネイルが設定されていなかったら1つめの画像からサムネイルを生成する。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:78
+msgid "No featured posts found."
+msgstr "フィーチャー記事がありません"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:101
+msgid "Featured"
+msgstr "フィーチャー"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:135
+msgid "Error while featuring posts"
+msgstr "エラー"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:206
+msgid "Featured posts"
+msgstr "フィーチャー記事"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:206
+#, php-format
+msgid "You can mark posts as featured on the %s page"
+msgstr "%s ページをフィーチャーとしてマークできます"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:212
+msgid "Show on"
+msgstr "表示される"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:216
+msgid "Pages that use the Featured posts template"
+msgstr "フィーチャーテンプレートを使っているページ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:221
+msgid "Home page"
+msgstr "ホームページ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:226
+msgid "Single post pages"
+msgstr "シングルポストページ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:231
+msgid "Archive pages (Category, Tags etc)"
+msgstr "アーカイブページ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:236
+msgid "404 pages"
+msgstr "404 ページ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:241
+msgid "Search page"
+msgstr "検索ページ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:246
+msgid "All other pages"
+msgstr "その他のページ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:253
+msgid "Maximum number of posts to display"
+msgstr "最大投稿数"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:260
+msgid "Slide delay"
+msgstr "スライドショー間隔"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:263
+msgid "seconds"
+msgstr "秒"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:268
+msgid "Don't show posts older than"
+msgstr "より古い投稿を表示しない"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/featured-posts/featured-posts.php:271
+msgid "days"
+msgstr "日"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/ip2country/ip2country.php:48
+#, fuzzy
+msgid "Show comment author's country flag"
+msgstr "コメント投稿者ごとに国旗を表示する"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/ip2country/ip2country.php:48
+#, fuzzy
+msgid "May slow down page loading"
+msgstr "ページ表示を遅くする可能性があります"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:15
+msgid "Extra navigation items"
+msgstr "ナビゲーション項目の拡張"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:15
+msgid "(Leave blank to disable)"
+msgstr "（無効にするためには空白に）"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:19
+msgid "Twitter ID"
+msgstr "Twitter ID"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:24
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:29
+msgid "Facebook ID"
+msgstr "Facebook ID"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:53
+#, fuzzy
+msgid "Follow me on Twitter"
+msgstr "Twitterでフォローする"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:56
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:153
+#, fuzzy
+msgid "RSS Feeds"
+msgstr "RSSフィード"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/extensions/xtra-nav/xtra-nav.php:59
+msgid "My Facebook"
+msgstr "My Facebook"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:40
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:278
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s 件"
+msgstr[1] "%s 件"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:119
+#, fuzzy
+msgid "View page"
+msgstr "ページを表示"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:156
+#, fuzzy
+msgid "Follow me on Twitter!"
+msgstr "Twitterでフォローする"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:165
+#, fuzzy
+msgid "You are Home"
+msgstr "ホーム"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:167
+#, fuzzy
+msgid "Click for Home"
+msgstr "クリックしてホーム"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:225
+#, fuzzy
+msgid "F jS, Y"
+msgstr "Y年n月j日"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:227
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr "週ごとのアーカイブ（%1$s / %2$s）"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:227
+msgid "W"
+msgstr "W"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:238
+msgid "404 Not Found"
+msgstr "404 ページが見つかりませんでした。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:244
+#, php-format
+msgid "Page %s"
+msgstr "%s のページ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:248
+#, php-format
+msgid "Comment Page %s"
+msgstr "%s のコメントページ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:270
+#, php-format
+msgid "View all posts in %s"
+msgstr "%s の記事をすべて表示"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:330
+#, fuzzy
+msgid "Share this post!"
+msgstr "この投稿を共有"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:516
+msgid "Permanent Link:"
+msgstr "パーマリンク"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:521
+#, fuzzy
+msgid "M jS"
+msgstr "Y年n月j日"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:525
+#, fuzzy, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "投稿者: %1$s (%2$s)"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:528
+#, fuzzy
+msgid "Edit"
+msgstr "編集"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:608
+#, fuzzy
+msgid "Pages: "
+msgstr "ページ:"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:610
+msgid "Edit this page"
+msgstr "このページを編集"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:679
+msgid "Go to the first page"
+msgstr "最初のページへ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:679
+msgid "&laquo; First"
+msgstr "&laquo; 最初"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:685
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:691
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:697
+#, php-format
+msgid "Go to page %s"
+msgstr "%s ページへ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:701
+msgid "Go to the last page"
+msgstr "最後のページへ"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:701
+msgid "Last &raquo;"
+msgstr "最後 &raquo;"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:735
+#, php-format
 msgid "about %s year ago"
 msgid_plural "about %s years ago"
 msgstr[0] "約 %s 年前"
 msgstr[1] "約 %s 年前"
 
-#: c:\temp\mystique\lib/core.php:84
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:736
+#, php-format
 msgid "about %s month ago"
 msgid_plural "about %s months ago"
-msgstr[0] "%s ヶ月前"
-msgstr[1] "%s ヶ月前"
+msgstr[0] "約 %s ヶ月前"
+msgstr[1] "約 %s ヶ月前"
 
-#: c:\temp\mystique\lib/core.php:85
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:737
+#, php-format
 msgid "about %s week ago"
 msgid_plural "about %s weeks ago"
-msgstr[0] "%s 週間前"
-msgstr[1] "%s 週間前"
+msgstr[0] "約 %s 週間前"
+msgstr[1] "約 %s 週間前"
 
-
-#: c:\temp\mystique\lib/core.php:86
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:738
+#, php-format
 msgid "about %s day ago"
 msgid_plural "about %s days ago"
-msgstr[0] "%s 日前"
-msgstr[1] "%s 日前"
+msgstr[0] "約 %s 日前"
+msgstr[1] "約 %s 日前"
 
-
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:87
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:739
 #, php-format
 msgid "about %s hour ago"
 msgid_plural "about %s hours ago"
-msgstr[0] "%s 時間前"
-msgstr[1] "%s 時間前"
+msgstr[0] "約 %s 時間前"
+msgstr[1] "約 %s 時間前"
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:88
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:740
 #, php-format
 msgid "about %s minute ago"
 msgid_plural "about %s minutes ago"
-msgstr[0] "%s 分前"
-msgstr[1] "%s 分前"
+msgstr[0] "約 %s 分前"
+msgstr[1] "約 %s 分前"
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:89
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:741
 #, php-format
 msgid "about %s second ago"
 msgid_plural "about %s seconds ago"
-msgstr[0] "%s 秒前"
-msgstr[1] "%s 秒前"
+msgstr[0] "約 %s 秒前"
+msgstr[1] "約 %s 秒前"
 
-
-#: c:\temp\mystique\lib/core.php:340
-msgid "Share this post!"
-msgstr "この投稿を共有"
-
-#: c:\temp\mystique\lib/core.php:460
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1041
+#, fuzzy, php-format
 msgid "%1$s written by %2$s"
 msgstr "%1$s 投稿者：%2$s"
 
-#: c:\temp\mystique\lib/core.php:468
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1049
+#, fuzzy
 msgid "Reply"
 msgstr "返信"
 
-#: c:\temp\mystique\lib/core.php:469
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1050
+#, fuzzy
 msgid "Quote"
 msgstr "引用"
 
-#: c:\temp\mystique\lib/core.php:476
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:1057
+#, fuzzy
 msgid "Your comment is awaiting moderation."
 msgstr "あなたのコメントは管理者の承認待ちです。"
 
-#: c:\temp\mystique\lib/editor.php:22
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:22
+#, fuzzy
 msgid "Divider"
 msgstr "水平線"
 
-#: c:\temp\mystique\lib/editor.php:23
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:23
+#, fuzzy
 msgid "Error text color"
 msgstr "文字色を選択"
 
-#: c:\temp\mystique\lib/editor.php:24
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/editor.php:24
+#, fuzzy
 msgid "Error box"
 msgstr "データベースエラー: %s"
 
-#: c:\temp\mystique\lib/mystique.php:55
-msgid "Default sidebar"
-msgstr "左サイドバー"
-
-#: c:\temp\mystique\lib/mystique.php:57
-msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
-msgstr "これはデフォルトのサイドバーで、2カラムか3カラムのレイアウトで表示されます。ウィジェットが指定されていなければデフォルトのウィジェットが表示されます。"
-
-#: c:\temp\mystique\lib/mystique.php:65
-msgid "Secondary sidebar"
-msgstr "左サイドバー"
-
-#: c:\temp\mystique\lib/mystique.php:67
-msgid "This sidebar is active only on a 3 column setup. "
-msgstr "この投稿は %1$s %2$s %3$s に %4$s カテゴリーに公開されました。"
-
-#: c:\temp\mystique\lib/mystique.php:75
-msgid "Footer"
-msgstr "フッター"
-
-#: c:\temp\mystique\lib/mystique.php:77
-msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
-msgstr "1個から6個のウィジェットを追加できます（3つか4つが最適）。ウィジェット数に応じて横幅は自動調整されます。"
-
-#: c:\temp\mystique\lib/mystique.php:85
-msgid "Footer (slide 2)"
-msgstr "フッター (2ページ目)"
-
-#: c:\temp\mystique\lib/mystique.php:87
-#: c:\temp\mystique\lib/mystique.php:97
-#: c:\temp\mystique\lib/mystique.php:107
-msgid "Only visible if jQuery is enabled. "
-msgstr "もしいくつかのエラーが出るなら, 設定は正しくありません."
-
-#: c:\temp\mystique\lib/mystique.php:95
-msgid "Footer (slide 3)"
-msgstr "フッター (3ページ目)"
-
-#: c:\temp\mystique\lib/mystique.php:105
-msgid "Footer (slide 4)"
-msgstr "フッター (4ページ目)"
-
-#: c:\temp\mystique\lib/settings.php:66
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:72
+#, fuzzy, php-format
 msgid "You can configure Mystique from the <a%s>theme settings</a> page."
 msgstr "FileZilla自身の設定ディレクトリから設定を取り込むことができません."
 
-#
-#: c:\temp\mystique\lib/shortcodes.php:17
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/settings.php:347
+msgid "There are one or more PHP parse errors in your custom functions."
+msgstr "PHPのパーサエラーが1つ以上あります。"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:17
+#, fuzzy, php-format
 msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
 msgstr "%s: ウィジェットclassが見つかりませんでした。 ウィジェットが存在し、class指定が正しいことを確認してください。"
 
-#: c:\temp\mystique\lib/shortcodes.php:52
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:52
+#, fuzzy
 msgid "User name (required)"
 msgstr "ユーザ名を明確にしなければいけません."
 
-#: c:\temp\mystique\lib/shortcodes.php:54
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:54
+#, fuzzy
 msgid "Password (required)"
 msgstr "パスワードが必要"
 
-#: c:\temp\mystique\lib/shortcodes.php:55
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:55
+#, fuzzy
 msgid "Verify password (required)"
 msgstr "FTP のパスワードは必須です"
 
-#: c:\temp\mystique\lib/shortcodes.php:56
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:56
+#, fuzzy
 msgid "E-mail (required)"
 msgstr "パスワードが必要"
 
-#: c:\temp\mystique\lib/shortcodes.php:57
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:57
+#, fuzzy
 msgid "First name"
 msgstr "名"
 
-#: c:\temp\mystique\lib/shortcodes.php:58
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:58
+#, fuzzy
 msgid "Last name"
 msgstr "姓"
 
-#: c:\temp\mystique\lib/shortcodes.php:59
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:59
+#, fuzzy
 msgid "Profile info"
 msgstr "情報"
 
-#: c:\temp\mystique\lib/shortcodes.php:80
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:80
+#, fuzzy
 msgid "Please type a user name"
 msgstr "エラー: コメントを入力してください。"
 
-#: c:\temp\mystique\lib/shortcodes.php:81
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:81
+#, fuzzy
 msgid "User name already exists"
 msgstr "フィルタ名はすでに存在しています"
 
-#: c:\temp\mystique\lib/shortcodes.php:82
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:82
+#, fuzzy
 msgid "E-mail address is required."
 msgstr "有効なメールアドレスを入力してください"
 
-#: c:\temp\mystique\lib/shortcodes.php:83
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:83
+#, fuzzy
 msgid "E-mail address already in use"
 msgstr "このスラッグ &#8220;%s&#8221; はすでに他のタグで使用されています"
 
-#: c:\temp\mystique\lib/shortcodes.php:84
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:84
+#, fuzzy
 msgid "You must enter a password."
 msgstr "ユーザ名とパスワードを入力"
 
-#: c:\temp\mystique\lib/shortcodes.php:85
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:85
+#, fuzzy
 msgid "Please verify the password"
 msgstr "このサーバのパスワードを入力してください:"
 
-#: c:\temp\mystique\lib/shortcodes.php:86
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:86
+#, fuzzy
 msgid "Passwords do not match"
 msgstr "これを実行する権限はありません。"
 
-#: c:\temp\mystique\lib/shortcodes.php:87
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:87
+#, fuzzy
 msgid "User registration failed.  Please try again."
 msgstr "LiveJournal からのコメント本文の取得に失敗しました。再度お試しください。"
 
-#
-#: c:\temp\mystique\lib/shortcodes.php:96
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:96
+#, fuzzy, php-format
 msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't need another account :)"
 msgstr "<a href=\"%1$s\" title=\"%2$s\">%2$s</a> としてログイン中。新しいアカウントは不要です。"
 
-#: c:\temp\mystique\lib/shortcodes.php:101
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:101
+#, fuzzy, php-format
 msgid "A user account for %1$s has been created."
 msgstr "以前開かれたファイルは変更されています."
 
-#: c:\temp\mystique\lib/shortcodes.php:102
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:102
+#, fuzzy, php-format
 msgid "Thank you for registering, %1$s."
 msgstr "登録ありがとうございます。 %1$s."
 
-#: c:\temp\mystique\lib/shortcodes.php:154
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:154
+#, fuzzy
 msgid "Add User"
 msgstr "ユーザーを追加"
 
-#: c:\temp\mystique\lib/shortcodes.php:154
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:154
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:610
+#, fuzzy
 msgid "Register"
 msgstr "登録"
 
-#: c:\temp\mystique\lib/shortcodes.php:289
-msgid "Empty ad slot (#%s)!"
-msgstr "空のディレクトリ一覧取得"
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:242
+msgid "No posts found matching the arguments"
+msgstr "見つかりませんでした"
 
-#: c:\temp\mystique\lib/shortcodes.php:294
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:292
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "空の広告枠 (#%s)!"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:297
+#, fuzzy
 msgid "Top"
 msgstr "トップ"
 
-#: c:\temp\mystique\lib/shortcodes.php:302
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:305
+#, fuzzy, php-format
 msgid "%1$s theme by %2$s | Powered by %3$s"
 msgstr "Powered by WordPress"
 
-#: c:\temp\mystique\lib/shortcodes.php:307
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:310
+#, fuzzy
 msgid "Copyright &copy;"
 msgstr "Copyright &copy; "
 
-#: c:\temp\mystique\lib/shortcodes.php:320
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:323
+#, fuzzy
 msgid "Site Admin"
 msgstr "サイト管理"
 
-#: c:\temp\mystique\lib/shortcodes.php:321
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/shortcodes.php:324
+#, fuzzy
 msgid "Log in"
 msgstr "ログイン"
 
-#
-#: c:\temp\mystique\lib/widgets.php:61
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:55
+#, fuzzy, php-format
 msgid "%s followers"
 msgstr "%s followers"
 
-#: c:\temp\mystique\lib/widgets.php:85
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:79
+#, fuzzy
 msgid "Error while retrieving tweets (Twitter down?)"
 msgstr "ファイルの場所を参照するため投稿メタデータにアクセス中、エラーが発生しました。"
 
-#: c:\temp\mystique\lib/widgets.php:99
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:92
+#, fuzzy
 msgid "Displays links to different sections grouped in tabs"
 msgstr "取り込むリンクのカテゴリーを選択してください。"
 
-#: c:\temp\mystique\lib/widgets.php:101
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:94
+#, fuzzy
 msgid "Mystique | Sidebar tabs"
 msgstr "サイドバーをページに表示されない。"
 
-#: c:\temp\mystique\lib/widgets.php:125
-#: c:\temp\mystique\lib/widgets.php:321
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:121
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:308
+#, fuzzy
 msgid "Recent comments"
 msgstr "最近のコメント"
 
-#: c:\temp\mystique\lib/widgets.php:126
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:122
+#, fuzzy
 msgid "Popular posts"
 msgstr "人気の記事"
 
-#: c:\temp\mystique\lib/widgets.php:127
-#: c:\temp\mystique\lib/widgets.php:313
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:123
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:298
+#, fuzzy
 msgid "Archives"
 msgstr "アーカイブ"
 
-#: c:\temp\mystique\lib/widgets.php:128
-msgid "Tags"
-msgstr "タグ"
-
-#: c:\temp\mystique\lib/widgets.php:222
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:206
+#, fuzzy
 msgid "Didn't find any posts popular enough :("
 msgstr "%s からの投稿はありません。"
 
-#: c:\temp\mystique\lib/widgets.php:265
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:233
+#, php-format
+msgid "Posted in: %s"
+msgstr "%s への投稿"
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:250
+#, fuzzy
 msgid "Sidebar tabs"
 msgstr "すべてのタブ:"
 
-#: c:\temp\mystique\lib/widgets.php:266
-#: c:\temp\mystique\lib/widgets.php:409
-#: c:\temp\mystique\lib/widgets.php:508
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:251
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:397
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:496
+#, fuzzy
 msgid "jQuery is disabled and this widget needs it"
 msgstr "このウィジェットを使用するサイドバーと、そのサイドバー内でのウィジェットの位置を選択してください。"
 
-#: c:\temp\mystique\lib/widgets.php:301
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:286
+#, fuzzy
 msgid "Tabs to show"
 msgstr "プラグインはありません"
 
-#: c:\temp\mystique\lib/widgets.php:309
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:294
+#, fuzzy
 msgid "Tags "
 msgstr "タグ"
 
-#: c:\temp\mystique\lib/widgets.php:317
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:302
+#, fuzzy
 msgid "Popular posts (most commented)"
 msgstr "人気の記事（コメントが多い）"
 
-#: c:\temp\mystique\lib/widgets.php:327
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:315
+#, fuzzy
 msgid "Sort categories"
 msgstr "カテゴリーを検索"
 
-#: c:\temp\mystique\lib/widgets.php:329
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:317
+#, fuzzy
 msgid "by name (alphabetically)"
 msgstr "名前順で並べる"
 
-#: c:\temp\mystique\lib/widgets.php:330
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:318
 msgid "by category ID"
-msgstr "リンク ID 順で並べる"
+msgstr "カテゴリID順"
 
-#: c:\temp\mystique\lib/widgets.php:331
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:319
 msgid "by category slug"
-msgstr "リンクカテゴリーのスラッグ"
+msgstr "カテゴリスラッグ順"
 
-#: c:\temp\mystique\lib/widgets.php:332
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:320
+#, fuzzy
 msgid "by post count"
 msgstr "%1$s <span class=\"count\">(%2$s 名)</span>"
 
-#: c:\temp\mystique\lib/widgets.php:337
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:325
+#, fuzzy
 msgid "Show post count (categories and archives)"
 msgstr "DotClear ブログからカテゴリー、ユーザー、投稿、コメント、リンクをインポートします。"
 
-#: c:\temp\mystique\lib/widgets.php:343
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:331
+#, fuzzy
 msgid "How many popular posts to show?"
 msgstr "フィード内の項目をいくつ表示しますか ?"
 
-#: c:\temp\mystique\lib/widgets.php:350
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:338
+#, fuzzy
 msgid "How many recent comments to show?"
 msgstr "フィード内の項目をいくつ表示しますか ?"
 
-#: c:\temp\mystique\lib/widgets.php:366
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:354
+#, fuzzy
 msgid "Shows your latest Twitter updates"
 msgstr "プラグインは最新のバージョンです。"
 
-#: c:\temp\mystique\lib/widgets.php:367
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:355
 msgid "Mystique | Twitter"
-msgstr "Twitter 名前："
+msgstr "Mystique | Twitter"
 
-#: c:\temp\mystique\lib/widgets.php:406
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:394
+#, fuzzy
 msgid "Loading tweets..."
 msgstr "読み込み中&#8230;"
 
-#: c:\temp\mystique\lib/widgets.php:436
-#: c:\temp\mystique\lib/widgets.php:542
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:424
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:530
+#, fuzzy
 msgid "Title:"
 msgstr "タイトル:"
 
-#: c:\temp\mystique\lib/widgets.php:441
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:429
+#, fuzzy
 msgid "Twitter user name:"
 msgstr "ユーザ名を明確にしなければいけません."
 
-#: c:\temp\mystique\lib/widgets.php:446
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:434
+#, fuzzy
 msgid "Number of tweets to show:"
 msgstr "表示する投稿数:"
 
-#: c:\temp\mystique\lib/widgets.php:460
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:448
+#, fuzzy
 msgid "Displays Flickr galleries (needs API key)"
 msgstr "API キーを入力してださい。 (<a href=\"%s\" style=\"color:#fff\">キーを取得する</a>) "
 
-#: c:\temp\mystique\lib/widgets.php:462
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:450
+#, fuzzy
 msgid "Mystique | Flickr Gallery"
 msgstr "ギャラリー設定を更新"
 
-#: c:\temp\mystique\lib/widgets.php:533
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:521
+#, fuzzy
 msgid "Flickr Gallery"
 msgstr "ギャラリー設定"
 
-#: c:\temp\mystique\lib/widgets.php:547
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:535
+#, fuzzy
 msgid "API key:"
 msgstr "WordPress.com API キー"
 
-#: c:\temp\mystique\lib/widgets.php:552
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:540
+#, fuzzy
 msgid "Number of photos to show:"
 msgstr "表示する投稿数:"
 
-#: c:\temp\mystique\lib/widgets.php:557
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:545
+#, fuzzy
 msgid "Gallery source:"
 msgstr "ソースファイル"
 
-#: c:\temp\mystique\lib/widgets.php:559
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:547
+#, fuzzy
 msgid "Photoset"
 msgstr "a"
 
-#: c:\temp\mystique\lib/widgets.php:560
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:548
+#, fuzzy
 msgid "User photostream"
 msgstr "%s - プロキシ ユーザ名"
 
-#: c:\temp\mystique\lib/widgets.php:565
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:553
+#, fuzzy
 msgid "Photoset ID:"
 msgstr "ページ ID"
 
-#: c:\temp\mystique\lib/widgets.php:570
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:558
+#, fuzzy, php-format
 msgid "User ID (use %s to find it):"
 msgstr "有効化するには下のボタンをクリックしてください。"
 
-#: c:\temp\mystique\lib/widgets.php:585
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:573
+#, fuzzy
 msgid "Login form"
 msgstr "ログインフォーム"
 
-#: c:\temp\mystique\lib/widgets.php:586
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:574
+#, fuzzy
 msgid "Mystique | Login"
 msgstr "Mystique | ログイン "
 
-#: c:\temp\mystique\lib/widgets.php:596
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:584
+#, fuzzy, php-format
 msgid "Logged in: %s"
 msgstr "%s としてログイン中。"
 
-#: c:\temp\mystique\lib/widgets.php:601
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:589
+#, fuzzy
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
-#: c:\temp\mystique\lib/widgets.php:603
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:591
+#, fuzzy
 msgid "Write"
 msgstr "書く"
 
-#: c:\temp\mystique\lib/widgets.php:604
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:592
+#, fuzzy
 msgid "Comments"
 msgstr "コメント"
 
-#: c:\temp\mystique\lib/widgets.php:606
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:594
+#, fuzzy
 msgid "Log out"
 msgstr "ログアウト"
 
-#: c:\temp\mystique\lib/widgets.php:610
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:598
+#, fuzzy
 msgid "User Login"
 msgstr "WordPress のユーザー名 "
 
-#: c:\temp\mystique\lib/widgets.php:614
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:602
+#, fuzzy
 msgid "User"
 msgstr "ユーザ(&U):"
 
-#: c:\temp\mystique\lib/widgets.php:615
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:603
+#, fuzzy
 msgid "Password"
 msgstr "パスワード"
 
-#: c:\temp\mystique\lib/widgets.php:616
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:604
+#, fuzzy
 msgid "Login"
 msgstr "WordPress のユーザー名 "
 
-#: c:\temp\mystique\lib/widgets.php:617
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:605
+#, fuzzy
 msgid "Remember me"
 msgstr "ログイン情報を記憶"
 
-#: c:\temp\mystique\lib/widgets.php:623
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/widgets.php:611
+#, fuzzy
 msgid "Lost your password?"
 msgstr "パスワードをお忘れですか ?"
 

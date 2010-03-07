@@ -47,7 +47,7 @@
           <?php if($settings['post_single_author']): ?>
           <div class="about_the_author clearfix">
            <div class="avatar">
-             <a href="<?php echo get_author_posts_url(get_the_author_ID()); ?>" title="<?php echo get_the_author(); ?>"><?php echo get_avatar(get_the_author_email(), '80'); ?></a>
+             <a href="<?php echo get_author_posts_url(get_the_author_ID()); ?>" title="<?php echo get_the_author(); ?>"><?php echo get_avatar(get_the_author_meta('email'), '80'); ?></a>
            </div>
            <h3><?php _e("About the author","mystique"); ?></h3>
            <p><?php the_author_meta('description'); ?></p>

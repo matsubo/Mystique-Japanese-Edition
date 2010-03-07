@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Mystique 1.4.8\n"
+"Project-Id-Version: Mystique 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-16 12:38+0100\n"
+"POT-Creation-Date: 2010-02-23 17:46+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Pascal Herbert <pascal.herbert@googlemail.com>\n"
 "Language-Team: Pascal Herbert <pascal.herbert@gmail.com>\n"
@@ -18,109 +18,96 @@ msgstr ""
 "X-Poedit-SearchPath-1: .\n"
 "X-Poedit-SearchPath-2: ..\n"
 
-#: ../404.php:12
+#: ../404.php:13
 msgid "The requested page was not found"
 msgstr "Seite nicht gefunden"
 
-#: ../archive.php:19
+#: ../archive.php:23
 #, php-format
 msgid "Posts tagged %s"
-msgstr "Beitr&auml;ge gettagt mit %s"
+msgstr "Beiträge getaggt mit %s"
 
-#: ../archive.php:21
-#: ../archive.php:23
+#: ../archive.php:25
+#: ../archive.php:27
 #, php-format
 msgid "Archive for %s"
-msgstr "Archiv f&uuml;r %s"
+msgstr "Archiv für %s"
 
-#: ../archive.php:23
+#: ../archive.php:27
 msgid "F, Y"
 msgstr "F Y"
 
-#: ../archive.php:25
+#: ../archive.php:29
 #, php-format
 msgid "Archive for year %s"
-msgstr "Archiv f&uuml;r das Jahr %s"
+msgstr "Archiv für das Jahr %s"
 
-#: ../archive.php:25
+#: ../archive.php:29
 msgid "Y"
 msgstr "Y"
 
-#: ../archive.php:27
+#: ../archive.php:31
 msgid "Author archive"
 msgstr "Autorarchiv"
 
-#: ../archive.php:29
+#: ../archive.php:33
 msgid "Blog Archives"
-msgstr "Blogarchive"
+msgstr "Blogarchiv"
 
-#: ../archive.php:41
-#: ../author.php:53
-#: ../index.php:19
-msgid "&laquo; Older Entries"
-msgstr "&laquo; &Auml;lterer Beitrag"
-
-#: ../archive.php:42
-#: ../author.php:54
-#: ../index.php:20
-msgid "Newer Entries &raquo;"
-msgstr "Neuerer Beitrag &raquo;"
-
-#: ../archive.php:49
+#: ../archive.php:47
 #, php-format
 msgid "Sorry, but there aren't any posts in the %s category yet."
-msgstr "Entschuldigung, aber es noch keine Beitr&auml;ge in der Kategorie %s."
+msgstr "Entschuldigung, aber es noch keine Beiträge in der Kategorie %s."
+
+#: ../archive.php:48
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "Entschuldigung, aber es gibt keine Beiträge mit diesem Datum."
 
 #: ../archive.php:51
-msgid "Sorry, but there aren't any posts within this date."
-msgstr "Entschuldigung, aber es gibt keine Beitr&auml;ge mit diesem Datum."
-
-#: ../archive.php:54
 #, php-format
 msgid "Sorry, but there aren't any posts by %s yet."
-msgstr "Entschuldigung, es gibt noch keine Beitr&auml;ge von %s."
+msgstr "Entschuldigung, es gibt noch keine Beiträge von %s."
 
-#: ../archive.php:56
+#: ../archive.php:52
 msgid "No posts found."
-msgstr "Keine Beitr&auml;ge gefunden."
+msgstr "Keine Beiträge gefunden."
 
-#: ../author.php:27
+#: ../author.php:23
 msgid "This user hasn't shared any biographical information"
 msgstr "Dieser Benutzer hat keine Details eingegeben."
 
-#: ../author.php:32
+#: ../author.php:28
 msgid "Homepage:"
 msgstr "Webseite:"
 
-#: ../author.php:33
+#: ../author.php:29
 msgid "Yahoo Messenger:"
-msgstr "Yahoo Messenger:"
+msgstr "Yahoo-Messenger:"
 
-#: ../author.php:34
+#: ../author.php:30
 msgid "Jabber/GTalk:"
 msgstr "Jabber/GTalk:"
 
-#: ../author.php:35
+#: ../author.php:31
 msgid "AIM:"
 msgstr "AIM:"
 
-#: ../author.php:42
-#: ../image.php:31
+#: ../author.php:38
 #, php-format
 msgid "Posts by %s"
-msgstr "Beitr&auml;ge von %s"
+msgstr "Beiträge von %s"
 
-#: ../author.php:59
+#: ../author.php:48
 msgid "No posts found by this author."
-msgstr "Keine Beitr&auml;ge dieses Bloggers gefunden."
+msgstr "Keine Beiträge dieses Autors gefunden."
 
 #: ../comments.php:3
 msgid "Enter your password to view comments"
-msgstr "Bitte Passwort eingeben um die Kommentare zu sehen"
+msgstr "Bitte Passwort eingeben um die Kommentare zu sehen."
 
 #: ../comments.php:42
 msgid "Related Posts"
-msgstr "Verwandte Beitr&auml;ge"
+msgstr "Verwandte Beiträge"
 
 #: ../comments.php:43
 #, php-format
@@ -140,19 +127,19 @@ msgstr "Bisher keine Kommentare"
 #: ../comments.php:91
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Du musst  <a href=\"%s\">angemeldet sein um einen Kommentar zu schreiben."
+msgstr "Du musst  <a href=\"%s\">angemeldet</a> sein um einen Kommentar zu schreiben."
 
 #: ../comments.php:102
 #: ../comments.php:128
 #: ../comments.php:129
 msgid "Name (required)"
-msgstr "Name (ben&ouml;tigt)"
+msgstr "Name (benötigt)"
 
 #: ../comments.php:103
 #: ../comments.php:132
 #: ../comments.php:133
 msgid "E-mail (required, will not be published)"
-msgstr "E-Mail (ben&ouml;tigt, wird nicht ver&ouml;ffentlicht)"
+msgstr "E-Mail (benötigt, wird nicht veröffentlicht)"
 
 #: ../comments.php:104
 #: ../comments.php:136
@@ -176,7 +163,7 @@ msgstr "Abmelden &raquo;"
 #: ../comments.php:122
 #, php-format
 msgid "Welcome back <strong>%s</strong>."
-msgstr "Willkommen zur&uuml;ck <strong>%s</strong>."
+msgstr "Willkommen zurück <strong>%s</strong>."
 
 #: ../comments.php:123
 msgid "Change &raquo;"
@@ -184,7 +171,7 @@ msgstr "Wechseln &raquo;"
 
 #: ../comments.php:144
 msgid "Type your comment"
-msgstr "Kommentar eingeben"
+msgstr "Gib deinen Kommentar ein"
 
 #: ../comments.php:153
 #, php-format
@@ -203,141 +190,102 @@ msgstr "Antwort abbrechen"
 msgid "No trackbacks yet."
 msgstr "Bisher keine Trackbacks."
 
-#: ../comments.php:205
+#: ../comments.php:206
 msgid "No comments"
 msgstr "Keine Kommentare"
 
-#: ../comments.php:205
+#: ../comments.php:206
 msgid "1 comment"
 msgstr "1 Kommentar"
 
-#: ../comments.php:205
+#: ../comments.php:206
 #, php-format
 msgid "% comments"
 msgstr "% Kommentare"
 
-#: ../comments.php:223
+#: ../comments.php:224
 msgid "Comments are closed."
-msgstr "Kommentare geschlossen."
+msgstr "Kommentarfunktion deaktiviert."
 
-#: ../featured-posts.php:42
-msgid "Read more"
-msgstr "Weiterlesen"
-
-#: ../header.php:11
+#: ../functions.php:10
 #, php-format
-msgid "Page %s &laquo;"
-msgstr "Seite %s &laquo;"
+msgid "Your site is running on %1$s. Mystique requires at least %2$s."
+msgstr "Deine Seite läuft auf %1$s. Mystique benötigt mindestens %2$s."
 
-#: ../header.php:51
-msgid "RSS Feeds"
-msgstr "RSS Feeds"
+#: ../functions.php:76
+msgid "Default sidebar"
+msgstr "Standard-Seitenleisten"
 
-#: ../header.php:59
-msgid "Follow me on Twitter!"
-msgstr "Folge mir auf Twitter!"
+#: ../functions.php:78
+msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
+msgstr "Das ist die Standard-Seitenleiste, sie wird im 2- oder 3-Spaltenlayout angezeigt. Wenn keine eigenen Widgets aktiv sind, werden hier die Standardwigets des Themes angezeigt."
 
-#: ../header.php:68
-msgid "You are Home"
-msgstr "Du bist auf der Startseite"
+#: ../functions.php:86
+msgid "Secondary sidebar"
+msgstr "Zweite Seitenleiste"
 
-#: ../header.php:68
-#: ../header.php:70
-msgid "Home"
-msgstr "Startseite"
+#: ../functions.php:88
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "Diese Seitenleiste wird nur 3-Spaltenlayout angezeigt."
 
-#: ../header.php:70
-msgid "Click for Home"
-msgstr "Klick um zur Startseite zugelangen"
+#: ../functions.php:96
+msgid "Footer"
+msgstr "Footer"
 
-#: ../image.php:19
-msgid "More &gt;"
-msgstr "Mehr &gt;"
+#: ../functions.php:98
+msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
+msgstr "Du kannst 1-6 Widgets hinzufügen (3-4 sind optimal). Sie passen ihre Breite je nach Anzahl automatisch an."
 
-#: ../image.php:31
-#, php-format
-msgid "This entry was posted by %1$s on %2$s at %3$s, and is filled under %4$s. Follow any responses to this post through %5$s."
-msgstr "Dieser Beitrag wurde von %1$s am %2$s um %3$s ver&ouml;ffentlicht und unter %4$s abgelegt. Du kannst allen Antworten zu diesem Beitrag durch %5$s folgen."
+#: ../functions.php:106
+msgid "Footer (slide 2)"
+msgstr "Footer (Slide 2)"
 
-#: ../image.php:35
-#, php-format
-msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
-msgstr "Du kannst <a%1$s>eine Antwort schreiben</a> oder einen <a%2$s>Trackback</a> von deiner eigenen Seite hinterlassen."
+#: ../functions.php:108
+#: ../functions.php:118
+#: ../functions.php:128
+msgid "Only visible if jQuery is enabled. "
+msgstr "Nur sichtbar, wenn jQuery aktiviert ist."
 
-#: ../image.php:39
-#, php-format
-msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
-msgstr "Anworten sind momentan ausgeschaltet, aber du kannst einen <a%1$s>Trackback</a> von deiner eigenen Seite hinterlassen."
+#: ../functions.php:116
+msgid "Footer (slide 3)"
+msgstr "Footer (Slide 3)"
 
-#: ../image.php:43
-msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
-msgstr "Du kannst direkt zum Ende gehen und eine Antwort hinterlassen. Pings ist momentan nicht m&ouml;glich."
+#: ../functions.php:126
+msgid "Footer (slide 4)"
+msgstr "Footer (Slide 4)"
 
-#: ../image.php:47
-msgid "Both comments and pings are currently closed."
-msgstr "Kommentare und Pings sind momentan ausgeschalten."
-
-#: ../image.php:49
-msgid "Edit this entry"
-msgstr "Diesen Eintrag bearbeiten"
-
-#: ../image.php:61
-msgid "Sorry, no attachments matched your criteria."
-msgstr "Entschuldige, keine Anh&auml;nge zu deiner Anfrage gefunden."
+#: ../index.php:23
+msgid "No posts found"
+msgstr "Keine Beiträge gefunden."
 
 #: ../index.php:24
-msgid "No posts found"
-msgstr "Keine Beitr&auml;ge gefunden."
-
-#: ../index.php:25
 msgid "Sorry, but you are looking for something that isn't here."
-msgstr "Entschuldigung, aber du suchst etwas das nicht da ist."
+msgstr "Entschuldigung, aber du suchst etwas das nicht vorhanden ist."
 
-#: ../post.php:19
-msgid "Permanent Link:"
-msgstr "Permalink:"
-
-#: ../post.php:22
-msgid "M jS"
-msgstr "d. M"
-
-#: ../post.php:26
-#, php-format
-msgid "Posted by %1$s in %2$s"
-msgstr "Verfasst von %1$s unter %2$s"
-
-#: ../post.php:29
-msgid "Edit"
-msgstr "Bearbeiten"
-
-#: ../post.php:61
-#, php-format
-msgid "%1$s (%2$s topics)"
-msgstr "%1$s (%2$s Topics)"
-
-#: ../search.php:15
+#: ../search.php:13
 #: ../searchform.php:5
 #: ../searchform.php:10
-#: ../lib/core.php:52
+#: ../lib/core.php:358
 msgid "Search"
 msgstr "Suche"
 
-#: ../search.php:18
+#: ../search.php:15
+#: ../lib/core.php:239
 #, php-format
-msgid "Search Results for %s"
-msgstr "Suchergebnisse f&uuml;r %s"
+msgid "Search results for %s"
+msgstr "Suchergebnisse für %s"
 
-#: ../search.php:42
+#: ../search.php:31
 msgid "Nothing found."
 msgstr "Nichts gefunden."
 
-#: ../search.php:42
+#: ../search.php:31
 msgid "Try a different search?"
 msgstr "Etwas anderes suchen?"
 
-#: ../search.php:46
+#: ../search.php:35
 msgid "What do you wish to search for?"
-msgstr "Nach was willst du suchen?"
+msgstr "Wonach möchtest du suchen?"
 
 #: ../searchform.php:11
 #, php-format
@@ -346,599 +294,790 @@ msgstr "Du hast im Archiv nach %s gesucht"
 
 #: ../searchform.php:13
 msgid "Type a valid search term..."
-msgstr "Bitte g&uuml;ltigen Suchbegriff eingeben..."
+msgstr "Bitte gültigen Suchbegriff eingeben..."
 
-#: ../sidebar.php:22
+#: ../sidebar.php:26
 msgid "My latest tweets"
 msgstr "Meine neuesten Tweets"
 
-#: ../sidebar.php:30
+#: ../sidebar.php:34
 msgid "Blogroll"
 msgstr "Blogroll"
 
-#: ../sidebar2.php:8
-msgid "2nd sidebar is active. Add widgets here from the Dashboard"
-msgstr "Zweite Seitenleiste ist aktiviert. F&uuml;ge hier Widgets &uuml;ber das Dashboard ein"
+#: ../sidebar2.php:7
+msgid "You activated the 2nd sidebar. Add widgets here from the Dashboard to remove this message"
+msgstr "Die zweite Seitenleiste wurde aktiviert. Füge hier Widgets über das Dashboard ein, um diese Nachricht zu entfernen"
 
-#: ../single.php:35
+#: ../single.php:25
+#: ../lib/core.php:542
+#: ../lib/core.php:555
+#: ../lib/core.php:623
+msgid "More &gt;"
+msgstr "Mehr &gt;"
+
+#: ../single.php:28
 msgid "Pages:"
 msgstr "Seiten:"
 
 #: ../single.php:39
-msgid "Tags:"
-msgstr "Tags:"
+#: ../lib/core.php:567
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1$s (%2$s Topics)"
 
-#: ../lib/admin.php:232
+#: ../single.php:52
+#: ../admin/theme-settings.php:580
+msgid "About the author"
+msgstr "Über den Autor"
+
+#: ../single.php:64
+msgid "Print article"
+msgstr "Artikel drucken"
+
+#: ../single.php:68
+#, php-format
+msgid "This entry was posted by %1$s on %2$s at %3$s, and is filed under %4$s. Follow any responses to this post through %5$s."
+msgstr "Dieser Beitrag wurde von %1$s am %2$s um %3$s veröffentlicht und unter %4$s abgelegt. Du kannst allen Antworten zu diesem Beitrag durch %5$s folgen."
+
+#: ../single.php:71
+#, php-format
+msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
+msgstr "Du kannst <a%1$s>eine Antwort schreiben</a> oder einen <a%2$s>Trackback</a> von deiner eigenen Seite hinterlassen."
+
+#: ../single.php:73
+#, php-format
+msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
+msgstr "Die Antwortfunktion ist momentan deaktiviert, aber du kannst einen <a%1$s>Trackback</a> von deiner eigenen Seite hinterlassen."
+
+#: ../single.php:75
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Du kannst direkt zum Ende gehen und einen Kommentar hinterlassen. Pings ist momentan nicht möglich."
+
+#: ../single.php:77
+msgid "Both comments and pings are currently closed."
+msgstr "Kommentare und Pings sind momentan deaktiviert."
+
+#: ../single.php:80
+msgid "Edit this entry"
+msgstr "Diesen Eintrag bearbeiten"
+
+#: ../admin/theme-settings.php:285
+#: ../admin/theme-settings.php:349
 msgid "You are not authorised to perform this operation."
-msgstr "Du hast nicht die erforderlichen Recht um diese Aktion durchzuf&uuml;hren."
+msgstr "Du hast nicht die erforderlichen Rechte, um diese Aktion durchzuführen."
 
-#: ../lib/admin.php:310
-#: ../lib/admin.php:874
-#: ../lib/admin.php:875
+#: ../admin/theme-settings.php:336
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a>."
+msgstr "Es ist eine neue Version von %1$s verfügbar. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Version %3$s Details anzeigen</a>."
+
+#: ../admin/theme-settings.php:337
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" >upgrade automatically</a>."
+msgstr "Es ist eine neue Version von %1$s verfügbar. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Details der Version %3$s anzeigen</a> or <a href=\"%4$s\" >automatisch aktualisieren</a>."
+
+#: ../admin/theme-settings.php:355
+#: ../admin/theme-settings.php:866
+#: ../admin/theme-settings.php:867
 msgid "Mystique settings"
-msgstr "Mystique Optionen"
+msgstr "Mystique-Optionen"
 
-#: ../lib/admin.php:316
+#: ../admin/theme-settings.php:356
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: ../admin/theme-settings.php:356
+msgid "Reset to Defaults"
+msgstr "Einstellungen zurücksetzen"
+
+#: ../admin/theme-settings.php:356
+msgid "Reset all theme settings to the default values? Are you sure?"
+msgstr "Alle Einstellungen auf Standard zurücksetzen? Bist du dir sicher?"
+
+#: ../admin/theme-settings.php:365
 #, php-format
 msgid "Settings saved. %s"
 msgstr "Einstellungen gespeichert. %s"
 
-#: ../lib/admin.php:316
+#: ../admin/theme-settings.php:365
 msgid "View site"
 msgstr "Seite anschauen"
 
-#: ../lib/admin.php:320
+#: ../admin/theme-settings.php:369
 msgid "Please upload a valid image file!"
-msgstr "Bitte lade ein g&uuml;ltiges Bild hoch!"
+msgstr "Bitte lade ein gültiges Bild hoch!"
 
-#: ../lib/admin.php:321
+#: ../admin/theme-settings.php:370
 msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
-msgstr "Die Datei, die du hochgeladen hast, scheint kein g&uuml;ltiges JPEG, PNG oder GIF Bild zu sein. "
+msgstr "Die Datei, die du hochgeladen hast scheint kein gültiges JPEG-, PNG- oder GIF-Bild zu sein."
 
-#: ../lib/admin.php:322
+#: ../admin/theme-settings.php:371
 msgid "The image could not be saved on your server"
-msgstr "Das Bild konnte nicht auf deinem Server gespeichert werden. "
+msgstr "Das Bild konnte nicht auf deinem Server gespeichert werden."
 
-#: ../lib/admin.php:327
+#: ../admin/theme-settings.php:376
 #, php-format
 msgid "Error: %s"
 msgstr "Fehler: %s"
 
-#: ../lib/admin.php:334
-msgid "General"
-msgstr "Allgemein"
+#: ../admin/theme-settings.php:385
+msgid "Design"
+msgstr "Design"
 
-#: ../lib/admin.php:335
-msgid "Design/colors"
-msgstr "Design/Farben"
+#: ../admin/theme-settings.php:386
+#: ../admin/theme-settings.php:604
+msgid "Content"
+msgstr "Inhalt"
 
-#: ../lib/admin.php:336
+#: ../admin/theme-settings.php:387
 msgid "Navigation"
 msgstr "Navigation"
 
-#: ../lib/admin.php:337
-msgid "Posts"
-msgstr "Beitr&auml;ge"
-
-#: ../lib/admin.php:338
+#: ../admin/theme-settings.php:388
 msgid "SEO"
 msgstr "SEO"
 
-#: ../lib/admin.php:340
+#: ../admin/theme-settings.php:389
 msgid "Ads"
-msgstr "Anzeigen"
+msgstr "Werbeanzeigen"
 
-#: ../lib/admin.php:342
+#: ../admin/theme-settings.php:390
 msgid "Advanced"
 msgstr "Erweitert"
 
-#: ../lib/admin.php:343
+#: ../admin/theme-settings.php:391
 msgid "User CSS"
 msgstr "benutzerdefiniertes CSS"
 
-#: ../lib/admin.php:353
-msgid "Layout style"
-msgstr "Layout Style"
+#: ../admin/theme-settings.php:392
+msgid "More themes by digitalnature"
+msgstr "Weitere Themes von digitalnature"
 
-#: ../lib/admin.php:353
-msgid "Use page templates to apply these only to specific pages"
-msgstr "Benutze Seitenvorlagen um diese nur f&uuml;r bestimmte Seiten zu verwenden"
+#: ../admin/theme-settings.php:402
+msgid "The design settings panel is not yet supported by Internet Explorer. Sorry :("
+msgstr "Derzeit werden die Einstellungenspanele noch nicht vom Internet Explorer unterstützt. Sorry :("
 
-#: ../lib/admin.php:389
-msgid "Imageless layout"
-msgstr "Bilderloses Layout"
-
-#: ../lib/admin.php:389
-msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
-msgstr "Keine Hintergrundbilder; reduziert Ladezeit aber auf Kosten der grafischen Details"
-
-#: ../lib/admin.php:394
-msgid "Footer content"
-msgstr "Footer Inhalt"
-
-#: ../lib/admin.php:394
-msgid "You can post HTML code"
-msgstr "Du kannst hier HTML-Codes verwenden"
-
-#: ../lib/admin.php:394
-msgid "HTML code is disallowed"
-msgstr "HTML Code ist nicht erlaubt"
-
-#: ../lib/admin.php:398
-#, php-format
-msgid "Use the following short codes for convenient adjustments: <br />%s"
-msgstr "Verwende diese Codek&uuml;rzel f&uuml;r Anpassungen:<br />%s"
-
-#: ../lib/admin.php:406
+#: ../admin/theme-settings.php:405
 msgid "Loading site preview..."
 msgstr "Lade Seitenvorschau..."
 
-#: ../lib/admin.php:414
-#: ../lib/admin.php:426
-msgid "Sidebar(s) vs Main Content ratio"
-msgstr "Verh&auml;ltnis zwischen Seitenleiste und Mitte"
+#: ../admin/theme-settings.php:410
+msgid "Layout style"
+msgstr "Layout-Style"
 
-#: ../lib/admin.php:436
-msgid "Preferred font style"
-msgstr "Bevorzugte Schriftart"
+#: ../admin/theme-settings.php:410
+msgid "Use page templates if you want to apply these only to specific pages"
+msgstr "Benutze Seitenvorlagen, um diese nur für bestimmte Seiten zu verwenden"
 
-#: ../lib/admin.php:436
-msgid "Font priority and their availability"
-msgstr "Font-Priorit&auml;t und ihre Verf&uuml;gbarkeit"
-
-#: ../lib/admin.php:447
+#: ../admin/theme-settings.php:446
 msgid "Color scheme"
 msgstr "Farbschema"
 
-#: ../lib/admin.php:451
+#: ../admin/theme-settings.php:450
 msgid "Not available with <em>imageless</em> setting"
-msgstr "Nicht mit <em>bilderlosem</em> Layout verf&uuml;gbar"
+msgstr "Nicht mit <em>bilderlosem</em> Layout verfügbar"
 
-#: ../lib/admin.php:478
-msgid "Custom logo image"
-msgstr "Eigenes Logo"
+#: ../admin/theme-settings.php:477
+msgid "Page (content) width"
+msgstr "Seitenbreite"
 
-#: ../lib/admin.php:478
-msgid "Show a logo image instead of text; Upload the graphic file from your computer"
-msgstr "Zeige anstelle des Textes ein Logo; Upload einer Grafik von deinem Computer"
+#: ../admin/theme-settings.php:477
+msgid "Note that fluid pages can be hard to read on large resolutions."
+msgstr "Hinweis: Fluid Seiten sind bei größeren Bildschirmen schwerer zu lesen. "
 
-#: ../lib/admin.php:484
-#: ../lib/admin.php:499
-msgid "Remove current image"
-msgstr "Aktuelles Bild entfernen"
-
-#: ../lib/admin.php:487
-#: ../lib/admin.php:502
+#: ../admin/theme-settings.php:480
 #, php-format
-msgid "Directory %s doesn't have write permissions - can't upload!"
-msgstr "Verzeichnis %s hat keine Schreibberechtigung - konnte nicht hochladen!"
+msgid "Fixed (%s)"
+msgstr "Fest (%s)"
 
-#: ../lib/admin.php:487
-#: ../lib/admin.php:502
-msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
-msgstr "Kontrolliere deinen Upload-Pfad unter Einstellungen/Verschiedenes oder CHMOD dieses Verzeichnis zu 755/777.<br /> Wende dich an deinen Provider wenn du nicht wei&szlig;t wie."
+#: ../admin/theme-settings.php:481
+msgid "Fluid (100%)"
+msgstr "Fluid (100%)"
 
-#: ../lib/admin.php:493
-msgid "Custom background image"
-msgstr "Eigenen Hintergrund"
+#: ../admin/theme-settings.php:487
+msgid "Column sizes"
+msgstr "Spaltenbreite"
 
-#: ../lib/admin.php:493
-msgid "Upload a new background/header image to replace the default one"
-msgstr "Lade einen neuen Hintergrund/Header hoch"
+#: ../admin/theme-settings.php:487
+msgid "(With 10 pixel padding between them)"
+msgstr "(Mit 10 Pixel Abstand dazwischen)"
 
-#: ../lib/admin.php:508
+#: ../admin/theme-settings.php:500
+msgid "Font style"
+msgstr "Schriftart"
+
+#: ../admin/theme-settings.php:513
 msgid "Background color"
 msgstr "Hintergrundfarbe"
 
-#: ../lib/admin.php:508
+#: ../admin/theme-settings.php:513
 msgid "Leave Black (#000000) to keep the default background"
-msgstr "Lasse es schwarz (#000000) um den Standardhintergrund zu behalten"
+msgstr "Lasse es schwarz (#000000), um den Standardhintergrund zu behalten"
 
-#: ../lib/admin.php:521
-msgid "Top navigation shows"
-msgstr "Hauptnavigation zeigt"
+#: ../admin/theme-settings.php:526
+msgid "Custom logo image"
+msgstr "Eigenes Logo"
 
-#: ../lib/admin.php:524
-msgid "Pages"
-msgstr "Seiten"
+#: ../admin/theme-settings.php:526
+msgid "Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "Zeige anstelle des Textes ein Logo. Upload einer Grafik von deinem Computer"
 
-#: ../lib/admin.php:525
-msgid "Categories"
-msgstr "Kategorien"
+#: ../admin/theme-settings.php:531
+#: ../admin/theme-settings.php:549
+msgid "Remove current image"
+msgstr "Aktuelles Bild entfernen"
 
-#: ../lib/admin.php:526
-msgid "Links"
-msgstr "Links"
+#: ../admin/theme-settings.php:537
+#: ../admin/theme-settings.php:555
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "Verzeichnis %s hat keine Schreibberechtigung - der Upload war nicht erfolgreich!"
 
-#: ../lib/admin.php:534
-msgid "from category"
-msgstr "aus Kategerie"
+#: ../admin/theme-settings.php:537
+#: ../admin/theme-settings.php:555
+msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
+msgstr "Kontrolliere deinen Upload-Pfad unter Einstellungen/Verschiedenes oder ändere die Rechte des Verzeichnisses (mit chmod) zu 755/777.<br /> Wende dich an deinen Provider wenn du nicht weißt wie."
 
-#: ../lib/admin.php:547
-msgid "No links found"
-msgstr "Keine Links gefunden"
+#: ../admin/theme-settings.php:544
+msgid "Custom background image"
+msgstr "Eigenen Hintergrund"
 
-#: ../lib/admin.php:556
-msgid "Exclude from navigation"
-msgstr "Aus Navigation ausschlie&szlig;en"
+#: ../admin/theme-settings.php:544
+msgid "Upload a new background/header image to replace the default one"
+msgstr "Lade einen neuen Hintergrund/Header hoch"
 
-#: ../lib/admin.php:556
-msgid "Check the items you wish to hide from the main menu"
-msgstr "W&auml;hle was aus der Navigation ausgeblendet werden soll"
+#: ../admin/theme-settings.php:568
+msgid "Posts (single)"
+msgstr "Beiträge (einzelne)"
 
-#: ../lib/admin.php:566
-msgid "(Use the private property to hide other links)"
-msgstr "(Verwende  private property um andere Links auszublenden)"
+#: ../admin/theme-settings.php:568
+msgid "How much information do you want to show on the single post page?"
+msgstr "Wie viel Informationen willst du auf einer Beitragsseite zeigen?"
 
-#: ../lib/admin.php:632
-msgid "View page"
-msgstr "Seite anschauen"
+#: ../admin/theme-settings.php:571
+#: ../admin/theme-settings.php:601
+msgid "Tags"
+msgstr "Tags"
 
-#: ../lib/admin.php:655
+#: ../admin/theme-settings.php:574
+msgid "Meta"
+msgstr "Meta"
+
+#: ../admin/theme-settings.php:577
+msgid "Share"
+msgstr "Empfehlen"
+
+#: ../admin/theme-settings.php:583
+msgid "Print link"
+msgstr "Link drucken"
+
+#: ../admin/theme-settings.php:586
+msgid "Related posts"
+msgstr "Verwandte Beiträge"
+
+#: ../admin/theme-settings.php:592
 msgid "Post previews"
-msgstr "Beitragsausz&uuml;ge"
+msgstr "Beitragsauszüge"
 
-#: ../lib/admin.php:655
-msgid "The way posts are displayed on blog homepage and archive pages"
-msgstr "So erscheinen diese auf der Startseite sowie im Archiv"
+#: ../admin/theme-settings.php:592
+msgid "How much info do you want to show on blog/category/archive/search pages?"
+msgstr "Wie viel Infos willst du auf den Blog-/Kategorie-/Archiv-/Suchergebnisseiten zeigen?"
 
-#: ../lib/admin.php:658
-msgid "Full"
+#: ../admin/theme-settings.php:595
+msgid "Title"
+msgstr "Titel"
+
+#: ../admin/theme-settings.php:598
+msgid "Info bar"
+msgstr "Infoleiste"
+
+#: ../admin/theme-settings.php:606
+msgid "max. 50 words, filtered"
+msgstr "max. 50 Wörter, gefiltert"
+
+#: ../admin/theme-settings.php:607
+msgid "max. 100 words, filtered"
+msgstr "max. 100 Wörter, gefiltert"
+
+#: ../admin/theme-settings.php:608
+msgid "max. 200 words, filtered"
+msgstr "max. 200 Wörter, gefiltert"
+
+#: ../admin/theme-settings.php:609
+msgid "full"
 msgstr "Komplett"
 
-#: ../lib/admin.php:659
-msgid "Excerpts"
-msgstr "Auszüge"
+#: ../admin/theme-settings.php:610
+msgid "full, filtered"
+msgstr "komplett, gefiltert"
 
-#: ../lib/admin.php:660
-msgid "Titles only"
-msgstr "Nur der Titel"
+#: ../admin/theme-settings.php:611
+msgid "excerpt"
+msgstr "Auszug"
 
-#: ../lib/admin.php:667
+#: ../admin/theme-settings.php:618
 msgid "Post thumbnail size"
-msgstr "Gr&ouml;&szlig;e des Miniaturbildes"
+msgstr "Größe des Miniaturbildes"
 
-#: ../lib/admin.php:667
+#: ../admin/theme-settings.php:618
 #, php-format
 msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
-msgstr "Dies wird nur auch neue Uploads angewendet, alte Bilder werden über den Browser verkleinert. Du solltest das %s Plugin verwenden um fehlende Bildergr&ouml;&szlig;en einzuf&uuml;gen"
+msgstr "Dies wird nur auf neue Uploads angewendet. Alte, schon hochgeladene, Bilder werden über den Browser verkleinert. Du solltest das %s Plugin verwenden um fehlende Bildergrößen einzufügen."
 
-#: ../lib/admin.php:671
+#: ../admin/theme-settings.php:622
+msgid "Very small: 48 x 48"
+msgstr "Sehr klein: 48 x 48"
+
+#: ../admin/theme-settings.php:623
 msgid "Small: 64 x 64"
 msgstr "Klein: 64 x 64"
 
-#: ../lib/admin.php:672
-msgid "Medium: 100 x 100"
-msgstr "Medium: 100 x 100"
+#: ../admin/theme-settings.php:624
+msgid "Medium: 80 x 80"
+msgstr "Medium: 80 x 80"
 
-#: ../lib/admin.php:673
+#: ../admin/theme-settings.php:625
+msgid "Larger: 100 x 100"
+msgstr "Größer: 100 x 100"
+
+#: ../admin/theme-settings.php:626
 #, php-format
 msgid "WP's Media setting: %s"
-msgstr "WP Medieneinstellungen: %s"
+msgstr "WP-Medieneinstellungen: %s"
 
-#: ../lib/admin.php:680
-msgid "Enable \"Share This Post\" feature"
-msgstr "Funktion \"Diesen Beitrag empfehlen\" aktivierien"
+#: ../admin/theme-settings.php:634
+msgid "Footer content"
+msgstr "Footer-Inhalt"
 
-#: ../lib/admin.php:680
-msgid "Uncheck this if you're using a social bookmaring plugin"
-msgstr "Haken entfernen, wenn du bereits ein Social Bookmarking Plugin nutzt"
+#: ../admin/theme-settings.php:634
+msgid "You can post HTML code"
+msgstr "Du kannst hier HTML-Codes verwenden"
 
-#: ../lib/admin.php:685
-msgid "Featured content source"
-msgstr "Empfohlene Beitr&auml;ge"
+#: ../admin/theme-settings.php:634
+#: ../admin/theme-settings.php:749
+msgid "Only some HTML tags and attributes are allowed"
+msgstr "Nur einige HTML-Tags und Attribute sind erlaubt"
 
-#: ../lib/admin.php:685
-msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
-msgstr "Die letzten 5 Beitr&auml;ge dieser Kategorie werden als empfohlener Inhalt in zuf&auml;lliger Reihenfolge angezeigt"
+#: ../admin/theme-settings.php:638
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "Verwende diese Codekürzel für Anpassungen:<br />%s"
 
-#: ../lib/admin.php:690
-msgid "- All categories"
-msgstr "- Alle Kategorien"
+#: ../admin/theme-settings.php:648
+msgid "Top navigation shows"
+msgstr "Hauptnavigation zeigt"
 
-#: ../lib/admin.php:699
-msgid "Where to display the featured posts?"
-msgstr "Wo sollen die Empfohlenen Beitr&auml;ge angezeigt werden?"
+#: ../admin/theme-settings.php:651
+msgid "Nothing (disabled)"
+msgstr "Nichts (deaktiviert)"
 
-#: ../lib/admin.php:702
-msgid "On pages that use the Featured Posts template"
-msgstr "Auf Seiten, die das Empfohlene Beitr&auml;ge Template verwenden"
+#: ../admin/theme-settings.php:652
+msgid "Pages"
+msgstr "Seiten"
 
-#: ../lib/admin.php:703
-msgid "On the home page"
-msgstr "Auf der Startseite"
+#: ../admin/theme-settings.php:653
+msgid "Categories"
+msgstr "Kategorien"
 
-#: ../lib/admin.php:704
-msgid "On all pages, including home"
-msgstr "Auf allen Seiten und der Startseite"
+#: ../admin/theme-settings.php:654
+msgid "Links"
+msgstr "Links"
 
-#: ../lib/admin.php:705
-msgid "On all posts"
-msgstr "Bei allen Beitr&auml;gen"
+#: ../admin/theme-settings.php:662
+msgid "from category"
+msgstr "aus Kategorie"
 
-#: ../lib/admin.php:706
-msgid "On all pages and posts"
-msgstr "Auf allen Seiten und Beitr&auml;gen"
+#: ../admin/theme-settings.php:667
+#, php-format
+msgid "%s links"
+msgstr "%s Links"
 
-#: ../lib/admin.php:712
-msgid "Maximum number of featured posts"
-msgstr "Maximale Anzahl an Empfohlenen Beitr&auml;gen"
+#: ../admin/theme-settings.php:674
+msgid "No links found"
+msgstr "Keine Links gefunden"
 
-#: ../lib/admin.php:719
-msgid "Expand the &laquo;read more&raquo; button with more content"
-msgstr "Erweitere den &laquo;Mehr &gt;&raquo-Button mit mehr Content"
+#: ../admin/theme-settings.php:683
+msgid "Exclude from navigation"
+msgstr "Aus Navigation ausschließen"
 
-#: ../lib/admin.php:719
-msgid "Uncheck if want the button to link to the single post page"
-msgstr "Deaktivieren, wenn der Button auf den vollst&auml;ndigen Post verlinken soll."
+#: ../admin/theme-settings.php:683
+msgid "Check the items you wish to hide from the main menu"
+msgstr "Wähle, was aus der Navigation ausgeblendet werden soll"
 
-#: ../lib/admin.php:724
-msgid "Show related posts next to comments"
-msgstr "&Auml;hnliche Beitr&auml;ge neben Kommentaren anzeigen"
+#: ../admin/theme-settings.php:688
+#: ../lib/core.php:169
+#: ../lib/core.php:171
+msgid "Home"
+msgstr "Startseite"
 
-#: ../lib/admin.php:729
-msgid "Show comment author's country flag"
-msgstr "Herkunftsland des Kommentators anzeigen"
+#: ../admin/theme-settings.php:693
+msgid "(Use the private property to hide other links)"
+msgstr "(Verwende die Möglichkeit, einen Link als \"Priavt\" zu markieren, diesen nicht anzeigen zu lassen.)"
 
-#: ../lib/admin.php:729
-msgid "May slow down page loading"
-msgstr "Verlangsamt das Laden der Seite"
-
-#: ../lib/admin.php:739
+#: ../admin/theme-settings.php:723
 msgid "Additional site optimization for search engines"
 msgstr "Weitere Suchmaschinenoptimierungen"
 
-#: ../lib/admin.php:739
+#: ../admin/theme-settings.php:723
 msgid "Uncheck if you are using a SEO plugin!"
 msgstr "Deaktivieren, wenn du ein SEO-Plugin verwendest!"
 
-#: ../lib/admin.php:746
+#: ../admin/theme-settings.php:730
 msgid "What does this do?"
 msgstr "Was macht das?"
 
-#: ../lib/admin.php:748
-msgid "enables canonical URLs for comments (duplicate content fix)"
-msgstr "Aktiviert canonical URLs bei Kommentaren (vermeidet Duplicate Content)"
+#: ../admin/theme-settings.php:732
+msgid "enables canonical URLs for comments (duplicate content fix, only needed on wp < 2.9)"
+msgstr "canonical URLs für Kommentare aktivieren (vermeidet doppelte Inhalte für Suchmaschinen, nur für WP < 2.9 nötig)"
 
-#: ../lib/admin.php:749
+#: ../admin/theme-settings.php:733
 msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
-msgstr "Generiert unique Titel f&uuml;r Beitr&auml;ge mit mehreren Kommentarseite (verhindert doppelte Titel)"
+msgstr "Einen spezifischen Titel für Beiträge mit mehreren Kommentarseiten generieren (verhindert doppelte Titel)"
 
-#: ../lib/admin.php:750
+#: ../admin/theme-settings.php:734
 #, php-format
-msgid "no keywords are generated because they are <a %s>useless</a>"
-msgstr "Erstellt keine Keywords, weil diese <a %s>nutzlos</a> sind"
+msgid "generates a unique meta description tag for each page (no meta keywords; why? -<a %s>useless</a>)"
+msgstr "generiert einzigartigen meta-description-Tag für jede Seite (keine Keywords; warum? -<a %s>Nutzlos</a>)"
 
-#: ../lib/admin.php:764
+#: ../admin/theme-settings.php:749
 msgid "Advertisment blocks"
-msgstr "Anzeigenblocks"
+msgstr "Werbeanzeigenblöcke"
 
-#: ../lib/admin.php:764
+#: ../admin/theme-settings.php:749
 #, php-format
 msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
-msgstr "Verwende diese %s Codek&uuml;rzel f&uuml;r Anzeigen in Beitr&auml;gen, Textwidgets oder im Footer"
+msgstr "Verwende diese %s Codekürzel für Werbeanzeigen in Beiträgen, Textwidgets oder im Footer"
 
-#: ../lib/admin.php:765
+#: ../admin/theme-settings.php:750
 msgid "Example:"
 msgstr "Beispiel:"
 
-#: ../lib/admin.php:771
+#: ../admin/theme-settings.php:756
 #, php-format
 msgid "Ad code #%s:"
-msgstr "Anzeigen-Code #%s:"
+msgstr "Werbeanzeigen-Code #%s:"
 
-#: ../lib/admin.php:787
+#: ../admin/theme-settings.php:772
 msgid "Use jQuery"
 msgstr "Verwende jQuery"
 
-#: ../lib/admin.php:787
+#: ../admin/theme-settings.php:772
 msgid "For testing purposes only. Only uncheck if you know what you're doing!"
-msgstr "Nur für Testzwecke. Wenn du nicht wissen solltest, was das ist, dann lasse es aktiviert!"
+msgstr "Nur für Testzwecke. Wenn du nicht wissen solltest, was das ist, dann lass es aktiviert!"
 
-#: ../lib/admin.php:792
+#: ../admin/theme-settings.php:777
 msgid "Enable AJAX on comment pagination"
 msgstr "AJAX auf der Kommentarseite aktivieren"
 
-#: ../lib/admin.php:792
+#: ../admin/theme-settings.php:777
 msgid "Navigate trough comment pages without refreshing (faster load, but may be incompatible with some plugins)"
-msgstr "Ohne Neuladen durch Kommentare bl&auml;ttern (schnelleres Laden, m&ouml;glicherweise mit einige Plugins inkompatibel)"
+msgstr "Ohne Neuladen durch Kommentare blättern (schnelleres Laden, möglicherweise mit einigen Plugins inkompatibel)"
 
-#: ../lib/admin.php:797
+#: ../admin/theme-settings.php:782
 msgid "Enable theme built-in lightbox on all image links"
-msgstr "Aktiviert die in der Theme integrierte Lightbox für alle Bilderlinks"
+msgstr "Aktiviert die im Theme integrierte Lightbox für alle Bilderlinks"
 
-#: ../lib/admin.php:797
+#: ../admin/theme-settings.php:782
 msgid "Uncheck if you prefer a lightbox plugin"
-msgstr "Deaktivierien, wenn du ein Ligthbox Plugin nutzen willst."
+msgstr "Deaktivierien, wenn du bereits ein Ligthbox-Plugin nutzen willst."
 
-#: ../lib/admin.php:802
+#: ../admin/theme-settings.php:787
 msgid "Remove Mystique settings from the database after theme switch"
-msgstr "Mystique Einstellungen aus der Datenbank entfernen, wenn die Theme gewechselt wird"
+msgstr "Mystique-Einstellungen aus der Datenbank entfernen, wenn die Theme gewechselt wird"
 
-#: ../lib/admin.php:802
-msgid "Uncheck this if you plan to keep Mystique as your default theme!"
-msgstr "Deaktivieren, wenn du Mystique als Standardtheme nutzen willst!"
+#: ../admin/theme-settings.php:787
+msgid "Only check if you're planning to remove and change the theme"
+msgstr "Nur abhaken, wenn du vorhast die Theme zu entfernen oder zu ändern"
 
-#: ../lib/admin.php:814
-msgid "Document head code"
-msgstr "Document Head Code"
+#: ../admin/theme-settings.php:802
+msgid "User functions"
+msgstr "Benutzerdefinierte Funktionen"
 
-#: ../lib/admin.php:814
-#, php-format
-msgid "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
-msgstr "PHP-Code der in den %s-Bereich von XHTML eingef&uuml;gt werden soll. N&uuml;tlich wenn Plugins dies ben&ouml;tigen oder f&uuml;r Anayltics Code etc."
+#: ../admin/theme-settings.php:802
+msgid "PHP code to add to the theme functions. Useful if you have plugins that require you to change the theme's functions.php file"
+msgstr "PHP-Code der zu den theme functions hinzugefügt werden soll. Nützlich, wenn man für Plugins die functions.php-Datei der Theme ändern muss."
 
-#: ../lib/admin.php:815
-msgid "To output HTML only, close the PHP tag first."
-msgstr "Um nur HMTL einzuf&uuml;gen, schlie&szlig;e den PHP-Tag zuerst."
+#: ../admin/theme-settings.php:817
+msgid "CSS to add, or modify theme styles"
+msgstr "CSS hinzufügen oder ändern"
 
-#: ../lib/admin.php:817
-#: ../lib/admin.php:838
-msgid "Examples and helpers:"
-msgstr "Beispiele:"
-
-#: ../lib/admin.php:836
-msgid "Modify anything related to design using CSS code"
-msgstr "Verändere alles Designverwandtes mit CSS-Codes"
-
-#: ../lib/admin.php:836
+#: ../admin/theme-settings.php:817
 #, php-format
 msgid "Check %s to see existing theme classes and properties"
-msgstr "Schaue dir %s an, um alle classes und properties der Theme zu sehen"
+msgstr "Schaue dir %s an, um alle existierenden CSS-Klassen und -Eigenschaften des Themes zu sehen"
 
-#: ../lib/admin.php:836
-msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
-msgstr "Vermeide es Theme-Dateien direkt zu ändern; benutze stattdessen diese Option. Diese verhindert, dass Änderungen durch Updates verloren gehen."
+#: ../admin/theme-settings.php:880
+msgid "Active shortcodes you can use in your posts or widgets"
+msgstr "Codekürzel aktivieren, um diese in Beiträgen und Widgets zu nutzen"
 
-#: ../lib/admin.php:859
-msgid "Save Changes"
-msgstr "&Auml;nderungen speichern"
+#: ../extensions/auto-thumb/auto-thumb.php:5
+msgid "Auto generate thumbnails"
+msgstr "Erstelle Miniaturbilder automatisch"
 
-#: ../lib/admin.php:859
-msgid "Reset to Defaults"
-msgstr "Einstellungen zur&uuml;cksetzen"
+#: ../extensions/auto-thumb/auto-thumb.php:5
+msgid "Create thumbnail from the 1st image found in a post, if no thumbnail is set"
+msgstr "Erstelle Miniaturbild aus dem ersten Bild des Posts, wenn kein Miniaturbild gesetzt ist."
 
-#: ../lib/codehelpers.php:5
-msgid "Insert Ad slot #1 in every post and page"
-msgstr "F&uuml;gt Anzeige #1 in jeden Beitrag und jede Seite"
+#: ../extensions/featured-posts/featured-posts.php:71
+#: ../lib/core.php:517
+msgid "Permanent Link:"
+msgstr "Permanentlink:"
 
-#: ../lib/codehelpers.php:16
-msgid "Insert Ad slot #2 at every 5 comments"
-msgstr "F&uuml;gt die Anzeige #2 nach jedem f&uuml;nften Kommentar ein"
+#: ../extensions/featured-posts/featured-posts.php:83
+msgid "Read more..."
+msgstr "Weiterlesen..."
 
-#: ../lib/codehelpers.php:25
-msgid "Replace blog description text with Ad #4"
-msgstr "Ersetzt die Blogbeschreibung mit der Anzeige #4"
+#: ../extensions/featured-posts/featured-posts.php:94
+msgid "No featured posts found."
+msgstr "Keine Empfohlenen Beiträge gefunden."
 
-#: ../lib/codehelpers.php:39
-msgid "Black navigation style"
-msgstr "schwarze Hauptnavigation"
+#: ../extensions/featured-posts/featured-posts.php:118
+msgid "Featured"
+msgstr "Empfohlen"
 
-#: ../lib/codehelpers.php:67
-msgid "Alternate header image"
-msgstr "Alternatives Headerbild"
+#: ../extensions/featured-posts/featured-posts.php:152
+msgid "Error while featuring posts"
+msgstr "Fehler beim markieren als \"Empfohlen\""
 
-#: ../lib/codehelpers.php:71
-msgid "Hide RSS button"
-msgstr "RSS-Schaltfl&auml;che ausblenden"
+#: ../extensions/featured-posts/featured-posts.php:222
+msgid "Featured posts"
+msgstr "Empfohlene Beiträge"
 
-#: ../lib/codehelpers.php:75
-msgid "Hide Twitter button"
-msgstr "Twitter-Schaltfl&auml;che ausblenden"
+#: ../extensions/featured-posts/featured-posts.php:222
+#, php-format
+msgid "You can mark posts as featured on the %s page"
+msgstr "Du kannst Beitrage als Empfohlen auf der &s Seite markieren"
 
-#: ../lib/codehelpers.php:79
-msgid "Set a fluid page width"
-msgstr "Dynamische Seitenbreite verwenden"
+#: ../extensions/featured-posts/featured-posts.php:228
+msgid "Show on"
+msgstr "Zeige auf"
 
-#: ../lib/codehelpers.php:83
-msgid "Decrease site title text size"
-msgstr "Schriftgr&ouml;&szlig;e der Titel verkleinern"
+#: ../extensions/featured-posts/featured-posts.php:232
+msgid "Pages that use the Featured posts template"
+msgstr "Seiten, die das Empfohlene-Beiträge-Template verwenden"
 
-#: ../lib/codehelpers.php:87
-msgid "Hide post information bar"
-msgstr "Infoleiste f&uuml;r Beitrage ausblenden"
+#: ../extensions/featured-posts/featured-posts.php:237
+msgid "Home page"
+msgstr "Startseite"
 
-#: ../lib/codehelpers.php:91
-msgid "Change footer background color to light gray"
-msgstr "Footer Hintergrund in hellgrau"
+#: ../extensions/featured-posts/featured-posts.php:242
+msgid "Single post pages"
+msgstr "Beitragsseiten"
 
-#: ../lib/codehelpers.php:96
-msgid "Dark background footer"
-msgstr "Dunkler Footer Hintergrund"
+#: ../extensions/featured-posts/featured-posts.php:247
+msgid "Archive pages (Category, Tags etc)"
+msgstr "Archivseiten (Kategorien, Tags, etc.)"
 
-#: ../lib/codehelpers.php:102
-msgid "Join navigation with main content"
-msgstr "Abstand unter Navigation entfernen"
+#: ../extensions/featured-posts/featured-posts.php:252
+msgid "404 pages"
+msgstr "404 Seiten"
 
-#: ../lib/codehelpers.php:106
-msgid "Hide navigation"
-msgstr "Navigation ausblenden"
+#: ../extensions/featured-posts/featured-posts.php:257
+msgid "Search page"
+msgstr "Suchergebnisse"
 
-#: ../lib/codehelpers.php:112
-msgid "Remove styling from tables"
-msgstr "Style aus Tabellen entfernen"
+#: ../extensions/featured-posts/featured-posts.php:262
+msgid "All other pages"
+msgstr "Allen anderen Seiten"
 
-#: ../lib/codehelpers.php:116
-msgid "Text-Justify post and page content"
-msgstr "Blocksatz bei Beitr&auml;gen und Seiten"
+#: ../extensions/featured-posts/featured-posts.php:269
+msgid "Maximum number of posts to display"
+msgstr "Maximale Anzahl an zuzeigenden Beiträgen"
 
-#: ../lib/codehelpers.php:120
-msgid "Fixed custom background image"
-msgstr "Eigenes Hintergrundbild mit fester Position"
+#: ../extensions/featured-posts/featured-posts.php:276
+msgid "Don't show posts older than"
+msgstr "Zeige keine Beiträge, die älter sind als"
 
-#: ../lib/core.php:83
+#: ../extensions/featured-posts/featured-posts.php:279
+msgid "days"
+msgstr "Tage"
+
+#: ../extensions/ip2country/ip2country.php:48
+msgid "Show comment author's country flag"
+msgstr "Herkunftsland des Kommentators anzeigen"
+
+#: ../extensions/ip2country/ip2country.php:48
+msgid "May slow down page loading"
+msgstr "Verlangsamt das Laden der Seite"
+
+#: ../lib/core.php:40
+#: ../lib/core.php:282
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s Beitrag"
+msgstr[1] "%s Beiträge"
+
+#: ../lib/core.php:119
+msgid "View page"
+msgstr "Seite anschauen"
+
+#: ../lib/core.php:156
+#: ../lib/shortcodes.php:266
+msgid "RSS Feeds"
+msgstr "RSS-Feeds"
+
+#: ../lib/core.php:159
+msgid "Follow me on Twitter!"
+msgstr "Folge mir auf Twitter!"
+
+#: ../lib/core.php:169
+msgid "You are Home"
+msgstr "Du bist auf der Startseite"
+
+#: ../lib/core.php:171
+msgid "Click for Home"
+msgstr "Klicke, um zur Startseite zugelangen"
+
+#: ../lib/core.php:229
+msgid "F jS, Y"
+msgstr "F Y"
+
+#: ../lib/core.php:231
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr "Archiv für die Woche %1$s von %2$s"
+
+#: ../lib/core.php:231
+msgid "W"
+msgstr "W"
+
+#: ../lib/core.php:242
+msgid "404 Not Found"
+msgstr "404 Seite nicht gefunden"
+
+#: ../lib/core.php:248
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: ../lib/core.php:252
+#, php-format
+msgid "Comment Page %s"
+msgstr "Kommentar-Seite %s"
+
+#: ../lib/core.php:274
+#, php-format
+msgid "View all posts in %s"
+msgstr "Alle Beiträge in %s anzeigen"
+
+#: ../lib/core.php:334
+msgid "Share this post!"
+msgstr "Beitrag empfehlen!"
+
+#: ../lib/core.php:522
+msgid "M jS"
+msgstr "d. M"
+
+#: ../lib/core.php:526
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "Verfasst von %1$s unter %2$s"
+
+#: ../lib/core.php:529
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../lib/core.php:609
+msgid "Pages: "
+msgstr "Seiten:"
+
+#: ../lib/core.php:611
+msgid "Edit this page"
+msgstr "Diese Seite bearbeiten"
+
+#: ../lib/core.php:680
+msgid "Go to the first page"
+msgstr "Zur ersten Seite springen"
+
+#: ../lib/core.php:680
+msgid "&laquo; First"
+msgstr "&laquo; Erste"
+
+#: ../lib/core.php:686
+#: ../lib/core.php:692
+#: ../lib/core.php:698
+#, php-format
+msgid "Go to page %s"
+msgstr "Zur Seite %s springen"
+
+#: ../lib/core.php:702
+msgid "Go to the last page"
+msgstr "Zur letzten Seite springen"
+
+#: ../lib/core.php:702
+msgid "Last &raquo;"
+msgstr "Letzte &raquo;"
+
+#: ../lib/core.php:736
 #, php-format
 msgid "about %s year ago"
 msgid_plural "about %s years ago"
 msgstr[0] "vor %s Jahr"
 msgstr[1] "vor %s Jahren"
 
-#: ../lib/core.php:84
+#: ../lib/core.php:737
 #, php-format
 msgid "about %s month ago"
 msgid_plural "about %s months ago"
 msgstr[0] "vor %s Monat"
 msgstr[1] "vor %s Monaten"
 
-#: ../lib/core.php:85
+#: ../lib/core.php:738
 #, php-format
 msgid "about %s week ago"
 msgid_plural "about %s weeks ago"
 msgstr[0] "vor %s Woche"
 msgstr[1] "vor %s Wochen"
 
-#: ../lib/core.php:86
+#: ../lib/core.php:739
 #, php-format
 msgid "about %s day ago"
 msgid_plural "about %s days ago"
 msgstr[0] "vor %s Tag"
 msgstr[1] "vor %s Tagen"
 
-#: ../lib/core.php:87
+#: ../lib/core.php:740
 #, php-format
 msgid "about %s hour ago"
 msgid_plural "about %s hours ago"
 msgstr[0] "vor %s Stunde"
 msgstr[1] "vor %s Stunden"
 
-#: ../lib/core.php:88
+#: ../lib/core.php:741
 #, php-format
 msgid "about %s minute ago"
 msgid_plural "about %s minutes ago"
 msgstr[0] "vor %s Minute"
 msgstr[1] "vor %s Minuten"
 
-#: ../lib/core.php:89
+#: ../lib/core.php:742
 #, php-format
 msgid "about %s second ago"
 msgid_plural "about %s seconds ago"
 msgstr[0] "vor %s Sekunde"
 msgstr[1] "vor %s Sekunden"
 
-#: ../lib/core.php:340
-msgid "Share this post!"
-msgstr "Diesen Beitrag empfehlen!"
-
-#: ../lib/core.php:460
+#: ../lib/core.php:1036
 #, php-format
 msgid "%1$s written by %2$s"
 msgstr "%1$s geschrieben von %2$s"
 
-#: ../lib/core.php:468
+#: ../lib/core.php:1044
 msgid "Reply"
 msgstr "Antworten"
 
-#: ../lib/core.php:469
+#: ../lib/core.php:1045
 msgid "Quote"
 msgstr "Zitieren"
 
-#: ../lib/core.php:476
+#: ../lib/core.php:1052
 msgid "Your comment is awaiting moderation."
-msgstr "Dein Kommentar wartet auf die &Uuml;berpr&uuml;fung."
+msgstr "Dein Kommentar wartet auf die Überprüfung."
 
 #: ../lib/editor.php:22
 msgid "Divider"
-msgstr "Abgrenzung"
+msgstr "Trenner"
 
 #: ../lib/editor.php:23
 msgid "Error text color"
@@ -948,73 +1087,35 @@ msgstr "Fehler-Textfarbe"
 msgid "Error box"
 msgstr "Fehlerbox"
 
-#: ../lib/mystique.php:55
-msgid "Default sidebar"
-msgstr "Standard-Seitenleisten"
-
-#: ../lib/mystique.php:57
-msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
-msgstr "Das ist die Standard-Seitenleiste, sie wird im 2 oder 3 Spaltenlayout angezeigt. Wenn keine eigenen Widgets aktiv sind, werden hier die Standardwigets der Theme angezeigt."
-
-#: ../lib/mystique.php:65
-msgid "Secondary sidebar"
-msgstr "Zweite Seitenleiste"
-
-#: ../lib/mystique.php:67
-msgid "This sidebar is active only on a 3 column setup. "
-msgstr "Diese Sidebar wird nur 3-Spalten-Layout angezeigt."
-
-#: ../lib/mystique.php:75
-msgid "Footer"
-msgstr "Footer"
-
-#: ../lib/mystique.php:77
-msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
-msgstr "Du kannst 1-6 Widgets hinzuf&uuml;gen (3-4 sind optimal). Sie passen ihre Breite je nach Anzahl an."
-
-#: ../lib/mystique.php:85
-msgid "Footer (slide 2)"
-msgstr "Footer (Slide 2)"
-
-#: ../lib/mystique.php:87
-#: ../lib/mystique.php:97
-#: ../lib/mystique.php:107
-msgid "Only visible if jQuery is enabled. "
-msgstr "Nur sichtbar wenn jQuery aktiviert ist."
-
-#: ../lib/mystique.php:95
-msgid "Footer (slide 3)"
-msgstr "Footer (Slide 3)"
-
-#: ../lib/mystique.php:105
-msgid "Footer (slide 4)"
-msgstr "Footer (Slide 4)"
-
-#: ../lib/settings.php:66
+#: ../lib/settings.php:73
 #, php-format
 msgid "You can configure Mystique from the <a%s>theme settings</a> page."
-msgstr "Du kannst Mystique &uuml;ber die<a%s> Theme Optionen</a> konfigurieren."
+msgstr "Du kannst Mystique über die<a%s> Theme-Optionen</a> konfigurieren."
+
+#: ../lib/settings.php:348
+msgid "There are one or more PHP parse errors in your custom functions."
+msgstr "Es gibt einen oder mehrere PHP Parse Fehler in deinen Funktionen."
 
 #: ../lib/shortcodes.php:17
 #, php-format
 msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
-msgstr "%s: Widget class nicht gefunden. Bitte &uuml;berpr&uuml;fe ob es das Widget gibt und ob der class Name richtig ist."
+msgstr "%s: Widget-Klasse nicht gefunden. Bitte überprüfe ob es das Widget gibt und ob der Klassenname korrekt ist."
 
 #: ../lib/shortcodes.php:52
 msgid "User name (required)"
-msgstr "Benutzername (ben&ouml;tigt)"
+msgstr "Benutzername (benötigt)"
 
 #: ../lib/shortcodes.php:54
 msgid "Password (required)"
-msgstr "Passwort (ben&ouml;tigt)"
+msgstr "Passwort (benötigt)"
 
 #: ../lib/shortcodes.php:55
 msgid "Verify password (required)"
-msgstr "Passwort best&auml;tigen (ben&ouml;tigt)"
+msgstr "Passwort bestätigen (benötigt)"
 
 #: ../lib/shortcodes.php:56
 msgid "E-mail (required)"
-msgstr "E-Mail (ben&ouml;tigt)"
+msgstr "E-Mail (benötigt)"
 
 #: ../lib/shortcodes.php:57
 msgid "First name"
@@ -1026,7 +1127,7 @@ msgstr "Nachname"
 
 #: ../lib/shortcodes.php:59
 msgid "Profile info"
-msgstr "Profilinfo"
+msgstr "Profilinformation"
 
 #: ../lib/shortcodes.php:80
 msgid "Please type a user name"
@@ -1038,11 +1139,11 @@ msgstr "Benutzername bereits vergeben"
 
 #: ../lib/shortcodes.php:82
 msgid "E-mail address is required."
-msgstr "E-Mail Adresse wird ben&ouml;tigt."
+msgstr "E-Mailadresse wird benötigt."
 
 #: ../lib/shortcodes.php:83
 msgid "E-mail address already in use"
-msgstr "E-Mail Adresse wird bereits verwendet"
+msgstr "E-Mailadresse wird bereits verwendet"
 
 #: ../lib/shortcodes.php:84
 msgid "You must enter a password."
@@ -1050,11 +1151,11 @@ msgstr "Bitte Passwort eingeben"
 
 #: ../lib/shortcodes.php:85
 msgid "Please verify the password"
-msgstr "Bitte Passwort best&auml;tigen"
+msgstr "Bitte Passwort bestätigen"
 
 #: ../lib/shortcodes.php:86
 msgid "Passwords do not match"
-msgstr "Passw&ouml;ter stimmen nicht &uuml;berein. "
+msgstr "Passwöter stimmen nicht überein. "
 
 #: ../lib/shortcodes.php:87
 msgid "User registration failed.  Please try again."
@@ -1063,17 +1164,17 @@ msgstr "Registrierung fehlgeschlagen. Bitte erneut versuchen."
 #: ../lib/shortcodes.php:96
 #, php-format
 msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't need another account :)"
-msgstr "Du bist jetzt als <a href=\"%1$s\" title=\"%2$s\">%2$s</a> eingeloggt. Du brauchst kein weiteres Konto :)"
+msgstr "Du bist jetzt als <a href=\"%1$s\" title=\"%2$s\">%2$s</a> eingeloggt. Du brauchst kein weiteres Konto. :)"
 
 #: ../lib/shortcodes.php:101
 #, php-format
 msgid "A user account for %1$s has been created."
-msgstr "Es wurde ein Benutzerkonto f&uuml;r %1$s erstellt."
+msgstr "Es wurde ein Benutzerkonto für %1$s erstellt."
 
 #: ../lib/shortcodes.php:102
 #, php-format
 msgid "Thank you for registering, %1$s."
-msgstr "Vielen Dank f&uuml;rs Registrieren, %1$s."
+msgstr "Vielen Dank für die Registrierung %1$s."
 
 #: ../lib/shortcodes.php:154
 msgid "Add User"
@@ -1083,250 +1184,364 @@ msgstr "Benutzer hinzufügen"
 msgid "Register"
 msgstr "Registrieren"
 
-#: ../lib/shortcodes.php:289
+#: ../lib/shortcodes.php:242
+msgid "No posts found matching the arguments"
+msgstr "Keine Beiträge gefunden, die zu den Einstellungen passen"
+
+#: ../lib/shortcodes.php:292
 #, php-format
 msgid "Empty ad slot (#%s)!"
-msgstr "Leerer Ad Slot (#%s)!"
+msgstr "Leerer Werbeanzeigen-Slot (#%s)!"
 
-#: ../lib/shortcodes.php:294
+#: ../lib/shortcodes.php:297
 msgid "Top"
 msgstr "Top"
 
-#: ../lib/shortcodes.php:302
+#: ../lib/shortcodes.php:305
 #, php-format
 msgid "%1$s theme by %2$s | Powered by %3$s"
-msgstr "%1$s theme by %2$s | Powered by %3$s"
+msgstr "%1$s Theme von %2$s | Powered by  %3$s"
 
-#: ../lib/shortcodes.php:307
+#: ../lib/shortcodes.php:310
 msgid "Copyright &copy;"
 msgstr "Copyright &copy;"
 
-#: ../lib/shortcodes.php:320
+#: ../lib/shortcodes.php:323
 msgid "Site Admin"
 msgstr "Admin"
 
-#: ../lib/shortcodes.php:321
+#: ../lib/shortcodes.php:324
 msgid "Log in"
 msgstr "Anmelden"
 
-#: ../lib/widgets.php:61
+#: ../lib/widgets.php:55
 #, php-format
 msgid "%s followers"
 msgstr "%s Follower"
 
-#: ../lib/widgets.php:85
+#: ../lib/widgets.php:79
 msgid "Error while retrieving tweets (Twitter down?)"
 msgstr "Fehler beim Laden der Tweets (Twitter down?)"
 
-#: ../lib/widgets.php:99
+#: ../lib/widgets.php:92
 msgid "Displays links to different sections grouped in tabs"
 msgstr "Zeigt Links zu verschiedenen Abschnitten in Tabs"
 
-#: ../lib/widgets.php:101
+#: ../lib/widgets.php:94
 msgid "Mystique | Sidebar tabs"
-msgstr "Mystique | Seitenleiste Tabs"
+msgstr "Mystique | Seitenleiste-Tabs"
 
-#: ../lib/widgets.php:125
-#: ../lib/widgets.php:321
+#: ../lib/widgets.php:121
+#: ../lib/widgets.php:308
 msgid "Recent comments"
 msgstr "Neueste Kommentare"
 
-#: ../lib/widgets.php:126
+#: ../lib/widgets.php:122
 msgid "Popular posts"
-msgstr "Beliebte Beitr&auml;ge"
+msgstr "Beliebteste Beiträge"
 
-#: ../lib/widgets.php:127
-#: ../lib/widgets.php:313
+#: ../lib/widgets.php:123
+#: ../lib/widgets.php:298
 msgid "Archives"
 msgstr "Archive"
 
-#: ../lib/widgets.php:128
-msgid "Tags"
-msgstr "Tags"
-
-#: ../lib/widgets.php:222
+#: ../lib/widgets.php:206
 msgid "Didn't find any posts popular enough :("
 msgstr "Konnte keinen beliebten Beitrag finden :("
 
-#: ../lib/widgets.php:265
-msgid "Sidebar tabs"
-msgstr "Sidebar Tabs"
+#: ../lib/widgets.php:233
+#, php-format
+msgid "Posted in: %s"
+msgstr "Verfasst unter: %s"
 
-#: ../lib/widgets.php:266
-#: ../lib/widgets.php:409
-#: ../lib/widgets.php:508
+#: ../lib/widgets.php:250
+msgid "Sidebar tabs"
+msgstr "Seitenleisten-Tabs"
+
+#: ../lib/widgets.php:251
+#: ../lib/widgets.php:397
+#: ../lib/widgets.php:496
 msgid "jQuery is disabled and this widget needs it"
 msgstr "jQuery ist deaktiviert und dieses Widget benötigt es"
 
-#: ../lib/widgets.php:301
+#: ../lib/widgets.php:286
 msgid "Tabs to show"
 msgstr "Tabs, die angezeigt werden"
 
-#: ../lib/widgets.php:309
+#: ../lib/widgets.php:294
 msgid "Tags "
 msgstr "Tags"
 
-#: ../lib/widgets.php:317
+#: ../lib/widgets.php:302
 msgid "Popular posts (most commented)"
-msgstr "Beliebte Beitr&auml;ge (meiste Kommentare)"
+msgstr "Beliebteste Beiträge (meiste Kommentare)"
 
-#: ../lib/widgets.php:327
+#: ../lib/widgets.php:315
 msgid "Sort categories"
 msgstr "Kategorien sortieren"
 
-#: ../lib/widgets.php:329
+#: ../lib/widgets.php:317
 msgid "by name (alphabetically)"
 msgstr "nach Name (alphabetisch)"
 
-#: ../lib/widgets.php:330
+#: ../lib/widgets.php:318
 msgid "by category ID"
-msgstr "nach Kategorie ID"
+msgstr "nach Kategorie-ID"
 
-#: ../lib/widgets.php:331
+#: ../lib/widgets.php:319
 msgid "by category slug"
-msgstr "nach Kategorie URL"
+msgstr "nach Kategorie-URL"
 
-#: ../lib/widgets.php:332
+#: ../lib/widgets.php:320
 msgid "by post count"
 msgstr "nach Beitragsanzahl"
 
-#: ../lib/widgets.php:337
+#: ../lib/widgets.php:325
 msgid "Show post count (categories and archives)"
-msgstr "Anzahl der Beitr&auml;ge anzeigen (Kategorien und Archive)"
+msgstr "Anzahl der Beiträge anzeigen (Kategorien und Archive)"
 
-#: ../lib/widgets.php:343
+#: ../lib/widgets.php:331
 msgid "How many popular posts to show?"
-msgstr "Wie viele beliebte Beitr&auml;ge sollen angezeigt werden?"
+msgstr "Wie viele beliebte Beiträge sollen angezeigt werden?"
 
-#: ../lib/widgets.php:350
+#: ../lib/widgets.php:338
 msgid "How many recent comments to show?"
 msgstr "Wie viele Kommentare sollen angezeigt werden?"
 
-#: ../lib/widgets.php:366
+#: ../lib/widgets.php:354
 msgid "Shows your latest Twitter updates"
 msgstr "Wie viele Tweets sollen gezeigt werden?"
 
-#: ../lib/widgets.php:367
+#: ../lib/widgets.php:355
 msgid "Mystique | Twitter"
 msgstr "Mystique | Twitter"
 
-#: ../lib/widgets.php:406
+#: ../lib/widgets.php:394
 msgid "Loading tweets..."
 msgstr "Lade Tweets..."
 
-#: ../lib/widgets.php:436
-#: ../lib/widgets.php:542
+#: ../lib/widgets.php:424
+#: ../lib/widgets.php:530
 msgid "Title:"
 msgstr "Titel:"
 
-#: ../lib/widgets.php:441
+#: ../lib/widgets.php:429
 msgid "Twitter user name:"
-msgstr "Twitter Name:"
+msgstr "Twitter-Benutzername:"
 
-#: ../lib/widgets.php:446
+#: ../lib/widgets.php:434
 msgid "Number of tweets to show:"
-msgstr "Anzahl der Tweets:"
+msgstr "Anzahl der anzuzeigenden Tweets:"
 
-#: ../lib/widgets.php:460
+#: ../lib/widgets.php:448
 msgid "Displays Flickr galleries (needs API key)"
-msgstr "Zeigt Flickr Gallerien an (API Key benötigt)"
+msgstr "Zeigt Flickr-Galerien an (API-Key benötigt)"
 
-#: ../lib/widgets.php:462
+#: ../lib/widgets.php:450
 msgid "Mystique | Flickr Gallery"
-msgstr "Mystique | Flickr Galerie"
+msgstr "Mystique | Flickr-Galerie"
 
-#: ../lib/widgets.php:533
+#: ../lib/widgets.php:521
 msgid "Flickr Gallery"
-msgstr "Flickr Gallerie"
+msgstr "Flickr-Galerie"
 
-#: ../lib/widgets.php:547
+#: ../lib/widgets.php:535
 msgid "API key:"
-msgstr "API Key:"
+msgstr "API-Key:"
 
-#: ../lib/widgets.php:552
+#: ../lib/widgets.php:540
 msgid "Number of photos to show:"
 msgstr "Anzahl der Fotos:"
 
-#: ../lib/widgets.php:557
+#: ../lib/widgets.php:545
 msgid "Gallery source:"
 msgstr "Galerie-Quelle:"
 
-#: ../lib/widgets.php:559
+#: ../lib/widgets.php:547
 msgid "Photoset"
 msgstr "Photoset"
 
-#: ../lib/widgets.php:560
+#: ../lib/widgets.php:548
 msgid "User photostream"
-msgstr "User Photostream"
+msgstr "Benutzer-Photostream"
 
-#: ../lib/widgets.php:565
+#: ../lib/widgets.php:553
 msgid "Photoset ID:"
-msgstr "Photoset ID:"
+msgstr "Photoset-ID:"
 
-#: ../lib/widgets.php:570
+#: ../lib/widgets.php:558
 #, php-format
 msgid "User ID (use %s to find it):"
-msgstr "User ID (wo kann ich sie finden? %s):"
+msgstr "Benutzer-ID (%s benutzen, um sie zu finden):"
 
-#: ../lib/widgets.php:585
+#: ../lib/widgets.php:573
 msgid "Login form"
-msgstr "Login"
+msgstr "Anmeldeformular"
 
-#: ../lib/widgets.php:586
+#: ../lib/widgets.php:574
 msgid "Mystique | Login"
-msgstr "Mystique | Login"
+msgstr "Mystique | Anmelden"
 
-#: ../lib/widgets.php:596
+#: ../lib/widgets.php:584
 #, php-format
 msgid "Logged in: %s"
 msgstr "Angemeldet als %s"
 
-#: ../lib/widgets.php:601
+#: ../lib/widgets.php:589
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: ../lib/widgets.php:603
+#: ../lib/widgets.php:591
 msgid "Write"
 msgstr "Schreiben"
 
-#: ../lib/widgets.php:604
+#: ../lib/widgets.php:592
 msgid "Comments"
 msgstr "Kommentare"
 
-#: ../lib/widgets.php:606
+#: ../lib/widgets.php:594
 msgid "Log out"
 msgstr "Abmelden"
 
-#: ../lib/widgets.php:610
+#: ../lib/widgets.php:598
 msgid "User Login"
-msgstr "Anmelden"
+msgstr "Benutzeranmeldung"
 
-#: ../lib/widgets.php:614
+#: ../lib/widgets.php:602
 msgid "User"
 msgstr "Benutzer"
 
-#: ../lib/widgets.php:615
+#: ../lib/widgets.php:603
 msgid "Password"
 msgstr "Passwort"
 
-#: ../lib/widgets.php:616
+#: ../lib/widgets.php:604
 msgid "Login"
-msgstr "Login"
+msgstr "Anmelden"
 
-#: ../lib/widgets.php:617
+#: ../lib/widgets.php:605
 msgid "Remember me"
-msgstr "Erinnere mich"
+msgstr "Angemeldet bleiben"
 
-#: ../lib/widgets.php:623
+#: ../lib/widgets.php:611
 msgid "Lost your password?"
 msgstr "Passwort vergessen?"
 
+#~ msgid "Tags:"
+#~ msgstr "Tags:"
+#~ msgid "&laquo; Older Entries"
+#~ msgstr "&laquo; Älterer Beitrag"
+#~ msgid "Newer Entries &raquo;"
+#~ msgstr "Neuerer Beitrag &raquo;"
+#~ msgid "Page %s &laquo;"
+#~ msgstr "Seite %s &laquo;"
+#~ msgid "Sorry, no attachments matched your criteria."
+#~ msgstr "Entschuldige, keine Anhänge zu deiner Anfrage gefunden."
+#~ msgid "General"
+#~ msgstr "Allgemein"
+#~ msgid "Posts"
+#~ msgstr "Beiträge"
+#~ msgid "Imageless layout"
+#~ msgstr "Bilderloses Layout"
+#~ msgid ""
+#~ "No background images; reduces page load downto just a few KB, with the "
+#~ "cost of less graphic details"
+#~ msgstr ""
+#~ "Keine Hintergrundbilder. Dies reduziert die Ladezeit, jedoch auf Kosten "
+#~ "der grafischen Details"
+#~ msgid "HTML code is disallowed"
+#~ msgstr "HTML-Code ist nicht erlaubt"
+#~ msgid "Sidebar(s) vs Main Content ratio"
+#~ msgstr "Verhältnis zwischen Seitenleiste und Mitte"
+#~ msgid "Preferred font style"
+#~ msgstr "Bevorzugte Schriftart"
+#~ msgid "Font priority and their availability"
+#~ msgstr "Font-Priorität und ihre Verfügbarkeit"
+#~ msgid "The way posts are displayed on blog homepage and archive pages"
+#~ msgstr "So erscheinen die Artikel auf der Startseite und im Archiv"
+#~ msgid "Titles only"
+#~ msgstr "Nur der Titel"
+#~ msgid "Enable \"Share This Post\" feature"
+#~ msgstr "Funktion \"Diesen Beitrag empfehlen\" aktivieren"
+#~ msgid "Uncheck this if you're using a social bookmaring plugin"
+#~ msgstr ""
+#~ "Haken entfernen, wenn du bereits ein Social-Bookmarking-Plugin nutzt"
+#~ msgid "Featured content source"
+#~ msgstr "Empfohlene Beiträge"
+#~ msgid ""
+#~ "The last 5 posts from this category will be shown in the featured content "
+#~ "area (in random order)"
+#~ msgstr ""
+#~ "Die letzten 5 Beiträge dieser Kategorie werden als empfohlener Inhalt in "
+#~ "zufälliger Reihenfolge angezeigt"
+#~ msgid "- All categories"
+#~ msgstr "- Alle Kategorien"
+#~ msgid "On the home page"
+#~ msgstr "Auf der Startseite"
+#~ msgid "On all pages, including home"
+#~ msgstr "Auf allen Seiten und der Startseite"
+#~ msgid "On all pages and posts"
+#~ msgstr "Auf allen Seiten und Beiträgen"
+#~ msgid "Expand the &laquo;read more&raquo; button with more content"
+#~ msgstr "Erweitere den &laquo;Mehr&raquo-Button mit mehr Inhalt"
+#~ msgid "Show related posts next to comments"
+#~ msgstr "Ähnliche Beiträge neben Kommentaren anzeigen"
+#~ msgid "no keywords are generated because they are <a %s>useless</a>"
+#~ msgstr "Keine Keywords erstellen, weil diese <a %s>nutzlos</a> sind"
+#~ msgid "Uncheck this if you plan to keep Mystique as your default theme!"
+#~ msgstr "Deaktivieren, wenn du Mystique als Standardtheme nutzen willst!"
+#~ msgid "Document head code"
+#~ msgstr "Header-Quellcode"
+#~ msgid "To output HTML only, close the PHP tag first."
+#~ msgstr "Um nur HMTL einzufügen, schließe den PHP-Tag zuerst."
+#~ msgid "Examples and helpers:"
+#~ msgstr "Beispiele:"
+#~ msgid "Modify anything related to design using CSS code"
+#~ msgstr "Verändere alles Designverwandte mit CSS-Codes"
+#~ msgid ""
+#~ "Avoid modifying theme files directly; use this option instead to preserve "
+#~ "your changes after update"
+#~ msgstr ""
+#~ "Vermeide es Theme-Dateien direkt zu ändern! Benutze stattdessen diese "
+#~ "Option, denn sie verhindert, dass Änderungen durch Updates verloren gehen."
+#~ msgid "Insert Ad slot #1 in every post and page"
+#~ msgstr "Fügt Werbeanzeige #1 in jeden Beitrag und jede Seite"
+#~ msgid "Insert Ad slot #2 at every 5 comments"
+#~ msgstr "Fügt die Werbeanzeige #2 nach jedem fünften Kommentar ein"
+#~ msgid "Replace blog description text with Ad #4"
+#~ msgstr "Ersetzt die Blogbeschreibung mit der Werbeanzeige #4"
+#~ msgid "Black navigation style"
+#~ msgstr "schwarze Hauptnavigation"
+#~ msgid "Alternate header image"
+#~ msgstr "Alternatives Headerbild"
+#~ msgid "Hide RSS button"
+#~ msgstr "RSS-Schaltfläche ausblenden"
+#~ msgid "Hide Twitter button"
+#~ msgstr "Twitter-Schaltfläche ausblenden"
+#~ msgid "Set a fluid page width"
+#~ msgstr "Dynamische Seitenbreite verwenden"
+#~ msgid "Decrease site title text size"
+#~ msgstr "Schriftgröße der Titel verkleinern"
+#~ msgid "Hide post information bar"
+#~ msgstr "Infoleiste für Beiträge ausblenden"
+#~ msgid "Change footer background color to light gray"
+#~ msgstr "Footer-Hintergrund in hellgrau"
+#~ msgid "Dark background footer"
+#~ msgstr "Dunkler Footer-Hintergrund"
+#~ msgid "Join navigation with main content"
+#~ msgstr "Abstand unter Navigation entfernen"
+#~ msgid "Hide navigation"
+#~ msgstr "Navigation ausblenden"
+#~ msgid "Remove styling from tables"
+#~ msgstr "Style aus Tabellen entfernen"
+#~ msgid "Text-Justify post and page content"
+#~ msgstr "Blocksatz bei Artikeln und Seiten"
+#~ msgid "Fixed custom background image"
+#~ msgstr "Eigenes Hintergrundbild mit fester Position"
 #~ msgid "No redirect URL specified"
 #~ msgstr "Keine Weiterleitung eingerichtet"
 #~ msgid "Read the rest of this entry &raquo;"
 #~ msgstr "Den Rest des Eintrags lesen. &raquo;"
-#~ msgid "Posted in %s"
-#~ msgstr "Verfasst unter %s"
 #~ msgid "Read the rest of this page &raquo;"
 #~ msgstr "Den Rest der Seite anschauen &raquo;"
 #~ msgid "Display featured posts on blog/home page"
@@ -1348,5 +1563,5 @@ msgstr "Passwort vergessen?"
 #~ "Gebe hier Seiten, Kategorie oder Link IDs (je nach Auswahl ein), durch "
 #~ "Kommas getrennt"
 #~ msgid "Hide home button"
-#~ msgstr "Startseiten-Schaltfl&auml;che ausblenden"
+#~ msgstr "Startseiten-Schaltfläche ausblenden"
 

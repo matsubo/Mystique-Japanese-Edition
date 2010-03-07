@@ -149,18 +149,14 @@ function mystique_navigation() {
 
    <div class="shadow-left">
    <div class="shadow-right clearfix">
-
-   <p class="nav-extra">
    <?php
+    $nav_extra = '<a href="'.get_bloginfo('rss2_url').'" class="nav-extra rss" title="'.__("RSS Feeds","mystique").'"><span>'.__("RSS Feeds","mystique").'</span></a>';
+    $twitinfo =  get_option('mystique-twitter');
+    $twituser = $twitinfo['last_twitter_id'];
+    if ($twituser) $nav_extra .= '<a href="http://www.twitter.com/'.$twituser.'" class="nav-extra twitter" title="'.__("Follow me on Twitter!","mystique").'"><span>'.__("Follow me on Twitter!","mystique").'</span></a>';
 
-   $nav_extra = '<a href="'.get_bloginfo('rss2_url').'" class="nav-extra rss" title="'.__("RSS Feeds","mystique").'"><span>'.__("RSS Feeds","mystique").'</span></a>';
-   $twitinfo =  get_option('mystique-twitter');
-   $twituser = $twitinfo['last_twitter_id'];
-   if ($twituser) $nav_extra .= '<a href="http://www.twitter.com/'.$twituser.'" class="nav-extra twitter" title="'.__("Follow me on Twitter!","mystique").'"><span>'.__("Follow me on Twitter!","mystique").'</span></a>';
-
-   // check for new icons and output
-   echo apply_filters("mystique_navigation_extra", $nav_extra); ?>
-   </p>
+    $nav_extra = apply_filters("mystique_navigation_extra", $nav_extra);  // check for new icons and output
+    if($nav_extra) echo '<p class="nav-extra">'.$nav_extra.'</p>';  ?>
 
    <ul id="navigation" class="clearfix">
      <?php
@@ -389,10 +385,7 @@ function mystique_trim_string($input, $string){
 }
 
 // filter post content (for other pages than single)
-function mystique_trim_the_content($the_contents, $read_more_tag, $perma_link_to = '', $all_words = 100) {
-
-  // make the list of allowed tags
-  $allowed_tags = array('a', 'abbr', 'blockquote', 'b', 'cite', 'pre', 'code', 'em', 'label', 'i', 'p', 'span', 'strong', 'ul', 'ol', 'li');
+function mystique_trim_the_content($the_contents, $read_more_tag, $perma_link_to = '', $all_words = 100,  $allowed_tags = array('a', 'abbr', 'blockquote', 'b', 'cite', 'pre', 'code', 'em', 'label', 'i', 'p', 'span', 'strong', 'ul', 'ol', 'li')) {
 
   if($the_contents != ''):
 
@@ -471,7 +464,7 @@ function mystique_strip_string($intLength = 0, $strText = "") {
 }
 
 
-function mystique_comment_count($comment_types = 'comments' ,$post_id = false) {
+function mystique_comment_count($comment_types = 'comments', $post_id = false) {
   global $id;
   $post_id = (int)$post_id;
   if (!$post_id) $post_id = $id;
@@ -483,14 +476,18 @@ function mystique_comment_count($comment_types = 'comments' ,$post_id = false) {
 }
 
 
-function mystique_post_thumb($size = 'post-thumbnail'){
+function mystique_post_thumb($size = 'post-thumbnail', $post_id = false){
   global $post, $id;
+  $post_id = (int)$post_id;
+  if (!$post_id) $post_id = $id;
+
   if(function_exists('the_post_thumbnail'))
-   if (has_post_thumbnail()):
-     echo '<a class="post-thumb s'.$size.' alignleft" href="'.get_permalink($id).'">'.get_the_post_thumbnail($id, $size).'</a>';
+   if (has_post_thumbnail($post_id)):
+     echo '<a class="post-thumb s'.$size.' alignleft" href="'.get_permalink($post_id).'">'.get_the_post_thumbnail($post_id, $size).'</a>';
      return true;
    endif;
-  do_action("mystique_post_thumbnail", $size);
+  $size = apply_filters("mystique_post_thumbnail", $size);
+  if($size) return true; else return false;
 }
 
 // only inside the loop!
@@ -946,10 +943,16 @@ function is_sidebar_active($index = 1) {
 }
 
 function mystique_curPageURL() {
+  $request = esc_url($_SERVER["REQUEST_URI"]);
+
+  // wp-themes fake request url fix :)
+  if (strpos($_SERVER["SERVER_NAME"], 'wp-themes.com') !== false) $request = str_replace($request, '/wordpress/', '/');
+
   $pageURL = 'http';
   if ($_SERVER["HTTPS"] == "on") $pageURL .= "s";
   $pageURL .= "://";
-  if ($_SERVER["SERVER_PORT"] != "80") $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].esc_url($_SERVER["REQUEST_URI"]); else $pageURL .= $_SERVER["SERVER_NAME"].esc_url($_SERVER["REQUEST_URI"]);
+  if ($_SERVER["SERVER_PORT"] != "80") $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$request; else $pageURL .= $_SERVER["SERVER_NAME"].$request;
+
   return $pageURL;
 }
 

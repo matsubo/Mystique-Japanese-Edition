@@ -253,12 +253,12 @@ function mystique_queryposts($atts){
 
 // member/visitor only content - based on http://justintadlock.com/archives/2009/05/09/using-shortcodes-to-show-members-only-content
 function mystique_memberonlycontent($atts, $content = null){
-  if (is_user_logged_in() && !is_null($content) && !is_feed()) return (!detectWPMU() || detectWPMUadmin()) ? $content : wp_specialchars($content);
+  if (is_user_logged_in() && !is_null($content) && !is_feed()) return (current_user_can('unfiltered_html')) ? $content : mystique_strip_tags_attributes($content);
   return '';
 }
 
 function mystique_visitoronlycontent($atts, $content = null){
-  if ((!is_user_logged_in() && !is_null($content)) || is_feed()) return (!detectWPMU() || detectWPMUadmin()) ? $content : wp_specialchars($content);
+  if ((!is_user_logged_in() && !is_null($content)) || is_feed()) return (current_user_can('unfiltered_html')) ? $content : mystique_strip_tags_attributes($content);
   return '';
 }
 
@@ -273,7 +273,7 @@ function mystique_tinyurl($atts){
    'rel' => 'nofollow'
   ), $atts));
   if(!$title) $title = $url;
-  return '<a href="'.wp_specialchars(getTinyUrl($url)).'" rel="'.wp_specialchars($rel).'">'.wp_specialchars($title).'</a>';
+  return '<a href="'.wp_specialchars(mystique_getTinyUrl($url)).'" rel="'.wp_specialchars($rel).'">'.wp_specialchars($title).'</a>';
 }
 
 // ads
@@ -302,7 +302,7 @@ function mystique_theme_link(){
 }
 
 function mystique_credit(){
-  return sprintf(__('%1$s theme by %2$s | Modified by <a href=\'http://matsu.tymy.net/blog/\'>Matsubokkuringo</a> <img src="http://bit.ly/dxZh1U" width="1" height="1" /><img src="http://bit.ly/aeQlSP" width="1" height="1" /> | Powered by %3$s', 'mystique'), '<abbr title="'.THEME_NAME.'/'.THEME_VERSION.'">Mystique</abbr>','<a href="http://digitalnature.ro">digitalnature</a>', '<a href="http://wordpress.org/">WordPress</a>');
+  return sprintf(__('%1$s theme by %2$s | Powered by %3$s', 'mystique'), '<abbr title="'.THEME_NAME.'/'.THEME_VERSION.'">Mystique</abbr>','<a href="http://digitalnature.ro">digitalnature</a>', '<a href="http://wordpress.org/">WordPress</a>');
 }
 
 function mystique_copyright() {

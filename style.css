@@ -2,7 +2,7 @@
 Theme Name: Mystique
 Theme URI: http://digitalnature.ro/projects/mystique
 Description:  Feature-packed theme with a solid design, built-in widgets and a intuitive theme settings interface... Designed by <a href="http://digitalnature.ro/">digitalnature</a>.
-Version: 1.998
+Version: 2.1.1
 Author: digitalnature
 Author URI: http://digitalnature.ro
 Tags: light, white, two-columns, three-columns, fixed-width, flexible-width, right-sidebar, left-sidebar, theme-options, threaded-comments, translation-ready, custom-header
@@ -19,8 +19,7 @@ Tags: light, white, two-columns, three-columns, fixed-width, flexible-width, rig
 
 
 /* reset spacing */
-*{margin:0;padding:0;font-family:"Segoe UI", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif;}
-
+*{margin:0;padding:0;font-family:"Segoe UI",Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif;}
 
 html,body{min-height:100%;}
 body{background:#000 url(images/bg.png) repeat-x center bottom;font-size:13px;font-style:normal;color:#4e4e4e;}
@@ -99,8 +98,8 @@ blockquote blockquote{margin:1em 0 1em;}
 
 #header{display:block;position:relative;z-index:5;}
 
-#header p.nav-extra{position:absolute;top:-26px;z-index:10;right:10px;}
-#header a.nav-extra{width:64px;height:36px;display:block;float:right;}
+#header p.nav-extra{position:absolute;top:-25px;z-index:10;right:10px;}
+#header a.nav-extra{width:64px;height:36px;display:block;float:right;margin-left:6px;}
 #header a.nav-extra span{display:none;}
 #header a.nav-extra.rss{background:transparent url(images/nav-icons.png) no-repeat right top;}
 #header a.twitter{background:transparent url(images/nav-icons.png) no-repeat left top;}
@@ -185,16 +184,20 @@ ul#navigation li.active-ancestor li a.fadeThis span.hover{background-color:#333;
 
 /*** FEATURED CONTENT ***/
 
-#featured-content{background:#5e5e5e url(images/featured.jpg) no-repeat center top;border-top:1px solid #818389;color:#fff;position:relative;margin:0 auto;}
+#featured-content{background:#5e5e5e url(images/featured.jpg) no-repeat center top;border-top:1px solid #818389;color:#fff;position:relative;margin:0 auto;color:#ccc;}
 #featured-content ul.slides li.slide .slide-content{padding: 0 1em;}
-#featured-content .slide-container{max-width:940px;margin:0;padding:0 0 1em 0;height:174px;}
+#featured-content .slide-container{max-width:940px;margin:0;padding:0 0 1em 0;}
 
-#featured-content h3{font-size:180%;font-weight:bold;text-shadow:#000 1px 1px 1px;margin:0;padding:.2em 0 .6em 0;}
-#featured-content .summary{font-size:125%;font-style:italic;line-height:150%;}
-#featured-content .details{float:left;width:750px;}
-#featured-content a.readmore{float:right;width:192px;height:40px;text-transform:uppercase;background-color:transparent;background-repeat:no-repeat;background-position:center top;color:#333;text-decoration:none;font-weight:bold;font-size:150%;line-height:40px;text-shadow:#fff 1px 1px 1px;text-align:center;margin-top:2.5em;}
-#featured-content a.readmore:hover{background-position:center bottom;}
+#featured-content h2{font-size:180%;font-weight:bold;text-shadow:#000 1px 1px 1px;margin:0;padding:.2em 0;line-height:140%;}
+#featured-content p{margin:0 0 .6em 0;}
+#featured-content a{color:#fff;text-decoration:none;font-weight:bold;}
+#featured-content a:hover{background-color:rgba(0,0,0, 0.15);}
 #featured-content .post-thumb img{border:4px solid #777;}
+#featured-content .details{float:left;width:920px;}
+#featured-content .summary{font-size:125%;font-style:italic;line-height:150%;}
+
+/* fixed size if we have a slider */
+#featured-content.withSlider .slide-container{height:174px;}
 
 
 
@@ -319,6 +322,7 @@ h3.title a:hover{color:#ed1e24;text-decoration:none;}
 .post-info p.comments a.no.comments{background-position:0px 1px;}
 .post-date{background:transparent url(images/info-bar.png) no-repeat left -75px;padding-left:11px;float:left;text-transform:uppercase;font-weight:bold;}
 .post-date p.day{background:transparent url(images/info-bar.png) no-repeat right -42px;height:33px;padding:0 16px 0 0;margin:0;line-height:31px;color:#fff;}
+
 .post-content p{margin:0 0 .8em 0;padding:0;}
 .post-content a.post-edit-link{border:#ddd 1px solid;background-color:#fff;padding:3px 6px;text-decoration:none;}
 .post-content a.post-edit-link:hover{border:#ff284b 1px solid;background-color:#ed1e24;color:#fff;}
@@ -421,6 +425,8 @@ h3.title a:hover{color:#ed1e24;text-decoration:none;}
 .single-navigation a{font-size:85%;border:0;background-color:transparent;padding:2px 4px;color:#ccc;text-shadow:#fff 1px 1px 1px;text-decoration:none;}
 .single-navigation a:hover{color:#ed1e24;}
 .single-navigation div{display:block;max-width:49%;line-height:normal;color:#ccc;}
+.single-navigation .alignright{text-align:right;}
+
 
 /* comments */
 .tabbed-content div.section#section-comments{display:block;} /* show comment tab, just in case jquery is disabled */

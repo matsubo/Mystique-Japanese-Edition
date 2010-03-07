@@ -1,6 +1,6 @@
 <?php /* Mystique/digitalnature
 
- Template Name: 3 column page (sidebars on the right)
+ Template Name: 2 columns page (right sidebar, default)
  */
  
  include(TEMPLATEPATH . '/page.php');

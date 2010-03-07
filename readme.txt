@@ -23,7 +23,7 @@ CREDITS:
 - Wordpress - http://wordpress.org
 - French translation by Sebastien Revollon
 - German translation by Pascal Herbert
-- Chinese translation by Awu - http://www.awuit.cn
+- Chinese translation - admin@shuax.com
 - Polish translation by 96th http://96th.co.uk
 - Swedish translation by Magnus Jonasson - http://www.magnusjonasson.com
 - jQuery Color picker plugin by eyecon.ro
@@ -58,14 +58,22 @@ TO DO: (a list of things to remember I need to do in the future)
 - featured content: check if images from posts are links and show the link source image in the lightbox
 
 CHANGE LOG:
-17,02,2009   1.99 - too many changes to mention (rewritten most of the back-end)
-
-18,01,2009   1.72 - timeSince fix (really :)
-
-18,01,2009   1.71 - minor bug-fix to theme settings
+ 4, 3,2010   2.1.1- admin page css fix (conflict with plugin install)
+ 4, 3,2010   2.1  - added slider to featured posts, and 2 more options
                   - translation updates
 
-16,01,2009   1.7  - added ajax requests option in comments (for comment page change)
+24, 2,2010   2.0.2- important bug-fix (bad dynamic css/js url when permalinks are off)
+24, 2,2010   2.0.1- bug-fixes to 2.0 :)
+23, 2,2010   2.0  - bug-fixes to 1.9x
+
+17, 2,2010   1.99 - too many changes to mention (rewritten most of the back-end)
+
+18, 1,2010   1.72 - timeSince fix (really :)
+
+18, 1,2010   1.71 - minor bug-fix to theme settings
+                  - translation updates
+
+16, 1,2010   1.7  - added ajax requests option in comments (for comment page change)
                   - removed websnapr from comment author links, useless
                   - removed slide effect on reply
                   - removed youtube shortcode, useless

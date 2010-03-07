@@ -42,9 +42,9 @@ else:
   // optional, extensions
 //  require_once(TEMPLATEPATH.'/extensions/code-highlight/code-highlight.php');
   require_once(TEMPLATEPATH.'/extensions/ip2country/ip2country.php');
-//  require_once(TEMPLATEPATH.'/extensions/auto-thumb/auto-thumb.php');
+  require_once(TEMPLATEPATH.'/extensions/auto-thumb/auto-thumb.php');
   require_once(TEMPLATEPATH.'/extensions/code-editing/code-editing.php');
-//  require_once(TEMPLATEPATH.'/extensions/featured-post/featured-post.php');
+  require_once(TEMPLATEPATH.'/extensions/featured-posts/featured-posts.php');
 
   if($wp_version >= 2.8) require_once(TEMPLATEPATH.'/lib/widgets.php');
   if(is_admin()) require_once(TEMPLATEPATH.'/admin/theme-settings.php');
@@ -137,8 +137,8 @@ else:
   if (function_exists('add_theme_support')):
     add_theme_support('post-thumbnails');
     $size = explode('x',get_mystique_option('post_thumb'));
-    set_post_thumbnail_size($size[0],$size[1],true);
-    add_image_size('featured-thumbnail', 300, 240); //optimal: 300 x 240
+    set_post_thumbnail_size($size[0],$size[1], true);
+    add_image_size('featured-thumbnail', 150, 150);
   endif;
 
 endif;

@@ -34,11 +34,12 @@
 #mystique-settings .CodeMirror-wrapping{border:1px solid #ccc;background-color:#fff;max-width:940px;}
 #mystique-settings .CodeMirror-line-numbers{margin-right:24px;text-align:right;background:#eee;padding:5px 2px;line-height:16px;color:#999;text-shadow:#fff 1px 1px 1px;}
 
-#mystique-settings .loading{background:transparent url(../images/loader.gif) no-repeat 6px 6px;padding:6px 10px 6px 28px;float:left;}
+#mystique-settings .loading{background:transparent url(../images/loader-white.gif) no-repeat 6px 6px;padding:6px 10px 6px 28px;float:left;}
 
 #mystique-settings table{margin:.2em 0;}
 #mystique-settings th{text-align:right;width:24%;vertical-align:top;}
-#mystique-settings tr{vertical-align:middle;}
+#mystique-settings tr{vertical-align:middle;border-bottom: 1px solid #eee;}
+#mystique-settings tr tr{vertical-align:middle;border:0;}
 
 #mystique-settings th p{line-height:150%;font-weight:normal;padding:0;margin:0;}
 #mystique-settings th p span{color:#999;font-weight:normal;font-style:italic;display:block}
@@ -58,32 +59,13 @@
   padding-top: 8px;
 }
 
-dl.presets{
-  float: left;
-  border-left: 1px solid #ddd;
-  padding: .4em 0 .4em 1em;
-  margin-left: 2em;
-  font-style: italic;
-}
-
-dl.presets dt{
-  text-transform: uppercase;
-  margin-bottom: .75em;
-  font-size: 100%;
-}
-
-dl.presets dd a{
-  cursor: pointer;
-}
-
-
-.ad-code textarea{
+#mystique-settings .ad-code textarea{
   height: 100%;
   width: 100%;
   overflow: auto;
 }
 
-.ad-code{
+#mystique-settings .ad-code{
   width: 50%;
   margin-bottom: 40px;
   position: relative;
@@ -91,10 +73,10 @@ dl.presets dd a{
 }
 
 
-.subsubsub{position:relative;z-index:5;}
-.subsubsub li.active a{text-decoration:none;color:#333;font-weight:bold;}
+#mystique-settings .subsubsub{position:relative;z-index:5;}
+#mystique-settings .subsubsub li.active a{text-decoration:none;color:#333;font-weight:bold;}
 
-.section{position:relative;display:none;min-height:450px;border-top:#ddd 1px solid;border-bottom:#ddd 1px solid;}
+#mystique-settings .section{position:relative;display:none;min-height:450px;border-top:#ddd 1px solid;border-bottom:#ddd 1px solid;}
 
 
 #themepreview-wrap{
@@ -109,7 +91,7 @@ dl.presets dd a{
   overflow: auto;
 }
 
-div.grippie {
+#mystique-settings div.grippie {
   background:#eee url(images/grippie.png) no-repeat scroll center 2px;
   border-color:#ddd;
   border-style:solid;
@@ -118,7 +100,7 @@ div.grippie {
   height:9px;
   overflow:hidden;
 }
-.resizable-textarea textarea {
+#mystique-settings .resizable-textarea textarea {
   display:block;
   margin-bottom:0pt;
   width:95%;
@@ -126,7 +108,7 @@ div.grippie {
 }
 
 
-.image-preview{
+#mystique-settings .image-preview{
   float: left;
   background: #000;
   margin: 10px 0;
@@ -134,16 +116,16 @@ div.grippie {
 }
 
 
-.alignleft{float:left;margin-right:8px;}
-.alignright{float:right;margin-left:8px;}
-.aligncenter{display:block;margin-left:auto;margin-right:auto;text-align:center;}
-.hidden{display:none;}
+#mystique-settings .alignleft{float:left;margin-right:8px;}
+#mystique-settings .alignright{float:right;margin-left:8px;}
+#mystique-settings .aligncenter{display:block;margin-left:auto;margin-right:auto;text-align:center;}
+#mystique-settings .hidden{display:none;}
 
-.warning, #mystique-settings th p span.warning{color: #ed1f24;}
+#mystique-settings .warning, #mystique-settings th p span.warning{color: #ed1f24;}
 
 /* clearfix */
-.clear-block:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
-.support{background:#eee;padding:.6em 1em;float:right;font-style:italic;margin: .2em 0;}
+#mystique-settings .clear-block:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+#mystique-settings .support{background:#eee;padding:.6em 1em;float:right;font-style:italic;margin: .2em 0;}
 
 
 /*** FEATURED POST COLUMN ***/
@@ -157,7 +139,7 @@ div.grippie {
 }
 
 .featured_post a.off {background-position: -16px 0;}
-.featured_post a.loading{background-image: url(../images/loader.gif);}
+.featured_post a.loading{background-image: url(../images/loader-white.gif);}
 
 
 
